@@ -1,0 +1,3457 @@
+[00:00:01]: 
+System Memory:
+	Memory Load: 54%
+	Available Physical Memory: 7365m/16294m
+	Available Page File: 6159m/21670m
+	Available Virtual Memory: 3985m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:01]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 218k
+	Quota Page Pool Usage: 215k
+	Quota Peak Non Paged Pool Usage:18k
+	Quota Non Paged Pool Usage: 16k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:01]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 376201
+[00:00:01]: Current time: Tue Oct 29 02:57:49 2019
+
+[00:00:01]: Don't Starve Together: 376201 WIN32
+[00:00:01]: Build Date: 4747
+[00:00:01]: Mode: 32-bit
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: -monitor_parent_process 21972 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198093951120 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region Sing 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: Initializing Minidump handler
+[00:00:01]: ....Done
+[00:00:01]: ....Done
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: THREAD - started 'GAClient' (17124)
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: ProfileIndex:53.46
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: THREAD - started 'Ping Job Thread' (14932)
+[00:00:02]: Network tick rate: U=15(2), D=0
+[00:00:02]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is disabled in the firewall.
+[00:00:02]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is now enabled in the firewall.
+[00:00:02]: Overriding region to Sing
+[00:00:02]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/blocklist.txt (Failure)
+[00:00:02]: THREAD - started 'StreamInput' (14668)
+[00:00:02]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/adminlist.txt (Failure)
+[00:00:02]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/client_save/whitelist.txt (Failure)
+[00:00:02]: Offline user ID: OU_76561198093951120
+[00:00:02]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:02]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:02]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 Home Single Language
+    version                   10.0.18362
+    architecture              64-bit
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  2
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce 920M
+    driverDate                20190409000000.000000-000
+    megsOfRam                 4095
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             25.21.14.2531
+
+[00:00:02]: cGame::InitializeOnMainThread
+[00:00:02]: Renderer initialize: Okay
+[00:00:02]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:02]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:02]: GameSpecific initialize: Okay
+[00:00:02]: cGame::StartPlaying
+[00:00:02]: LOADING LUA
+[00:00:02]: DoLuaFile scripts/main.lua
+[00:00:02]: DoLuaFile loading buffer scripts/main.lua
+[00:00:04]:   taskgrouplist:	default	Together	
+[00:00:04]:   taskgrouplist:	classic	Classic	
+[00:00:04]:   taskgrouplist:	cave_default	Underground	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:04]: running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:04]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:04]: DownloadMods(0)
+[00:00:04]: modoverrides.lua enabling workshop-1207269058	
+[00:00:04]: modoverrides.lua enabling workshop-770901818	
+[00:00:04]: modoverrides.lua enabling workshop-375850593	
+[00:00:04]: modoverrides.lua enabling workshop-543945797	
+[00:00:04]: modoverrides.lua enabling workshop-1852257480	
+[00:00:04]: modoverrides.lua enabling workshop-1842021927	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1842021927	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-543945797	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:04]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:04]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:04]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:04]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:04]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:04]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:04]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.09	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1842021927_CLIENT	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:04]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:04]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:04]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:04]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:04]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:04]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:04]: Loading mod: workshop-1842021927 (Pet Follower Badges Together Icon) Version:6.1	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:04]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:04]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:04]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:04]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:04]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:04]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:04]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.4	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:04]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:04]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:04]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:04]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:04]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:04]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:04]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-543945797_CLIENT	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:04]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:04]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:04]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:04]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:04]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:04]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:04]: Loading mod: workshop-543945797 (Damage Indicators Together) Version:0.7.0	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-770901818_CLIENT	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:04]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:04]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:04]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:04]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:04]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:04]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:04]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:04]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:04]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:04]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:09]: LOADING LUA SUCCESS
+[00:00:09]: Registering mod namespace "workshop-1207269058"
+[00:00:09]: Registering mod namespace "showsignhint"
+[00:00:09]: PlayerDeaths could not load morgue	
+[00:00:09]: PlayerHistory could not load player_history	
+[00:00:09]: ServerPreferences could not load server_preferences	
+[00:00:09]: bloom_enabled	false	
+[00:00:09]: loaded saveindex	
+[00:00:09]: OnFilesLoaded()	
+[00:00:09]: OnUpdatePurchaseStateComplete	
+[00:00:09]: Klump load on boot started.	
+[00:00:09]: Klump files loaded: 	0	
+[00:00:14]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:14]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	Registering prefabs	
+[00:00:14]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:00:14]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-543945797 (Damage Indicators Together)	Registering prefabs	
+[00:00:14]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering prefab file: prefabs/dmgind	
+[00:00:14]: Mod: workshop-543945797 (Damage Indicators Together)	    dmgind	
+[00:00:14]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:14]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:14]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:14]: 	Load FE	
+[00:00:15]: 	Load FE: done	
+[00:00:15]: THREAD - started 'FilesExistAsyncThread' (20940)
+[00:00:15]: FilesExistAsyncThread started (13123 files)...
+[00:00:15]: ModIndex: Load sequence finished successfully.	
+[00:00:16]: Reset() returning
+[00:00:16]: [IPC] Signal 'DST_Master_Kill' opened  #000005AC
+[00:00:16]: [IPC] Registering handler for signal #000005AC
+[00:00:16]: [IPC] Handle #000005AC added to the Eventhandles
+[00:00:16]: [IPC] Signal 'DST_Master_Starting' opened  #00000584
+[00:00:16]: [IPC] Sending signal... #00000584
+[00:00:17]: [200] Account Communication Success (6)
+[00:00:17]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:00:17]: Starting Dedicated Server Game	
+[00:00:17]: Network tick rate: U=15(2), D=0
+[00:00:18]: About to start a server with the following settings:
+[00:00:18]:   Dedicated: true
+[00:00:18]:   Online: true
+[00:00:18]:   Passworded: false
+[00:00:18]:   ServerPort: 10999
+[00:00:18]:   SteamAuthPort: 8766
+[00:00:18]:   SteamMasterServerPort: 27016
+[00:00:18]:   ClanID: false
+[00:00:18]:   ClanOnly: false
+[00:00:18]:   ClanAdmin: false
+[00:00:18]:   LanOnly: false
+[00:00:18]:   FriendsOnly: true
+[00:00:18]:   EnableAutosaver: true
+[00:00:18]:   EncodeUserPath: true
+[00:00:18]:   PVP: false
+[00:00:18]:   MaxPlayers: 6
+[00:00:18]:   GameMode: survival
+[00:00:18]:   OverridenDNS: 
+[00:00:18]:   PauseWhenEmpty: true
+[00:00:19]:   IdleTimeout: 1800s
+[00:00:19]:   VoteEnabled: false
+[00:00:19]:   InternetBroadcasting: true
+[00:00:19]:   Intent: social
+[00:00:19]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:19]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:19]: Could not load mod_config_data/modconfiguration_workshop-543945797	
+[00:00:19]: Could not load mod_config_data/modconfiguration_workshop-1842021927	
+[00:00:19]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:19]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:19]: Online Server Started on port: 10999
+[00:00:19]: Collecting garbage...
+[00:00:19]: lua_gc took 0.24 seconds
+[00:00:20]: ~ShardLuaProxy()
+[00:00:20]: ~cEventLeaderboardProxy()
+[00:00:20]: ~ItemServerLuaProxy()
+[00:00:20]: ~InventoryLuaProxy()
+[00:00:20]: ~NetworkLuaProxy()
+[00:00:20]: ~SimLuaProxy()
+[00:00:20]: FilesExistAsyncThread aborted.
+[00:00:20]: ... FilesExistAsyncThread complete
+[00:00:20]: lua_close took 0.50 seconds
+[00:00:20]: ReleaseAll
+[00:00:20]: ReleaseAll Finished
+[00:00:20]: cGame::StartPlaying
+[00:00:20]: LOADING LUA
+[00:00:20]: DoLuaFile scripts/main.lua
+[00:00:20]: DoLuaFile loading buffer scripts/main.lua
+[00:00:21]: AddPortMapping(10999, 10999, 192.168.0.101) failed with code -3 (UnknownError)
+[00:00:22]:   taskgrouplist:	default	Together	
+[00:00:22]:   taskgrouplist:	classic	Classic	
+[00:00:22]:   taskgrouplist:	cave_default	Underground	
+[00:00:22]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:22]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:22]: running main.lua
+	
+[00:00:22]: unloading prefabs for mod MOD_workshop-375850593	
+[00:00:22]: unloading prefabs for mod MOD_workshop-1842021927	
+[00:00:22]: unloading prefabs for mod MOD_workshop-770901818	
+[00:00:22]: unloading prefabs for mod MOD_workshop-543945797	
+[00:00:22]: unloading prefabs for mod MOD_workshop-1852257480	
+[00:00:22]: unloading prefabs for mod MOD_workshop-1207269058	
+[00:00:22]: loaded modindex	
+[00:00:23]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:23]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:23]: modoverrides.lua enabling workshop-1207269058	
+[00:00:23]: modoverrides.lua enabling workshop-770901818	
+[00:00:23]: modoverrides.lua enabling workshop-375850593	
+[00:00:23]: modoverrides.lua enabling workshop-543945797	
+[00:00:23]: modoverrides.lua enabling workshop-1852257480	
+[00:00:23]: modoverrides.lua enabling workshop-1842021927	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1842021927	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-543945797	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:23]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:23]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:23]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:23]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:23]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:23]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:23]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:23]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:23]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:23]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:23]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:23]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.09	
+[00:00:23]: Could not load mod_config_data/modconfiguration_workshop-1842021927	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:23]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:23]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:23]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:23]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:23]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:23]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:23]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:23]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:23]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:23]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:23]: Loading mod: workshop-1842021927 (Pet Follower Badges Together Icon) Version:6.1	
+[00:00:23]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:23]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:23]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:23]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:23]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:23]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:23]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:23]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:23]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:23]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:23]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:23]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.4	
+[00:00:23]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:23]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:23]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:23]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:23]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:23]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:23]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:23]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:23]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:23]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:23]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:23]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:23]: Could not load mod_config_data/modconfiguration_workshop-543945797	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:23]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:23]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:23]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:23]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:23]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:23]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:23]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:23]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:23]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:23]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:23]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:23]: Loading mod: workshop-543945797 (Damage Indicators Together) Version:0.7.0	
+[00:00:23]: Could not load mod_config_data/modconfiguration_workshop-770901818	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:23]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:23]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:23]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:23]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:24]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:24]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:24]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:24]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:24]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:24]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:24]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:24]: applying configuration_options from modoverrides.lua to mod workshop-1842021927	
+[00:00:24]: Overriding mod workshop-1842021927's option OptionCheckingForFollowers with value 0.5	
+[00:00:24]: Overriding mod workshop-1842021927's option OptionMaxFollowers with value 6	
+[00:00:24]: Overriding mod workshop-1842021927's option OptionHUDdown with value 0	
+[00:00:24]: Overriding mod workshop-1842021927's option OptionHUDhorizontal with value 0	
+[00:00:24]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:24]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modmain.lua	
+[00:00:24]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:24]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:24]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:24]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:24]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:34]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:34]: LOADING LUA SUCCESS
+[00:00:34]: Registering mod namespace "workshop-1207269058"
+[00:00:34]: Registering mod namespace "showsignhint"
+[00:00:34]: PlayerDeaths could not load morgue	
+[00:00:34]: PlayerHistory could not load player_history	
+[00:00:34]: ServerPreferences could not load server_preferences	
+[00:00:34]: bloom_enabled	false	
+[00:00:34]: loaded saveindex	
+[00:00:34]: OnFilesLoaded()	
+[00:00:34]: OnUpdatePurchaseStateComplete	
+[00:00:34]: Loading world: session/48686DEE875E1292/0000001197	
+[00:00:35]: Save file is at version 5.031	
+[00:00:35]: Klump load on boot started.	
+[00:00:35]: Klump files loaded: 	0	
+[00:00:35]: 	Unload FE	
+[00:00:35]: 	Unload FE done	
+[00:00:43]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:43]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:43]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	Registering prefabs	
+[00:00:43]: Mod: workshop-1842021927 (Pet Follower Badges Together Icon)	  Registering default mod prefab	
+[00:00:43]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:00:43]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:00:43]: Mod: workshop-543945797 (Damage Indicators Together)	Registering prefabs	
+[00:00:43]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering prefab file: prefabs/dmgind	
+[00:00:44]: Mod: workshop-543945797 (Damage Indicators Together)	    dmgind	
+[00:00:44]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering default mod prefab	
+[00:00:44]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:44]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:44]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:44]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:44]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:44]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:44]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:44]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:44]: 	LOAD BE	
+[00:00:51]: 	LOAD BE: done	
+[00:00:51]: Begin Session: 48686DEE875E1292
+[00:00:51]: saving to server_temp/server_save	
+[00:00:51]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:51]: Loading 16 new character(s)	
+[00:00:53]: Total 16 character(s) loaded	
+[00:00:55]: Loading Nav Grid	
+[00:00:55]: World generated on version 314835, using seed: 1552132906	
+[00:00:55]: setting 	summerlength	15	
+[00:00:55]: setting 	isnightmaredawn	false	
+[00:00:55]: setting 	elapseddaysinseason	14	
+[00:00:55]: setting 	isfullmoon	false	
+[00:00:55]: setting 	moisture	2185.4204101563	
+[00:00:55]: setting 	springlength	20	
+[00:00:55]: setting 	isnightmarewild	false	
+[00:00:55]: setting 	moonphase	half	
+[00:00:55]: setting 	precipitationrate	0	
+[00:00:55]: setting 	iswet	false	
+[00:00:55]: setting 	isnewmoon	false	
+[00:00:55]: setting 	iswinter	true	
+[00:00:55]: setting 	israining	false	
+[00:00:55]: setting 	isnightmarewarn	false	
+[00:00:55]: setting 	precipitation	none	
+[00:00:55]: setting 	cavephase	night	
+[00:00:55]: setting 	moistureceil	2317.2192382813	
+[00:00:55]: setting 	isday	false	
+[00:00:55]: setting 	iscaveday	false	
+[00:00:55]: setting 	season	winter	
+[00:00:55]: setting 	timeinphase	0.76650848388672	
+[00:00:55]: setting 	temperature	-5.2575418750076	
+[00:00:55]: setting 	isnightmarecalm	false	
+[00:00:55]: setting 	isnight	true	
+[00:00:55]: setting 	isdusk	false	
+[00:00:55]: setting 	iscavedusk	false	
+[00:00:55]: setting 	isautumn	false	
+[00:00:55]: setting 	issnowing	false	
+[00:00:55]: setting 	iswaxingmoon	true	
+[00:00:55]: setting 	pop	0.89812282807246	
+[00:00:55]: setting 	snowlevel	0	
+[00:00:55]: setting 	issnowcovered	false	
+[00:00:55]: setting 	autumnlength	20	
+[00:00:55]: setting 	phase	night	
+[00:00:55]: setting 	nightmaretime	0	
+[00:00:55]: setting 	winterlength	15	
+[00:00:55]: setting 	isspring	false	
+[00:00:55]: setting 	nightmarephase	none	
+[00:00:55]: setting 	remainingdaysinseason	1	
+[00:00:55]: setting 	cycles	1084	
+[00:00:55]: setting 	iscavenight	true	
+[00:00:55]: setting 	nightmaretimeinphase	0	
+[00:00:55]: setting 	wetness	0	
+[00:00:55]: setting 	time	0.9270339012146	
+[00:00:55]: setting 	issummer	false	
+[00:00:55]: OVERRIDE: setting	disease_delay	to	none	
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:38]: Could not find anim build FROMNUM
+[00:01:51]: Reconstructing topology	
+[00:01:51]: 	...Sorting points	
+[00:01:51]: 	...Sorting edges	
+[00:01:51]: 	...Connecting nodes	
+[00:01:51]: 	...Validating connections	
+[00:01:51]: 	...Housekeeping	
+[00:01:51]: 	...Done!	
+[00:01:51]: Hound attack: 1088.5712274872	
+[00:01:51]: 1 uploads added to server. From server_temp
+[00:01:51]: About to start a shard with these settings:
+[00:01:51]:   ShardName: [SHDMASTER]
+[00:01:51]:   ShardID: 1
+[00:01:51]:   ShardRole: MASTER
+[00:01:51]:   MasterHost: (null)
+[00:01:51]:   MasterBind: 127.0.0.1
+[00:01:51]:   MasterPort: 10888
+[00:01:51]: [Shard] Starting master server
+[00:01:51]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:01:51]: [Shard] Shard server started on port: 10888
+[00:01:51]: [IPC] Signal 'DST_Master_Ready' opened  #000005C8
+[00:01:51]: [IPC] Sending signal... #000005C8
+[00:01:51]: Telling Client our new session identifier: 48686DEE875E1292
+[00:01:51]: ModIndex: Load sequence finished successfully.	
+[00:02:01]: Reset() returning
+[00:02:01]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:02:03]: [Steam] SteamGameServer_Init success
+[00:02:04]: Validating portal[6] <-> 2868293775[6] (inactive)	
+[00:02:05]: Validating portal[5] <-> 2868293775[5] (inactive)	
+[00:02:05]: Validating portal[8] <-> 2868293775[8] (inactive)	
+[00:02:05]: Validating portal[1] <-> 2868293775[1] (inactive)	
+[00:02:05]: Validating portal[3] <-> 2868293775[3] (inactive)	
+[00:02:05]: Validating portal[10] <-> 2868293775[10] (inactive)	
+[00:02:05]: Validating portal[7] <-> 2868293775[7] (inactive)	
+[00:02:05]: Validating portal[2] <-> 2868293775[2] (inactive)	
+[00:02:05]: Validating portal[9] <-> 2868293775[9] (inactive)	
+[00:02:05]: Validating portal[4] <-> 2868293775[4] (inactive)	
+[00:02:05]: Hound attack: 1088.5712274872	
+[00:02:05]: Sim paused
+[00:02:05]: Gameserver logged on to Steam, assigned identity steamid:90130091896200192
+[00:02:05]: Registering master server in Sing lobby
+[00:02:06]: [Shard] Slave Caves(2868293775) connected: [LAN] 127.0.0.1
+[00:02:06]: [Shard] Slave Caves(2868293775) ready!
+[00:02:06]: World 2868293775 is now connected	
+[00:02:06]: Validating portal[6] <-> 2868293775[6] (active)	
+[00:02:06]: Validating portal[5] <-> 2868293775[5] (active)	
+[00:02:06]: Validating portal[8] <-> 2868293775[8] (active)	
+[00:02:06]: Validating portal[1] <-> 2868293775[1] (active)	
+[00:02:06]: Validating portal[3] <-> 2868293775[3] (active)	
+[00:02:06]: Validating portal[10] <-> 2868293775[10] (active)	
+[00:02:06]: Validating portal[7] <-> 2868293775[7] (active)	
+[00:02:06]: Validating portal[2] <-> 2868293775[2] (active)	
+[00:02:06]: Validating portal[9] <-> 2868293775[9] (active)	
+[00:02:06]: Validating portal[4] <-> 2868293775[4] (active)	
+[00:02:08]: New incoming connection 127.0.0.1|52926 <6460433697735190733>
+[00:02:08]: Client connected from [LAN] 127.0.0.1|52926 <6460433697735190733>
+[00:02:08]: ValidateGameSessionToken pgs-sing^KU_c1gvcGFZ^DontStarveTogether^6oK/wm1C2XCwmxIUe7HsHX7yUkvgPYLaclYqY/QyCuI= for <6460433697735190733>
+[00:02:09]: Client authenticated: (KU_c1gvcGFZ) jadeath
+[00:02:09]: [Steam] Authenticated host '76561198093951120'
+[00:02:11]: There is no active event to validate against.
+[00:02:11]: [Shard] Read save location file for (KU_c1gvcGFZ)
+[00:02:15]: Registering master server in Sing lobby
+[00:03:31]: Resuming user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001197
+[00:03:31]: Could not find anim build FROMNUM
+[00:03:31]: Spawning player at: [Load] (-234.56, -0.00, 743.58)	
+[00:03:31]: Sim unpaused
+[00:03:37]: Request Received:	1	table: 1C571B70	
+[00:03:39]: Request Received:	1	table: 214AB100	
+[00:03:40]: Registering master server in Sing lobby
+[00:03:41]: Request Received:	1	table: 1B5BCD10	
+[00:03:43]: Request Received:	1	table: 1A1864D0	
+[00:03:45]: Request Received:	1	table: 19DF4070	
+[00:03:47]: Request Received:	1	table: 1BF2F3E8	
+[00:03:49]: Request Received:	1	table: 21EF5BE0	
+[00:03:50]: Request Received:	1	table: 23067740	
+[00:03:52]: Request Received:	1	table: 21653218	
+[00:03:54]: Request Received:	1	table: 1913EC70	
+[00:03:56]: Request Received:	1	table: 1B6502B8	
+[00:03:58]: Request Received:	1	table: 1C732E28	
+[00:04:00]: Request Received:	1	table: 21789788	
+[00:04:02]: Request Received:	1	table: 22739CE8	
+[00:04:04]: Request Received:	1	table: 278FD598	
+[00:04:06]: Hound attack: 1053.637892332	
+[00:04:06]: Request Received:	1	table: 372F5A58	
+[00:04:08]: Request Received:	1	table: 1A14A390	
+[00:04:10]: Request Received:	1	table: 1A06CBA8	
+[00:04:12]: Request Received:	1	table: 1A445118	
+[00:04:14]: Request Received:	1	table: 0B9770E8	
+[00:04:15]: Registering master server in Sing lobby
+[00:04:16]: Request Received:	1	table: 0C83E7F8	
+[00:04:18]: Request Received:	1	table: 1954B1F8	
+[00:04:20]: Request Received:	1	table: 17EA94E0	
+[00:04:22]: Request Received:	1	table: 1FCA7D98	
+[00:04:24]: Request Received:	1	table: 230727D0	
+[00:04:26]: Request Received:	1	table: 18E47CB0	
+[00:04:28]: Request Received:	1	table: 2157D8A0	
+[00:04:30]: Request Received:	1	table: 194C7998	
+[00:04:32]: Request Received:	1	table: 3AE7BCC0	
+[00:04:34]: Request Received:	1	table: 0C70E670	
+[00:04:36]: Request Received:	1	table: 39CE9388	
+[00:04:38]: Request Received:	1	table: 075BF260	
+[00:04:40]: Request Received:	1	table: 230D43B0	
+[00:04:42]: Request Received:	1	table: 1967B200	
+[00:04:44]: Request Received:	1	table: 1A9A9EB8	
+[00:04:46]: Request Received:	1	table: 1A0F5BD8	
+[00:04:48]: Request Received:	1	table: 3B509360	
+[00:04:50]: Request Received:	1	table: 1860BC78	
+[00:04:52]: Request Received:	1	table: 2013FBC8	
+[00:04:54]: Request Received:	1	table: 21615590	
+[00:04:56]: Request Received:	1	table: 19177330	
+[00:04:58]: Request Received:	1	table: 2306AAD0	
+[00:04:59]: Request Received:	1	table: 1BDCEAC0	
+[00:05:01]: Request Received:	1	table: 201B7858	
+[00:05:03]: Request Received:	1	table: 375DCEF8	
+[00:05:05]: Request Received:	1	table: 214B1618	
+[00:05:07]: Request Received:	1	table: 194FC0F0	
+[00:05:09]: Request Received:	1	table: 2010CA48	
+[00:05:11]: Request Received:	1	table: 0B3249A8	
+[00:05:13]: Request Received:	1	table: 20261598	
+[00:05:15]: Request Received:	1	table: 1CEB7040	
+[00:05:17]: Request Received:	1	table: 1FBC1F10	
+[00:05:19]: Request Received:	1	table: 2175C130	
+[00:05:21]: Request Received:	1	table: 1837FEC8	
+[00:05:23]: Request Received:	1	table: 3B3BED88	
+[00:05:25]: Request Received:	1	table: 221116D0	
+[00:05:27]: Request Received:	1	table: 205A9660	
+[00:05:29]: Request Received:	1	table: 18EB8850	
+[00:05:31]: Request Received:	1	table: 3AF1D780	
+[00:05:33]: Request Received:	1	table: 233320E8	
+[00:05:35]: Request Received:	1	table: 1C697C98	
+[00:05:37]: Request Received:	1	table: 1C46D6D8	
+[00:05:39]: Request Received:	1	table: 1FCA3FB8	
+[00:05:41]: Request Received:	1	table: 06D4E2F8	
+[00:05:43]: Request Received:	1	table: 27DD1208	
+[00:05:45]: Request Received:	1	table: 3997BFB8	
+[00:05:47]: Request Received:	1	table: 3B259BF8	
+[00:05:49]: Request Received:	1	table: 280773C0	
+[00:05:51]: Request Received:	1	table: 1BFB2068	
+[00:05:53]: Request Received:	1	table: 078DF130	
+[00:05:55]: Request Received:	1	table: 19FD1A28	
+[00:05:57]: Request Received:	1	table: 1C843358	
+[00:05:58]: Request Received:	1	table: 3A655178	
+[00:06:00]: Request Received:	1	table: 0CC070A0	
+[00:06:02]: Request Received:	1	table: 1A6519E8	
+[00:06:04]: Request Received:	1	table: 1A39CB70	
+[00:06:06]: Request Received:	1	table: 1C5D18E0	
+[00:06:08]: Request Received:	1	table: 19679748	
+[00:06:10]: Request Received:	1	table: 194B9030	
+[00:06:12]: Request Received:	1	table: 1FBBF198	
+[00:06:14]: Request Received:	1	table: 23334B68	
+[00:06:16]: Request Received:	1	table: 276DBAC0	
+[00:06:18]: Request Received:	1	table: 28812568	
+[00:06:20]: Request Received:	1	table: 1A43E398	
+[00:06:22]: Request Received:	1	table: 1A1B2330	
+[00:06:24]: Request Received:	1	table: 08890978	
+[00:06:26]: Request Received:	1	table: 21A40BC0	
+[00:06:28]: Request Received:	1	table: 086BE2E8	
+[00:06:30]: Request Received:	1	table: 0894C218	
+[00:06:32]: Request Received:	1	table: 1C05E9B0	
+[00:06:34]: Request Received:	1	table: 3AFA3B40	
+[00:06:36]: Request Received:	1	table: 19FBF978	
+[00:06:38]: Request Received:	1	table: 323433C8	
+[00:06:40]: Request Received:	1	table: 1BD01930	
+[00:06:42]: Request Received:	1	table: 1BFB76D0	
+[00:06:44]: Request Received:	1	table: 0B0E59D0	
+[00:06:46]: Request Received:	1	table: 0BFA4628	
+[00:06:48]: Request Received:	1	table: 27A40E00	
+[00:06:50]: Request Received:	1	table: 1A94E120	
+[00:06:52]: Request Received:	1	table: 21293900	
+[00:06:54]: Request Received:	1	table: 320DE4C0	
+[00:06:56]: Request Received:	1	table: 09048E68	
+[00:06:58]: Request Received:	1	table: 23263F10	
+[00:07:00]: Request Received:	1	table: 1A895E70	
+[00:07:02]: Request Received:	1	table: 19E83CF0	
+[00:07:04]: Request Received:	1	table: 29CE6218	
+[00:07:06]: Request Received:	1	table: 1C9655F8	
+[00:07:08]: Request Received:	1	table: 23541BD0	
+[00:07:10]: Request Received:	1	table: 1A0F5F70	
+[00:07:11]: Request Received:	1	table: 2AA1BA90	
+[00:07:13]: Request Received:	1	table: 289B0D18	
+[00:07:15]: Request Received:	1	table: 2A520908	
+[00:07:17]: Request Received:	1	table: 2B6F5788	
+[00:07:19]: Request Received:	1	table: 2C48A060	
+[00:07:21]: Request Received:	1	table: 0C8D3450	
+[00:07:23]: Request Received:	1	table: 29576900	
+[00:07:25]: Request Received:	1	table: 1FE90EF8	
+[00:07:27]: Request Received:	1	table: 280150F0	
+[00:07:29]: Request Received:	1	table: 19F2BC20	
+[00:07:31]: Request Received:	1	table: 224E5BB0	
+[00:07:33]: Request Received:	1	table: 2A7B75E0	
+[00:07:35]: Request Received:	1	table: 22D4DCE0	
+[00:07:37]: Request Received:	1	table: 29839020	
+[00:07:39]: Request Received:	1	table: 0C714390	
+[00:07:41]: Request Received:	1	table: 2957B748	
+[00:07:43]: Request Received:	1	table: 225465F0	
+[00:07:45]: Request Received:	1	table: 28CD6640	
+[00:07:47]: Request Received:	1	table: 1D058290	
+[00:07:49]: Request Received:	1	table: 2AC06FF0	
+[00:07:51]: Request Received:	1	table: 1937A068	
+[00:07:53]: Request Received:	1	table: 0C584CD0	
+[00:07:55]: Request Received:	1	table: 1A4399D8	
+[00:07:57]: Request Received:	1	table: 20EF8B38	
+[00:07:59]: Request Received:	1	table: 1C2A2D48	
+[00:08:01]: Request Received:	1	table: 2AA8EF78	
+[00:08:03]: Request Received:	1	table: 2B4D16F8	
+[00:08:05]: Request Received:	1	table: 23620280	
+[00:08:07]: Request Received:	1	table: 2783A990	
+[00:08:09]: Request Received:	1	table: 28B4F350	
+[00:08:11]: Request Received:	1	table: 1BD581D0	
+[00:08:13]: Request Received:	1	table: 21A05D68	
+[00:08:15]: Request Received:	1	table: 1A9387B8	
+[00:08:17]: Request Received:	1	table: 1C3CB230	
+[00:08:19]: Request Received:	1	table: 0C715DF8	
+[00:08:21]: Request Received:	1	table: 078D9FA0	
+[00:08:23]: Request Received:	1	table: 2B012218	
+[00:08:25]: Request Received:	1	table: 2A9F7198	
+[00:08:27]: Request Received:	1	table: 28ABBD80	
+[00:08:29]: Request Received:	1	table: 3AF554B8	
+[00:08:31]: Request Received:	1	table: 21B90CC0	
+[00:08:33]: Request Received:	1	table: 280FBC68	
+[00:08:35]: Request Received:	1	table: 2B19CD40	
+[00:08:37]: Request Received:	1	table: 2B56CA70	
+[00:08:39]: Request Received:	1	table: 19D65E60	
+[00:08:41]: Request Received:	1	table: 22D34270	
+[00:08:43]: Request Received:	1	table: 21EE3C98	
+[00:08:45]: Request Received:	1	table: 225ECA40	
+[00:08:47]: Request Received:	1	table: 1980D380	
+[00:08:49]: Request Received:	1	table: 2C6B08A0	
+[00:08:51]: Request Received:	1	table: 22D9F358	
+[00:08:53]: Request Received:	1	table: 218DAE80	
+[00:08:55]: Request Received:	1	table: 2B153F30	
+[00:08:57]: Request Received:	1	table: 3AE8C430	
+[00:08:59]: Request Received:	1	table: 22BD46D8	
+[00:09:01]: Request Received:	1	table: 2A391468	
+[00:09:03]: Request Received:	1	table: 1A417B80	
+[00:09:05]: Request Received:	1	table: 1FB96AF8	
+[00:09:07]: Request Received:	1	table: 2B74BF38	
+[00:09:09]: Request Received:	1	table: 29001550	
+[00:09:11]: Request Received:	1	table: 078DA590	
+[00:09:13]: Request Received:	1	table: 1A93B558	
+[00:09:15]: Request Received:	1	table: 2C21DB48	
+[00:09:17]: Request Received:	1	table: 299FA618	
+[00:09:19]: Request Received:	1	table: 3228CE10	
+[00:09:21]: Request Received:	1	table: 2BE36FF8	
+[00:09:23]: Request Received:	1	table: 2C3CF920	
+[00:09:25]: Request Received:	1	table: 28EE7448	
+[00:09:27]: Request Received:	1	table: 2B7ABF68	
+[00:09:29]: Request Received:	1	table: 2C1D5720	
+[00:09:31]: Request Received:	1	table: 2CC42A28	
+[00:09:33]: Request Received:	1	table: 2A9D8668	
+[00:09:34]: Request Received:	1	table: 08BC9BB0	
+[00:09:36]: Request Received:	1	table: 0B847280	
+[00:09:38]: Request Received:	1	table: 23522018	
+[00:09:40]: Request Received:	1	table: 2B8C4118	
+[00:09:42]: Request Received:	1	table: 34FEB058	
+[00:09:44]: Request Received:	1	table: 28D1C4D8	
+[00:09:46]: Request Received:	1	table: 0CAF2968	
+[00:09:48]: Request Received:	1	table: 0B0EA430	
+[00:09:50]: Request Received:	1	table: 19F6AE48	
+[00:09:52]: Request Received:	1	table: 2325C530	
+[00:09:54]: Request Received:	1	table: 3A554390	
+[00:09:56]: Request Received:	1	table: 2AD1F430	
+[00:09:58]: Request Received:	1	table: 2B00DFB0	
+[00:10:00]: Request Received:	1	table: 232EC050	
+[00:10:02]: Request Received:	1	table: 18FF3BB8	
+[00:10:04]: Request Received:	1	table: 21874F00	
+[00:10:06]: Request Received:	1	table: 22D80D28	
+[00:10:08]: Request Received:	1	table: 1FC92F50	
+[00:10:10]: Request Received:	1	table: 27F1AF78	
+[00:10:12]: Request Received:	1	table: 1BBF74C0	
+[00:10:14]: Request Received:	1	table: 1A4D1650	
+[00:10:16]: Request Received:	1	table: 1CD29FC0	
+[00:10:18]: Request Received:	1	table: 21821150	
+[00:10:20]: Request Received:	1	table: 19370748	
+[00:10:22]: Request Received:	1	table: 226872B0	
+[00:10:24]: Request Received:	1	table: 2970CF30	
+[00:10:26]: Request Received:	1	table: 2CC526D8	
+[00:10:28]: Request Received:	1	table: 19322570	
+[00:10:30]: Request Received:	1	table: 28EDDE80	
+[00:10:32]: Request Received:	1	table: 28C0DE70	
+[00:10:34]: Request Received:	1	table: 2B8BAA50	
+[00:10:36]: Request Received:	1	table: 1FFC08C0	
+[00:10:38]: Request Received:	1	table: 0B329BB0	
+[00:10:40]: Request Received:	1	table: 2B266660	
+[00:10:42]: Request Received:	1	table: 08BCADF8	
+[00:10:44]: Request Received:	1	table: 2AFA4AA8	
+[00:10:46]: Request Received:	1	table: 30004460	
+[00:10:48]: Request Received:	1	table: 2BCA2670	
+[00:10:50]: Request Received:	1	table: 2C3B3F38	
+[00:10:52]: Request Received:	1	table: 1D299480	
+[00:10:54]: Request Received:	1	table: 2C0D3FC0	
+[00:10:56]: Request Received:	1	table: 18E2C420	
+[00:10:58]: Request Received:	1	table: 3AEB9A00	
+[00:11:00]: Request Received:	1	table: 225D5998	
+[00:11:02]: Request Received:	1	table: 21587260	
+[00:11:04]: Request Received:	1	table: 1A06CBA8	
+[00:11:06]: Request Received:	1	table: 2C259760	
+[00:11:08]: Request Received:	1	table: 3A64F408	
+[00:11:10]: Request Received:	1	table: 1A0CB010	
+[00:11:12]: Request Received:	1	table: 2C7D9D38	
+[00:11:14]: Request Received:	1	table: 2B187210	
+[00:11:16]: Request Received:	1	table: 08946A70	
+[00:11:18]: Request Received:	1	table: 0B0E2E88	
+[00:11:20]: Request Received:	1	table: 2236FA68	
+[00:11:22]: Request Received:	1	table: 29C14810	
+[00:11:24]: Request Received:	1	table: 219A82C0	
+[00:11:26]: Request Received:	1	table: 078DD8F8	
+[00:11:28]: Request Received:	1	table: 08103978	
+[00:11:30]: Request Received:	1	table: 0CAF5870	
+[00:11:32]: Request Received:	1	table: 28A08178	
+[00:11:34]: Request Received:	1	table: 1C77C278	
+[00:11:36]: Request Received:	1	table: 291F5978	
+[00:11:38]: Request Received:	1	table: 1CDDFBA8	
+[00:11:40]: Request Received:	1	table: 2CC4C148	
+[00:11:42]: Request Received:	1	table: 2CA13058	
+[00:11:44]: Request Received:	1	table: 2D002260	
+[00:11:46]: Request Received:	1	table: 23591D90	
+[00:11:48]: Request Received:	1	table: 1C7ED328	
+[00:11:50]: Request Received:	1	table: 1CCAAB30	
+[00:11:52]: Request Received:	1	table: 2BE3DB50	
+[00:11:54]: Request Received:	1	table: 3ADA27F0	
+[00:11:56]: Request Received:	1	table: 0B320B28	
+[00:11:58]: Request Received:	1	table: 21F4BFC8	
+[00:12:00]: Request Received:	1	table: 087C59F0	
+[00:12:02]: Request Received:	1	table: 27C15268	
+[00:12:04]: Request Received:	1	table: 21E4A718	
+[00:12:06]: Request Received:	1	table: 28E10E20	
+[00:12:06]: Hound attack: 573.637867298	
+[00:12:06]: Registering master server in Sing lobby
+[00:12:08]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001198
+[00:12:09]: Serializing world: session/48686DEE875E1292/0000001198
+[00:12:09]: Request Received:	1	table: 2DD48B28	
+[00:12:10]: Request Received:	1	table: 2E14E110	
+[00:12:11]: Request Received:	1	table: 31B9D8A0	
+[00:12:13]: Request Received:	1	table: 32DF41E0	
+[00:12:15]: Request Received:	1	table: 29D6BD60	
+[00:12:18]: Request Received:	1	table: 278D7A60	
+[00:12:20]: Request Received:	1	table: 0BB4E3D8	
+[00:12:21]: Request Received:	1	table: 22C7E0C0	
+[00:12:23]: Request Received:	1	table: 224E4AF8	
+[00:12:25]: Request Received:	1	table: 2BA33A50	
+[00:12:27]: Request Received:	1	table: 29A1A880	
+[00:12:29]: Request Received:	1	table: 280F50E8	
+[00:12:31]: Request Received:	1	table: 1CCE1388	
+[00:12:33]: Request Received:	1	table: 32737928	
+[00:12:35]: Request Received:	1	table: 0C8D2CA8	
+[00:12:37]: Request Received:	1	table: 0B322540	
+[00:12:39]: Request Received:	1	table: 08653510	
+[00:12:41]: Request Received:	1	table: 29A13878	
+[00:12:43]: Request Received:	1	table: 1C6FEC48	
+[00:12:45]: Request Received:	1	table: 32735240	
+[00:12:47]: Request Received:	1	table: 1FBBAC88	
+[00:12:49]: Request Received:	1	table: 22947750	
+[00:12:51]: Request Received:	1	table: 200AC558	
+[00:12:53]: Request Received:	1	table: 2A4CB918	
+[00:12:55]: Request Received:	1	table: 321B80F8	
+[00:12:57]: Request Received:	1	table: 21C9E4C0	
+[00:12:59]: Request Received:	1	table: 22042278	
+[00:13:01]: Request Received:	1	table: 1C5DAC80	
+[00:13:03]: Request Received:	1	table: 29A1C6A8	
+[00:13:05]: Request Received:	1	table: 31FADF20	
+[00:13:07]: Request Received:	1	table: 39CC8010	
+[00:13:09]: Request Received:	1	table: 32C38558	
+[00:13:11]: Request Received:	1	table: 2DF7C770	
+[00:13:13]: Request Received:	1	table: 2C681AE0	
+[00:13:15]: Request Received:	1	table: 2A7C6D10	
+[00:13:17]: Request Received:	1	table: 27784770	
+[00:13:18]: Request Received:	1	table: 1C63E220	
+[00:13:20]: Request Received:	1	table: 1A86FC30	
+[00:13:22]: Request Received:	1	table: 30005888	
+[00:13:24]: Request Received:	1	table: 219F68C0	
+[00:13:26]: Request Received:	1	table: 3207BFA8	
+[00:13:28]: Request Received:	1	table: 1972C518	
+[00:13:30]: Request Received:	1	table: 28F94D88	
+[00:13:32]: Request Received:	1	table: 22AEC1C8	
+[00:13:34]: Request Received:	1	table: 0B467C00	
+[00:13:36]: Request Received:	1	table: 08BC4EA8	
+[00:13:38]: Request Received:	1	table: 31FAF1B8	
+[00:13:40]: Request Received:	1	table: 3272EA80	
+[00:13:42]: Request Received:	1	table: 1D074B60	
+[00:13:44]: Request Received:	1	table: 21A3DCA0	
+[00:13:46]: Could not find anim [death] in bank [ghost]
+[00:13:46]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001199
+[00:13:46]: Start world reset countdown... 120 seconds...	
+[00:13:46]: Request Received:	1	table: 2B7A94C0	
+[00:13:48]: Request Received:	1	table: 27A63CA0	
+[00:13:50]: Request Received:	1	table: 221BA8A8	
+[00:13:52]: Request Received:	1	table: 2C7E5818	
+[00:13:52]: Could not find anim [idle_loop] in bank [ghost]
+[00:13:52]: Stop world reset countdown	
+[00:13:54]: Request Received:	1	table: 3B355430	
+[00:13:56]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001199
+[00:13:56]: Request Received:	1	table: 30001E68	
+[00:13:58]: Request Received:	1	table: 2D5F4BC8	
+[00:14:00]: Request Received:	1	table: 1BCEC0B0	
+[00:14:02]: Request Received:	1	table: 288124A0	
+[00:14:04]: Request Received:	1	table: 3B250D28	
+[00:14:06]: Request Received:	1	table: 214B3940	
+[00:14:08]: Request Received:	1	table: 3B4D76A0	
+[00:14:10]: Request Received:	1	table: 1C71F868	
+[00:14:12]: Request Received:	1	table: 1BDC4200	
+[00:14:14]: Request Received:	1	table: 28CD6690	
+[00:14:16]: Request Received:	1	table: 2812A7B0	
+[00:14:18]: Request Received:	1	table: 330E36C0	
+[00:14:20]: Request Received:	1	table: 331B8970	
+[00:14:22]: Request Received:	1	table: 3B4D87A8	
+[00:14:24]: Request Received:	1	table: 3B354E40	
+[00:14:25]: Request Received:	1	table: 21EF5398	
+[00:14:27]: Request Received:	1	table: 19177A10	
+[00:14:29]: Request Received:	1	table: 221DC968	
+[00:14:31]: Request Received:	1	table: 330F1D88	
+[00:14:33]: Request Received:	1	table: 22ED5EA0	
+[00:14:35]: Request Received:	1	table: 2ACCFF58	
+[00:14:37]: Request Received:	1	table: 19AF24A8	
+[00:14:39]: Request Received:	1	table: 2273BB10	
+[00:14:41]: Request Received:	1	table: 1C3EAB40	
+[00:14:43]: Request Received:	1	table: 21981690	
+[00:14:45]: Request Received:	1	table: 22F6CC40	
+[00:14:47]: Request Received:	1	table: 29B6EA98	
+[00:14:49]: Request Received:	1	table: 227456B0	
+[00:14:51]: Request Received:	1	table: 24F8ED18	
+[00:14:53]: Request Received:	1	table: 22F7B6A0	
+[00:14:55]: Request Received:	1	table: 3AFA31E0	
+[00:14:57]: Request Received:	1	table: 1C5E7BB0	
+[00:14:59]: Request Received:	1	table: 32149C60	
+[00:15:01]: Request Received:	1	table: 22F66EA8	
+[00:15:03]: Request Received:	1	table: 288169D8	
+[00:15:05]: Request Received:	1	table: 2DD353F0	
+[00:15:07]: Request Received:	1	table: 1C844848	
+[00:15:09]: Request Received:	1	table: 0BB4C5D8	
+[00:15:11]: Request Received:	1	table: 3AE1AC60	
+[00:15:13]: Request Received:	1	table: 27BA02B0	
+[00:15:15]: Request Received:	1	table: 24E13198	
+[00:15:17]: Request Received:	1	table: 22DCED00	
+[00:15:19]: Request Received:	1	table: 31EAED80	
+[00:15:21]: Request Received:	1	table: 3207B508	
+[00:15:23]: Request Received:	1	table: 28B00F70	
+[00:15:25]: Request Received:	1	table: 22988338	
+[00:15:27]: Request Received:	1	table: 3AF653F0	
+[00:15:29]: Request Received:	1	table: 18463648	
+[00:15:31]: Request Received:	1	table: 372FECC8	
+[00:15:33]: Request Received:	1	table: 2B3A78E0	
+[00:15:35]: Request Received:	1	table: 2281F328	
+[00:15:37]: Request Received:	1	table: 1BFB5C40	
+[00:15:39]: Request Received:	1	table: 2B1A4810	
+[00:15:41]: Request Received:	1	table: 2818DC08	
+[00:15:43]: Request Received:	1	table: 0B2A4478	
+[00:15:45]: Request Received:	1	table: 3A2CF018	
+[00:15:47]: Request Received:	1	table: 3AFADCD0	
+[00:15:49]: Request Received:	1	table: 2E5E1EE8	
+[00:15:51]: Request Received:	1	table: 19176598	
+[00:15:53]: Request Received:	1	table: 08BC9980	
+[00:15:55]: Request Received:	1	table: 2C462360	
+[00:15:57]: Request Received:	1	table: 2359C478	
+[00:15:58]: Request Received:	1	table: 3B06CDE8	
+[00:16:00]: Request Received:	1	table: 1972AC40	
+[00:16:02]: Request Received:	1	table: 2BDDF3A0	
+[00:16:04]: Request Received:	1	table: 330EE818	
+[00:16:06]: Request Received:	1	table: 2253EE40	
+[00:16:09]: Request Received:	1	table: 2B4841A8	
+[00:16:10]: Request Received:	1	table: 276FEB18	
+[00:16:12]: Request Received:	1	table: 2C333F08	
+[00:16:14]: Request Received:	1	table: 0736E4A0	
+[00:16:16]: Request Received:	1	table: 1BBE6278	
+[00:16:18]: Request Received:	1	table: 2C962200	
+[00:16:20]: Request Received:	1	table: 0C8DA930	
+[00:16:22]: Request Received:	1	table: 3B3BEC20	
+[00:16:24]: Request Received:	1	table: 291F30B0	
+[00:16:26]: Request Received:	1	table: 19974888	
+[00:16:28]: Request Received:	1	table: 1936DA20	
+[00:16:30]: Request Received:	1	table: 2D4367F0	
+[00:16:32]: Request Received:	1	table: 28197CA8	
+[00:16:34]: Request Received:	1	table: 21673DC8	
+[00:16:36]: Request Received:	1	table: 22AE1818	
+[00:16:38]: Request Received:	1	table: 27F14D30	
+[00:16:40]: Request Received:	1	table: 2A8EBD38	
+[00:16:42]: Request Received:	1	table: 1983D250	
+[00:16:44]: Request Received:	1	table: 2A7B7720	
+[00:16:46]: Request Received:	1	table: 1FBB1390	
+[00:16:48]: Request Received:	1	table: 2B8372B8	
+[00:16:50]: Request Received:	1	table: 3857C1B0	
+[00:16:52]: Request Received:	1	table: 1DFD5988	
+[00:16:54]: Request Received:	1	table: 2921C760	
+[00:16:56]: Request Received:	1	table: 20010718	
+[00:16:58]: Request Received:	1	table: 21A27488	
+[00:17:00]: Request Received:	1	table: 32D37538	
+[00:17:02]: Request Received:	1	table: 32EF4F88	
+[00:17:04]: Request Received:	1	table: 078DB5D0	
+[00:17:06]: Request Received:	1	table: 2AF24BD8	
+[00:17:08]: Request Received:	1	table: 1C4BFC98	
+[00:17:10]: Request Received:	1	table: 2928D008	
+[00:17:12]: Request Received:	1	table: 27F15000	
+[00:17:14]: Request Received:	1	table: 2BB48120	
+[00:17:16]: Request Received:	1	table: 235A90F0	
+[00:17:18]: Request Received:	1	table: 22944EB0	
+[00:17:20]: Request Received:	1	table: 223B3F20	
+[00:17:22]: Request Received:	1	table: 331ADAC0	
+[00:17:24]: Request Received:	1	table: 22DCE328	
+[00:17:26]: Request Received:	1	table: 289B5318	
+[00:17:28]: Request Received:	1	table: 212B10A8	
+[00:17:30]: Request Received:	1	table: 2EAD3D68	
+[00:17:32]: Request Received:	1	table: 1C376268	
+[00:17:34]: Request Received:	1	table: 078DF8B0	
+[00:17:36]: Request Received:	1	table: 1A0EB458	
+[00:17:38]: Request Received:	1	table: 2B19E500	
+[00:17:40]: Request Received:	1	table: 27CAF470	
+[00:17:41]: Request Received:	1	table: 23489970	
+[00:17:44]: Request Received:	1	table: 21B91B98	
+[00:17:45]: Request Received:	1	table: 1B66D2F8	
+[00:17:48]: Request Received:	1	table: 20F73428	
+[00:17:50]: Request Received:	1	table: 21D75F38	
+[00:17:52]: Request Received:	1	table: 1D057C00	
+[00:17:53]: Request Received:	1	table: 28136588	
+[00:17:55]: Request Received:	1	table: 1BC85828	
+[00:17:57]: Request Received:	1	table: 3B4D78D0	
+[00:18:00]: Request Received:	1	table: 21608E30	
+[00:18:02]: Request Received:	1	table: 1C527698	
+[00:18:03]: Request Received:	1	table: 2C8ED7B0	
+[00:18:05]: Request Received:	1	table: 230D61B0	
+[00:18:07]: Request Received:	1	table: 18587760	
+[00:18:09]: Request Received:	1	table: 295E6780	
+[00:18:11]: Request Received:	1	table: 22930210	
+[00:18:13]: Request Received:	1	table: 2236D8A8	
+[00:18:15]: Request Received:	1	table: 2AFAAD18	
+[00:18:17]: Request Received:	1	table: 3B260EC8	
+[00:18:19]: Request Received:	1	table: 321530D0	
+[00:18:21]: Request Received:	1	table: 29D6CC38	
+[00:18:23]: Request Received:	1	table: 201BCDA8	
+[00:18:25]: Request Received:	1	table: 2B2CB970	
+[00:18:27]: Request Received:	1	table: 29CCA170	
+[00:18:29]: Request Received:	1	table: 1B5E8B78	
+[00:18:31]: Request Received:	1	table: 2B409138	
+[00:18:33]: Request Received:	1	table: 327EFFA0	
+[00:18:35]: Request Received:	1	table: 1C5D6110	
+[00:18:37]: Request Received:	1	table: 2B754958	
+[00:18:39]: Request Received:	1	table: 22549890	
+[00:18:41]: Request Received:	1	table: 29138A18	
+[00:18:43]: Request Received:	1	table: 2C0D65B8	
+[00:18:45]: Request Received:	1	table: 19605948	
+[00:18:47]: Request Received:	1	table: 2A9905C0	
+[00:18:49]: Request Received:	1	table: 0B2A59B8	
+[00:18:51]: Request Received:	1	table: 2D0F4E88	
+[00:18:53]: Request Received:	1	table: 19F31558	
+[00:18:55]: Request Received:	1	table: 0B2A7010	
+[00:18:57]: Request Received:	1	table: 1A442C88	
+[00:18:59]: Request Received:	1	table: 223D39A8	
+[00:19:01]: Request Received:	1	table: 21C4F1E8	
+[00:19:03]: Request Received:	1	table: 21E45D80	
+[00:19:05]: Request Received:	1	table: 28913078	
+[00:19:07]: Request Received:	1	table: 2BE57FE0	
+[00:19:09]: Request Received:	1	table: 22948240	
+[00:19:11]: Request Received:	1	table: 27620090	
+[00:19:13]: Request Received:	1	table: 21C81E68	
+[00:19:15]: Request Received:	1	table: 192DDFD0	
+[00:19:17]: Request Received:	1	table: 2BA3CC18	
+[00:19:19]: Request Received:	1	table: 21801CB0	
+[00:19:21]: Request Received:	1	table: 29141C80	
+[00:19:23]: Request Received:	1	table: 2C8099C8	
+[00:19:25]: Request Received:	1	table: 1F3078B0	
+[00:19:27]: Request Received:	1	table: 1BC83E10	
+[00:19:29]: Request Received:	1	table: 29363998	
+[00:19:31]: Request Received:	1	table: 20146C20	
+[00:19:33]: Request Received:	1	table: 1FB924F8	
+[00:19:35]: Request Received:	1	table: 1917F6C0	
+[00:19:37]: Request Received:	1	table: 2C83A830	
+[00:19:39]: Request Received:	1	table: 28103EB8	
+[00:19:41]: Request Received:	1	table: 1A9336F0	
+[00:19:43]: Request Received:	1	table: 32EC5518	
+[00:19:45]: Request Received:	1	table: 204BA100	
+[00:19:47]: Request Received:	1	table: 289171C8	
+[00:19:49]: Request Received:	1	table: 205241E8	
+[00:19:51]: Request Received:	1	table: 2A7B6E40	
+[00:19:52]: Request Received:	1	table: 2A9C3A10	
+[00:19:54]: Request Received:	1	table: 2AD14580	
+[00:19:56]: Request Received:	1	table: 2BDDE248	
+[00:19:58]: Request Received:	1	table: 08BD2C60	
+[00:20:00]: Request Received:	1	table: 28912BC8	
+[00:20:02]: Request Received:	1	table: 28C15580	
+[00:20:04]: Request Received:	1	table: 235B5E40	
+[00:20:06]: Request Received:	1	table: 0B0ED090	
+[00:20:08]: Hound attack: 93.671175599122	
+[00:20:08]: Request Received:	1	table: 08AA50A8	
+[00:20:10]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001199
+[00:20:11]: Serializing world: session/48686DEE875E1292/0000001199
+[00:20:11]: Request Received:	1	table: 2160CA58	
+[00:20:11]: Registering master server in Sing lobby
+[00:20:12]: Request Received:	1	table: 2165C4F8	
+[00:20:14]: Request Received:	1	table: 28133AE0	
+[00:20:16]: Request Received:	1	table: 2BB66110	
+[00:20:18]: Request Received:	1	table: 3AD21B90	
+[00:20:20]: Request Received:	1	table: 350DABD0	
+[00:20:22]: Request Received:	1	table: 21B8CA58	
+[00:20:24]: Request Received:	1	table: 22ED97A8	
+[00:20:26]: Request Received:	1	table: 078D51D0	
+[00:20:28]: Request Received:	1	table: 2A7B8300	
+[00:20:30]: Request Received:	1	table: 19FBE9B0	
+[00:20:32]: Request Received:	1	table: 234488C0	
+[00:20:34]: Request Received:	1	table: 3AE911D8	
+[00:20:36]: Request Received:	1	table: 2D4DA7F8	
+[00:20:38]: Request Received:	1	table: 33197A20	
+[00:20:40]: Request Received:	1	table: 22A338E0	
+[00:20:42]: Request Received:	1	table: 217604D8	
+[00:20:44]: Request Received:	1	table: 078DA568	
+[00:20:46]: Request Received:	1	table: 280FF728	
+[00:20:48]: Request Received:	1	table: 22F733B0	
+[00:20:50]: Request Received:	1	table: 21FDEDB0	
+[00:20:52]: Request Received:	1	table: 330EE930	
+[00:20:53]: Request Received:	1	table: 2B03B468	
+[00:20:55]: Request Received:	1	table: 19974720	
+[00:20:57]: Request Received:	1	table: 3B05ABB0	
+[00:20:59]: Request Received:	1	table: 1CEE3C48	
+[00:21:01]: Request Received:	1	table: 22F6C178	
+[00:21:03]: Request Received:	1	table: 0B2A7B00	
+[00:21:05]: Request Received:	1	table: 2783BF48	
+[00:21:07]: Request Received:	1	table: 0B323788	
+[00:21:09]: Request Received:	1	table: 18F3B9F8	
+[00:21:11]: Request Received:	1	table: 078D5CE8	
+[00:21:13]: Request Received:	1	table: 2C21F858	
+[00:21:15]: Request Received:	1	table: 299E2AF8	
+[00:21:17]: Request Received:	1	table: 2208C650	
+[00:21:19]: Request Received:	1	table: 2B2D4110	
+[00:21:21]: Request Received:	1	table: 1915FE78	
+[00:21:23]: Request Received:	1	table: 1C5DC850	
+[00:21:25]: Request Received:	1	table: 22EDAAB8	
+[00:21:27]: Request Received:	1	table: 19C24FE8	
+[00:21:29]: Request Received:	1	table: 3B3305D8	
+[00:21:31]: Request Received:	1	table: 1BEE4AE8	
+[00:21:33]: Request Received:	1	table: 1C876E90	
+[00:21:35]: Request Received:	1	table: 204B6D48	
+[00:21:37]: Request Received:	1	table: 1F70CA30	
+[00:21:39]: Request Received:	1	table: 2B25F720	
+[00:21:41]: Request Received:	1	table: 19AB3F40	
+[00:21:43]: Request Received:	1	table: 2E5D56E8	
+[00:21:45]: Request Received:	1	table: 216BE6F0	
+[00:21:47]: Request Received:	1	table: 0B2A67F0	
+[00:21:48]: Request Received:	1	table: 21006E00	
+[00:21:50]: Request Received:	1	table: 1BF29D80	
+[00:21:52]: Request Received:	1	table: 28D2FB40	
+[00:21:54]: Request Received:	1	table: 1931CD00	
+[00:21:56]: Request Received:	1	table: 323A58A0	
+[00:21:58]: Request Received:	1	table: 2D0F5A68	
+[00:22:00]: Request Received:	1	table: 2A8DD008	
+[00:22:02]: Request Received:	1	table: 22F5F9A0	
+[00:22:04]: Request Received:	1	table: 19B5B3F8	
+[00:22:06]: Request Received:	1	table: 0B96DF20	
+[00:22:08]: Request Received:	1	table: 0CAEC090	
+[00:22:10]: Request Received:	1	table: 2891F9B8	
+[00:22:12]: Request Received:	1	table: 31C0DFF0	
+[00:22:14]: Request Received:	1	table: 375DAA90	
+[00:22:16]: Request Received:	1	table: 22D7BC10	
+[00:22:18]: Request Received:	1	table: 215DDF78	
+[00:22:20]: Request Received:	1	table: 1F3D4598	
+[00:22:22]: Request Received:	1	table: 2B148108	
+[00:22:24]: Request Received:	1	table: 2B260B20	
+[00:22:26]: Request Received:	1	table: 27617968	
+[00:22:28]: Request Received:	1	table: 37510440	
+[00:22:30]: Request Received:	1	table: 2CC4F9D8	
+[00:22:32]: Request Received:	1	table: 19CD6008	
+[00:22:34]: Request Received:	1	table: 2D0F4E88	
+[00:22:36]: Request Received:	1	table: 08102A50	
+[00:22:38]: Request Received:	1	table: 22700558	
+[00:22:40]: Request Received:	1	table: 22D2BC88	
+[00:22:42]: Request Received:	1	table: 0C601D78	
+[00:22:44]: Request Received:	1	table: 2A995278	
+[00:22:46]: Request Received:	1	table: 1BE4D6D8	
+[00:22:48]: Request Received:	1	table: 31C092C0	
+[00:22:49]: Request Received:	1	table: 08BCB528	
+[00:22:51]: Request Received:	1	table: 22829D78	
+[00:22:53]: Request Received:	1	table: 1A44AB40	
+[00:22:55]: Request Received:	1	table: 18E2DA78	
+[00:22:57]: Request Received:	1	table: 19A70AA0	
+[00:22:59]: Request Received:	1	table: 1A07A5F0	
+[00:23:01]: Request Received:	1	table: 2B146E70	
+[00:23:03]: Request Received:	1	table: 2C7E0EF8	
+[00:23:05]: Request Received:	1	table: 23336850	
+[00:23:07]: Request Received:	1	table: 233EA468	
+[00:23:09]: Request Received:	1	table: 2276EEF8	
+[00:23:11]: Request Received:	1	table: 22F64D10	
+[00:23:13]: Request Received:	1	table: 2AF26370	
+[00:23:15]: Request Received:	1	table: 28F36658	
+[00:23:17]: Request Received:	1	table: 2257F270	
+[00:23:19]: Request Received:	1	table: 3B269E38	
+[00:23:21]: Request Received:	1	table: 23484498	
+[00:23:23]: Request Received:	1	table: 1BFB7018	
+[00:23:25]: Request Received:	1	table: 31FAE808	
+[00:23:27]: Request Received:	1	table: 190EDA80	
+[00:23:29]: Request Received:	1	table: 222C6CF8	
+[00:23:31]: Request Received:	1	table: 29D689D0	
+[00:23:33]: Request Received:	1	table: 230CC9F8	
+[00:23:35]: Request Received:	1	table: 22237C10	
+[00:23:37]: Request Received:	1	table: 1BCFEEB0	
+[00:23:39]: Request Received:	1	table: 233E6778	
+[00:23:41]: Request Received:	1	table: 1C5F5DC8	
+[00:23:43]: Request Received:	1	table: 219AB380	
+[00:23:45]: Request Received:	1	table: 2A41F3B8	
+[00:23:47]: Request Received:	1	table: 1AA041C0	
+[00:23:48]: Request Received:	1	table: 1FD393D0	
+[00:23:50]: Request Received:	1	table: 2B0B5D38	
+[00:23:52]: Request Received:	1	table: 2C25F4F8	
+[00:23:54]: Request Received:	1	table: 2AA0B650	
+[00:23:56]: Request Received:	1	table: 073766A0	
+[00:23:58]: Request Received:	1	table: 226FB4B8	
+[00:24:00]: Request Received:	1	table: 20284CF0	
+[00:24:02]: Request Received:	1	table: 2935BE50	
+[00:24:04]: Request Received:	1	table: 1A9F9220	
+[00:24:06]: Request Received:	1	table: 384BD050	
+[00:24:08]: Request Received:	1	table: 3AE7B860	
+[00:24:10]: Request Received:	1	table: 2CAE96D8	
+[00:24:12]: Request Received:	1	table: 2AF3FD68	
+[00:24:14]: Request Received:	1	table: 31DD0780	
+[00:24:16]: Request Received:	1	table: 2B043398	
+[00:24:18]: Request Received:	1	table: 0C8D28C0	
+[00:24:20]: Request Received:	1	table: 32EFABB8	
+[00:24:22]: Request Received:	1	table: 1B5F0BC0	
+[00:24:24]: Request Received:	1	table: 28B04698	
+[00:24:26]: Request Received:	1	table: 19CD0D38	
+[00:24:28]: Request Received:	1	table: 19C21028	
+[00:24:30]: Request Received:	1	table: 276BBF20	
+[00:24:32]: Request Received:	1	table: 3233A8E0	
+[00:24:34]: Request Received:	1	table: 090489B8	
+[00:24:36]: Request Received:	1	table: 2A98E4A0	
+[00:24:38]: Request Received:	1	table: 1BEE51A0	
+[00:24:40]: Request Received:	1	table: 2BED8108	
+[00:24:42]: Request Received:	1	table: 1AA07F28	
+[00:24:44]: Request Received:	1	table: 3ADA12B0	
+[00:24:46]: Request Received:	1	table: 219A4FF8	
+[00:24:47]: Request Received:	1	table: 1FEE2D18	
+[00:24:49]: Request Received:	1	table: 08A99AF0	
+[00:24:51]: Request Received:	1	table: 2A41D9C8	
+[00:24:53]: Request Received:	1	table: 27F122B0	
+[00:24:57]: Request Received:	1	table: 19657368	
+[00:24:59]: Request Received:	1	table: 2CBDF610	
+[00:25:01]: Request Received:	1	table: 1A2A5490	
+[00:25:03]: Request Received:	1	table: 321B0830	
+[00:25:05]: Request Received:	1	table: 2B405A60	
+[00:25:07]: Request Received:	1	table: 32CD2D18	
+[00:25:09]: Request Received:	1	table: 1A437BD8	
+[00:25:11]: Request Received:	1	table: 1CDE49F0	
+[00:25:13]: Request Received:	1	table: 2258AAA8	
+[00:25:15]: Request Received:	1	table: 278E1D30	
+[00:25:17]: Request Received:	1	table: 1C702B68	
+[00:25:19]: Request Received:	1	table: 0B0E8F18	
+[00:25:21]: Request Received:	1	table: 2CCFEAB8	
+[00:25:23]: Request Received:	1	table: 2B940168	
+[00:25:25]: Request Received:	1	table: 2770A730	
+[00:25:27]: Request Received:	1	table: 2A7B7CC0	
+[00:25:29]: Request Received:	1	table: 2347D0E0	
+[00:25:31]: Request Received:	1	table: 078D9DE8	
+[00:25:33]: Request Received:	1	table: 39D24AB0	
+[00:25:35]: Request Received:	1	table: 1CD93420	
+[00:25:37]: Request Received:	1	table: 19D4B2A0	
+[00:25:39]: Request Received:	1	table: 191CBFE8	
+[00:25:41]: Request Received:	1	table: 28AB6A88	
+[00:25:43]: Request Received:	1	table: 2342D868	
+[00:25:45]: Request Received:	1	table: 223B1518	
+[00:25:47]: Request Received:	1	table: 198D01E8	
+[00:25:49]: Request Received:	1	table: 2ACB85B0	
+[00:25:51]: Request Received:	1	table: 225489E0	
+[00:25:53]: Request Received:	1	table: 230D6B88	
+[00:25:55]: Request Received:	1	table: 0B323148	
+[00:25:57]: Request Received:	1	table: 2C8EA560	
+[00:25:59]: Request Received:	1	table: 2CBDD450	
+[00:26:01]: Request Received:	1	table: 2BDBD0A8	
+[00:26:03]: Request Received:	1	table: 2C815690	
+[00:26:05]: Request Received:	1	table: 22BDF3A8	
+[00:26:07]: Request Received:	1	table: 1C5CDE98	
+[00:26:09]: Request Received:	1	table: 1F243150	
+[00:26:11]: Request Received:	1	table: 2CE9FA48	
+[00:26:13]: Request Received:	1	table: 2C5D19D8	
+[00:26:15]: Request Received:	1	table: 19FFF078	
+[00:26:17]: Request Received:	1	table: 204BB258	
+[00:26:19]: Request Received:	1	table: 2BDB9700	
+[00:26:19]: Could not find anim [transform_weregoose_pre] in bank [FROMNUM]
+[00:26:21]: Request Received:	1	table: 2B3B66D0	
+[00:26:23]: Request Received:	1	table: 1BEE0128	
+[00:26:25]: Request Received:	1	table: 18E9A1D0	
+[00:26:27]: Request Received:	1	table: 31D2F130	
+[00:26:29]: Request Received:	1	table: 0C607110	
+[00:26:31]: Request Received:	1	table: 22DE4EA0	
+[00:26:33]: Request Received:	1	table: 2318CE80	
+[00:26:35]: Request Received:	1	table: 2323CDB0	
+[00:26:37]: Request Received:	1	table: 39CC1E68	
+[00:26:38]: Request Received:	1	table: 2211CFD0	
+[00:26:40]: Request Received:	1	table: 21609A10	
+[00:26:42]: Request Received:	1	table: 221B9C00	
+[00:26:44]: Request Received:	1	table: 1FFF7220	
+[00:26:46]: Request Received:	1	table: 22BD8800	
+[00:26:48]: Request Received:	1	table: 2A424020	
+[00:26:50]: Request Received:	1	table: 2B351960	
+[00:26:52]: Request Received:	1	table: 2AD77FC8	
+[00:26:54]: Request Received:	1	table: 2B0B6CD8	
+[00:26:56]: Request Received:	1	table: 2A724858	
+[00:26:58]: Request Received:	1	table: 22EFA660	
+[00:27:00]: Request Received:	1	table: 22E034B8	
+[00:27:02]: Request Received:	1	table: 295963D8	
+[00:27:04]: Request Received:	1	table: 2B26C100	
+[00:27:06]: Request Received:	1	table: 33137A90	
+[00:27:08]: Request Received:	1	table: 204BB5C8	
+[00:27:12]: Request Received:	1	table: 22AD1F00	
+[00:27:14]: Request Received:	1	table: 2187BDA0	
+[00:27:16]: Request Received:	1	table: 19E00730	
+[00:27:18]: Request Received:	1	table: 19840FB8	
+[00:27:20]: Request Received:	1	table: 31DE2B20	
+[00:27:22]: Request Received:	1	table: 0C70EFA8	
+[00:27:24]: Request Received:	1	table: 078D9910	
+[00:27:26]: Request Received:	1	table: 1DFCFCE0	
+[00:27:28]: Request Received:	1	table: 1BDDDDC8	
+[00:27:30]: Request Received:	1	table: 304FEA58	
+[00:27:32]: Request Received:	1	table: 31C09C70	
+[00:27:34]: Request Received:	1	table: 2C1F0950	
+[00:27:35]: Request Received:	1	table: 23243B10	
+[00:27:37]: Request Received:	1	table: 2BB93848	
+[00:27:39]: Request Received:	1	table: 384F8E40	
+[00:27:41]: Request Received:	1	table: 297D5FD0	
+[00:27:43]: Request Received:	1	table: 09058EF8	
+[00:27:45]: Request Received:	1	table: 2187D808	
+[00:27:47]: Request Received:	1	table: 219E8050	
+[00:27:49]: Request Received:	1	table: 2351CA28	
+[00:27:51]: Request Received:	1	table: 3000CE80	
+[00:27:53]: Request Received:	1	table: 2ACB7200	
+[00:27:55]: Request Received:	1	table: 19FF28F0	
+[00:27:57]: Request Received:	1	table: 2BA0FCC8	
+[00:27:59]: Request Received:	1	table: 2C7E63F8	
+[00:28:01]: Request Received:	1	table: 194BCE60	
+[00:28:03]: Request Received:	1	table: 28D42120	
+[00:28:05]: Request Received:	1	table: 2C02D1E8	
+[00:28:07]: Request Received:	1	table: 2C8E9A98	
+[00:28:09]: Request Received:	1	table: 2BB37F88	
+[00:28:10]: Hound attack: 2352.1131978209	
+[00:28:11]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001200
+[00:28:12]: Serializing world: session/48686DEE875E1292/0000001200
+[00:28:12]: Request Received:	1	table: 27DCEB70	
+[00:28:13]: Request Received:	1	table: 28759510	
+[00:28:15]: Request Received:	1	table: 2348BF68	
+[00:28:17]: Registering master server in Sing lobby
+[00:28:17]: Request Received:	1	table: 2C3CFB50	
+[00:28:19]: Request Received:	1	table: 2AFA9D28	
+[00:28:21]: Request Received:	1	table: 07E033F8	
+[00:28:23]: Request Received:	1	table: 198D0B70	
+[00:28:25]: Request Received:	1	table: 0B2AF9E0	
+[00:28:27]: Request Received:	1	table: 29A03FD8	
+[00:28:29]: Request Received:	1	table: 27A400E0	
+[00:28:31]: Request Received:	1	table: 2B25E410	
+[00:28:33]: Request Received:	1	table: 2BF55140	
+[00:28:35]: Request Received:	1	table: 2B209510	
+[00:28:36]: Request Received:	1	table: 215EB6A0	
+[00:28:38]: Request Received:	1	table: 1C547BB0	
+[00:28:40]: Request Received:	1	table: 0C8D8A68	
+[00:28:42]: Request Received:	1	table: 28D41388	
+[00:28:44]: Request Received:	1	table: 0C60DA10	
+[00:28:46]: Request Received:	1	table: 1F8052B0	
+[00:28:48]: Request Received:	1	table: 2A2381E0	
+[00:28:50]: Request Received:	1	table: 2B2694A0	
+[00:28:52]: Request Received:	1	table: 2C8BD038	
+[00:28:54]: Request Received:	1	table: 21A20548	
+[00:28:56]: Request Received:	1	table: 29CA8568	
+[00:28:58]: Request Received:	1	table: 2D003A70	
+[00:29:00]: Request Received:	1	table: 278D6908	
+[00:29:02]: Request Received:	1	table: 0C57ED80	
+[00:29:04]: Request Received:	1	table: 1C067C68	
+[00:29:06]: Request Received:	1	table: 21B6EC40	
+[00:29:08]: Request Received:	1	table: 2A4226A8	
+[00:29:10]: Request Received:	1	table: 2B2604B8	
+[00:29:12]: Request Received:	1	table: 3AF13870	
+[00:29:14]: Request Received:	1	table: 2DE22E48	
+[00:29:16]: Request Received:	1	table: 33141B30	
+[00:29:18]: Request Received:	1	table: 1CCAC818	
+[00:29:20]: Request Received:	1	table: 31FB5860	
+[00:29:22]: Request Received:	1	table: 3319CDB0	
+[00:29:24]: Request Received:	1	table: 2AD87D08	
+[00:29:26]: Request Received:	1	table: 3733D148	
+[00:29:28]: Request Received:	1	table: 216A4498	
+[00:29:30]: Request Received:	1	table: 19C22C48	
+[00:29:32]: Request Received:	1	table: 0BB48A50	
+[00:29:33]: Request Received:	1	table: 0901CE70	
+[00:29:35]: Request Received:	1	table: 227726C0	
+[00:29:37]: Request Received:	1	table: 2B9E8EA0	
+[00:29:39]: Request Received:	1	table: 2C6B0A30	
+[00:29:41]: Request Received:	1	table: 22822410	
+[00:29:43]: Request Received:	1	table: 2C8BE348	
+[00:29:45]: Request Received:	1	table: 1C54DDA8	
+[00:29:47]: Request Received:	1	table: 0901E5B8	
+[00:29:49]: Request Received:	1	table: 291F6800	
+[00:29:51]: Request Received:	1	table: 19CCE808	
+[00:29:53]: Request Received:	1	table: 276188E0	
+[00:29:55]: Request Received:	1	table: 20F79CB0	
+[00:29:57]: Request Received:	1	table: 2C06F810	
+[00:29:59]: Request Received:	1	table: 186074C0	
+[00:30:01]: Request Received:	1	table: 18FC01C8	
+[00:30:03]: Request Received:	1	table: 182D2520	
+[00:30:05]: Request Received:	1	table: 2BE2EF10	
+[00:30:07]: Request Received:	1	table: 22218ED0	
+[00:30:09]: Request Received:	1	table: 2B3929F8	
+[00:30:11]: Request Received:	1	table: 2A41F980	
+[00:30:13]: Request Received:	1	table: 2B0CAFF8	
+[00:30:15]: Request Received:	1	table: 225F69F8	
+[00:30:17]: [200] Account Communication Success (6)
+[00:30:17]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:30:17]: Request Received:	1	table: 32D4D9F8	
+[00:30:19]: Request Received:	1	table: 1AA07780	
+[00:30:21]: Request Received:	1	table: 1DFB5B08	
+[00:30:21]: Could not find anim [revert_weregoose_pre] in bank [wilson]
+[00:30:23]: Request Received:	1	table: 2D005410	
+[00:30:25]: Request Received:	1	table: 2310AB80	
+[00:30:27]: Request Received:	1	table: 32CDC3B8	
+[00:30:29]: Request Received:	1	table: 1954F370	
+[00:30:31]: Request Received:	1	table: 19C286E8	
+[00:30:33]: Request Received:	1	table: 1FC17720	
+[00:30:34]: Request Received:	1	table: 2021B6C8	
+[00:30:36]: Request Received:	1	table: 3233A548	
+[00:30:38]: Request Received:	1	table: 32CE0FA8	
+[00:30:40]: Request Received:	1	table: 2B3855A0	
+[00:30:42]: Request Received:	1	table: 194B5CF0	
+[00:30:44]: Request Received:	1	table: 23241388	
+[00:30:46]: Request Received:	1	table: 1937BD50	
+[00:30:48]: Request Received:	1	table: 32AA21C0	
+[00:30:50]: Request Received:	1	table: 1C543DF8	
+[00:30:52]: Request Received:	1	table: 2D8A2580	
+[00:30:54]: Request Received:	1	table: 21B6C828	
+[00:30:56]: Request Received:	1	table: 2B918A88	
+[00:30:58]: Request Received:	1	table: 297CD2E0	
+[00:31:00]: Request Received:	1	table: 22606D58	
+[00:31:02]: Request Received:	1	table: 2E2FC1D0	
+[00:31:04]: Request Received:	1	table: 3AD27950	
+[00:31:06]: Request Received:	1	table: 191E7F38	
+[00:31:08]: Request Received:	1	table: 2B56A338	
+[00:31:10]: Request Received:	1	table: 22DCEE18	
+[00:31:12]: Request Received:	1	table: 19AF7CA0	
+[00:31:14]: Request Received:	1	table: 29B2D0A8	
+[00:31:16]: Request Received:	1	table: 2BE37908	
+[00:31:18]: Request Received:	1	table: 324986F8	
+[00:31:20]: Request Received:	1	table: 1FD3CF80	
+[00:31:22]: Request Received:	1	table: 2C4E3B90	
+[00:31:24]: Request Received:	1	table: 2C3A0EE0	
+[00:31:26]: Request Received:	1	table: 2D43B728	
+[00:31:28]: Request Received:	1	table: 38574D98	
+[00:31:30]: Request Received:	1	table: 27A3F938	
+[00:31:31]: Request Received:	1	table: 2324DB78	
+[00:31:33]: Request Received:	1	table: 2BAA5338	
+[00:31:37]: Request Received:	1	table: 27F52BF8	
+[00:31:39]: Request Received:	1	table: 292F2808	
+[00:31:41]: Request Received:	1	table: 2CDEB160	
+[00:31:43]: Request Received:	1	table: 23124510	
+[00:31:45]: Request Received:	1	table: 2DDD7BC0	
+[00:31:47]: Request Received:	1	table: 3AF64130	
+[00:31:49]: Request Received:	1	table: 38173D08	
+[00:31:51]: Request Received:	1	table: 2BF59128	
+[00:31:53]: Request Received:	1	table: 078E0698	
+[00:31:55]: Request Received:	1	table: 2B56FD88	
+[00:31:57]: Request Received:	1	table: 0C601710	
+[00:31:59]: Request Received:	1	table: 06B3FC78	
+[00:32:01]: Request Received:	1	table: 28A573F8	
+[00:32:03]: Request Received:	1	table: 08103F18	
+[00:32:05]: Request Received:	1	table: 290BE2B8	
+[00:32:07]: Request Received:	1	table: 194C3A00	
+[00:32:09]: Request Received:	1	table: 22680FA0	
+[00:32:11]: Request Received:	1	table: 27BAB798	
+[00:32:13]: Request Received:	1	table: 375DA748	
+[00:32:15]: Request Received:	1	table: 0B9792F8	
+[00:32:17]: Request Received:	1	table: 28E007F8	
+[00:32:19]: Request Received:	1	table: 2E67A8F0	
+[00:32:21]: Request Received:	1	table: 0810E940	
+[00:32:23]: Request Received:	1	table: 0B326910	
+[00:32:25]: Request Received:	1	table: 229D5CA8	
+[00:32:27]: Request Received:	1	table: 2A78D3F8	
+[00:32:29]: Request Received:	1	table: 1FFF1F50	
+[00:32:31]: Request Received:	1	table: 297D32A8	
+[00:32:33]: Request Received:	1	table: 3B3C1D30	
+[00:32:35]: Request Received:	1	table: 27789C98	
+[00:32:37]: Request Received:	1	table: 2E8891A0	
+[00:32:39]: Request Received:	1	table: 1FC8D320	
+[00:32:41]: Request Received:	1	table: 290CB670	
+[00:32:43]: Request Received:	1	table: 2A7DB3D8	
+[00:32:45]: Request Received:	1	table: 2AEB0D30	
+[00:32:47]: Request Received:	1	table: 1960AB50	
+[00:32:49]: Request Received:	1	table: 2169F740	
+[00:32:51]: Request Received:	1	table: 197B2510	
+[00:32:53]: Request Received:	1	table: 2E35C728	
+[00:32:55]: Request Received:	1	table: 2000E8A0	
+[00:32:57]: Request Received:	1	table: 0CAED968	
+[00:32:59]: Request Received:	1	table: 0C847EC0	
+[00:33:01]: Request Received:	1	table: 3ADC53F0	
+[00:33:03]: Request Received:	1	table: 2B044950	
+[00:33:05]: Request Received:	1	table: 0C70F318	
+[00:33:07]: Request Received:	1	table: 2CEB8DC8	
+[00:33:09]: Request Received:	1	table: 1BDD9A48	
+[00:33:11]: Request Received:	1	table: 2351A4D0	
+[00:33:13]: Request Received:	1	table: 1BB77E30	
+[00:33:15]: Request Received:	1	table: 290883F8	
+[00:33:17]: Request Received:	1	table: 2BF29130	
+[00:33:19]: Request Received:	1	table: 29934D48	
+[00:33:21]: Request Received:	1	table: 2A534D10	
+[00:33:23]: Request Received:	1	table: 2DF6D478	
+[00:33:25]: Request Received:	1	table: 2E79A720	
+[00:33:27]: Request Received:	1	table: 32733E40	
+[00:33:29]: Request Received:	1	table: 29708B38	
+[00:33:31]: Request Received:	1	table: 0737BF38	
+[00:33:33]: Request Received:	1	table: 29ABEED8	
+[00:33:35]: Request Received:	1	table: 2CED1980	
+[00:33:37]: Request Received:	1	table: 2C01DDD8	
+[00:33:39]: Request Received:	1	table: 319F74A8	
+[00:33:41]: Request Received:	1	table: 215EA188	
+[00:33:43]: Request Received:	1	table: 2C5C70F0	
+[00:33:45]: Request Received:	1	table: 2AF06E20	
+[00:33:47]: Request Received:	1	table: 19A8F9C8	
+[00:33:50]: Request Received:	1	table: 2BED8270	
+[00:33:52]: Request Received:	1	table: 31B52438	
+[00:33:54]: Request Received:	1	table: 3B509748	
+[00:33:56]: Request Received:	1	table: 2E361E58	
+[00:33:58]: Request Received:	1	table: 21823770	
+[00:34:00]: Request Received:	1	table: 2AE1D550	
+[00:34:02]: Request Received:	1	table: 31C0E0B8	
+[00:34:04]: Request Received:	1	table: 1A0D7360	
+[00:34:06]: Request Received:	1	table: 21EE3AB8	
+[00:34:08]: Request Received:	1	table: 221156B8	
+[00:34:10]: Request Received:	1	table: 1A397CD8	
+[00:34:12]: Request Received:	1	table: 28C27018	
+[00:34:14]: Request Received:	1	table: 2CA5CBA8	
+[00:34:16]: Request Received:	1	table: 2BF591F0	
+[00:34:18]: Request Received:	1	table: 328BA010	
+[00:34:20]: Request Received:	1	table: 087C8AB0	
+[00:34:22]: Request Received:	1	table: 31A528F0	
+[00:34:24]: Request Received:	1	table: 2B56D1F0	
+[00:34:26]: Request Received:	1	table: 280756D8	
+[00:34:28]: Request Received:	1	table: 29CC87D0	
+[00:34:30]: Request Received:	1	table: 28E07580	
+[00:34:32]: Request Received:	1	table: 2E26D7D8	
+[00:34:34]: Request Received:	1	table: 3A29D278	
+[00:34:36]: Request Received:	1	table: 19A4A388	
+[00:34:38]: Request Received:	1	table: 2DFE7058	
+[00:34:40]: Request Received:	1	table: 2B437B08	
+[00:34:42]: Request Received:	1	table: 2CF720F8	
+[00:34:44]: Request Received:	1	table: 22541F78	
+[00:34:46]: Request Received:	1	table: 329AB7D8	
+[00:34:48]: Request Received:	1	table: 1A94C708	
+[00:34:50]: Request Received:	1	table: 182D6080	
+[00:34:52]: Request Received:	1	table: 19ADE238	
+[00:34:54]: Request Received:	1	table: 21B71120	
+[00:34:56]: Request Received:	1	table: 2BE33358	
+[00:34:58]: Request Received:	1	table: 2CA61BD0	
+[00:35:00]: Request Received:	1	table: 1A41D2D8	
+[00:35:02]: Request Received:	1	table: 3B3306A0	
+[00:35:04]: Request Received:	1	table: 3B4D4428	
+[00:35:06]: Request Received:	1	table: 32C54EE8	
+[00:35:08]: Request Received:	1	table: 297D22E0	
+[00:35:10]: Request Received:	1	table: 19F26978	
+[00:35:12]: Request Received:	1	table: 2CEB8080	
+[00:35:14]: Request Received:	1	table: 1C3D2EF8	
+[00:35:16]: Request Received:	1	table: 28EEB1B0	
+[00:35:18]: Request Received:	1	table: 1B72EC60	
+[00:35:20]: Request Received:	1	table: 2E121460	
+[00:35:22]: Request Received:	1	table: 32C2CCE8	
+[00:35:23]: Request Received:	1	table: 2C6A7750	
+[00:35:25]: Request Received:	1	table: 327CCF10	
+[00:35:27]: Request Received:	1	table: 1C5D6A48	
+[00:35:29]: Request Received:	1	table: 2B385618	
+[00:35:31]: Request Received:	1	table: 2D56D4E0	
+[00:35:33]: Request Received:	1	table: 23188218	
+[00:35:35]: Request Received:	1	table: 2BBFDC88	
+[00:35:37]: Request Received:	1	table: 2A3047C0	
+[00:35:39]: Request Received:	1	table: 21EF49E8	
+[00:35:41]: Request Received:	1	table: 22C746B0	
+[00:35:43]: Request Received:	1	table: 3B4FFE28	
+[00:35:44]: KU_c1gvcGFZ	running text command:	pose	true	
+[00:35:45]: Request Received:	1	table: 20514878	
+[00:35:47]: KU_c1gvcGFZ	running text command:	wave	true	
+[00:35:47]: Request Received:	1	table: 31BA7768	
+[00:35:49]: Request Received:	1	table: 22FCD740	
+[00:35:50]: KU_c1gvcGFZ	running text command:	dance	true	
+[00:35:51]: Request Received:	1	table: 2A57D458	
+[00:35:53]: Request Received:	1	table: 2AF053E0	
+[00:35:55]: Request Received:	1	table: 295CFF30	
+[00:35:57]: Request Received:	1	table: 2AD7FB60	
+[00:35:59]: Request Received:	1	table: 198FF9F8	
+[00:36:01]: Request Received:	1	table: 2B684560	
+[00:36:03]: Request Received:	1	table: 2DB1D050	
+[00:36:05]: Request Received:	1	table: 1FE92F78	
+[00:36:07]: Request Received:	1	table: 32D3E220	
+[00:36:09]: Request Received:	1	table: 22C1BFF0	
+[00:36:11]: Request Received:	1	table: 28101190	
+[00:36:11]: Hound attack: 1872.146506122	
+[00:36:11]: Registering master server in Sing lobby
+[00:36:13]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001201
+[00:36:14]: Serializing world: session/48686DEE875E1292/0000001201
+[00:36:14]: Request Received:	1	table: 1CCB2920	
+[00:36:15]: Request Received:	1	table: 2E4044A8	
+[00:36:17]: Request Received:	1	table: 2AF9E7E8	
+[00:36:19]: Request Received:	1	table: 0894B188	
+[00:36:21]: Request Received:	1	table: 1F20EE40	
+[00:36:23]: Request Received:	1	table: 21C97EE0	
+[00:36:25]: Request Received:	1	table: 232ED8D8	
+[00:36:27]: Request Received:	1	table: 3B197118	
+[00:36:29]: Request Received:	1	table: 22F013C0	
+[00:36:31]: Request Received:	1	table: 280FC668	
+[00:36:33]: Request Received:	1	table: 2AD83FF8	
+[00:36:35]: Request Received:	1	table: 27F0CA90	
+[00:36:37]: Request Received:	1	table: 32CC81E8	
+[00:36:39]: Request Received:	1	table: 2A7DF578	
+[00:36:41]: Request Received:	1	table: 2DDDD2C8	
+[00:36:43]: Request Received:	1	table: 295CEA68	
+[00:36:45]: Request Received:	1	table: 2CC508B0	
+[00:36:47]: Request Received:	1	table: 2C7E23E8	
+[00:36:49]: Request Received:	1	table: 323A9F68	
+[00:36:51]: Request Received:	1	table: 1C144790	
+[00:36:53]: Request Received:	1	table: 2E9FED78	
+[00:36:55]: Request Received:	1	table: 32801CE8	
+[00:36:56]: Request Received:	1	table: 294AC210	
+[00:36:58]: Request Received:	1	table: 3B32D9C8	
+[00:37:00]: Request Received:	1	table: 2D4C88F8	
+[00:37:03]: Request Received:	1	table: 0737A0E8	
+[00:37:06]: Request Received:	1	table: 235AC638	
+[00:37:08]: Request Received:	1	table: 2C24D2C8	
+[00:37:10]: Request Received:	1	table: 32CCC5E0	
+[00:37:12]: Request Received:	1	table: 32723BC8	
+[00:37:14]: Request Received:	1	table: 2DACCD30	
+[00:37:17]: Request Received:	1	table: 0BB47E70	
+[00:37:19]: Request Received:	1	table: 2BAA4280	
+[00:37:21]: Request Received:	1	table: 0C8D7CA8	
+[00:37:23]: Request Received:	1	table: 0B96C418	
+[00:37:25]: Request Received:	1	table: 327FA498	
+[00:37:27]: Request Received:	1	table: 07373838	
+[00:37:29]: Request Received:	1	table: 1F300D80	
+[00:37:31]: Request Received:	1	table: 22DC7190	
+[00:37:33]: Request Received:	1	table: 2ACADF98	
+[00:37:34]: Request Received:	1	table: 22934A40	
+[00:37:36]: Request Received:	1	table: 1A93ACC0	
+[00:37:38]: Request Received:	1	table: 2D1CD900	
+[00:37:40]: Request Received:	1	table: 2C9813E8	
+[00:37:42]: Request Received:	1	table: 27792848	
+[00:37:44]: Request Received:	1	table: 2A580A90	
+[00:37:46]: Request Received:	1	table: 328D1838	
+[00:37:48]: Request Received:	1	table: 2D0089A8	
+[00:37:50]: Request Received:	1	table: 27BB1C38	
+[00:37:52]: Request Received:	1	table: 2D643798	
+[00:37:54]: Request Received:	1	table: 32EFBAB8	
+[00:37:56]: Request Received:	1	table: 22DEE5E0	
+[00:37:58]: Request Received:	1	table: 2B683458	
+[00:38:00]: Request Received:	1	table: 2C72E470	
+[00:38:02]: Request Received:	1	table: 2361BEB0	
+[00:38:04]: Request Received:	1	table: 2C7C9A30	
+[00:38:06]: Request Received:	1	table: 1C179988	
+[00:38:08]: Request Received:	1	table: 2E684FF0	
+[00:38:10]: Request Received:	1	table: 22DFD068	
+[00:38:12]: Request Received:	1	table: 0C5769C8	
+[00:38:14]: Request Received:	1	table: 2B870CE0	
+[00:38:16]: Request Received:	1	table: 1983E948	
+[00:38:18]: Request Received:	1	table: 3B31C648	
+[00:38:20]: Request Received:	1	table: 328C4E08	
+[00:38:22]: Request Received:	1	table: 2D602E08	
+[00:38:24]: Request Received:	1	table: 2D6CB520	
+[00:38:26]: Request Received:	1	table: 19618678	
+[00:38:28]: Request Received:	1	table: 1BDD7950	
+[00:38:30]: Request Received:	1	table: 1941BE70	
+[00:38:32]: Request Received:	1	table: 2D9BB300	
+[00:38:34]: Request Received:	1	table: 2E361E58	
+[00:38:36]: Request Received:	1	table: 2C7CC8E8	
+[00:38:38]: Request Received:	1	table: 0C70D950	
+[00:38:40]: Request Received:	1	table: 1F2FE990	
+[00:38:42]: Request Received:	1	table: 31D2B940	
+[00:38:43]: Request Received:	1	table: 2D633C28	
+[00:38:45]: Request Received:	1	table: 1BBF4720	
+[00:38:47]: Request Received:	1	table: 2807D978	
+[00:38:49]: Request Received:	1	table: 224DB278	
+[00:38:51]: Request Received:	1	table: 32921F18	
+[00:38:53]: Request Received:	1	table: 2EBAFD20	
+[00:38:55]: Request Received:	1	table: 2CEBDCD8	
+[00:38:57]: Request Received:	1	table: 086536A0	
+[00:38:59]: Request Received:	1	table: 19FB8790	
+[00:39:01]: Request Received:	1	table: 2DFE2468	
+[00:39:03]: Request Received:	1	table: 2900DE40	
+[00:39:05]: Request Received:	1	table: 2C7E5020	
+[00:39:07]: Request Received:	1	table: 07376C18	
+[00:39:09]: Request Received:	1	table: 2E5D7EC0	
+[00:39:11]: Request Received:	1	table: 212961C8	
+[00:39:13]: Request Received:	1	table: 32080850	
+[00:39:15]: Request Received:	1	table: 2B349A30	
+[00:39:17]: Request Received:	1	table: 32D4CB98	
+[00:39:19]: Request Received:	1	table: 2BA2C388	
+[00:39:21]: Request Received:	1	table: 3857C908	
+[00:39:23]: Request Received:	1	table: 323A1660	
+[00:39:25]: Request Received:	1	table: 0736F350	
+[00:39:27]: Request Received:	1	table: 1E41C508	
+[00:39:29]: Request Received:	1	table: 2D647C08	
+[00:39:31]: Request Received:	1	table: 28E05938	
+[00:39:33]: Request Received:	1	table: 32A66148	
+[00:39:35]: Request Received:	1	table: 2383DC90	
+[00:39:37]: Request Received:	1	table: 2BBE55F8	
+[00:39:39]: Request Received:	1	table: 20223BE8	
+[00:39:41]: Request Received:	1	table: 0C70C190	
+[00:39:42]: Request Received:	1	table: 2E4204C0	
+[00:39:44]: Request Received:	1	table: 2C551610	
+[00:39:46]: Request Received:	1	table: 28AD9C00	
+[00:39:48]: Request Received:	1	table: 205A3DA0	
+[00:39:51]: Request Received:	1	table: 19D17E78	
+[00:39:52]: Request Received:	1	table: 2187CCC8	
+[00:39:54]: Request Received:	1	table: 1BDDBED8	
+[00:39:56]: Request Received:	1	table: 2BB348B0	
+[00:39:58]: Request Received:	1	table: 3B31A2D0	
+[00:40:00]: Request Received:	1	table: 30100470	
+[00:40:02]: Request Received:	1	table: 2EA5EB50	
+[00:40:04]: Request Received:	1	table: 18EA4DC0	
+[00:40:06]: Request Received:	1	table: 2CB65008	
+[00:40:08]: Request Received:	1	table: 22931E30	
+[00:40:10]: Request Received:	1	table: 22C7AFB0	
+[00:40:12]: Request Received:	1	table: 20119158	
+[00:40:14]: Request Received:	1	table: 2BB38CA8	
+[00:40:16]: Request Received:	1	table: 3319E840	
+[00:40:18]: Request Received:	1	table: 078D8268	
+[00:40:20]: Request Received:	1	table: 0C580568	
+[00:40:22]: Request Received:	1	table: 281AD960	
+[00:40:24]: Request Received:	1	table: 1C7E9660	
+[00:40:26]: Request Received:	1	table: 31B9D328	
+[00:40:28]: Request Received:	1	table: 2CED5170	
+[00:40:30]: Request Received:	1	table: 328CB258	
+[00:40:32]: Request Received:	1	table: 28D30C48	
+[00:40:34]: Request Received:	1	table: 2B5C0440	
+[00:40:36]: Request Received:	1	table: 0888C148	
+[00:40:38]: Request Received:	1	table: 1F8B68B8	
+[00:40:40]: Request Received:	1	table: 2A3768F0	
+[00:40:42]: Request Received:	1	table: 27F1A028	
+[00:40:44]: Request Received:	1	table: 276A71F8	
+[00:40:46]: Request Received:	1	table: 1A07BDB0	
+[00:40:48]: Request Received:	1	table: 1C3CE200	
+[00:40:50]: Request Received:	1	table: 2AE23248	
+[00:40:52]: Request Received:	1	table: 225ED828	
+[00:40:54]: Request Received:	1	table: 201B9C70	
+[00:40:56]: Request Received:	1	table: 2A9CFF90	
+[00:40:58]: Request Received:	1	table: 182D4AF0	
+[00:41:00]: Request Received:	1	table: 2DDC0CC8	
+[00:41:02]: Request Received:	1	table: 2C545D60	
+[00:41:04]: Request Received:	1	table: 2EBC7740	
+[00:41:06]: Request Received:	1	table: 331A96C8	
+[00:41:08]: Request Received:	1	table: 1DFD74B8	
+[00:41:09]: Request Received:	1	table: 230D1A70	
+[00:41:11]: Request Received:	1	table: 2D273CE8	
+[00:41:14]: Request Received:	1	table: 3B32FE58	
+[00:41:16]: Request Received:	1	table: 18FC2AB8	
+[00:41:17]: Request Received:	1	table: 2CAEE408	
+[00:41:19]: Request Received:	1	table: 22C0F408	
+[00:41:21]: Request Received:	1	table: 2AE26C40	
+[00:41:23]: Request Received:	1	table: 0B972D18	
+[00:41:25]: Request Received:	1	table: 2EA32D20	
+[00:41:27]: Request Received:	1	table: 29974CA0	
+[00:41:29]: Request Received:	1	table: 2B626740	
+[00:41:31]: Request Received:	1	table: 32E55240	
+[00:41:33]: Request Received:	1	table: 2DAB3880	
+[00:41:35]: Request Received:	1	table: 2BBFE688	
+[00:41:37]: Request Received:	1	table: 1BBF4D10	
+[00:41:39]: Request Received:	1	table: 2E3684B0	
+[00:41:41]: Request Received:	1	table: 3AE8DEC0	
+[00:41:43]: Request Received:	1	table: 2169E840	
+[00:41:45]: Request Received:	1	table: 32720F40	
+[00:41:47]: Request Received:	1	table: 327C0530	
+[00:41:49]: Request Received:	1	table: 331A4358	
+[00:41:51]: Request Received:	1	table: 075C3360	
+[00:41:53]: Request Received:	1	table: 2C5CF2A0	
+[00:41:55]: Request Received:	1	table: 29A07C28	
+[00:41:57]: Request Received:	1	table: 328F1368	
+[00:41:59]: Request Received:	1	table: 280FFE58	
+[00:42:01]: Request Received:	1	table: 2B42B8A8	
+[00:42:03]: Request Received:	1	table: 22C74840	
+[00:42:05]: Request Received:	1	table: 2EBC3410	
+[00:42:07]: Request Received:	1	table: 32CC6438	
+[00:42:09]: Request Received:	1	table: 2E5EDFC0	
+[00:42:11]: Request Received:	1	table: 2C7D6B18	
+[00:42:13]: Request Received:	1	table: 2E2D5290	
+[00:42:15]: Request Received:	1	table: 1946FC68	
+[00:42:17]: Request Received:	1	table: 289255D8	
+[00:42:19]: Request Received:	1	table: 3AD244F8	
+[00:42:21]: Request Received:	1	table: 2D358D48	
+[00:42:23]: Request Received:	1	table: 1F20D3D8	
+[00:42:25]: Request Received:	1	table: 2CED7A10	
+[00:42:27]: Request Received:	1	table: 184B7CC0	
+[00:42:29]: Request Received:	1	table: 2E68EF00	
+[00:42:31]: Request Received:	1	table: 2E69AF78	
+[00:42:33]: Request Received:	1	table: 2E2ED740	
+[00:42:35]: Request Received:	1	table: 19F6C978	
+[00:42:37]: Request Received:	1	table: 194626F8	
+[00:42:39]: Request Received:	1	table: 227BEFE0	
+[00:42:41]: Request Received:	1	table: 288A7C50	
+[00:42:43]: Request Received:	1	table: 2C8209C8	
+[00:42:45]: Request Received:	1	table: 2A053FC0	
+[00:42:47]: Request Received:	1	table: 087C9B40	
+[00:42:49]: Request Received:	1	table: 27B9F838	
+[00:42:51]: Request Received:	1	table: 2C957BC0	
+[00:42:53]: Request Received:	1	table: 22C1D170	
+[00:42:55]: Request Received:	1	table: 27A62328	
+[00:42:57]: Request Received:	1	table: 230EFF48	
+[00:42:59]: Request Received:	1	table: 27B902C8	
+[00:43:01]: Request Received:	1	table: 182CFEB0	
+[00:43:03]: Request Received:	1	table: 29BA24A8	
+[00:43:05]: Request Received:	1	table: 29976848	
+[00:43:07]: Request Received:	1	table: 2C3B1A08	
+[00:43:09]: Request Received:	1	table: 2E13A9D8	
+[00:43:11]: Request Received:	1	table: 186085F0	
+[00:43:13]: Request Received:	1	table: 2A526EE8	
+[00:43:15]: Request Received:	1	table: 329C7F48	
+[00:43:17]: Request Received:	1	table: 2E680BD8	
+[00:43:19]: Request Received:	1	table: 0BB53018	
+[00:43:21]: Request Received:	1	table: 2B9F0330	
+[00:43:23]: Request Received:	1	table: 06A368D0	
+[00:43:25]: Request Received:	1	table: 23186B98	
+[00:43:27]: Request Received:	1	table: 28E11028	
+[00:43:29]: Request Received:	1	table: 22FCA4C8	
+[00:43:31]: Request Received:	1	table: 218B11E8	
+[00:43:33]: Request Received:	1	table: 2E8A4A48	
+[00:43:35]: Request Received:	1	table: 2B2C80B8	
+[00:43:37]: Request Received:	1	table: 2E0A5D30	
+[00:43:39]: Request Received:	1	table: 3AD2B0C8	
+[00:43:41]: Request Received:	1	table: 29155910	
+[00:43:43]: Request Received:	1	table: 1FE1F1E0	
+[00:43:45]: Request Received:	1	table: 3ADC9888	
+[00:43:47]: Request Received:	1	table: 2A9BEFB0	
+[00:43:48]: Request Received:	1	table: 2C5B0368	
+[00:43:50]: Request Received:	1	table: 328FB980	
+[00:43:52]: Request Received:	1	table: 2E8A8800	
+[00:43:54]: Request Received:	1	table: 235A8268	
+[00:43:56]: Request Received:	1	table: 1E10C918	
+[00:43:58]: Request Received:	1	table: 18E49DA8	
+[00:44:00]: Request Received:	1	table: 2DC6F7E8	
+[00:44:02]: Request Received:	1	table: 278FC6C0	
+[00:44:04]: Request Received:	1	table: 2B484680	
+[00:44:06]: Request Received:	1	table: 192DDD28	
+[00:44:08]: Request Received:	1	table: 191E8E38	
+[00:44:10]: Request Received:	1	table: 1DFD7760	
+[00:44:12]: Request Received:	1	table: 21838090	
+[00:44:13]: Hound attack: 1392.1464810881	
+[00:44:15]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001202
+[00:44:16]: Serializing world: session/48686DEE875E1292/0000001202
+[00:44:16]: Request Received:	1	table: 2D24B9C0	
+[00:44:16]: Request Received:	1	table: 33336FA0	
+[00:44:16]: Registering master server in Sing lobby
+[00:44:18]: Request Received:	1	table: 18233588	
+[00:44:20]: Request Received:	1	table: 32517660	
+[00:44:22]: Request Received:	1	table: 215FBE80	
+[00:44:24]: Request Received:	1	table: 1A93D150	
+[00:44:26]: Request Received:	1	table: 23181EB8	
+[00:44:28]: Request Received:	1	table: 075BF378	
+[00:44:30]: Request Received:	1	table: 3B25D3C0	
+[00:44:32]: Request Received:	1	table: 2CE172D0	
+[00:44:34]: Request Received:	1	table: 327C8550	
+[00:44:36]: Request Received:	1	table: 223650E0	
+[00:44:38]: Request Received:	1	table: 2D573840	
+[00:44:40]: Request Received:	1	table: 295757A8	
+[00:44:42]: Request Received:	1	table: 1FFF35D0	
+[00:44:44]: Request Received:	1	table: 2B260210	
+[00:44:46]: Request Received:	1	table: 1BEDC938	
+[00:44:48]: Request Received:	1	table: 2205BCE0	
+[00:44:50]: Request Received:	1	table: 1A52E778	
+[00:44:52]: Request Received:	1	table: 22C7A218	
+[00:44:54]: Request Received:	1	table: 09015F30	
+[00:44:56]: Request Received:	1	table: 28D355B8	
+[00:44:58]: Request Received:	1	table: 2B994818	
+[00:45:00]: Request Received:	1	table: 1BBED938	
+[00:45:02]: Request Received:	1	table: 21EE5D40	
+[00:45:04]: Request Received:	1	table: 2DDDCB20	
+[00:45:06]: Request Received:	1	table: 2CC3E220	
+[00:45:08]: Request Received:	1	table: 2E101BC8	
+[00:45:10]: Request Received:	1	table: 2E2504A0	
+[00:45:12]: Request Received:	1	table: 29BBA858	
+[00:45:14]: Request Received:	1	table: 28E005F0	
+[00:45:16]: Request Received:	1	table: 28AD8670	
+[00:45:17]: Request Received:	1	table: 06D5AD78	
+[00:45:19]: Request Received:	1	table: 218B0518	
+[00:45:21]: Request Received:	1	table: 2DFF1CA0	
+[00:45:23]: Request Received:	1	table: 29495360	
+[00:45:25]: Request Received:	1	table: 28C15FD0	
+[00:45:27]: Request Received:	1	table: 2D1D26D0	
+[00:45:29]: Request Received:	1	table: 0B0E5F48	
+[00:45:31]: Request Received:	1	table: 2B26C5B0	
+[00:45:33]: Request Received:	1	table: 227B3500	
+[00:45:35]: Request Received:	1	table: 1DFB13C8	
+[00:45:37]: Request Received:	1	table: 086BA710	
+[00:45:39]: Request Received:	1	table: 27F0D0D0	
+[00:45:41]: Request Received:	1	table: 2A99D488	
+[00:45:43]: Request Received:	1	table: 2B4081E8	
+[00:45:45]: Request Received:	1	table: 31C08488	
+[00:45:47]: Request Received:	1	table: 1820BB20	
+[00:45:49]: Request Received:	1	table: 2DE01948	
+[00:45:51]: Request Received:	1	table: 32B34AA0	
+[00:45:53]: Request Received:	1	table: 0C710B78	
+[00:45:55]: Request Received:	1	table: 297CF680	
+[00:45:57]: Request Received:	1	table: 295BF850	
+[00:45:59]: Request Received:	1	table: 29138F18	
+[00:46:01]: Request Received:	1	table: 2C072C68	
+[00:46:03]: Request Received:	1	table: 2E804730	
+[00:46:05]: Request Received:	1	table: 182109E0	
+[00:46:07]: Request Received:	1	table: 22D45E28	
+[00:46:09]: Request Received:	1	table: 22700558	
+[00:46:11]: Request Received:	1	table: 0C576810	
+[00:46:13]: Request Received:	1	table: 2EBA94E8	
+[00:46:15]: Request Received:	1	table: 2D8990C0	
+[00:46:17]: Request Received:	1	table: 1BD3E608	
+[00:46:18]: Request Received:	1	table: 281915D8	
+[00:46:20]: Request Received:	1	table: 28AB9710	
+[00:46:22]: Request Received:	1	table: 28ACF4F8	
+[00:46:24]: Request Received:	1	table: 2D4ED070	
+[00:46:26]: Request Received:	1	table: 29139D28	
+[00:46:28]: Request Received:	1	table: 3B32FEF8	
+[00:46:30]: Request Received:	1	table: 2E401CA8	
+[00:46:32]: Request Received:	1	table: 27BAF460	
+[00:46:34]: Request Received:	1	table: 1826A260	
+[00:46:36]: Request Received:	1	table: 06D5E720	
+[00:46:38]: Request Received:	1	table: 2AF40DD0	
+[00:46:40]: Request Received:	1	table: 31C06D40	
+[00:46:42]: Request Received:	1	table: 199525F8	
+[00:46:44]: Request Received:	1	table: 184D2088	
+[00:46:46]: Request Received:	1	table: 2D3C8A48	
+[00:46:48]: Request Received:	1	table: 295715B8	
+[00:46:50]: Request Received:	1	table: 2818DC80	
+[00:46:52]: Request Received:	1	table: 21ED8D20	
+[00:46:54]: Request Received:	1	table: 2BA18698	
+[00:46:56]: Request Received:	1	table: 213A7EB8	
+[00:46:58]: Request Received:	1	table: 2C1F13C8	
+[00:47:00]: Request Received:	1	table: 2E9365F8	
+[00:47:02]: Request Received:	1	table: 28197910	
+[00:47:04]: Request Received:	1	table: 2AF04940	
+[00:47:06]: Request Received:	1	table: 3233BD08	
+[00:47:08]: Request Received:	1	table: 2D4C90A0	
+[00:47:10]: Request Received:	1	table: 213B3790	
+[00:47:12]: Request Received:	1	table: 19AEADA8	
+[00:47:14]: Request Received:	1	table: 1A64A918	
+[00:47:16]: Request Received:	1	table: 1BBEA918	
+[00:47:17]: Request Received:	1	table: 21879690	
+[00:47:19]: Request Received:	1	table: 2C80C1F0	
+[00:47:21]: Request Received:	1	table: 3B005AD8	
+[00:47:23]: Request Received:	1	table: 1A533390	
+[00:47:25]: Request Received:	1	table: 29490130	
+[00:47:27]: Request Received:	1	table: 2C4DF4F0	
+[00:47:29]: Request Received:	1	table: 3B05C898	
+[00:47:31]: Request Received:	1	table: 2C0C6968	
+[00:47:33]: Request Received:	1	table: 2DFFC858	
+[00:47:35]: Request Received:	1	table: 2C8BA428	
+[00:47:37]: Request Received:	1	table: 198B64F0	
+[00:47:39]: Request Received:	1	table: 2B752E28	
+[00:47:41]: Request Received:	1	table: 2B9197F8	
+[00:47:43]: Request Received:	1	table: 2E36E2B8	
+[00:47:45]: Request Received:	1	table: 0901D280	
+[00:47:47]: Request Received:	1	table: 1C3C8EE0	
+[00:47:49]: Request Received:	1	table: 1D5B5960	
+[00:47:51]: Request Received:	1	table: 1D305F50	
+[00:47:53]: Request Received:	1	table: 1BD40C28	
+[00:47:55]: Request Received:	1	table: 2BBE5710	
+[00:47:57]: Request Received:	1	table: 32BE1B78	
+[00:47:59]: Request Received:	1	table: 1BBE4108	
+[00:48:01]: Request Received:	1	table: 2778FCB0	
+[00:48:03]: Request Received:	1	table: 1DFB2DB8	
+[00:48:05]: Request Received:	1	table: 2AEB30F8	
+[00:48:07]: Request Received:	1	table: 1BB79B40	
+[00:48:09]: Request Received:	1	table: 31C0E748	
+[00:48:11]: Request Received:	1	table: 0BB43758	
+[00:48:13]: Request Received:	1	table: 08BC6348	
+[00:48:14]: Request Received:	1	table: 2D9EE018	
+[00:48:16]: Request Received:	1	table: 192D14D8	
+[00:48:18]: Request Received:	1	table: 2CD164A8	
+[00:48:20]: Request Received:	1	table: 1A6E55D0	
+[00:48:22]: Request Received:	1	table: 21D75218	
+[00:48:24]: Request Received:	1	table: 22DCEEB8	
+[00:48:26]: Request Received:	1	table: 20226C58	
+[00:48:28]: Request Received:	1	table: 2E101218	
+[00:48:30]: Request Received:	1	table: 2BBFB1B8	
+[00:48:32]: Request Received:	1	table: 2E6A2070	
+[00:48:34]: Request Received:	1	table: 218BC340	
+[00:48:36]: Request Received:	1	table: 22D464E0	
+[00:48:38]: Request Received:	1	table: 21586900	
+[00:48:40]: Request Received:	1	table: 1FDFF6C0	
+[00:48:42]: Request Received:	1	table: 2C4EAC60	
+[00:48:44]: Request Received:	1	table: 327F57B8	
+[00:48:46]: Request Received:	1	table: 2807EF80	
+[00:48:48]: Request Received:	1	table: 19D51A10	
+[00:48:50]: Request Received:	1	table: 1C4C8E88	
+[00:48:52]: Request Received:	1	table: 2DAC1D40	
+[00:48:54]: Request Received:	1	table: 3B322E60	
+[00:48:56]: Request Received:	1	table: 216A3D18	
+[00:48:58]: Request Received:	1	table: 2E7A7060	
+[00:49:00]: Request Received:	1	table: 1C4BE758	
+[00:49:02]: Request Received:	1	table: 291EAA00	
+[00:49:04]: Request Received:	1	table: 1FDFF9B8	
+[00:49:06]: Request Received:	1	table: 1C3CA1C8	
+[00:49:08]: Request Received:	1	table: 19429DE0	
+[00:49:10]: Request Received:	1	table: 2C0C6A80	
+[00:49:12]: Request Received:	1	table: 33142328	
+[00:49:14]: Request Received:	1	table: 18267498	
+[00:49:15]: Request Received:	1	table: 086BE8D8	
+[00:49:17]: Request Received:	1	table: 2D9EC628	
+[00:49:19]: Request Received:	1	table: 2D573CC8	
+[00:49:21]: Request Received:	1	table: 2D003E80	
+[00:49:23]: Request Received:	1	table: 2CCE51D8	
+[00:49:25]: Request Received:	1	table: 321B8918	
+[00:49:27]: Request Received:	1	table: 27A40EA0	
+[00:49:29]: Request Received:	1	table: 2D4BBD10	
+[00:49:31]: Request Received:	1	table: 2DB30780	
+[00:49:33]: Request Received:	1	table: 1FC0C230	
+[00:49:35]: Request Received:	1	table: 2EACE9D0	
+[00:49:37]: Request Received:	1	table: 27D52D68	
+[00:49:39]: Request Received:	1	table: 33337950	
+[00:49:41]: Request Received:	1	table: 3AD20D30	
+[00:49:43]: Request Received:	1	table: 204AD158	
+[00:49:45]: Request Received:	1	table: 2DBFA768	
+[00:49:47]: Request Received:	1	table: 19608788	
+[00:49:49]: Request Received:	1	table: 2E5EB2C0	
+[00:49:51]: Request Received:	1	table: 3B4D2C68	
+[00:49:53]: Request Received:	1	table: 2BA35C88	
+[00:49:55]: Request Received:	1	table: 2A2AB3D8	
+[00:49:57]: Request Received:	1	table: 2818BAC0	
+[00:49:59]: Request Received:	1	table: 32426DD0	
+[00:50:01]: Request Received:	1	table: 2C5508C8	
+[00:50:03]: Request Received:	1	table: 375DC818	
+[00:50:05]: Request Received:	1	table: 1BEDC5A0	
+[00:50:07]: Request Received:	1	table: 22D45F40	
+[00:50:09]: Request Received:	1	table: 2E5E3400	
+[00:50:11]: Request Received:	1	table: 1C870B80	
+[00:50:12]: Request Received:	1	table: 20374C00	
+[00:50:14]: Request Received:	1	table: 2E0082E0	
+[00:50:16]: Request Received:	1	table: 2CE10F48	
+[00:50:18]: Request Received:	1	table: 2B61DFF0	
+[00:50:20]: Request Received:	1	table: 2D1CBA60	
+[00:50:22]: Request Received:	1	table: 22D840E0	
+[00:50:24]: Request Received:	1	table: 2D69EF38	
+[00:50:26]: Request Received:	1	table: 1FE8D988	
+[00:50:28]: Request Received:	1	table: 06D5A008	
+[00:50:30]: Request Received:	1	table: 28CBBDD0	
+[00:50:32]: Request Received:	1	table: 2E50FF88	
+[00:50:34]: Request Received:	1	table: 2E861128	
+[00:50:36]: Request Received:	1	table: 27A37F30	
+[00:50:38]: Request Received:	1	table: 2BA3AC88	
+[00:50:40]: Request Received:	1	table: 334220B0	
+[00:50:42]: Request Received:	1	table: 2B3FD9C8	
+[00:50:44]: Request Received:	1	table: 298D2D88	
+[00:50:46]: Request Received:	1	table: 3B2ED1C0	
+[00:50:48]: Request Received:	1	table: 19AEB938	
+[00:50:50]: Request Received:	1	table: 220594E0	
+[00:50:52]: Request Received:	1	table: 298D1E10	
+[00:50:54]: Request Received:	1	table: 1FEE0D38	
+[00:50:56]: Request Received:	1	table: 2E93E118	
+[00:50:58]: Request Received:	1	table: 1A4D4080	
+[00:51:00]: Request Received:	1	table: 385809E0	
+[00:51:02]: Request Received:	1	table: 295BDA50	
+[00:51:04]: Request Received:	1	table: 2D24D590	
+[00:51:06]: Request Received:	1	table: 3ADA3BC8	
+[00:51:08]: Request Received:	1	table: 28917CB8	
+[00:51:10]: Request Received:	1	table: 2027E0A8	
+[00:51:11]: Request Received:	1	table: 1F308468	
+[00:51:13]: Request Received:	1	table: 297E6828	
+[00:51:15]: Request Received:	1	table: 2A053020	
+[00:51:17]: Request Received:	1	table: 2E8609A8	
+[00:51:19]: Request Received:	1	table: 2C25B6C8	
+[00:51:21]: Request Received:	1	table: 27D5F2C0	
+[00:51:23]: Request Received:	1	table: 2E376D78	
+[00:51:25]: Request Received:	1	table: 2E3D0AF0	
+[00:51:27]: Request Received:	1	table: 2DB1F670	
+[00:51:29]: Request Received:	1	table: 219F3508	
+[00:51:31]: Request Received:	1	table: 3B2E83A0	
+[00:51:33]: Request Received:	1	table: 328BF510	
+[00:51:35]: Request Received:	1	table: 28CD8FD0	
+[00:51:37]: Request Received:	1	table: 1A92F0A0	
+[00:51:39]: Request Received:	1	table: 1994E638	
+[00:51:41]: Request Received:	1	table: 2C243098	
+[00:51:43]: Request Received:	1	table: 2DD47AE8	
+[00:51:45]: Request Received:	1	table: 198B66D0	
+[00:51:47]: Request Received:	1	table: 2A7B9DE0	
+[00:51:49]: Request Received:	1	table: 2DFFDD70	
+[00:51:51]: Request Received:	1	table: 1A691D78	
+[00:51:53]: Request Received:	1	table: 19E90068	
+[00:51:55]: Request Received:	1	table: 21D6D658	
+[00:51:57]: Request Received:	1	table: 213ADA20	
+[00:51:59]: Request Received:	1	table: 2C7DF490	
+[00:52:01]: Request Received:	1	table: 1FBBF558	
+[00:52:03]: Request Received:	1	table: 2935CE90	
+[00:52:05]: Request Received:	1	table: 2DAC2F38	
+[00:52:07]: Request Received:	1	table: 1A414A98	
+[00:52:09]: Request Received:	1	table: 2E88D7F0	
+[00:52:11]: Request Received:	1	table: 2C957120	
+[00:52:12]: Request Received:	1	table: 2D56BA28	
+[00:52:14]: Request Received:	1	table: 32C32DB0	
+[00:52:15]: Hound attack: 912.17978938922	
+[00:52:16]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001203
+[00:52:17]: Serializing world: session/48686DEE875E1292/0000001203
+[00:52:18]: Request Received:	1	table: 2C5B0200	
+[00:52:18]: Request Received:	1	table: 28F35DC0	
+[00:52:20]: Request Received:	1	table: 2D2D8EF8	
+[00:52:22]: Registering master server in Sing lobby
+[00:52:22]: Request Received:	1	table: 23185658	
+[00:52:24]: Request Received:	1	table: 2E00F3D8	
+[00:52:26]: Request Received:	1	table: 201B4FE0	
+[00:52:28]: Request Received:	1	table: 2D429D58	
+[00:52:30]: Request Received:	1	table: 29490540	
+[00:52:32]: Request Received:	1	table: 2D8069F0	
+[00:52:34]: Request Received:	1	table: 0C8D7410	
+[00:52:36]: Request Received:	1	table: 0B2A9EF0	
+[00:52:38]: Request Received:	1	table: 3AD9E538	
+[00:52:40]: Request Received:	1	table: 2AF0A9F8	
+[00:52:42]: Request Received:	1	table: 2A305080	
+[00:52:44]: Request Received:	1	table: 2C7D7720	
+[00:52:46]: Request Received:	1	table: 1CCA9208	
+[00:52:48]: Request Received:	1	table: 297CF3B0	
+[00:52:50]: Request Received:	1	table: 2BA30E88	
+[00:52:52]: Request Received:	1	table: 2A386040	
+[00:52:54]: Request Received:	1	table: 1F9AADC0	
+[00:52:56]: Request Received:	1	table: 217FEB78	
+[00:52:58]: Request Received:	1	table: 2BB9FEE0	
+[00:53:00]: Request Received:	1	table: 2C7225D0	
+[00:53:02]: Request Received:	1	table: 19E88A98	
+[00:53:04]: Request Received:	1	table: 27615C30	
+[00:53:06]: Request Received:	1	table: 2BDC4920	
+[00:53:08]: Request Received:	1	table: 276E4440	
+[00:53:09]: Request Received:	1	table: 2D5F9650	
+[00:53:11]: Request Received:	1	table: 2BD47818	
+[00:53:13]: Request Received:	1	table: 2AD82158	
+[00:53:15]: Request Received:	1	table: 28194BC0	
+[00:53:17]: Request Received:	1	table: 1DB0C308	
+[00:53:19]: Request Received:	1	table: 06D52678	
+[00:53:21]: Request Received:	1	table: 32C32428	
+[00:53:23]: Request Received:	1	table: 37512F38	
+[00:53:25]: Request Received:	1	table: 2BA0C500	
+[00:53:27]: Request Received:	1	table: 3ADA8600	
+[00:53:29]: Request Received:	1	table: 2361BF28	
+[00:53:31]: Request Received:	1	table: 1BD0B890	
+[00:53:33]: Request Received:	1	table: 2B515250	
+[00:53:35]: Request Received:	1	table: 07859D90	
+[00:53:37]: Request Received:	1	table: 1BBF98B0	
+[00:53:39]: Request Received:	1	table: 0BB44248	
+[00:53:41]: Request Received:	1	table: 2ED18588	
+[00:53:43]: Request Received:	1	table: 19B49FE8	
+[00:53:45]: Request Received:	1	table: 18230D10	
+[00:53:47]: Request Received:	1	table: 31C0E400	
+[00:53:49]: Request Received:	1	table: 28129EC8	
+[00:53:51]: Request Received:	1	table: 195F2818	
+[00:53:53]: Request Received:	1	table: 2DC6C408	
+[00:53:55]: Request Received:	1	table: 0C60CC00	
+[00:53:57]: Request Received:	1	table: 2D892AF0	
+[00:53:59]: Request Received:	1	table: 28CDDB98	
+[00:54:01]: Request Received:	1	table: 1F9A65E0	
+[00:54:03]: Request Received:	1	table: 31B9BE10	
+[00:54:05]: Request Received:	1	table: 2EA5A3E8	
+[00:54:07]: Request Received:	1	table: 2CF7A500	
+[00:54:09]: Request Received:	1	table: 32D556F8	
+[00:54:10]: Request Received:	1	table: 2A7DF6E0	
+[00:54:12]: Request Received:	1	table: 32635FC0	
+[00:54:14]: Request Received:	1	table: 2D601008	
+[00:54:16]: Request Received:	1	table: 2BDE8220	
+[00:54:18]: Request Received:	1	table: 232686A8	
+[00:54:20]: Request Received:	1	table: 2BB9ABE8	
+[00:54:22]: Request Received:	1	table: 0888BC20	
+[00:54:24]: Request Received:	1	table: 22C82440	
+[00:54:26]: Request Received:	1	table: 18297710	
+[00:54:28]: Request Received:	1	table: 2892E728	
+[00:54:30]: Request Received:	1	table: 0C839758	
+[00:54:32]: Request Received:	1	table: 2E79B210	
+[00:54:34]: Request Received:	1	table: 191E01E8	
+[00:54:36]: Request Received:	1	table: 298D4AE8	
+[00:54:38]: Request Received:	1	table: 2CF212E8	
+[00:54:40]: Request Received:	1	table: 0B96B8D8	
+[00:54:42]: Request Received:	1	table: 0C70DD10	
+[00:54:44]: Request Received:	1	table: 2E1460C8	
+[00:54:46]: Request Received:	1	table: 23625000	
+[00:54:48]: Request Received:	1	table: 2BDE4E90	
+[00:54:50]: Request Received:	1	table: 2E3D29E0	
+[00:54:52]: Request Received:	1	table: 2DC5A298	
+[00:54:54]: Request Received:	1	table: 2C00C7B0	
+[00:54:56]: Request Received:	1	table: 1F9A5258	
+[00:54:58]: Request Received:	1	table: 08AA5DC8	
+[00:55:00]: Request Received:	1	table: 2D271DA8	
+[00:55:02]: Request Received:	1	table: 32C47B80	
+[00:55:04]: Request Received:	1	table: 0B96A9B0	
+[00:55:06]: Request Received:	1	table: 2CCE6D58	
+[00:55:08]: Request Received:	1	table: 30BC53D8	
+[00:55:10]: Request Received:	1	table: 2C46E408	
+[00:55:11]: Request Received:	1	table: 2818B110	
+[00:55:14]: Request Received:	1	table: 30BF93A0	
+[00:55:15]: Request Received:	1	table: 2E408878	
+[00:55:17]: Request Received:	1	table: 0864EF10	
+[00:55:19]: Request Received:	1	table: 2E3D1EC8	
+[00:55:21]: Request Received:	1	table: 2A729B50	
+[00:55:23]: Request Received:	1	table: 2C7FF6D0	
+[00:55:25]: Request Received:	1	table: 213F94E0	
+[00:55:27]: Request Received:	1	table: 327C0328	
+[00:55:29]: Request Received:	1	table: 33325050	
+[00:55:31]: Request Received:	1	table: 2D425D98	
+[00:55:33]: Request Received:	1	table: 2BA093A0	
+[00:55:35]: Request Received:	1	table: 2B26C4C0	
+[00:55:37]: Request Received:	1	table: 2DB22C08	
+[00:55:39]: Request Received:	1	table: 28F0D2F0	
+[00:55:41]: Request Received:	1	table: 19A79858	
+[00:55:43]: Request Received:	1	table: 0C847740	
+[00:55:45]: Request Received:	1	table: 2E2DF088	
+[00:55:47]: Request Received:	1	table: 29CAD068	
+[00:55:49]: Request Received:	1	table: 22D4DB00	
+[00:55:51]: Request Received:	1	table: 294E9350	
+[00:55:53]: Request Received:	1	table: 21B84BA0	
+[00:55:55]: Request Received:	1	table: 0C60AB08	
+[00:55:57]: Request Received:	1	table: 222C1870	
+[00:55:59]: Request Received:	1	table: 2E94DBB0	
+[00:56:01]: Request Received:	1	table: 2D001068	
+[00:56:03]: Request Received:	1	table: 2EBBA5B8	
+[00:56:05]: Request Received:	1	table: 1F9A6298	
+[00:56:07]: Request Received:	1	table: 1CEB5F60	
+[00:56:09]: Request Received:	1	table: 295891D8	
+[00:56:10]: Request Received:	1	table: 3291BBE0	
+[00:56:12]: Request Received:	1	table: 2D42FAC8	
+[00:56:14]: Request Received:	1	table: 385753D8	
+[00:56:16]: Request Received:	1	table: 2BF23FF0	
+[00:56:18]: Request Received:	1	table: 1997C510	
+[00:56:20]: Request Received:	1	table: 2B626150	
+[00:56:22]: Request Received:	1	table: 28B0D270	
+[00:56:24]: Request Received:	1	table: 2C8EC950	
+[00:56:26]: Request Received:	1	table: 28CAE680	
+[00:56:28]: Request Received:	1	table: 1C106770	
+[00:56:30]: Request Received:	1	table: 2DDC2208	
+[00:56:32]: Request Received:	1	table: 2D4EE218	
+[00:56:34]: Request Received:	1	table: 2BC02580	
+[00:56:36]: Request Received:	1	table: 1820F180	
+[00:56:38]: Request Received:	1	table: 2DD3FE60	
+[00:56:40]: Request Received:	1	table: 3AE762C0	
+[00:56:42]: Request Received:	1	table: 27BADEA8	
+[00:56:44]: Request Received:	1	table: 2D2500D8	
+[00:56:46]: Request Received:	1	table: 1FF12278	
+[00:56:48]: Request Received:	1	table: 2B835D50	
+[00:56:50]: Request Received:	1	table: 1FC9DC30	
+[00:56:52]: Request Received:	1	table: 2E0A49F8	
+[00:56:54]: Request Received:	1	table: 1A836588	
+[00:56:56]: Request Received:	1	table: 19A753E8	
+[00:56:58]: Request Received:	1	table: 2D89EF70	
+[00:57:00]: Request Received:	1	table: 2A7E4CF8	
+[00:57:02]: Request Received:	1	table: 2C9614E0	
+[00:57:04]: Request Received:	1	table: 21B86A40	
+[00:57:07]: Request Received:	1	table: 290B4DE0	
+[00:57:09]: Request Received:	1	table: 19922670	
+[00:57:11]: Request Received:	1	table: 202BD708	
+[00:57:13]: Request Received:	1	table: 08AA3140	
+[00:57:15]: Request Received:	1	table: 2C8019A8	
+[00:57:17]: Request Received:	1	table: 30BC2610	
+[00:57:19]: Request Received:	1	table: 184AEF08	
+[00:57:21]: Request Received:	1	table: 06A3A138	
+[00:57:23]: Request Received:	1	table: 0810C4D8	
+[00:57:25]: Request Received:	1	table: 325CC4F8	
+[00:57:27]: Request Received:	1	table: 2ED86580	
+[00:57:29]: Request Received:	1	table: 31A7F518	
+[00:57:32]: Request Received:	1	table: 089456E8	
+[00:57:33]: Request Received:	1	table: 28F8FDD8	
+[00:57:36]: Request Received:	1	table: 336CA430	
+[00:57:38]: Request Received:	1	table: 344F6938	
+[00:57:40]: Request Received:	1	table: 2CD92DB8	
+[00:57:42]: Request Received:	1	table: 31B9F290	
+[00:57:44]: Request Received:	1	table: 08A9F1D0	
+[00:57:45]: Request Received:	1	table: 2BED6100	
+[00:57:47]: Request Received:	1	table: 2A7E39E8	
+[00:57:49]: Request Received:	1	table: 2B891788	
+[00:57:51]: Request Received:	1	table: 29573480	
+[00:57:53]: Request Received:	1	table: 23117410	
+[00:57:55]: Request Received:	1	table: 2DBC8820	
+[00:57:57]: Request Received:	1	table: 216A0190	
+[00:57:59]: Request Received:	1	table: 2B183EF8	
+[00:58:01]: Request Received:	1	table: 194FE620	
+[00:58:03]: Request Received:	1	table: 1C86BD68	
+[00:58:05]: Request Received:	1	table: 2C492E18	
+[00:58:07]: Request Received:	1	table: 222C4250	
+[00:58:09]: Request Received:	1	table: 2B56E5C8	
+[00:58:11]: Request Received:	1	table: 0B848AE0	
+[00:58:13]: Request Received:	1	table: 1CCCE5B0	
+[00:58:15]: Request Received:	1	table: 2E8DC558	
+[00:58:17]: Request Received:	1	table: 0B976490	
+[00:58:19]: Request Received:	1	table: 2E67A260	
+[00:58:21]: Request Received:	1	table: 336432F0	
+[00:58:23]: Request Received:	1	table: 2C728C28	
+[00:58:25]: Request Received:	1	table: 2DCB9AD0	
+[00:58:27]: Request Received:	1	table: 32F01698	
+[00:58:29]: Request Received:	1	table: 08A98808	
+[00:58:31]: Request Received:	1	table: 2A239D88	
+[00:58:33]: Request Received:	1	table: 28F98410	
+[00:58:35]: Request Received:	1	table: 2A9C98E8	
+[00:58:37]: Request Received:	1	table: 2EA66D50	
+[00:58:39]: Request Received:	1	table: 3407E0A8	
+[00:58:41]: Request Received:	1	table: 30146B10	
+[00:58:43]: Request Received:	1	table: 2CC507C0	
+[00:58:45]: Request Received:	1	table: 2C259530	
+[00:58:47]: Request Received:	1	table: 2E2ED0B0	
+[00:58:49]: Request Received:	1	table: 32737AB8	
+[00:58:51]: Request Received:	1	table: 194CF788	
+[00:58:53]: Request Received:	1	table: 2DDDA5C8	
+[00:58:55]: Request Received:	1	table: 344F00D8	
+[00:58:57]: Request Received:	1	table: 2820E288	
+[00:58:59]: Request Received:	1	table: 32EC9320	
+[00:59:01]: Request Received:	1	table: 1BBFC718	
+[00:59:03]: Request Received:	1	table: 205808E8	
+[00:59:05]: Request Received:	1	table: 2E5DD2D0	
+[00:59:07]: Request Received:	1	table: 27F54C50	
+[00:59:09]: Request Received:	1	table: 3ADC0B98	
+[00:59:10]: Request Received:	1	table: 1980E460	
+[00:59:12]: Request Received:	1	table: 1C5E55E0	
+[00:59:14]: Request Received:	1	table: 1BD03F28	
+[00:59:16]: Request Received:	1	table: 2CACCDC0	
+[00:59:18]: Request Received:	1	table: 216A8A98	
+[00:59:20]: Request Received:	1	table: 2E56EEA8	
+[00:59:22]: Request Received:	1	table: 0C8491F8	
+[00:59:24]: Request Received:	1	table: 22603680	
+[00:59:26]: Request Received:	1	table: 328FF238	
+[00:59:28]: Request Received:	1	table: 1FE27700	
+[00:59:30]: Request Received:	1	table: 22FCD420	
+[00:59:32]: Request Received:	1	table: 2E2B23D0	
+[00:59:34]: Request Received:	1	table: 34D9E538	
+[00:59:36]: Request Received:	1	table: 2DE1FF40	
+[00:59:38]: Request Received:	1	table: 2268CCB0	
+[00:59:40]: Request Received:	1	table: 1C95B210	
+[00:59:42]: Request Received:	1	table: 18FD51E8	
+[00:59:44]: Request Received:	1	table: 1A393D40	
+[00:59:46]: Request Received:	1	table: 1F8B70D8	
+[00:59:48]: Request Received:	1	table: 29CF6488	
+[00:59:50]: Request Received:	1	table: 28D0AD10	
+[00:59:52]: Request Received:	1	table: 18EAD0D8	
+[00:59:54]: Request Received:	1	table: 27909708	
+[00:59:56]: Request Received:	1	table: 34DEC260	
+[00:59:58]: Request Received:	1	table: 3750DFD8	
+[01:00:00]: Request Received:	1	table: 19B7E378	
+[01:00:02]: Request Received:	1	table: 34B870A0	
+[01:00:04]: Request Received:	1	table: 1967A440	
+[01:00:06]: Request Received:	1	table: 2BA2AFB0	
+[01:00:08]: Request Received:	1	table: 24F8DDA0	
+[01:00:10]: Request Received:	1	table: 1A1A8178	
+[01:00:12]: Request Received:	1	table: 3224F850	
+[01:00:14]: Request Received:	1	table: 31DE1680	
+[01:00:16]: Request Received:	1	table: 22DC8C70	
+[01:00:16]: Hound attack: 432.21309769034	
+[01:00:16]: Registering master server in Sing lobby
+[01:00:17]: [200] Account Communication Success (6)
+[01:00:17]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:00:18]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001204
+[01:00:19]: Serializing world: session/48686DEE875E1292/0000001204
+[01:00:19]: Request Received:	1	table: 3B25DFA0	
+[01:00:20]: Request Received:	1	table: 28A59270	
+[01:00:22]: Request Received:	1	table: 33FD9998	
+[01:00:24]: Request Received:	1	table: 353FF960	
+[01:00:26]: Request Received:	1	table: 369BFF58	
+[01:00:28]: Request Received:	1	table: 2D430F30	
+[01:00:30]: Request Received:	1	table: 29B2DF58	
+[01:00:32]: Request Received:	1	table: 34BB07D0	
+[01:00:34]: Request Received:	1	table: 2B487E70	
+[01:00:36]: Request Received:	1	table: 2EC40168	
+[01:00:38]: Request Received:	1	table: 1CEB91D8	
+[01:00:40]: Request Received:	1	table: 2DDF3B40	
+[01:00:42]: Request Received:	1	table: 0C8D6560	
+[01:00:44]: Request Received:	1	table: 1C5E2EA8	
+[01:00:46]: Request Received:	1	table: 288A7A20	
+[01:00:48]: Request Received:	1	table: 2CEBF1F0	
+[01:00:50]: Request Received:	1	table: 2818E338	
+[01:00:52]: Request Received:	1	table: 231EE428	
+[01:00:54]: Request Received:	1	table: 32451BC8	
+[01:00:55]: Request Received:	1	table: 1A693790	
+[01:00:57]: Request Received:	1	table: 21C506B0	
+[01:00:59]: Request Received:	1	table: 229CD0F8	
+[01:01:01]: Request Received:	1	table: 2D424358	
+[01:01:03]: Request Received:	1	table: 08A9AB08	
+[01:01:05]: Request Received:	1	table: 07850AD8	
+[01:01:07]: Request Received:	1	table: 22017DB8	
+[01:01:09]: Request Received:	1	table: 218797A8	
+[01:01:11]: Request Received:	1	table: 191D4238	
+[01:01:13]: Request Received:	1	table: 2AFAC500	
+[01:01:15]: Request Received:	1	table: 29CC6660	
+[01:01:17]: Request Received:	1	table: 2219A930	
+[01:01:19]: Request Received:	1	table: 342EBDB0	
+[01:01:21]: Request Received:	1	table: 2DAA51E0	
+[01:01:23]: Request Received:	1	table: 2D62A2E0	
+[01:01:25]: Request Received:	1	table: 23DEF148	
+[01:01:27]: Request Received:	1	table: 337A1D68	
+[01:01:29]: Request Received:	1	table: 2D15A770	
+[01:01:31]: Request Received:	1	table: 3072C6D8	
+[01:01:33]: Request Received:	1	table: 20AD3188	
+[01:01:35]: Request Received:	1	table: 2DB204F8	
+[01:01:37]: Request Received:	1	table: 34E77210	
+[01:01:39]: Request Received:	1	table: 28B54DA0	
+[01:01:41]: Request Received:	1	table: 32B2DE30	
+[01:01:43]: Request Received:	1	table: 27B89BD0	
+[01:01:45]: Request Received:	1	table: 28ABFC28	
+[01:01:47]: Request Received:	1	table: 23515F70	
+[01:01:49]: Request Received:	1	table: 33290B18	
+[01:01:51]: Request Received:	1	table: 06D54F18	
+[01:01:53]: Request Received:	1	table: 366E1020	
+[01:01:55]: Request Received:	1	table: 184A65F8	
+[01:01:57]: Request Received:	1	table: 2A41F2C8	
+[01:01:58]: Request Received:	1	table: 2E146938	
+[01:02:00]: Request Received:	1	table: 2D4EF280	
+[01:02:02]: Request Received:	1	table: 3624D590	
+[01:02:04]: Request Received:	1	table: 20147E68	
+[01:02:06]: Request Received:	1	table: 22DCAC00	
+[01:02:08]: Request Received:	1	table: 21EFE910	
+[01:02:10]: Request Received:	1	table: 21530F88	
+[01:02:12]: Request Received:	1	table: 34BC6480	
+[01:02:14]: Request Received:	1	table: 346568C0	
+[01:02:16]: Request Received:	1	table: 2DBECBE0	
+[01:02:18]: Request Received:	1	table: 2E407F68	
+[01:02:20]: Request Received:	1	table: 276FC840	
+[01:02:22]: Request Received:	1	table: 2DE1AEA0	
+[01:02:24]: Request Received:	1	table: 19D52FF0	
+[01:02:26]: Request Received:	1	table: 344FAE70	
+[01:02:28]: Request Received:	1	table: 1C159D10	
+[01:02:30]: Request Received:	1	table: 3685EA18	
+[01:02:32]: Request Received:	1	table: 0C839488	
+[01:02:34]: Request Received:	1	table: 2C95BD38	
+[01:02:36]: Request Received:	1	table: 372F2B50	
+[01:02:38]: Request Received:	1	table: 2C043CD8	
+[01:02:40]: Request Received:	1	table: 08BCAC68	
+[01:02:42]: Request Received:	1	table: 349E3228	
+[01:02:44]: Request Received:	1	table: 1BEDDAB8	
+[01:02:46]: Request Received:	1	table: 1FF20F08	
+[01:02:48]: Request Received:	1	table: 08AA3938	
+[01:02:50]: Request Received:	1	table: 33C50718	
+[01:02:52]: Request Received:	1	table: 2C699400	
+[01:02:54]: Request Received:	1	table: 369C81A8	
+[01:02:56]: Request Received:	1	table: 07E02E58	
+[01:02:57]: Request Received:	1	table: 2AF2FCE0	
+[01:02:59]: Request Received:	1	table: 2E367970	
+[01:03:01]: Request Received:	1	table: 23276438	
+[01:03:03]: Request Received:	1	table: 22D30058	
+[01:03:05]: Request Received:	1	table: 2DACDBB8	
+[01:03:07]: Request Received:	1	table: 19FBC840	
+[01:03:09]: Request Received:	1	table: 2AE27848	
+[01:03:11]: Request Received:	1	table: 2E375888	
+[01:03:13]: Request Received:	1	table: 20304280	
+[01:03:15]: Request Received:	1	table: 30D79E98	
+[01:03:17]: Request Received:	1	table: 2D0EC828	
+[01:03:19]: Request Received:	1	table: 2CE16F60	
+[01:03:21]: Request Received:	1	table: 2E2508D8	
+[01:03:23]: Request Received:	1	table: 369073A0	
+[01:03:25]: Request Received:	1	table: 32194420	
+[01:03:27]: Request Received:	1	table: 1FCAAC78	
+[01:03:29]: Request Received:	1	table: 2B3B1A98	
+[01:03:31]: Request Received:	1	table: 2C037AD8	
+[01:03:33]: Request Received:	1	table: 215320B8	
+[01:03:35]: Request Received:	1	table: 2CCE5458	
+[01:03:37]: Request Received:	1	table: 3B158238	
+[01:03:39]: Request Received:	1	table: 34E705C8	
+[01:03:41]: Request Received:	1	table: 3685AAA8	
+[01:03:43]: Request Received:	1	table: 2D4B60E0	
+[01:03:45]: Request Received:	1	table: 08BC9610	
+[01:03:47]: Request Received:	1	table: 0737A3B8	
+[01:03:49]: Request Received:	1	table: 2C8B8588	
+[01:03:51]: Request Received:	1	table: 2E1F7200	
+[01:03:53]: Request Received:	1	table: 350D9848	
+[01:03:55]: Request Received:	1	table: 294864A0	
+[01:03:56]: Request Received:	1	table: 2B91E370	
+[01:03:58]: Request Received:	1	table: 23187188	
+[01:04:00]: Request Received:	1	table: 051D2C00	
+[01:04:02]: Request Received:	1	table: 07379F58	
+[01:04:04]: Request Received:	1	table: 220AD168	
+[01:04:06]: Request Received:	1	table: 2DBD0BD8	
+[01:04:08]: Request Received:	1	table: 27B91CB8	
+[01:04:10]: Request Received:	1	table: 19507FE0	
+[01:04:12]: Request Received:	1	table: 2D892A00	
+[01:04:14]: Request Received:	1	table: 3B32B218	
+[01:04:16]: Request Received:	1	table: 2B3ADAD8	
+[01:04:18]: Request Received:	1	table: 19E857F8	
+[01:04:20]: Request Received:	1	table: 2818AB70	
+[01:04:22]: Request Received:	1	table: 18212498	
+[01:04:24]: Request Received:	1	table: 215831B0	
+[01:04:26]: Request Received:	1	table: 0C840968	
+[01:04:28]: Request Received:	1	table: 2D3A3E78	
+[01:04:30]: Request Received:	1	table: 2C019118	
+[01:04:32]: Request Received:	1	table: 2D43EEC8	
+[01:04:34]: Request Received:	1	table: 344F19D8	
+[01:04:36]: Request Received:	1	table: 34BBE1B8	
+[01:04:38]: Request Received:	1	table: 1BFACE38	
+[01:04:40]: Request Received:	1	table: 229D91C8	
+[01:04:42]: Request Received:	1	table: 34964968	
+[01:04:44]: Request Received:	1	table: 18FDFCD8	
+[01:04:46]: Request Received:	1	table: 36918168	
+[01:04:48]: Request Received:	1	table: 32259B70	
+[01:04:50]: Request Received:	1	table: 3ADC23D0	
+[01:04:52]: Request Received:	1	table: 1FF270D8	
+[01:04:54]: Request Received:	1	table: 1EF126C8	
+[01:04:55]: Request Received:	1	table: 07850290	
+[01:04:57]: Request Received:	1	table: 30D7D6D8	
+[01:04:59]: Request Received:	1	table: 191D3540	
+[01:05:01]: Request Received:	1	table: 2C01A6A8	
+[01:05:03]: Request Received:	1	table: 1FCA0368	
+[01:05:05]: Request Received:	1	table: 1849C918	
+[01:05:07]: Request Received:	1	table: 2E1431C0	
+[01:05:09]: Request Received:	1	table: 321A4CC0	
+[01:05:11]: Request Received:	1	table: 1EF08510	
+[01:05:13]: Request Received:	1	table: 0C8DF778	
+[01:05:15]: Request Received:	1	table: 3465A1F0	
+[01:05:17]: Request Received:	1	table: 1BDD9A98	
+[01:05:19]: Request Received:	1	table: 2D432088	
+[01:05:21]: Request Received:	1	table: 1F3B9348	
+[01:05:23]: Request Received:	1	table: 182D09C8	
+[01:05:25]: Request Received:	1	table: 3ADC2F60	
+[01:05:27]: Request Received:	1	table: 0C716190	
+[01:05:29]: Request Received:	1	table: 2C64B2E8	
+[01:05:31]: Request Received:	1	table: 231EDB40	
+[01:05:33]: Request Received:	1	table: 306D0FD0	
+[01:05:35]: Request Received:	1	table: 2B0DFFB0	
+[01:05:37]: Request Received:	1	table: 0901CA60	
+[01:05:39]: Request Received:	1	table: 28D2C378	
+[01:05:41]: Request Received:	1	table: 231FE2A8	
+[01:05:43]: Request Received:	1	table: 1E4181B0	
+[01:05:45]: Request Received:	1	table: 34B8DC98	
+[01:05:47]: Request Received:	1	table: 18E4A550	
+[01:05:49]: Request Received:	1	table: 087D2DD0	
+[01:05:51]: Request Received:	1	table: 3B158D00	
+[01:05:53]: Request Received:	1	table: 1C6BAA38	
+[01:05:54]: Request Received:	1	table: 18299088	
+[01:05:56]: Request Received:	1	table: 1849D7F0	
+[01:05:58]: Request Received:	1	table: 194FC028	
+[01:06:00]: Request Received:	1	table: 2DDFE770	
+[01:06:02]: Request Received:	1	table: 33C437E8	
+[01:06:04]: Request Received:	1	table: 2DBF1000	
+[01:06:06]: Request Received:	1	table: 1C1434A8	
+[01:06:08]: Request Received:	1	table: 20F79CB0	
+[01:06:10]: Request Received:	1	table: 1FC30E20	
+[01:06:12]: Request Received:	1	table: 1FF05F78	
+[01:06:14]: Request Received:	1	table: 19FC89F0	
+[01:06:16]: Request Received:	1	table: 1820A8D8	
+[01:06:18]: Request Received:	1	table: 1B731348	
+[01:06:20]: Request Received:	1	table: 1EFF0870	
+[01:06:22]: Request Received:	1	table: 34BB6540	
+[01:06:24]: Request Received:	1	table: 214CD888	
+[01:06:26]: Request Received:	1	table: 2C4DE2A8	
+[01:06:28]: Request Received:	1	table: 2B2CF1B0	
+[01:06:30]: Request Received:	1	table: 23DDFE00	
+[01:06:32]: Request Received:	1	table: 2BDE05C0	
+[01:06:34]: Request Received:	1	table: 235A43A8	
+[01:06:36]: Request Received:	1	table: 2C25E0A8	
+[01:06:38]: Request Received:	1	table: 349701A0	
+[01:06:40]: Request Received:	1	table: 2A9BE088	
+[01:06:42]: Request Received:	1	table: 1C86C8A8	
+[01:06:44]: Request Received:	1	table: 1A1A3E48	
+[01:06:46]: Request Received:	1	table: 249708F0	
+[01:06:48]: Request Received:	1	table: 27B15A18	
+[01:06:50]: Request Received:	1	table: 232346E8	
+[01:06:52]: Request Received:	1	table: 198BBEC8	
+[01:06:53]: Request Received:	1	table: 0C849338	
+[01:06:55]: Request Received:	1	table: 2A22E2D0	
+[01:06:57]: Request Received:	1	table: 3B32CC58	
+[01:06:59]: Request Received:	1	table: 21577E50	
+[01:07:01]: Request Received:	1	table: 1BBFA878	
+[01:07:04]: Request Received:	1	table: 2CCC5DD0	
+[01:07:06]: Request Received:	1	table: 289B5188	
+[01:07:08]: Request Received:	1	table: 0C844FB8	
+[01:07:10]: Request Received:	1	table: 1F8040E0	
+[01:07:12]: Request Received:	1	table: 334CED58	
+[01:07:14]: Request Received:	1	table: 1CDEA788	
+[01:07:16]: Request Received:	1	table: 1F2AD838	
+[01:07:18]: Request Received:	1	table: 0B460B58	
+[01:07:20]: Request Received:	1	table: 2361B0F0	
+[01:07:22]: Request Received:	1	table: 1E8848D8	
+[01:07:24]: Request Received:	1	table: 21A1FC88	
+[01:07:26]: Request Received:	1	table: 20303F10	
+[01:07:28]: Request Received:	1	table: 231ECEE8	
+[01:07:30]: Request Received:	1	table: 33EF1680	
+[01:07:32]: Request Received:	1	table: 2DDF1DE0	
+[01:07:34]: Request Received:	1	table: 3B157EC8	
+[01:07:36]: Request Received:	1	table: 3ADCD208	
+[01:07:38]: Request Received:	1	table: 21586B30	
+[01:07:40]: Request Received:	1	table: 28ED0DE8	
+[01:07:42]: Request Received:	1	table: 31B9D0A8	
+[01:07:44]: Request Received:	1	table: 18237638	
+[01:07:46]: Request Received:	1	table: 200B99A8	
+[01:07:48]: Request Received:	1	table: 2D1A78F8	
+[01:07:50]: Request Received:	1	table: 23478DD8	
+[01:07:52]: Request Received:	1	table: 18298B60	
+[01:07:54]: Request Received:	1	table: 2EA5FC58	
+[01:07:56]: Request Received:	1	table: 1A693D08	
+[01:07:58]: Request Received:	1	table: 232492D0	
+[01:07:59]: Request Received:	1	table: 224E1A88	
+[01:08:01]: Request Received:	1	table: 0B32AE70	
+[01:08:03]: Request Received:	1	table: 34763470	
+[01:08:05]: Request Received:	1	table: 06A34918	
+[01:08:07]: Request Received:	1	table: 185063A8	
+[01:08:09]: Request Received:	1	table: 321A0C88	
+[01:08:11]: Request Received:	1	table: 21577C98	
+[01:08:13]: Request Received:	1	table: 32640510	
+[01:08:15]: Request Received:	1	table: 2B7A5F00	
+[01:08:17]: Request Received:	1	table: 2D0EEC18	
+[01:08:18]: Hound attack: 3486.2331572465	
+[01:08:20]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001205
+[01:08:21]: Serializing world: session/48686DEE875E1292/0000001205
+[01:08:21]: Request Received:	1	table: 2818A008	
+[01:08:21]: Request Received:	1	table: 343AD478	
+[01:08:22]: Registering master server in Sing lobby
+[01:08:25]: Request Received:	1	table: 31D30940	
+[01:08:27]: Request Received:	1	table: 292A0B80	
+[01:08:29]: Request Received:	1	table: 2C1803F0	
+[01:08:30]: Request Received:	1	table: 33C91C28	
+[01:08:32]: Request Received:	1	table: 35038828	
+[01:08:34]: Request Received:	1	table: 288A0DD8	
+[01:08:36]: Request Received:	1	table: 2050C2B8	
+[01:08:38]: Request Received:	1	table: 0B32D490	
+[01:08:40]: Request Received:	1	table: 33DF6A58	
+[01:08:42]: Request Received:	1	table: 190F85C0	
+[01:08:44]: Request Received:	1	table: 3B2577E0	
+[01:08:46]: Request Received:	1	table: 35742AC0	
+[01:08:48]: Request Received:	1	table: 32960258	
+[01:08:50]: Request Received:	1	table: 2D6F5328	
+[01:08:52]: Request Received:	1	table: 2C6D42A8	
+[01:08:54]: Request Received:	1	table: 184A9AF8	
+[01:08:56]: Request Received:	1	table: 1961C8E0	
+[01:08:58]: Request Received:	1	table: 27F49C38	
+[01:09:00]: Request Received:	1	table: 38060718	
+[01:09:02]: Request Received:	1	table: 1F3C1A70	
+[01:09:04]: Request Received:	1	table: 33364BA8	
+[01:09:06]: Request Received:	1	table: 3072CA48	
+[01:09:08]: Request Received:	1	table: 2B61F800	
+[01:09:10]: Request Received:	1	table: 33C451D8	
+[01:09:12]: Request Received:	1	table: 234745D0	
+[01:09:14]: Request Received:	1	table: 2317B370	
+[01:09:16]: Request Received:	1	table: 0901EA18	
+[01:09:18]: Request Received:	1	table: 34715C60	
+[01:09:20]: Request Received:	1	table: 2AA89AF0	
+[01:09:22]: Request Received:	1	table: 2B74A3E0	
+[01:09:24]: Request Received:	1	table: 19B7E378	
+[01:09:26]: Request Received:	1	table: 0BFA5C30	
+[01:09:28]: Request Received:	1	table: 08A9ACC0	
+[01:09:30]: Request Received:	1	table: 200A7F08	
+[01:09:32]: Request Received:	1	table: 344F2450	
+[01:09:34]: Request Received:	1	table: 2E41D310	
+[01:09:36]: Request Received:	1	table: 20518888	
+[01:09:38]: Request Received:	1	table: 2224F168	
+[01:09:40]: Request Received:	1	table: 32A83BA0	
+[01:09:41]: Request Received:	1	table: 34B8B3F8	
+[01:09:43]: Request Received:	1	table: 1A896AF0	
+[01:09:45]: Request Received:	1	table: 328CF8D0	
+[01:09:47]: Request Received:	1	table: 32447D80	
+[01:09:49]: Request Received:	1	table: 2A589FA0	
+[01:09:51]: Request Received:	1	table: 29491710	
+[01:09:53]: Request Received:	1	table: 1A842950	
+[01:09:55]: Request Received:	1	table: 06AB4A68	
+[01:09:57]: Request Received:	1	table: 1BB85CF0	
+[01:09:59]: Request Received:	1	table: 19678AF0	
+[01:10:01]: Request Received:	1	table: 3AE191A8	
+[01:10:03]: Request Received:	1	table: 367ACFC8	
+[01:10:05]: Request Received:	1	table: 2D5BBBA8	
+[01:10:07]: Request Received:	1	table: 2E306608	
+[01:10:09]: Request Received:	1	table: 331A2300	
+[01:10:11]: Request Received:	1	table: 1C172A98	
+[01:10:13]: Request Received:	1	table: 34FBE8D8	
+[01:10:15]: Request Received:	1	table: 328CCA90	
+[01:10:17]: Request Received:	1	table: 2EA56A90	
+[01:10:19]: Request Received:	1	table: 23273968	
+[01:10:21]: Request Received:	1	table: 2E2FA380	
+[01:10:23]: Request Received:	1	table: 222C0038	
+[01:10:25]: Request Received:	1	table: 321CD0D0	
+[01:10:27]: Request Received:	1	table: 366E1BB0	
+[01:10:29]: Request Received:	1	table: 20304258	
+[01:10:31]: Request Received:	1	table: 2C6CBFE0	
+[01:10:33]: Request Received:	1	table: 1C17AF90	
+[01:10:35]: Request Received:	1	table: 19F656B0	
+[01:10:36]: Request Received:	1	table: 2E41D450	
+[01:10:38]: Request Received:	1	table: 2B74E760	
+[01:10:40]: Request Received:	1	table: 22616F00	
+[01:10:42]: Request Received:	1	table: 29084F50	
+[01:10:44]: Request Received:	1	table: 1F8012F0	
+[01:10:46]: Request Received:	1	table: 2D634B50	
+[01:10:48]: Request Received:	1	table: 3ADCFBE8	
+[01:10:50]: Request Received:	1	table: 33324B28	
+[01:10:52]: Request Received:	1	table: 26F75748	
+[01:10:54]: Request Received:	1	table: 29487F58	
+[01:10:56]: Request Received:	1	table: 19500100	
+[01:10:58]: Request Received:	1	table: 3AD232D8	
+[01:11:00]: Request Received:	1	table: 28A15148	
+[01:11:02]: Request Received:	1	table: 1B729918	
+[01:11:04]: Request Received:	1	table: 2A5254F8	
+[01:11:06]: Request Received:	1	table: 1F800F08	
+[01:11:08]: Request Received:	1	table: 28ED9A60	
+[01:11:10]: Request Received:	1	table: 2CD01858	
+[01:11:12]: Request Received:	1	table: 27A7B888	
+[01:11:14]: Request Received:	1	table: 1FF2B638	
+[01:11:16]: Request Received:	1	table: 369200C0	
+[01:11:18]: Request Received:	1	table: 232478B8	
+[01:11:20]: Request Received:	1	table: 2BC95068	
+[01:11:22]: Request Received:	1	table: 34C78338	
+[01:11:24]: Request Received:	1	table: 0737ACA0	
+[01:11:26]: Request Received:	1	table: 087D1700	
+[01:11:28]: Request Received:	1	table: 2C247328	
+[01:11:30]: Request Received:	1	table: 22BD9B10	
+[01:11:32]: Request Received:	1	table: 2C7251E0	
+[01:11:34]: Request Received:	1	table: 348B9348	
+[01:11:36]: Request Received:	1	table: 2CEA3AD0	
+[01:11:38]: Request Received:	1	table: 37C59748	
+[01:11:39]: Request Received:	1	table: 328D1D38	
+[01:11:41]: Request Received:	1	table: 32EF7008	
+[01:11:43]: Request Received:	1	table: 2C0C84E8	
+[01:11:45]: Request Received:	1	table: 39BDEED0	
+[01:11:47]: Request Received:	1	table: 34CB0FA0	
+[01:11:49]: Request Received:	1	table: 3503D800	
+[01:11:51]: Request Received:	1	table: 38574BE0	
+[01:11:53]: Request Received:	1	table: 236176A8	
+[01:11:55]: Request Received:	1	table: 1E41EB28	
+[01:11:57]: Request Received:	1	table: 2CD11EF8	
+[01:11:59]: Request Received:	1	table: 07375480	
+[01:12:01]: Request Received:	1	table: 2C0561E8	
+[01:12:03]: Request Received:	1	table: 35720F00	
+[01:12:05]: Request Received:	1	table: 3B071CD0	
+[01:12:07]: Request Received:	1	table: 2CC489F0	
+[01:12:09]: Request Received:	1	table: 34A92EA0	
+[01:12:11]: Request Received:	1	table: 32ECB508	
+[01:12:13]: Request Received:	1	table: 33FA1FD0	
+[01:12:15]: Request Received:	1	table: 1DB6C508	
+[01:12:17]: Request Received:	1	table: 3433C000	
+[01:12:19]: Request Received:	1	table: 27B9A360	
+[01:12:21]: Request Received:	1	table: 34F357D8	
+[01:12:23]: Request Received:	1	table: 34B8B7B8	
+[01:12:25]: Request Received:	1	table: 19682FF0	
+[01:12:27]: Request Received:	1	table: 2CBDD748	
+[01:12:29]: Request Received:	1	table: 2DAAAF78	
+[01:12:31]: Request Received:	1	table: 288A0310	
+[01:12:33]: Request Received:	1	table: 325CFE78	
+[01:12:35]: Request Received:	1	table: 1DB2B908	
+[01:12:36]: Request Received:	1	table: 219F8BC0	
+[01:12:38]: Request Received:	1	table: 2CAEE368	
+[01:12:40]: Request Received:	1	table: 32BF1A90	
+[01:12:42]: Request Received:	1	table: 334D4410	
+[01:12:44]: Request Received:	1	table: 2BBEDC30	
+[01:12:46]: Request Received:	1	table: 2E435420	
+[01:12:48]: Request Received:	1	table: 2CCFA4B8	
+[01:12:50]: Request Received:	1	table: 2D5BF460	
+[01:12:52]: Request Received:	1	table: 1E2A06A8	
+[01:12:54]: Request Received:	1	table: 28D2CBC0	
+[01:12:56]: Request Received:	1	table: 32BE8990	
+[01:12:58]: Request Received:	1	table: 19730640	
+[01:13:00]: Request Received:	1	table: 2AD0EF70	
+[01:13:02]: Request Received:	1	table: 39BDA290	
+[01:13:04]: Request Received:	1	table: 1DB1E528	
+[01:13:06]: Request Received:	1	table: 1B6C7C80	
+[01:13:08]: Request Received:	1	table: 191E37F8	
+[01:13:10]: Request Received:	1	table: 291F54F0	
+[01:13:13]: Request Received:	1	table: 2E1455D8	
+[01:13:15]: Request Received:	1	table: 0B322478	
+[01:13:17]: Request Received:	1	table: 2D69EEE8	
+[01:13:19]: Request Received:	1	table: 31222E58	
+[01:13:21]: Request Received:	1	table: 34246C28	
+[01:13:23]: Request Received:	1	table: 294953D8	
+[01:13:25]: Request Received:	1	table: 33EF71E8	
+[01:13:27]: Request Received:	1	table: 1EF62260	
+[01:13:29]: Request Received:	1	table: 1F3004C0	
+[01:13:31]: Request Received:	1	table: 2B74A340	
+[01:13:33]: Request Received:	1	table: 281920F0	
+[01:13:35]: Request Received:	1	table: 21FE9350	
+[01:13:37]: Request Received:	1	table: 1A0CCB90	
+[01:13:39]: Request Received:	1	table: 295CB9F8	
+[01:13:41]: Request Received:	1	table: 2A5285B0	
+[01:13:43]: Request Received:	1	table: 3439D018	
+[01:13:45]: Request Received:	1	table: 2E751810	
+[01:13:47]: Request Received:	1	table: 1CD8FB90	
+[01:13:49]: Request Received:	1	table: 1A892158	
+[01:13:51]: Request Received:	1	table: 34964EE0	
+[01:13:53]: Request Received:	1	table: 346637A0	
+[01:13:55]: Request Received:	1	table: 2D1572A0	
+[01:13:57]: Request Received:	1	table: 2C7D9360	
+[01:13:59]: Request Received:	1	table: 3805F4F8	
+[01:14:01]: Request Received:	1	table: 29AC6AE8	
+[01:14:03]: Request Received:	1	table: 1CEF6E98	
+[01:14:05]: Request Received:	1	table: 32638108	
+[01:14:07]: Request Received:	1	table: 2D808778	
+[01:14:09]: Request Received:	1	table: 381711C0	
+[01:14:11]: Request Received:	1	table: 3AD9EB50	
+[01:14:13]: Request Received:	1	table: 2ECA5638	
+[01:14:15]: Request Received:	1	table: 34134938	
+[01:14:17]: Request Received:	1	table: 27CAE2C8	
+[01:14:19]: Request Received:	1	table: 195B2970	
+[01:14:21]: Request Received:	1	table: 334923D8	
+[01:14:23]: Request Received:	1	table: 2D2D2F80	
+[01:14:25]: Request Received:	1	table: 1B727A50	
+[01:14:27]: Request Received:	1	table: 2D5C9230	
+[01:14:30]: Request Received:	1	table: 32496DA8	
+[01:14:31]: Request Received:	1	table: 1E1F1C30	
+[01:14:33]: Request Received:	1	table: 2CF7C0A8	
+[01:14:35]: Request Received:	1	table: 07E0B990	
+[01:14:37]: Request Received:	1	table: 3476D948	
+[01:14:39]: Request Received:	1	table: 33B7E458	
+[01:14:41]: Request Received:	1	table: 1CEF6010	
+[01:14:43]: Request Received:	1	table: 2A0B0A70	
+[01:14:45]: Request Received:	1	table: 1849E858	
+[01:14:47]: Request Received:	1	table: 1A0759D8	
+[01:14:49]: Request Received:	1	table: 231E90B8	
+[01:14:51]: Request Received:	1	table: 295D4FA8	
+[01:14:53]: Request Received:	1	table: 2E24EDF8	
+[01:14:55]: Request Received:	1	table: 2CCC43B8	
+[01:14:57]: Request Received:	1	table: 1DC2A048	
+[01:14:59]: Request Received:	1	table: 2E13B978	
+[01:15:01]: Request Received:	1	table: 0737A188	
+[01:15:03]: Request Received:	1	table: 2DBFB028	
+[01:15:05]: Request Received:	1	table: 3412C340	
+[01:15:07]: Request Received:	1	table: 2059F840	
+[01:15:09]: Request Received:	1	table: 364B1670	
+[01:15:11]: Request Received:	1	table: 18297E18	
+[01:15:13]: Request Received:	1	table: 1C5E07E8	
+[01:15:15]: Request Received:	1	table: 3AE11930	
+[01:15:17]: Request Received:	1	table: 3ADC1DB8	
+[01:15:19]: Request Received:	1	table: 3000D1C8	
+[01:15:21]: Request Received:	1	table: 2E278840	
+[01:15:23]: Request Received:	1	table: 2EBC8438	
+[01:15:25]: Request Received:	1	table: 0BFA52D0	
+[01:15:27]: Request Received:	1	table: 2152EC60	
+[01:15:29]: Request Received:	1	table: 1C46C7B0	
+[01:15:31]: Request Received:	1	table: 1E8DDB88	
+[01:15:33]: Request Received:	1	table: 31B9B4B0	
+[01:15:35]: Request Received:	1	table: 07373C98	
+[01:15:37]: Request Received:	1	table: 1ECD4190	
+[01:15:39]: Request Received:	1	table: 2CDE4900	
+[01:15:41]: Request Received:	1	table: 2B993120	
+[01:15:43]: Request Received:	1	table: 2EC40F78	
+[01:15:45]: Request Received:	1	table: 2BB9B8B8	
+[01:15:47]: Request Received:	1	table: 2AE1C268	
+[01:15:49]: Request Received:	1	table: 2EC9EF90	
+[01:15:51]: Request Received:	1	table: 2C4E5328	
+[01:15:53]: Request Received:	1	table: 33755670	
+[01:15:55]: Request Received:	1	table: 347BE108	
+[01:15:57]: Request Received:	1	table: 32468EE8	
+[01:15:59]: Request Received:	1	table: 30BC0FB8	
+[01:16:01]: Request Received:	1	table: 19762610	
+[01:16:03]: Request Received:	1	table: 2129C3C0	
+[01:16:05]: Request Received:	1	table: 280F7C30	
+[01:16:07]: Request Received:	1	table: 364AD7F0	
+[01:16:09]: Request Received:	1	table: 3AE8C160	
+[01:16:11]: Request Received:	1	table: 2DBFBBE0	
+[01:16:13]: Request Received:	1	table: 1C3F5A58	
+[01:16:15]: Request Received:	1	table: 18504FA8	
+[01:16:17]: Request Received:	1	table: 3691B548	
+[01:16:19]: Request Received:	1	table: 2C0C7980	
+[01:16:20]: Hound attack: 3006.2331322125	
+[01:16:21]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001206
+[01:16:22]: Serializing world: session/48686DEE875E1292/0000001206
+[01:16:22]: Request Received:	1	table: 18E20E58	
+[01:16:23]: Request Received:	1	table: 2CCC7860	
+[01:16:25]: Request Received:	1	table: 2D69B4A0	
+[01:16:27]: Registering master server in Sing lobby
+[01:16:27]: Request Received:	1	table: 1CEB4D18	
+[01:16:29]: Request Received:	1	table: 2E8E0FE0	
+[01:16:31]: Request Received:	1	table: 3683ADE0	
+[01:16:33]: Request Received:	1	table: 2D4BC4B8	
+[01:16:35]: Request Received:	1	table: 2B878058	
+[01:16:37]: Request Received:	1	table: 360C0528	
+[01:16:39]: Request Received:	1	table: 3573EC40	
+[01:16:41]: Request Received:	1	table: 3AD23120	
+[01:16:43]: Request Received:	1	table: 33F9D368	
+[01:16:45]: Request Received:	1	table: 36A44B48	
+[01:16:47]: Request Received:	1	table: 343B51C8	
+[01:16:49]: Request Received:	1	table: 380610A0	
+[01:16:51]: Request Received:	1	table: 2C1D1120	
+[01:16:53]: Request Received:	1	table: 27B9F270	
+[01:16:55]: Request Received:	1	table: 35685440	
+[01:16:56]: Request Received:	1	table: 32DA67B0	
+[01:16:58]: Request Received:	1	table: 2EA59C68	
+[01:17:00]: Request Received:	1	table: 2E36C5F8	
+[01:17:02]: Request Received:	1	table: 33FCFD48	
+[01:17:04]: Request Received:	1	table: 2D5E38E8	
+[01:17:06]: Request Received:	1	table: 1C9650F8	
+[01:17:08]: Request Received:	1	table: 212096A0	
+[01:17:10]: Request Received:	1	table: 3683CF78	
+[01:17:12]: Request Received:	1	table: 28913258	
+[01:17:14]: Request Received:	1	table: 2010BEB8	
+[01:17:16]: Request Received:	1	table: 28A25CB0	
+[01:17:18]: Request Received:	1	table: 34ED6438	
+[01:17:20]: Request Received:	1	table: 35855B20	
+[01:17:22]: Request Received:	1	table: 1E839630	
+[01:17:24]: Request Received:	1	table: 2CD1CA80	
+[01:17:26]: Request Received:	1	table: 2BF5BE00	
+[01:17:28]: Request Received:	1	table: 2AF23940	
+[01:17:30]: Request Received:	1	table: 29D6EE20	
+[01:17:32]: Request Received:	1	table: 2E5E48C8	
+[01:17:34]: Request Received:	1	table: 21C95B90	
+[01:17:36]: Request Received:	1	table: 2EAD4CB8	
+[01:17:38]: Request Received:	1	table: 3468DAC8	
+[01:17:40]: Request Received:	1	table: 1BD33960	
+[01:17:42]: Request Received:	1	table: 27B9A310	
+[01:17:44]: Request Received:	1	table: 22D6C7D8	
+[01:17:46]: Request Received:	1	table: 2E3739C0	
+[01:17:48]: Request Received:	1	table: 21B425B8	
+[01:17:50]: Request Received:	1	table: 212E9B20	
+[01:17:52]: Request Received:	1	table: 1CC30AC8	
+[01:17:54]: Request Received:	1	table: 2C178C90	
+[01:17:55]: Request Received:	1	table: 34DEF4D8	
+[01:17:57]: Request Received:	1	table: 2DCBBF88	
+[01:17:59]: Request Received:	1	table: 32B0F590	
+[01:18:01]: Request Received:	1	table: 375DB260	
+[01:18:03]: Request Received:	1	table: 33C64A88	
+[01:18:05]: Request Received:	1	table: 0810D2C0	
+[01:18:07]: Request Received:	1	table: 2C6777E8	
+[01:18:09]: Request Received:	1	table: 199267C0	
+[01:18:11]: Request Received:	1	table: 348D2E58	
+[01:18:13]: Request Received:	1	table: 3AE86238	
+[01:18:15]: Request Received:	1	table: 32B0C908	
+[01:18:17]: Request Received:	1	table: 1DBBB600	
+[01:18:19]: Request Received:	1	table: 34E7D188	
+[01:18:21]: Request Received:	1	table: 3B25EC20	
+[01:18:23]: Request Received:	1	table: 38173CE0	
+[01:18:25]: Request Received:	1	table: 1CC1CFD8	
+[01:18:27]: Request Received:	1	table: 222C3968	
+[01:18:29]: Request Received:	1	table: 339089D0	
+[01:18:31]: Request Received:	1	table: 3B004700	
+[01:18:33]: Request Received:	1	table: 08AA7EE8	
+[01:18:35]: Request Received:	1	table: 1A1451B0	
+[01:18:37]: Request Received:	1	table: 2DBCF8A0	
+[01:18:39]: Request Received:	1	table: 3B257B50	
+[01:18:41]: Request Received:	1	table: 27B93448	
+[01:18:43]: Request Received:	1	table: 0C8D5CC8	
+[01:18:45]: Request Received:	1	table: 182054A0	
+[01:18:47]: Request Received:	1	table: 1F36ADA0	
+[01:18:49]: Request Received:	1	table: 2ACC8000	
+[01:18:51]: Request Received:	1	table: 322E3190	
+[01:18:53]: Request Received:	1	table: 377DD978	
+[01:18:55]: Request Received:	1	table: 28D35B58	
+[01:18:56]: Request Received:	1	table: 18E52340	
+[01:18:58]: Request Received:	1	table: 329169B0	
+[01:19:00]: Request Received:	1	table: 29594588	
+[01:19:02]: Request Received:	1	table: 19FCDF18	
+[01:19:04]: Request Received:	1	table: 2275EAA8	
+[01:19:06]: Request Received:	1	table: 33B722D8	
+[01:19:08]: Request Received:	1	table: 32DADCB8	
+[01:19:10]: Request Received:	1	table: 2D5E0C88	
+[01:19:12]: Request Received:	1	table: 3457E138	
+[01:19:14]: Request Received:	1	table: 33FB9250	
+[01:19:16]: Request Received:	1	table: 1BBE2E20	
+[01:19:18]: Request Received:	1	table: 0B8491C0	
+[01:19:20]: Request Received:	1	table: 28A20DF0	
+[01:19:22]: Request Received:	1	table: 2BC8ACD0	
+[01:19:24]: Request Received:	1	table: 33F954B0	
+[01:19:26]: Request Received:	1	table: 32727750	
+[01:19:28]: Request Received:	1	table: 19A6E188	
+[01:19:30]: Request Received:	1	table: 34244428	
+[01:19:33]: Request Received:	1	table: 1BC01010	
+[01:19:35]: Request Received:	1	table: 2EA36088	
+[01:19:37]: Request Received:	1	table: 31C0EC98	
+[01:19:39]: Request Received:	1	table: 365F59C0	
+[01:19:41]: Request Received:	1	table: 2E2003A0	
+[01:19:43]: Request Received:	1	table: 1F707A58	
+[01:19:45]: Request Received:	1	table: 1CA7FF10	
+[01:19:47]: Request Received:	1	table: 2C5B7D98	
+[01:19:49]: Request Received:	1	table: 2CB6EB80	
+[01:19:51]: Request Received:	1	table: 2A0B8D10	
+[01:19:53]: Request Received:	1	table: 2CE3C9F0	
+[01:19:55]: Request Received:	1	table: 2BBF2348	
+[01:19:57]: Request Received:	1	table: 3374EB40	
+[01:19:59]: Request Received:	1	table: 1F0B7368	
+[01:20:01]: Request Received:	1	table: 2CEBC748	
+[01:20:03]: Request Received:	1	table: 1F70B6F8	
+[01:20:05]: Request Received:	1	table: 33687148	
+[01:20:07]: Request Received:	1	table: 29D1DEF0	
+[01:20:09]: Request Received:	1	table: 1B665288	
+[01:20:11]: Request Received:	1	table: 28F0F488	
+[01:20:13]: Request Received:	1	table: 2C681310	
+[01:20:15]: Request Received:	1	table: 2B0B6D00	
+[01:20:17]: Request Received:	1	table: 34E7DA20	
+[01:20:19]: Request Received:	1	table: 19B727F8	
+[01:20:21]: Request Received:	1	table: 19FCE878	
+[01:20:23]: Request Received:	1	table: 33E2F578	
+[01:20:25]: Request Received:	1	table: 1E1F26F8	
+[01:20:27]: Request Received:	1	table: 27CA7928	
+[01:20:29]: Request Received:	1	table: 3B077900	
+[01:20:31]: Request Received:	1	table: 2324D8A8	
+[01:20:33]: Request Received:	1	table: 360BCC20	
+[01:20:35]: Request Received:	1	table: 3AD285F8	
+[01:20:37]: Request Received:	1	table: 3000EF28	
+[01:20:39]: Request Received:	1	table: 2993DBC8	
+[01:20:41]: Request Received:	1	table: 2DBCEC20	
+[01:20:43]: Request Received:	1	table: 19AE1500	
+[01:20:45]: Request Received:	1	table: 3AF18F28	
+[01:20:47]: Request Received:	1	table: 2EA271A0	
+[01:20:49]: Request Received:	1	table: 2DB26010	
+[01:20:51]: Request Received:	1	table: 214B37D8	
+[01:20:53]: Request Received:	1	table: 2E8ACC70	
+[01:20:55]: Request Received:	1	table: 1E4B6C60	
+[01:20:57]: Request Received:	1	table: 289AF788	
+[01:20:59]: Request Received:	1	table: 2E8E0D10	
+[01:21:01]: Request Received:	1	table: 2C338FD0	
+[01:21:04]: Request Received:	1	table: 2C649DF8	
+[01:21:06]: Request Received:	1	table: 28F0E088	
+[01:21:08]: Request Received:	1	table: 1EE19080	
+[01:21:10]: Request Received:	1	table: 2F8845B0	
+[01:21:12]: Request Received:	1	table: 33784560	
+[01:21:14]: Request Received:	1	table: 329C9528	
+[01:21:16]: Request Received:	1	table: 27908498	
+[01:21:18]: Request Received:	1	table: 291EDA70	
+[01:21:20]: Request Received:	1	table: 2D6F5828	
+[01:21:22]: Request Received:	1	table: 2891F260	
+[01:21:24]: Request Received:	1	table: 2D435CB0	
+[01:21:26]: Request Received:	1	table: 18FE06B0	
+[01:21:28]: Request Received:	1	table: 2E1FA360	
+[01:21:30]: Request Received:	1	table: 331A1BF8	
+[01:21:32]: Request Received:	1	table: 1A076298	
+[01:21:34]: Request Received:	1	table: 214B2B08	
+[01:21:36]: Request Received:	1	table: 366AF210	
+[01:21:38]: Request Received:	1	table: 2A580810	
+[01:21:40]: Request Received:	1	table: 2AF023E8	
+[01:21:42]: Request Received:	1	table: 36523830	
+[01:21:44]: Request Received:	1	table: 2948F690	
+[01:21:46]: Request Received:	1	table: 21460E20	
+[01:21:48]: Request Received:	1	table: 1DB6B978	
+[01:21:50]: Request Received:	1	table: 28F36E50	
+[01:21:52]: Request Received:	1	table: 1F0C6F48	
+[01:21:54]: Request Received:	1	table: 2AD047F0	
+[01:21:56]: Request Received:	1	table: 27CAF240	
+[01:21:57]: Request Received:	1	table: 34781DF0	
+[01:21:59]: Request Received:	1	table: 1CA7F6C8	
+[01:22:01]: Request Received:	1	table: 2C00CA30	
+[01:22:03]: Request Received:	1	table: 2BB9B9A8	
+[01:22:05]: Request Received:	1	table: 299386C8	
+[01:22:07]: Request Received:	1	table: 34ACA840	
+[01:22:09]: Request Received:	1	table: 298E8D18	
+[01:22:11]: Request Received:	1	table: 27B9E7A8	
+[01:22:13]: Request Received:	1	table: 33DF5270	
+[01:22:15]: Request Received:	1	table: 371611A0	
+[01:22:17]: Request Received:	1	table: 21584240	
+[01:22:19]: Request Received:	1	table: 0B2A5DC8	
+[01:22:21]: Request Received:	1	table: 3B32E4B8	
+[01:22:23]: Request Received:	1	table: 1DEB5400	
+[01:22:25]: Request Received:	1	table: 3341DFD8	
+[01:22:27]: Request Received:	1	table: 36302B60	
+[01:22:29]: Request Received:	1	table: 375D9D48	
+[01:22:31]: Request Received:	1	table: 27F48590	
+[01:22:33]: Request Received:	1	table: 289B7AA0	
+[01:22:35]: Request Received:	1	table: 290AD068	
+[01:22:37]: Request Received:	1	table: 075C3F40	
+[01:22:39]: Request Received:	1	table: 2B838F78	
+[01:22:41]: Request Received:	1	table: 204C6498	
+[01:22:43]: Request Received:	1	table: 221292A0	
+[01:22:45]: Request Received:	1	table: 32EF6DB0	
+[01:22:47]: Request Received:	1	table: 2B9F5600	
+[01:22:49]: Request Received:	1	table: 1DF71FD0	
+[01:22:51]: Request Received:	1	table: 1DB1FA40	
+[01:22:53]: Request Received:	1	table: 2B1A3500	
+[01:22:55]: Request Received:	1	table: 2CA5E278	
+[01:22:56]: Request Received:	1	table: 1DB73858	
+[01:22:58]: Request Received:	1	table: 363042A8	
+[01:23:00]: Request Received:	1	table: 23229180	
+[01:23:02]: Request Received:	1	table: 32BE6A50	
+[01:23:04]: Request Received:	1	table: 36F605D0	
+[01:23:06]: Request Received:	1	table: 1F8BD640	
+[01:23:08]: Request Received:	1	table: 27CCCC80	
+[01:23:10]: Request Received:	1	table: 1DB264A8	
+[01:23:12]: Request Received:	1	table: 3703BA30	
+[01:23:14]: Request Received:	1	table: 2BD86E88	
+[01:23:16]: Request Received:	1	table: 2E69EC18	
+[01:23:18]: Request Received:	1	table: 3AE945E0	
+[01:23:20]: Request Received:	1	table: 371C72A8	
+[01:23:22]: Request Received:	1	table: 342F4848	
+[01:23:24]: Request Received:	1	table: 2AFA51B0	
+[01:23:26]: Request Received:	1	table: 1ED42FE0	
+[01:23:28]: Request Received:	1	table: 339F39A8	
+[01:23:30]: Request Received:	1	table: 33371F08	
+[01:23:32]: Request Received:	1	table: 1DD3FE90	
+[01:23:34]: Request Received:	1	table: 2273AD78	
+[01:23:36]: Request Received:	1	table: 212E1F10	
+[01:23:38]: Request Received:	1	table: 18F7BD10	
+[01:23:40]: Request Received:	1	table: 2B0AA3E8	
+[01:23:42]: Request Received:	1	table: 18E47788	
+[01:23:44]: Request Received:	1	table: 28B55868	
+[01:23:46]: Request Received:	1	table: 204CA278	
+[01:23:48]: Request Received:	1	table: 1DB20300	
+[01:23:50]: Request Received:	1	table: 30550AB0	
+[01:23:52]: Request Received:	1	table: 2DDFD1E0	
+[01:23:54]: Request Received:	1	table: 216CB8F0	
+[01:23:56]: Request Received:	1	table: 19F63E00	
+[01:23:58]: Request Received:	1	table: 19F6F290	
+[01:24:00]: Request Received:	1	table: 1F0C2100	
+[01:24:02]: Request Received:	1	table: 31C119E8	
+[01:24:04]: Request Received:	1	table: 367B8D78	
+[01:24:06]: Request Received:	1	table: 2CCFD988	
+[01:24:08]: Request Received:	1	table: 2754B260	
+[01:24:10]: Request Received:	1	table: 0B96F870	
+[01:24:12]: Request Received:	1	table: 3481F990	
+[01:24:14]: Request Received:	1	table: 3470FFB8	
+[01:24:16]: Request Received:	1	table: 21933360	
+[01:24:18]: Request Received:	1	table: 204CC9B0	
+[01:24:20]: Request Received:	1	table: 19503E68	
+[01:24:21]: Hound attack: 2526.2664405136	
+[01:24:21]: Registering master server in Sing lobby
+[01:24:22]: Request Received:	1	table: 2E305780	
+[01:24:23]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001207
+[01:24:24]: Serializing world: session/48686DEE875E1292/0000001207
+[01:24:24]: Request Received:	1	table: 0BFA6D10	
+[01:24:26]: Request Received:	1	table: 2D439BD0	
+[01:24:28]: Request Received:	1	table: 2E122CC0	
+[01:24:30]: Request Received:	1	table: 38A01C70	
+[01:24:32]: Request Received:	1	table: 38580AA8	
+[01:24:34]: Request Received:	1	table: 1A41BA00	
+[01:24:36]: Request Received:	1	table: 1B667E98	
+[01:24:38]: Request Received:	1	table: 36F604E0	
+[01:24:40]: Request Received:	1	table: 21D75060	
+[01:24:42]: Request Received:	1	table: 190FB040	
+[01:24:44]: Request Received:	1	table: 2D63E900	
+[01:24:46]: Request Received:	1	table: 281A3AA0	
+[01:24:48]: Request Received:	1	table: 349D3B78	
+[01:24:50]: Request Received:	1	table: 38792970	
+[01:24:52]: Request Received:	1	table: 389E2650	
+[01:24:53]: Request Received:	1	table: 2A8F6AC8	
+[01:24:56]: Request Received:	1	table: 33567DD8	
+[01:24:57]: Request Received:	1	table: 21585E10	
+[01:24:59]: Request Received:	1	table: 2CCF0420	
+[01:25:01]: Request Received:	1	table: 21344918	
+[01:25:03]: Request Received:	1	table: 33E25510	
+[01:25:05]: Request Received:	1	table: 2B6CCD30	
+[01:25:07]: Request Received:	1	table: 2DD4CD90	
+[01:25:09]: Request Received:	1	table: 1C28F350	
+[01:25:11]: Request Received:	1	table: 0B0EB3D0	
+[01:25:13]: Request Received:	1	table: 18E45140	
+[01:25:15]: Request Received:	1	table: 3625E900	
+[01:25:17]: Request Received:	1	table: 2A8BAB98	
+[01:25:19]: Request Received:	1	table: 386635A0	
+[01:25:21]: Request Received:	1	table: 34299790	
+[01:25:23]: Request Received:	1	table: 205AE2C8	
+[01:25:25]: Request Received:	1	table: 387A7270	
+[01:25:27]: Request Received:	1	table: 289B5D40	
+[01:25:29]: Request Received:	1	table: 235AEF78	
+[01:25:31]: Request Received:	1	table: 2AD7C8E8	
+[01:25:33]: Request Received:	1	table: 27A75370	
+[01:25:35]: Request Received:	1	table: 2B008C18	
+[01:25:37]: Request Received:	1	table: 2D89B0F0	
+[01:25:39]: Request Received:	1	table: 1E340398	
+[01:25:41]: Request Received:	1	table: 21FE1060	
+[01:25:43]: Request Received:	1	table: 32081E58	
+[01:25:45]: Request Received:	1	table: 21E46E10	
+[01:25:47]: Request Received:	1	table: 35038378	
+[01:25:49]: Request Received:	1	table: 388B4280	
+[01:25:51]: Request Received:	1	table: 08103310	
+[01:25:53]: Request Received:	1	table: 29D6ECB8	
+[01:25:55]: Request Received:	1	table: 2E00C318	
+[01:25:56]: Request Received:	1	table: 1CC2EDB8	
+[01:25:58]: Request Received:	1	table: 34D4C110	
+[01:26:00]: Request Received:	1	table: 369BC808	
+[01:26:02]: Request Received:	1	table: 21D6E968	
+[01:26:04]: Request Received:	1	table: 3B2EA8A8	
+[01:26:06]: Request Received:	1	table: 220B11F0	
+[01:26:08]: Request Received:	1	table: 1DB0C3F8	
+[01:26:10]: Request Received:	1	table: 19731E78	
+[01:26:12]: Request Received:	1	table: 32149E68	
+[01:26:14]: Request Received:	1	table: 1C148C78	
+[01:26:16]: Request Received:	1	table: 2BD81F00	
+[01:26:18]: Request Received:	1	table: 2929CB98	
+[01:26:20]: Request Received:	1	table: 1C6BAA38	
+[01:26:22]: Request Received:	1	table: 08103928	
+[01:26:24]: Request Received:	1	table: 33E27508	
+[01:26:26]: Request Received:	1	table: 200A7210	
+[01:26:28]: Request Received:	1	table: 36C8CC30	
+[01:26:30]: Request Received:	1	table: 32196478	
+[01:26:32]: Request Received:	1	table: 2E0045F0	
+[01:26:34]: Request Received:	1	table: 0784C320	
+[01:26:36]: Request Received:	1	table: 3B330FD8	
+[01:26:38]: Request Received:	1	table: 1A4CBA48	
+[01:26:40]: Request Received:	1	table: 31C07600	
+[01:26:42]: Request Received:	1	table: 2EBBC368	
+[01:26:44]: Request Received:	1	table: 08BC5088	
+[01:26:46]: Request Received:	1	table: 339F2EB8	
+[01:26:48]: Request Received:	1	table: 1D3FF850	
+[01:26:50]: Request Received:	1	table: 28127498	
+[01:26:52]: Request Received:	1	table: 334A5608	
+[01:26:53]: Request Received:	1	table: 27695790	
+[01:26:55]: Request Received:	1	table: 29594EC0	
+[01:26:57]: Request Received:	1	table: 230D3618	
+[01:26:59]: Request Received:	1	table: 1C9CFE58	
+[01:27:01]: Request Received:	1	table: 2D4EBDD8	
+[01:27:03]: Request Received:	1	table: 1CC2F038	
+[01:27:05]: Request Received:	1	table: 323DA2D8	
+[01:27:07]: Request Received:	1	table: 1E33A240	
+[01:27:09]: Request Received:	1	table: 34126788	
+[01:27:11]: Request Received:	1	table: 3AE14EA0	
+[01:27:13]: Request Received:	1	table: 1E398E78	
+[01:27:15]: Request Received:	1	table: 1D122CE0	
+[01:27:17]: Request Received:	1	table: 0CAF6C20	
+[01:27:19]: Request Received:	1	table: 280FCC80	
+[01:27:21]: Request Received:	1	table: 33AF61B0	
+[01:27:23]: Request Received:	1	table: 1F6B79A0	
+[01:27:25]: Request Received:	1	table: 39CDBBF0	
+[01:27:27]: Request Received:	1	table: 1B72DE00	
+[01:27:29]: Request Received:	1	table: 1964ED30	
+[01:27:31]: Request Received:	1	table: 2778C5D8	
+[01:27:33]: Request Received:	1	table: 2EB8B618	
+[01:27:35]: Request Received:	1	table: 349E1048	
+[01:27:37]: Request Received:	1	table: 36C90FD8	
+[01:27:39]: Request Received:	1	table: 3A2ECE40	
+[01:27:41]: Request Received:	1	table: 32F00158	
+[01:27:43]: Request Received:	1	table: 1C472FC0	
+[01:27:45]: Request Received:	1	table: 22F74EB8	
+[01:27:47]: Request Received:	1	table: 1E63FEF0	
+[01:27:49]: Request Received:	1	table: 35287810	
+[01:27:51]: Request Received:	1	table: 22740048	
+[01:27:53]: Request Received:	1	table: 36EE9460	
+[01:27:54]: Request Received:	1	table: 21E45C40	
+[01:27:56]: Request Received:	1	table: 1F5CDCE0	
+[01:27:58]: Request Received:	1	table: 19842868	
+[01:28:00]: Request Received:	1	table: 3A61F948	
+[01:28:02]: Request Received:	1	table: 1F1E0DF8	
+[01:28:04]: Request Received:	1	table: 2CCEBB78	
+[01:28:06]: Request Received:	1	table: 28D185A0	
+[01:28:08]: Request Received:	1	table: 2146FC90	
+[01:28:10]: Request Received:	1	table: 2DCC00B0	
+[01:28:12]: Request Received:	1	table: 1FBD1438	
+[01:28:14]: Request Received:	1	table: 1F61AC58	
+[01:28:16]: Request Received:	1	table: 38A31770	
+[01:28:18]: Request Received:	1	table: 1E295598	
+[01:28:20]: Request Received:	1	table: 321DB1A8	
+[01:28:22]: Request Received:	1	table: 1C14DE30	
+[01:28:24]: Request Received:	1	table: 338138B0	
+[01:28:26]: Request Received:	1	table: 2D649C88	
+[01:28:28]: Request Received:	1	table: 1DD7E900	
+[01:28:30]: Request Received:	1	table: 1F691B98	
+[01:28:32]: Request Received:	1	table: 18500228	
+[01:28:34]: Request Received:	1	table: 2EA502F0	
+[01:28:36]: Request Received:	1	table: 289B8C70	
+[01:28:38]: Request Received:	1	table: 27909AA0	
+[01:28:40]: Request Received:	1	table: 2014B180	
+[01:28:42]: Request Received:	1	table: 2DC5DA88	
+[01:28:44]: Request Received:	1	table: 19A8A6D0	
+[01:28:46]: Request Received:	1	table: 1C64A5E8	
+[01:28:48]: Request Received:	1	table: 281A0F08	
+[01:28:50]: Request Received:	1	table: 300F95D0	
+[01:28:52]: Request Received:	1	table: 1D09A0D8	
+[01:28:54]: Request Received:	1	table: 2812E8B0	
+[01:28:56]: Request Received:	1	table: 1B9B0B38	
+[01:28:58]: Request Received:	1	table: 23232EB0	
+[01:29:00]: Request Received:	1	table: 2E94FB90	
+[01:29:02]: Request Received:	1	table: 1D235798	
+[01:29:04]: Request Received:	1	table: 1E647F88	
+[01:29:06]: Request Received:	1	table: 1B7336E8	
+[01:29:08]: Request Received:	1	table: 1CC2B708	
+[01:29:10]: Request Received:	1	table: 3894C648	
+[01:29:13]: Request Received:	1	table: 1F7A7190	
+[01:29:15]: Request Received:	1	table: 1FF21CC8	
+[01:29:17]: Request Received:	1	table: 2BE53F80	
+[01:29:19]: Request Received:	1	table: 22755160	
+[01:29:21]: Request Received:	1	table: 2340D3D0	
+[01:29:23]: Request Received:	1	table: 0C8482A8	
+[01:29:25]: Request Received:	1	table: 36DDC908	
+[01:29:27]: Request Received:	1	table: 3ADC4478	
+[01:29:29]: Request Received:	1	table: 1D0B9610	
+[01:29:31]: Request Received:	1	table: 30100A10	
+[01:29:33]: Request Received:	1	table: 1F1D5230	
+[01:29:35]: Request Received:	1	table: 2C8C09B8	
+[01:29:37]: Request Received:	1	table: 34AC7F78	
+[01:29:39]: Request Received:	1	table: 19E111A8	
+[01:29:41]: Request Received:	1	table: 2C24EF60	
+[01:29:43]: Request Received:	1	table: 245C3310	
+[01:29:45]: Request Received:	1	table: 38725C88	
+[01:29:47]: Request Received:	1	table: 2AD0B690	
+[01:29:49]: Request Received:	1	table: 2DEC5600	
+[01:29:51]: Request Received:	1	table: 326332E8	
+[01:29:53]: Request Received:	1	table: 0B96E7E0	
+[01:29:55]: Request Received:	1	table: 1DAF0FA0	
+[01:29:57]: Request Received:	1	table: 198B3430	
+[01:29:59]: Request Received:	1	table: 3477E470	
+[01:30:01]: Request Received:	1	table: 3638F150	
+[01:30:03]: Request Received:	1	table: 1F70B018	
+[01:30:05]: Request Received:	1	table: 0B0E5BB0	
+[01:30:07]: Request Received:	1	table: 2BA08D88	
+[01:30:09]: Request Received:	1	table: 3A61EE08	
+[01:30:11]: Request Received:	1	table: 2DF71A50	
+[01:30:13]: Request Received:	1	table: 341279A8	
+[01:30:15]: Request Received:	1	table: 19728648	
+[01:30:17]: Request Received:	1	table: 1B9A5DA0	
+[01:30:17]: [200] Account Communication Success (6)
+[01:30:17]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:30:19]: Request Received:	1	table: 33784650	
+[01:30:21]: Request Received:	1	table: 1D0BE4A8	
+[01:30:23]: Request Received:	1	table: 388B4AC8	
+[01:30:25]: Request Received:	1	table: 1DF08E38	
+[01:30:26]: [Steam] SendUserDisconnect for '76561198093951120'
+[01:30:26]: [Shard] (KU_c1gvcGFZ) disconnected from [SHDMASTER](1)
+[01:30:26]: Registering master server in Sing lobby
+[01:30:26]: [IPC] Received shutdown signal.
+[01:30:26]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001208
+[01:30:27]: Serializing world: session/48686DEE875E1292/0000001208
+[01:30:27]: Truncating to snapshot #1208...
+[01:30:27]:  - session/48686DEE875E1292/0000001192
+[01:30:27]:  - session/48686DEE875E1292/0000001193
+[01:30:27]:  - session/48686DEE875E1292/0000001194
+[01:30:27]:  - session/48686DEE875E1292/0000001195
+[01:30:27]:  - session/48686DEE875E1292/0000001196
+[01:30:27]:  - session/48686DEE875E1292/0000001197
+[01:30:27]:  - session/48686DEE875E1292/0000001198
+[01:30:27]:  - session/48686DEE875E1292/0000001199
+[01:30:27]:  - session/48686DEE875E1292/0000001200
+[01:30:27]:  - session/48686DEE875E1292/0000001201
+[01:30:27]:  - session/48686DEE875E1292/0000001202
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001202
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001201
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001200
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001199
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001198
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001197
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001196
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001195
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001194
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001193
+[01:30:27]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001192
+[01:30:27]:    22 file(s) removed
+[01:30:27]: Removing server from Sing lobby
+[01:30:27]: [Shard] Stopping shard mode
+[01:30:28]: Collecting garbage...
+[01:30:29]: lua_gc took 0.40 seconds
+[01:30:29]: ~ShardLuaProxy()
+[01:30:29]: ~cEventLeaderboardProxy()
+[01:30:29]: ~ItemServerLuaProxy()
+[01:30:29]: ~InventoryLuaProxy()
+[01:30:29]: ~NetworkLuaProxy()
+[01:30:29]: ~SimLuaProxy()
+[01:30:29]: Cancelling LuaQueryCallback handle [62]
+[01:30:30]: lua_close took 1.18 seconds
+[01:30:30]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[01:30:30]: CurlRequestManager::ClientThread::Main() complete
+[01:30:30]: HttpClient2 discarded 0 callbacks.
+[01:30:30]: Shutting down
