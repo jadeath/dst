@@ -71,7 +71,7 @@ return {
     rock_ice="default",
     sapling="default",
     season_start="default",
-    specialevent="year_of_the_pig",
+    specialevent="hallowed_nights",
     spiders="often",
     spring="default",
     start_location="plus",
@@ -87,6 +87,7 @@ return {
     wildfires="never",
     winter="default",
     world_size="default",
+    worldseed="WORLD VERSION IS TOO OLD",
     wormhole_prefab="wormhole" 
   },
   random_set_pieces={

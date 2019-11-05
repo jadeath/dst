@@ -1,5 +1,35 @@
 return {
   ["workshop-1207269058"]={ configuration_options={  }, enabled=true },
+  ["workshop-1378549454"]={
+    configuration_options={
+      ["MemSpikeFix:"]=false,
+      MemSpikeFixAction="default",
+      MemSpikeFixExtended_Map="default",
+      MemSpikeFixGeometric="default",
+      MemSpikeFixGestures="default",
+      MemSpikeFixItem_Info="default",
+      MemSpikeFixStatus="default",
+      MemSpikeFixmaster_override=true,
+      ["MemSpikeFixworkshop-1207269058"]="default",
+      ["MemSpikeFixworkshop-1299647282"]="default",
+      ["MemSpikeFixworkshop-1416911938"]="default",
+      ["MemSpikeFixworkshop-1445545453"]="default",
+      ["MemSpikeFixworkshop-1608191708"]="default",
+      ["MemSpikeFixworkshop-1842021927"]="default",
+      ["MemSpikeFixworkshop-1852257480"]="default",
+      ["MemSpikeFixworkshop-343753877"]="default",
+      ["MemSpikeFixworkshop-345692228"]="default",
+      ["MemSpikeFixworkshop-365119238"]="default",
+      ["MemSpikeFixworkshop-375850593"]="default",
+      ["MemSpikeFixworkshop-378160973"]="default",
+      ["MemSpikeFixworkshop-478005098"]="default",
+      ["MemSpikeFixworkshop-543945797"]="default",
+      ["MemSpikeFixworkshop-666155465"]="default",
+      ["MemSpikeFixworkshop-758532836"]="default",
+      ["MemSpikeFixworkshop-770901818"]="default" 
+    },
+    enabled=true 
+  },
   ["workshop-1852257480"]={ configuration_options={ horizontal=570, vertical=-30 }, enabled=true },
   ["workshop-375850593"]={ configuration_options={  }, enabled=true },
   ["workshop-543945797"]={
@@ -9,6 +39,17 @@ return {
       dmg_only="on",
       number_size="default",
       show_decimal_points="no" 
+    },
+    enabled=true 
+  },
+  ["workshop-758532836"]={
+    configuration_options={
+      AUTOPAUSECONSOLE=false,
+      AUTOPAUSEMAP=false,
+      AUTOPAUSESINGLEPLAYER=true,
+      ENABLECLIENTPAUSING=false,
+      ENABLEHOTKEY=false,
+      KEYBOARDTOGGLEKEY="P" 
     },
     enabled=true 
   },
