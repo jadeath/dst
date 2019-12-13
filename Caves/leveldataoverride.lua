@@ -45,7 +45,7 @@ return {
     season_start="default",
     slurper="default",
     slurtles="default",
-    specialevent="hallowed_nights",
+    specialevent="winters_feast",
     start_location="caves",
     task_set="cave_default",
     tentacles="default",

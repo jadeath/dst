@@ -71,7 +71,7 @@ return {
     rock_ice="default",
     sapling="default",
     season_start="default",
-    specialevent="hallowed_nights",
+    specialevent="winters_feast",
     spiders="often",
     spring="default",
     start_location="plus",
