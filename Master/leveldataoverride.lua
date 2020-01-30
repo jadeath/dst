@@ -71,7 +71,7 @@ return {
     rock_ice="default",
     sapling="default",
     season_start="default",
-    specialevent="winters_feast",
+    specialevent="year_of_the_carrat",
     spiders="often",
     spring="default",
     start_location="plus",
