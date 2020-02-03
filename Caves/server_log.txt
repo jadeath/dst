@@ -1,9 +1,9 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 71%
-	Available Physical Memory: 4620m/16294m
-	Available Page File: 7968m/28078m
-	Available Virtual Memory: 3985m/4095m
+	Memory Load: 56%
+	Available Physical Memory: 7151m/16294m
+	Available Page File: 11214m/25510m
+	Available Virtual Memory: 3984m/4095m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
 Process Memory:
@@ -12,26 +12,26 @@ Process Memory:
 	Quota Peak Page Pool Usage: 218k
 	Quota Page Pool Usage: 215k
 	Quota Peak Non Paged Pool Usage:17k
-	Quota Non Paged Pool Usage: 16k
+	Quota Non Paged Pool Usage: 17k
 	Page File Usage: 5m
 	Peak Page File Usage: 5m
 [00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Cluster_1/Caves/ 
 [00:00:00]: Starting Up
-[00:00:00]: Version: 391887
-[00:00:00]: Current time: Thu Jan 30 20:12:27 2020
+[00:00:00]: Version: 392682
+[00:00:00]: Current time: Mon Feb 03 21:42:59 2020
 
-[00:00:00]: Don't Starve Together: 391887 WIN32
-[00:00:00]: Build Date: 5036
+[00:00:00]: Don't Starve Together: 392682 WIN32
+[00:00:00]: Build Date: 5059
 [00:00:00]: Mode: 32-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -monitor_parent_process 22112 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198093951120 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region Sing 
+[00:00:00]: Command Line Arguments: -monitor_parent_process 19800 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198093951120 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Slave -region Sing 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: Initializing Minidump handler
 [00:00:00]: ....Done
 [00:00:00]: ....Done
 [00:00:00]: Fixing DPI
 [00:00:00]: ...Done
-[00:00:00]: THREAD - started 'GAClient' (28928)
+[00:00:00]: THREAD - started 'GAClient' (9716)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
@@ -40,26 +40,26 @@ Process Memory:
 [00:00:00]: Mounting file system databundles/bigportraits.zip successful.
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: ProfileIndex:6.81
+[00:00:00]: ProfileIndex:7.35
 [00:00:00]: [Connect] PendingConnection::Reset(true)
-[00:00:00]: THREAD - started 'Ping Job Thread' (18128)
 [00:00:00]: Platform: 1
+[00:00:00]: THREAD - started 'Ping Job Thread' (8172)
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Network tick rate: U=15(2), D=0
 [00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is disabled in the firewall.
 [00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is now enabled in the firewall.
 [00:00:00]: Overriding region to Sing
-[00:00:00]: THREAD - started 'StreamInput' (20116)
 [00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (12412)
 [00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/adminlist.txt (Failure)
 [00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/client_save/whitelist.txt (Failure)
 [00:00:00]: Offline user ID: OU_76561198093951120
 [00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
 [00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:00]: HardwareStats:
+[00:00:01]: HardwareStats:
   OS                        
     name                      Microsoft Windows 10 Home Single Language
-    version                   10.0.18362
+    version                   10.0.18363
     architecture              64-bit
     platformSpecific          SP 0.0
   CPU                       
@@ -78,16 +78,16 @@ Process Memory:
     videoModeDescription      
     driverVersion             25.21.14.2531
 
-[00:00:00]: cGame::InitializeOnMainThread
-[00:00:00]: Renderer initialize: Okay
-[00:00:00]: AnimManager initialize: Okay
-[00:00:00]: Buffers initialize: Okay
-[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:00]: GameSpecific initialize: Okay
-[00:00:00]: cGame::StartPlaying
-[00:00:00]: LOADING LUA
-[00:00:00]: DoLuaFile scripts/main.lua
-[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
 [00:00:01]:   taskgrouplist:	default	Together	
 [00:00:01]:   taskgrouplist:	classic	Classic	
 [00:00:01]:   taskgrouplist:	cave_default	Underground	
@@ -100,233 +100,233 @@ Process Memory:
 Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
 [00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:01]: DownloadMods(0)
-[00:00:01]: modoverrides.lua enabling workshop-1207269058	
-[00:00:01]: modoverrides.lua enabling workshop-1378549454	
-[00:00:01]: modoverrides.lua enabling workshop-758532836	
-[00:00:01]: modoverrides.lua enabling workshop-770901818	
-[00:00:01]: modoverrides.lua enabling workshop-543945797	
-[00:00:01]: modoverrides.lua enabling workshop-1852257480	
-[00:00:01]: modoverrides.lua enabling workshop-375850593	
-[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
-[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
-[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
-[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
-[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-543945797	
-[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
-[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
-[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:01]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:01]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:01]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:01]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:01]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:01]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:01]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:01]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.09	
-[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1378549454_CLIENT	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:01]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:01]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:01]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:01]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:01]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:01]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:01]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:01]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:4.1.1	
-[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:01]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:01]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:01]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:01]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:01]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:01]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:01]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:01]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.4	
-[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:01]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:01]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:01]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:01]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:01]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:01]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:01]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:01]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
-[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-543945797_CLIENT	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:01]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:01]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:01]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:01]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:01]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:01]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:01]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:01]: Loading mod: workshop-543945797 (Damage Indicators Together) Version:0.7.0	
-[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-758532836_CLIENT	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:01]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:01]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:01]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:01]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:01]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:01]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:01]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:01]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
-[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-770901818_CLIENT	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:01]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:01]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:01]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:01]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:01]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:01]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:01]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:01]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:01]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:01]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
-[00:00:01]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
-[00:00:01]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
-[00:00:01]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
-[00:00:02]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
-[00:00:02]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
-[00:00:02]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
-[00:00:02]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
-[00:00:02]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
-[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-770901818 (Hound Attack)	Loading modbackendmain.lua	
-[00:00:02]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modbackendmain.lua	
-[00:00:02]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modmain.lua	
-[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
-[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modbackendmain.lua	
-[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:02]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
-[00:00:02]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
-[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
-[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
-[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
-[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: DownloadMods(0)
+[00:00:02]: modoverrides.lua enabling workshop-1207269058	
+[00:00:02]: modoverrides.lua enabling workshop-1378549454	
+[00:00:02]: modoverrides.lua enabling workshop-758532836	
+[00:00:02]: modoverrides.lua enabling workshop-770901818	
+[00:00:02]: modoverrides.lua enabling workshop-543945797	
+[00:00:02]: modoverrides.lua enabling workshop-1852257480	
+[00:00:02]: modoverrides.lua enabling workshop-375850593	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-543945797	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:02]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:02]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:02]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:02]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:02]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:02]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:02]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:02]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.10	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1378549454_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:02]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:02]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:02]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:02]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:02]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:02]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:02]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:02]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:4.1.1	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:02]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:02]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:02]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:02]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:02]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:02]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:02]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:02]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.4	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:02]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:02]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:02]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:02]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:02]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:02]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:02]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:02]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-543945797_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:02]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:02]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:02]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:02]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:02]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:02]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:02]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:02]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-543945797 (Damage Indicators Together) Version:0.7.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-758532836_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:02]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:02]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:02]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:02]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:02]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:02]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:02]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:02]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-770901818_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:02]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:02]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:02]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:02]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:02]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:02]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:02]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:02]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:02]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:02]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:02]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
+[00:00:02]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
+[00:00:03]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
+[00:00:03]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
+[00:00:03]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
+[00:00:03]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-770901818 (Hound Attack)	Loading modbackendmain.lua	
+[00:00:03]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modbackendmain.lua	
+[00:00:03]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modbackendmain.lua	
+[00:00:03]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
 [00:00:06]: LOADING LUA SUCCESS
 [00:00:06]: Registering mod namespace "workshop-1207269058"
 [00:00:06]: Registering mod namespace "globalpause"
@@ -339,640 +339,682 @@ Please ensure that these point to valid files in your mod folder, or else commen
 [00:00:06]: OnUpdatePurchaseStateComplete	
 [00:00:06]: Klump load on boot started.	
 [00:00:06]: Klump files loaded: 	0	
-[00:00:10]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
-[00:00:10]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
-[00:00:10]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
-[00:00:10]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
+[00:00:11]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
+[00:00:11]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
+[00:00:11]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
 [00:00:11]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
 [00:00:11]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
-[00:00:11]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-543945797 (Damage Indicators Together)	Registering prefabs	
-[00:00:11]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering prefab file: prefabs/dmgind	
-[00:00:11]: Mod: workshop-543945797 (Damage Indicators Together)	    dmgind	
-[00:00:11]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
-[00:00:11]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:11]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:11]: 	Load FE	
-[00:00:12]: 	Load FE: done	
-[00:00:12]: THREAD - started 'FilesExistAsyncThread' (28520)
-[00:00:12]: FilesExistAsyncThread started (14430 files)...
-[00:00:12]: Check for write access: TRUE
-[00:00:12]: Check for read access: TRUE
-[00:00:12]: ModIndex: Load sequence finished successfully.	
-[00:00:12]: Reset() returning
-[00:00:12]: [IPC] Signal 'DST_Slave_Kill' opened  #00000584
-[00:00:12]: [IPC] Registering handler for signal #00000584
-[00:00:12]: [IPC] Handle #00000584 added to the Eventhandles
-[00:00:12]: [IPC] Signal 'DST_Slave_Starting' opened  #00000588
-[00:00:12]: [IPC] Sending signal... #00000588
-[00:00:13]: [200] Account Communication Success (6)
-[00:00:13]: Received (KU_c1gvcGFZ) from TokenPurpose
-[00:00:13]: Starting Dedicated Server Game	
-[00:00:13]: Network tick rate: U=15(2), D=0
-[00:00:13]: About to start a server with the following settings:
-[00:00:13]:   Dedicated: true
-[00:00:13]:   Online: true
-[00:00:13]:   Passworded: false
-[00:00:13]:   ServerPort: 10998
-[00:00:13]:   SteamAuthPort: 8767
-[00:00:13]:   SteamMasterServerPort: 27017
-[00:00:13]:   ClanID: false
-[00:00:13]:   ClanOnly: false
-[00:00:13]:   ClanAdmin: false
-[00:00:13]:   LanOnly: false
-[00:00:13]:   FriendsOnly: true
-[00:00:13]:   EnableAutosaver: true
-[00:00:13]:   EncodeUserPath: true
-[00:00:13]:   PVP: false
-[00:00:13]:   MaxPlayers: 6
-[00:00:13]:   GameMode: survival
-[00:00:13]:   OverridenDNS: 
-[00:00:13]:   PauseWhenEmpty: true
-[00:00:13]:   IdleTimeout: 1800s
-[00:00:13]:   VoteEnabled: false
-[00:00:13]:   InternetBroadcasting: true
-[00:00:13]:   Intent: social
-[00:00:13]: [Warning] Could not confirm port 10998 is open in the firewall. 
-[00:00:13]: Could not load mod_config_data/modconfiguration_workshop-758532836	
-[00:00:13]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
-[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-543945797	
-[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-375850593	
-[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
-[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
-[00:00:14]: Online Server Started on port: 10998
-[00:00:14]: Collecting garbage...
-[00:00:14]: lua_gc took 0.10 seconds
-[00:00:14]: ~ShardLuaProxy()
-[00:00:14]: ~cEventLeaderboardProxy()
-[00:00:14]: ~ItemServerLuaProxy()
-[00:00:14]: ~InventoryLuaProxy()
-[00:00:14]: ~NetworkLuaProxy()
-[00:00:14]: ~SimLuaProxy()
-[00:00:14]: FilesExistAsyncThread aborted.
-[00:00:14]: ... FilesExistAsyncThread complete
-[00:00:14]: lua_close took 0.23 seconds
-[00:00:14]: ReleaseAll
-[00:00:14]: ReleaseAll Finished
-[00:00:14]: cGame::StartPlaying
-[00:00:14]: LOADING LUA
-[00:00:14]: DoLuaFile scripts/main.lua
-[00:00:14]: DoLuaFile loading buffer scripts/main.lua
-[00:00:15]:   taskgrouplist:	default	Together	
-[00:00:15]:   taskgrouplist:	classic	Classic	
-[00:00:15]:   taskgrouplist:	cave_default	Underground	
-[00:00:15]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:00:15]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:00:15]: running main.lua
+[00:00:12]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:00:12]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-543945797 (Damage Indicators Together)	Registering prefabs	
+[00:00:12]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering prefab file: prefabs/dmgind	
+[00:00:12]: Mod: workshop-543945797 (Damage Indicators Together)	    dmgind	
+[00:00:12]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:12]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:12]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:13]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:13]: 	Load FE	
+[00:00:13]: 	Load FE: done	
+[00:00:13]: THREAD - started 'FilesExistAsyncThread' (8312)
+[00:00:13]: FilesExistAsyncThread started (14432 files)...
+[00:00:13]: Check for write access: TRUE
+[00:00:13]: Check for read access: TRUE
+[00:00:13]: ModIndex: Load sequence finished successfully.	
+[00:00:13]: Reset() returning
+[00:00:13]: [IPC] Signal 'DST_Slave_Kill' opened  #000005B8
+[00:00:13]: [IPC] Registering handler for signal #000005B8
+[00:00:13]: [IPC] Handle #000005B8 added to the Eventhandles
+[00:00:13]: [IPC] Signal 'DST_Slave_Starting' opened  #000005BC
+[00:00:13]: [IPC] Sending signal... #000005BC
+[00:00:15]: [200] Account Communication Success (6)
+[00:00:15]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:00:15]: Starting Dedicated Server Game	
+[00:00:15]: Network tick rate: U=15(2), D=0
+[00:00:15]: About to start a server with the following settings:
+[00:00:15]:   Dedicated: true
+[00:00:15]:   Online: true
+[00:00:15]:   Passworded: false
+[00:00:15]:   ServerPort: 10998
+[00:00:15]:   SteamAuthPort: 8767
+[00:00:15]:   SteamMasterServerPort: 27017
+[00:00:15]:   ClanID: false
+[00:00:15]:   ClanOnly: false
+[00:00:15]:   ClanAdmin: false
+[00:00:15]:   LanOnly: false
+[00:00:15]:   FriendsOnly: true
+[00:00:15]:   EnableAutosaver: true
+[00:00:15]:   EncodeUserPath: true
+[00:00:15]:   PVP: false
+[00:00:15]:   MaxPlayers: 6
+[00:00:15]:   GameMode: survival
+[00:00:15]:   OverridenDNS: 
+[00:00:15]:   PauseWhenEmpty: true
+[00:00:15]:   IdleTimeout: 1800s
+[00:00:15]:   VoteEnabled: false
+[00:00:15]:   InternetBroadcasting: true
+[00:00:15]:   Intent: social
+[00:00:15]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:15]: Could not load mod_config_data/modconfiguration_workshop-758532836	
+[00:00:15]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:15]: Could not load mod_config_data/modconfiguration_workshop-543945797	
+[00:00:15]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:15]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
+[00:00:15]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:15]: Online Server Started on port: 10998
+[00:00:16]: Collecting garbage...
+[00:00:16]: lua_gc took 0.11 seconds
+[00:00:16]: ~ShardLuaProxy()
+[00:00:16]: ~cEventLeaderboardProxy()
+[00:00:16]: ~ItemServerLuaProxy()
+[00:00:16]: ~InventoryLuaProxy()
+[00:00:16]: ~NetworkLuaProxy()
+[00:00:16]: ~SimLuaProxy()
+[00:00:16]: FilesExistAsyncThread aborted.
+[00:00:16]: ... FilesExistAsyncThread complete
+[00:00:16]: lua_close took 0.23 seconds
+[00:00:16]: ReleaseAll
+[00:00:16]: ReleaseAll Finished
+[00:00:16]: cGame::StartPlaying
+[00:00:16]: LOADING LUA
+[00:00:16]: DoLuaFile scripts/main.lua
+[00:00:16]: DoLuaFile loading buffer scripts/main.lua
+[00:00:17]:   taskgrouplist:	default	Together	
+[00:00:17]:   taskgrouplist:	classic	Classic	
+[00:00:17]:   taskgrouplist:	cave_default	Underground	
+[00:00:17]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:17]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:17]: running main.lua
 	
-[00:00:15]: unloading prefabs for mod MOD_workshop-1378549454	
-[00:00:15]: unloading prefabs for mod MOD_workshop-758532836	
-[00:00:15]: unloading prefabs for mod MOD_workshop-375850593	
-[00:00:15]: unloading prefabs for mod MOD_workshop-770901818	
-[00:00:15]: unloading prefabs for mod MOD_workshop-543945797	
-[00:00:15]: unloading prefabs for mod MOD_workshop-1852257480	
-[00:00:15]: unloading prefabs for mod MOD_workshop-1207269058	
-[00:00:15]: unloading prefabs for mod dmgind	
-[00:00:15]: unloading prefabs for mod dyc_damagedisplay	
-[00:00:15]: unloading prefabs for mod dyc_healthbar	
-[00:00:15]: unloading prefabs for mod dyc_healthbarchild	
-[00:00:15]: loaded modindex	
-[00:00:15]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+[00:00:17]: unloading prefabs for mod MOD_workshop-1378549454	
+[00:00:17]: unloading prefabs for mod MOD_workshop-758532836	
+[00:00:17]: unloading prefabs for mod MOD_workshop-375850593	
+[00:00:17]: unloading prefabs for mod MOD_workshop-770901818	
+[00:00:17]: unloading prefabs for mod MOD_workshop-543945797	
+[00:00:17]: unloading prefabs for mod MOD_workshop-1852257480	
+[00:00:17]: unloading prefabs for mod MOD_workshop-1207269058	
+[00:00:17]: unloading prefabs for mod dmgind	
+[00:00:17]: unloading prefabs for mod dyc_damagedisplay	
+[00:00:17]: unloading prefabs for mod dyc_healthbar	
+[00:00:17]: unloading prefabs for mod dyc_healthbarchild	
+[00:00:17]: loaded modindex	
+[00:00:17]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
 Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
-[00:00:15]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:17]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:16]: modoverrides.lua enabling workshop-1207269058	
-[00:00:16]: modoverrides.lua enabling workshop-1378549454	
-[00:00:16]: modoverrides.lua enabling workshop-758532836	
-[00:00:16]: modoverrides.lua enabling workshop-770901818	
-[00:00:16]: modoverrides.lua enabling workshop-543945797	
-[00:00:16]: modoverrides.lua enabling workshop-1852257480	
-[00:00:16]: modoverrides.lua enabling workshop-375850593	
-[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
-[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
-[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
-[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
-[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-543945797	
-[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
-[00:00:16]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
-[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:16]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:16]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:16]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:16]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:16]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:16]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:16]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:16]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:16]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:16]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:16]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:16]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.09	
-[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:16]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:16]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:16]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:16]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:16]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:16]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:16]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:16]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:16]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:16]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:16]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:16]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:4.1.1	
-[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:16]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:16]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:16]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:16]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:16]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:16]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:16]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:16]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:16]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:16]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:16]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:16]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.4	
-[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-375850593	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:16]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:16]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:16]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:16]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:16]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:16]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:16]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:16]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:16]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:16]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:16]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:16]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
-[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-543945797	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:16]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:16]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:16]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:16]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:16]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:16]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:16]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:16]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:16]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:16]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:16]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:16]: Loading mod: workshop-543945797 (Damage Indicators Together) Version:0.7.0	
-[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-758532836	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:16]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:16]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:16]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:16]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:16]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:16]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:16]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:16]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:16]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:16]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:16]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:16]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
-[00:00:16]: Could not load mod_config_data/modconfiguration_workshop-770901818	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
-[00:00:16]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
-[00:00:16]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
-[00:00:16]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
-[00:00:16]: Overriding mod workshop-770901818's option enable_houndattack with value true	
-[00:00:16]: Overriding mod workshop-770901818's option format with value complex	
-[00:00:16]: Overriding mod workshop-770901818's option days with value 2	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
-[00:00:16]: Overriding mod workshop-543945797's option dmg_only with value on	
-[00:00:16]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
-[00:00:16]: Overriding mod workshop-543945797's option display_mode with value waving	
-[00:00:16]: Overriding mod workshop-543945797's option show_decimal_points with value no	
-[00:00:16]: Overriding mod workshop-543945797's option number_size with value default	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
-[00:00:16]: Overriding mod workshop-1852257480's option vertical with value -30	
-[00:00:16]: Overriding mod workshop-1852257480's option horizontal with value 570	
-[00:00:16]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
-[00:00:16]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
-[00:00:16]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
-[00:00:16]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
-[00:00:16]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
-[00:00:16]: AddPortMapping(10998, 10998, 192.168.0.103) failed with code -3 (UnknownError)
-[00:00:16]: AddPortMapping(10998, 10998, 192.168.0.103) failed with code -3 (UnknownError)
-[00:00:16]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
-[00:00:16]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
-[00:00:17]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
-[00:00:17]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
-[00:00:17]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
-[00:00:17]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
-[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
-[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
-[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
-[00:00:17]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
-[00:00:17]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-770901818 (Hound Attack)	Loading modbackendmain.lua	
-[00:00:17]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
-[00:00:17]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modworldgenmain.lua	
-[00:00:17]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modbackendmain.lua	
-[00:00:17]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modmain.lua	
-[00:00:17]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
-[00:00:17]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modbackendmain.lua	
-[00:00:17]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
-[00:00:17]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
-[00:00:17]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
-[00:00:21]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:21]: LOADING LUA SUCCESS
-[00:00:21]: Registering mod namespace "workshop-1207269058"
-[00:00:21]: Registering mod namespace "globalpause"
-[00:00:21]: PlayerDeaths could not load morgue	
-[00:00:21]: PlayerHistory could not load player_history	
-[00:00:21]: ServerPreferences could not load server_preferences	
-[00:00:21]: bloom_enabled	false	
-[00:00:21]: loaded saveindex	
-[00:00:21]: OnFilesLoaded()	
-[00:00:21]: OnUpdatePurchaseStateComplete	
-[00:00:21]: Loading world: session/794B33BF27E88865/0000001749	
-[00:00:22]: Save file is at version 5.031	
-[00:00:22]: Klump load on boot started.	
-[00:00:22]: Klump files loaded: 	0	
-[00:00:22]: 	Unload FE	
-[00:00:22]: 	Unload FE done	
-[00:00:49]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
-[00:00:49]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
-[00:00:49]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
-[00:00:49]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
-[00:00:49]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
-[00:00:49]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
-[00:00:49]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
-[00:00:49]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
-[00:00:49]: Mod: workshop-543945797 (Damage Indicators Together)	Registering prefabs	
-[00:00:49]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering prefab file: prefabs/dmgind	
-[00:00:49]: Mod: workshop-543945797 (Damage Indicators Together)	    dmgind	
-[00:00:49]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering default mod prefab	
-[00:00:49]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
-[00:00:49]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
-[00:00:49]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
-[00:00:49]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
-[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
-[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
-[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
-[00:00:50]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
-[00:00:50]: 	LOAD BE	
-[00:00:58]: Could not preload undefined prefab (yotc_shrinecarrat)
-[00:00:59]: 	LOAD BE: done	
-[00:00:59]: Loading GemCore's DynamicTileManager	
-[00:00:59]: Loading Dynamic Gem Core Tiles!	
-[00:01:00]: Found a level data override file with these contents:	
-[00:01:00]: 	K: 	background_node_range	 V: 	table: 07929680	
-[00:01:00]: 		K: 	1	 V: 	0	
-[00:01:00]: 		K: 	2	 V: 	1	
-[00:01:00]: 	K: 	desc	 V: 	Delve into the caves... together!	
-[00:01:00]: 	K: 	hideminimap	 V: 	false	
-[00:01:00]: 	K: 	id	 V: 	DST_CAVE	
-[00:01:00]: 	K: 	location	 V: 	cave	
-[00:01:00]: 	K: 	max_playlist_position	 V: 	999	
-[00:01:00]: 	K: 	min_playlist_position	 V: 	0	
-[00:01:00]: 	K: 	name	 V: 	The Caves	
-[00:01:00]: 	K: 	numrandom_set_pieces	 V: 	0	
-[00:01:00]: 	K: 	override_level_string	 V: 	false	
-[00:01:00]: 	K: 	overrides	 V: 	table: 07929838	
-[00:01:00]: 		K: 	banana	 V: 	default	
-[00:01:00]: 		K: 	bats	 V: 	default	
-[00:01:00]: 		K: 	berrybush	 V: 	default	
-[00:01:00]: 		K: 	boons	 V: 	always	
-[00:01:00]: 		K: 	branching	 V: 	default	
-[00:01:00]: 		K: 	bunnymen	 V: 	default	
-[00:01:00]: 		K: 	cave_ponds	 V: 	default	
-[00:01:00]: 		K: 	cave_spiders	 V: 	default	
-[00:01:00]: 		K: 	cavelight	 V: 	default	
-[00:01:00]: 		K: 	chess	 V: 	default	
-[00:01:00]: 		K: 	disease_delay	 V: 	none	
-[00:01:00]: 		K: 	earthquakes	 V: 	default	
-[00:01:00]: 		K: 	fern	 V: 	default	
-[00:01:00]: 		K: 	fissure	 V: 	default	
-[00:01:00]: 		K: 	flint	 V: 	default	
-[00:01:00]: 		K: 	flower_cave	 V: 	default	
-[00:01:00]: 		K: 	grass	 V: 	default	
-[00:01:00]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
-[00:01:00]: 		K: 	lichen	 V: 	default	
-[00:01:00]: 		K: 	liefs	 V: 	default	
-[00:01:00]: 		K: 	loop	 V: 	default	
-[00:01:00]: 		K: 	marshbush	 V: 	default	
-[00:01:00]: 		K: 	monkey	 V: 	default	
-[00:01:00]: 		K: 	mushroom	 V: 	default	
-[00:01:00]: 		K: 	mushtree	 V: 	default	
-[00:01:00]: 		K: 	prefabswaps_start	 V: 	default	
-[00:01:00]: 		K: 	reeds	 V: 	default	
-[00:01:00]: 		K: 	regrowth	 V: 	default	
-[00:01:00]: 		K: 	roads	 V: 	never	
-[00:01:00]: 		K: 	rock	 V: 	default	
-[00:01:00]: 		K: 	rocky	 V: 	default	
-[00:01:00]: 		K: 	sapling	 V: 	default	
-[00:01:00]: 		K: 	season_start	 V: 	default	
-[00:01:00]: 		K: 	slurper	 V: 	default	
-[00:01:00]: 		K: 	slurtles	 V: 	default	
-[00:01:00]: 		K: 	specialevent	 V: 	year_of_the_carrat	
-[00:01:00]: 		K: 	start_location	 V: 	caves	
-[00:01:00]: 		K: 	task_set	 V: 	cave_default	
-[00:01:00]: 		K: 	tentacles	 V: 	default	
-[00:01:00]: 		K: 	touchstone	 V: 	always	
-[00:01:00]: 		K: 	trees	 V: 	default	
-[00:01:00]: 		K: 	weather	 V: 	default	
-[00:01:00]: 		K: 	world_size	 V: 	default	
-[00:01:00]: 		K: 	worldseed	 V: 	WORLD VERSION IS TOO OLD	
-[00:01:00]: 		K: 	wormattacks	 V: 	default	
-[00:01:00]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
-[00:01:00]: 		K: 	wormlights	 V: 	default	
-[00:01:00]: 		K: 	worms	 V: 	default	
-[00:01:00]: 	K: 	required_prefabs	 V: 	table: 07929DD8	
-[00:01:00]: 		K: 	1	 V: 	multiplayer_portal	
-[00:01:00]: 	K: 	substitutes	 V: 	table: 0792AEE0	
-[00:01:00]: 	K: 	version	 V: 	4	
-[00:01:00]: Loaded and applied level data override from ../leveldataoverride.lua	
-[00:01:00]: Not applying world gen overrides.	
-[00:01:00]: Begin Session: 794B33BF27E88865
-[00:01:01]: saving to server_temp/server_save	
-[00:01:05]: Overriding World Event to: year_of_the_pig	
-[00:01:05]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:01:05]: Loading 16 new character(s)	
-[00:01:07]: Total 16 character(s) loaded	
-[00:01:28]: Loading Nav Grid	
-[00:01:28]: World generated on version 314835, using seed: 1552132906	
-[00:01:28]: setting 	summerlength	15	
-[00:01:28]: setting 	isnightmaredawn	false	
-[00:01:28]: setting 	elapseddaysinseason	12	
-[00:01:28]: setting 	isfullmoon	false	
-[00:01:28]: setting 	moisture	1760.0711669922	
-[00:01:28]: setting 	springlength	20	
-[00:01:28]: setting 	isnightmarewild	false	
-[00:01:28]: setting 	moonphase	new	
-[00:01:28]: setting 	precipitationrate	0	
-[00:01:28]: setting 	iswet	true	
-[00:01:28]: setting 	isnewmoon	false	
-[00:01:28]: setting 	iswinter	true	
-[00:01:28]: setting 	israining	false	
-[00:01:28]: setting 	isnightmarewarn	true	
-[00:01:28]: setting 	precipitation	none	
-[00:01:28]: setting 	cavephase	dusk	
-[00:01:28]: setting 	moistureceil	1839.2553710938	
-[00:01:28]: setting 	isday	false	
-[00:01:28]: setting 	iscaveday	false	
-[00:01:28]: setting 	season	winter	
-[00:01:28]: setting 	timeinphase	0.69798126220703	
-[00:01:28]: setting 	temperature	-7.5254004694995	
-[00:01:28]: setting 	isnightmarecalm	false	
-[00:01:28]: setting 	isnight	true	
-[00:01:28]: setting 	isdusk	false	
-[00:01:28]: setting 	iscavedusk	true	
-[00:01:28]: setting 	isautumn	false	
-[00:01:28]: setting 	issnowing	false	
-[00:01:28]: setting 	iswaxingmoon	true	
-[00:01:28]: setting 	pop	0.87709576487342	
-[00:01:28]: setting 	snowlevel	0	
-[00:01:28]: setting 	issnowcovered	false	
-[00:01:28]: setting 	autumnlength	20	
-[00:01:28]: setting 	phase	night	
-[00:01:28]: setting 	nightmaretime	409.48680034167	
-[00:01:28]: setting 	winterlength	15	
-[00:01:28]: setting 	isspring	false	
-[00:01:28]: setting 	nightmarephase	warn	
-[00:01:28]: setting 	remainingdaysinseason	3	
-[00:01:28]: setting 	cycles	1572	
-[00:01:28]: setting 	iscavenight	false	
-[00:01:28]: setting 	nightmaretimeinphase	0.54985333712965	
-[00:01:28]: setting 	wetness	50.368328094482	
-[00:01:28]: setting 	time	0.57424297332764	
-[00:01:28]: setting 	issummer	false	
-[00:01:28]: [Shard] Slave is waiting for LUA...
-[00:01:28]: OVERRIDE: setting	disease_delay	to	none	
-[00:01:39]: Reconstructing topology	
-[00:01:39]: 	...Sorting points	
-[00:01:39]: 	...Sorting edges	
-[00:01:39]: 	...Connecting nodes	
-[00:01:39]: 	...Validating connections	
-[00:01:39]: 	...Housekeeping	
-[00:01:40]: 	...Done!	
-[00:01:40]: 1 uploads added to server. From server_temp
-[00:01:40]: About to start a shard with these settings:
-[00:01:40]:   ShardName: Caves
-[00:01:40]:   ShardID: 2868293775
-[00:01:40]:   ShardRole: SLAVE
-[00:01:40]:   MasterHost: 127.0.0.1
-[00:01:40]:   MasterBind: (null)
-[00:01:40]:   MasterPort: 10888
-[00:01:40]: [Shard] Connecting to master...
-[00:01:40]: Telling Client our new session identifier: 794B33BF27E88865
-[00:01:40]: Check for write access: TRUE
-[00:01:40]: Check for read access: TRUE
-[00:01:40]: ModIndex: Load sequence finished successfully.	
-[00:01:40]: Reset() returning
-[00:01:40]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
-[00:01:42]: [Steam] SteamGameServer_Init success
-[00:01:42]: [Shard] Connection to master failed. Waiting to reconnect...
-[00:01:42]: Validating portal[4] <-> 1[4] (inactive)	
-[00:01:42]: Validating portal[10] <-> 1[10] (inactive)	
-[00:01:42]: Validating portal[2] <-> 1[2] (inactive)	
-[00:01:42]: Validating portal[6] <-> 1[6] (inactive)	
-[00:01:42]: Validating portal[1] <-> 1[1] (inactive)	
-[00:01:43]: Validating portal[3] <-> 1[3] (inactive)	
-[00:01:43]: Validating portal[9] <-> 1[9] (inactive)	
-[00:01:43]: Validating portal[5] <-> 1[5] (inactive)	
-[00:01:43]: Validating portal[8] <-> 1[8] (inactive)	
-[00:01:43]: Validating portal[7] <-> 1[7] (inactive)	
-[00:01:43]: Gameserver logged on to Steam, assigned identity steamid:90132303125522442
-[00:01:47]: About to start a shard with these settings:
-[00:01:47]:   ShardName: Caves
-[00:01:47]:   ShardID: 2868293775
-[00:01:47]:   ShardRole: SLAVE
-[00:01:47]:   MasterHost: 127.0.0.1
-[00:01:47]:   MasterBind: (null)
-[00:01:47]:   MasterPort: 10888
-[00:01:47]: [Shard] Connecting to master...
-[00:01:51]: [Shard] Sending slave information to master...
-[00:02:03]: Registering slave in Sing lobby
-[00:02:03]: [Shard] Slave is now ready!
-[00:02:03]: World 1 is now connected	
-[00:02:03]: Validating portal[4] <-> 1[4] (active)	
-[00:02:03]: Validating portal[10] <-> 1[10] (active)	
-[00:02:03]: Validating portal[2] <-> 1[2] (active)	
-[00:02:03]: Validating portal[6] <-> 1[6] (active)	
-[00:02:03]: Validating portal[1] <-> 1[1] (active)	
-[00:02:03]: Validating portal[3] <-> 1[3] (active)	
-[00:02:03]: Validating portal[9] <-> 1[9] (active)	
-[00:02:03]: Validating portal[5] <-> 1[5] (active)	
-[00:02:03]: Validating portal[8] <-> 1[8] (active)	
-[00:02:03]: Validating portal[7] <-> 1[7] (active)	
-[00:02:04]: [Shard] Slave LUA is now ready!
-[00:02:04]: [IPC] Signal 'DST_Slave_Ready' opened  #00000614
-[00:02:04]: [IPC] Sending signal... #00000614
-[00:02:04]: Sim paused
-[00:02:43]: Sim unpaused
-[00:06:51]: Serializing world: session/794B33BF27E88865/0000001750
-[00:06:51]: Truncating to snapshot #1750...
-[00:06:51]:  - session/794B33BF27E88865/0000001744
-[00:06:51]:    1 file(s) removed
-[00:07:03]: Registering slave in Sing lobby
-[00:07:41]: Registering slave in Sing lobby
-[00:07:42]: Gameserver logged on to Steam, assigned identity steamid:90132303125522442
-[00:07:42]: Registering slave in Sing lobby
-[00:12:42]: Registering slave in Sing lobby
-[00:14:55]: Serializing world: session/794B33BF27E88865/0000001751
-[00:14:55]: Truncating to snapshot #1751...
-[00:14:55]:  - session/794B33BF27E88865/0000001745
-[00:14:55]:    1 file(s) removed
-[00:17:42]: Registering slave in Sing lobby
-[00:22:42]: Registering slave in Sing lobby
-[00:23:00]: Serializing world: session/794B33BF27E88865/0000001752
-[00:23:00]: Truncating to snapshot #1752...
-[00:23:00]:  - session/794B33BF27E88865/0000001746
-[00:23:00]:    1 file(s) removed
-[00:27:42]: Registering slave in Sing lobby
-[00:30:13]: [200] Account Communication Success (6)
-[00:30:13]: Received (KU_c1gvcGFZ) from TokenPurpose
-[00:31:17]: Serializing world: session/794B33BF27E88865/0000001753
-[00:31:17]: Truncating to snapshot #1753...
-[00:31:17]:  - session/794B33BF27E88865/0000001747
-[00:31:17]:    1 file(s) removed
-[00:32:42]: Registering slave in Sing lobby
-[00:33:01]: Start world reset countdown... 120 seconds...	
-[00:33:14]: Stop world reset countdown	
-[00:37:42]: Registering slave in Sing lobby
-[00:39:30]: Serializing world: session/794B33BF27E88865/0000001754
-[00:39:30]: Truncating to snapshot #1754...
-[00:39:30]:  - session/794B33BF27E88865/0000001748
-[00:39:30]:    1 file(s) removed
-[00:42:42]: Registering slave in Sing lobby
-[00:47:38]: Serializing world: session/794B33BF27E88865/0000001755
-[00:47:38]: Truncating to snapshot #1755...
-[00:47:38]:  - session/794B33BF27E88865/0000001749
-[00:47:38]:    1 file(s) removed
-[00:47:42]: Registering slave in Sing lobby
-[00:52:42]: Registering slave in Sing lobby
-[00:57:42]: Registering slave in Sing lobby
-[01:00:13]: [200] Account Communication Success (6)
-[01:00:13]: Received (KU_c1gvcGFZ) from TokenPurpose
-[01:02:42]: Registering slave in Sing lobby
-[01:07:42]: Registering slave in Sing lobby
-[01:12:12]: [Shard] We have been disconnected from the master. Waiting to reconnect...
-[01:12:12]: Sim paused
-[01:12:17]: About to start a shard with these settings:
-[01:12:17]:   ShardName: Caves
-[01:12:17]:   ShardID: 2868293775
-[01:12:17]:   ShardRole: SLAVE
-[01:12:17]:   MasterHost: 127.0.0.1
-[01:12:17]:   MasterBind: (null)
-[01:12:17]:   MasterPort: 10888
-[01:12:17]: [Shard] Connecting to master...
-[01:12:18]: [IPC] Received shutdown signal.
-[01:12:20]: Serializing world: session/794B33BF27E88865/0000001756
-[01:12:20]: Truncating to snapshot #1756...
-[01:12:20]:  - session/794B33BF27E88865/0000001750
-[01:12:20]:    1 file(s) removed
-[01:12:20]: [Shard] Stopping shard mode
-[01:12:21]: Collecting garbage...
-[01:12:21]: lua_gc took 0.23 seconds
-[01:12:21]: ~ShardLuaProxy()
-[01:12:21]: ~cEventLeaderboardProxy()
-[01:12:21]: ~ItemServerLuaProxy()
-[01:12:21]: ~InventoryLuaProxy()
-[01:12:21]: ~NetworkLuaProxy()
-[01:12:21]: ~SimLuaProxy()
-[01:12:21]: lua_close took 0.57 seconds
-[01:12:22]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-[01:12:22]: CurlRequestManager::ClientThread::Main() complete
-[01:12:22]: HttpClient2 discarded 0 callbacks.
-[01:12:22]: Shutting down
+[00:00:18]: modoverrides.lua enabling workshop-1207269058	
+[00:00:18]: modoverrides.lua enabling workshop-1378549454	
+[00:00:18]: modoverrides.lua enabling workshop-758532836	
+[00:00:18]: modoverrides.lua enabling workshop-770901818	
+[00:00:18]: modoverrides.lua enabling workshop-543945797	
+[00:00:18]: modoverrides.lua enabling workshop-1852257480	
+[00:00:18]: modoverrides.lua enabling workshop-375850593	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-543945797	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:18]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:18]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:18]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:18]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:18]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:18]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:18]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:18]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:18]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.10	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:18]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:18]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:18]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:18]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:18]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:18]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:18]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:18]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:18]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:4.1.1	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:18]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:18]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:18]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:18]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:18]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:18]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:18]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:18]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:18]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.4	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:18]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:18]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:18]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:18]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:18]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:18]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:18]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:18]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:18]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-543945797	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:18]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:18]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:18]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:18]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:18]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:18]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:18]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:18]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:18]: Loading mod: workshop-543945797 (Damage Indicators Together) Version:0.7.0	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-758532836	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:18]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:18]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:18]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:18]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:18]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:18]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:18]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:18]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:18]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
+[00:00:18]: Could not load mod_config_data/modconfiguration_workshop-770901818	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:18]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:18]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:18]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:18]: Overriding mod workshop-770901818's option format with value complex	
+[00:00:18]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-543945797	
+[00:00:18]: Overriding mod workshop-543945797's option dmg_only with value on	
+[00:00:18]: Overriding mod workshop-543945797's option amount_of_numbers with value default	
+[00:00:18]: Overriding mod workshop-543945797's option display_mode with value waving	
+[00:00:18]: Overriding mod workshop-543945797's option show_decimal_points with value no	
+[00:00:18]: Overriding mod workshop-543945797's option number_size with value default	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:18]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:18]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
+[00:00:18]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
+[00:00:19]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
+[00:00:19]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
+[00:00:19]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
+[00:00:19]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
+[00:00:19]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-770901818 (Hound Attack)	Loading modbackendmain.lua	
+[00:00:19]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modbackendmain.lua	
+[00:00:19]: Mod: workshop-543945797 (Damage Indicators Together)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-543945797 (Damage Indicators Together)	Loading modmain.lua	
+[00:00:19]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modbackendmain.lua	
+[00:00:19]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
+[00:00:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:25]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:25]: LOADING LUA SUCCESS
+[00:00:25]: Registering mod namespace "workshop-1207269058"
+[00:00:25]: Registering mod namespace "globalpause"
+[00:00:25]: PlayerDeaths could not load morgue	
+[00:00:25]: PlayerHistory could not load player_history	
+[00:00:25]: ServerPreferences could not load server_preferences	
+[00:00:25]: bloom_enabled	false	
+[00:00:25]: loaded saveindex	
+[00:00:25]: OnFilesLoaded()	
+[00:00:25]: OnUpdatePurchaseStateComplete	
+[00:00:25]: Loading world: session/794B33BF27E88865/0000001765	
+[00:00:26]: Save file is at version 5.031	
+[00:00:26]: Klump load on boot started.	
+[00:00:26]: Klump files loaded: 	0	
+[00:00:26]: 	Unload FE	
+[00:00:26]: 	Unload FE done	
+[00:01:32]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
+[00:01:32]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
+[00:01:32]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
+[00:01:32]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
+[00:01:32]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:01:32]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:01:32]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:01:32]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:01:32]: Mod: workshop-543945797 (Damage Indicators Together)	Registering prefabs	
+[00:01:32]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering prefab file: prefabs/dmgind	
+[00:01:32]: Mod: workshop-543945797 (Damage Indicators Together)	    dmgind	
+[00:01:32]: Mod: workshop-543945797 (Damage Indicators Together)	  Registering default mod prefab	
+[00:01:32]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:01:32]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:01:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:01:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:01:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:01:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:01:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:01:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:01:32]: 	LOAD BE	
+[00:01:51]: Could not preload undefined prefab (yotc_shrinecarrat)
+[00:01:54]: 	LOAD BE: done	
+[00:01:55]: Loading GemCore's DynamicTileManager	
+[00:01:55]: Loading Dynamic Gem Core Tiles!	
+[00:01:55]: Found a level data override file with these contents:	
+[00:01:55]: 	K: 	background_node_range	 V: 	table: 0C8EC588	
+[00:01:55]: 		K: 	1	 V: 	0	
+[00:01:55]: 		K: 	2	 V: 	1	
+[00:01:55]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:01:55]: 	K: 	hideminimap	 V: 	false	
+[00:01:55]: 	K: 	id	 V: 	DST_CAVE	
+[00:01:55]: 	K: 	location	 V: 	cave	
+[00:01:55]: 	K: 	max_playlist_position	 V: 	999	
+[00:01:55]: 	K: 	min_playlist_position	 V: 	0	
+[00:01:55]: 	K: 	name	 V: 	The Caves	
+[00:01:55]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:01:55]: 	K: 	override_level_string	 V: 	false	
+[00:01:55]: 	K: 	overrides	 V: 	table: 0C8EC880	
+[00:01:55]: 		K: 	banana	 V: 	default	
+[00:01:55]: 		K: 	bats	 V: 	default	
+[00:01:55]: 		K: 	berrybush	 V: 	default	
+[00:01:55]: 		K: 	boons	 V: 	always	
+[00:01:55]: 		K: 	branching	 V: 	default	
+[00:01:55]: 		K: 	bunnymen	 V: 	default	
+[00:01:55]: 		K: 	cave_ponds	 V: 	default	
+[00:01:55]: 		K: 	cave_spiders	 V: 	default	
+[00:01:55]: 		K: 	cavelight	 V: 	default	
+[00:01:55]: 		K: 	chess	 V: 	default	
+[00:01:55]: 		K: 	disease_delay	 V: 	none	
+[00:01:55]: 		K: 	earthquakes	 V: 	default	
+[00:01:55]: 		K: 	fern	 V: 	default	
+[00:01:55]: 		K: 	fissure	 V: 	default	
+[00:01:55]: 		K: 	flint	 V: 	default	
+[00:01:55]: 		K: 	flower_cave	 V: 	default	
+[00:01:55]: 		K: 	grass	 V: 	default	
+[00:01:55]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:01:55]: 		K: 	lichen	 V: 	default	
+[00:01:55]: 		K: 	liefs	 V: 	default	
+[00:01:55]: 		K: 	loop	 V: 	default	
+[00:01:55]: 		K: 	marshbush	 V: 	default	
+[00:01:55]: 		K: 	monkey	 V: 	default	
+[00:01:55]: 		K: 	mushroom	 V: 	default	
+[00:01:55]: 		K: 	mushtree	 V: 	default	
+[00:01:55]: 		K: 	prefabswaps_start	 V: 	default	
+[00:01:55]: 		K: 	reeds	 V: 	default	
+[00:01:55]: 		K: 	regrowth	 V: 	default	
+[00:01:55]: 		K: 	roads	 V: 	never	
+[00:01:55]: 		K: 	rock	 V: 	default	
+[00:01:55]: 		K: 	rocky	 V: 	default	
+[00:01:55]: 		K: 	sapling	 V: 	default	
+[00:01:55]: 		K: 	season_start	 V: 	default	
+[00:01:55]: 		K: 	slurper	 V: 	default	
+[00:01:55]: 		K: 	slurtles	 V: 	default	
+[00:01:55]: 		K: 	specialevent	 V: 	year_of_the_carrat	
+[00:01:55]: 		K: 	start_location	 V: 	caves	
+[00:01:55]: 		K: 	task_set	 V: 	cave_default	
+[00:01:55]: 		K: 	tentacles	 V: 	default	
+[00:01:55]: 		K: 	touchstone	 V: 	always	
+[00:01:55]: 		K: 	trees	 V: 	default	
+[00:01:55]: 		K: 	weather	 V: 	default	
+[00:01:55]: 		K: 	world_size	 V: 	default	
+[00:01:55]: 		K: 	worldseed	 V: 	WORLD VERSION IS TOO OLD	
+[00:01:55]: 		K: 	wormattacks	 V: 	default	
+[00:01:55]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:01:55]: 		K: 	wormlights	 V: 	default	
+[00:01:55]: 		K: 	worms	 V: 	default	
+[00:01:55]: 	K: 	required_prefabs	 V: 	table: 0C8EC8A8	
+[00:01:55]: 		K: 	1	 V: 	multiplayer_portal	
+[00:01:55]: 	K: 	substitutes	 V: 	table: 0C8ECC18	
+[00:01:55]: 	K: 	version	 V: 	4	
+[00:01:55]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:01:55]: Not applying world gen overrides.	
+[00:01:55]: Begin Session: 794B33BF27E88865
+[00:01:58]: saving to server_temp/server_save	
+[00:02:04]: Overriding World Event to: year_of_the_pig	
+[00:02:04]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:02:04]: Loading 16 new character(s)	
+[00:02:08]: Total 16 character(s) loaded	
+[00:02:29]: Loading Nav Grid	
+[00:02:29]: World generated on version 314835, using seed: 1552132906	
+[00:02:29]: setting 	summerlength	15	
+[00:02:29]: setting 	isnightmaredawn	true	
+[00:02:29]: setting 	elapseddaysinseason	9	
+[00:02:29]: setting 	isfullmoon	false	
+[00:02:29]: setting 	moisture	2843.1809082031	
+[00:02:29]: setting 	springlength	20	
+[00:02:29]: setting 	isnightmarewild	false	
+[00:02:29]: setting 	moonphase	new	
+[00:02:29]: setting 	precipitationrate	0	
+[00:02:29]: setting 	iswet	false	
+[00:02:29]: setting 	isnewmoon	false	
+[00:02:29]: setting 	iswinter	false	
+[00:02:29]: setting 	israining	false	
+[00:02:29]: setting 	isnightmarewarn	false	
+[00:02:29]: setting 	precipitation	none	
+[00:02:29]: setting 	cavephase	dusk	
+[00:02:29]: setting 	moistureceil	3206.8825683594	
+[00:02:29]: setting 	isday	false	
+[00:02:29]: setting 	iscaveday	false	
+[00:02:29]: setting 	season	spring	
+[00:02:29]: setting 	timeinphase	0.83491363525391	
+[00:02:29]: setting 	temperature	17.324978338187	
+[00:02:29]: setting 	isnightmarecalm	false	
+[00:02:29]: setting 	isnight	true	
+[00:02:29]: setting 	isdusk	false	
+[00:02:29]: setting 	iscavedusk	true	
+[00:02:29]: setting 	isautumn	false	
+[00:02:29]: setting 	issnowing	false	
+[00:02:29]: setting 	iswaxingmoon	true	
+[00:02:29]: setting 	pop	0.8606595843116	
+[00:02:29]: setting 	snowlevel	0	
+[00:02:29]: setting 	issnowcovered	false	
+[00:02:29]: setting 	autumnlength	20	
+[00:02:29]: setting 	phase	night	
+[00:02:29]: setting 	nightmaretime	639.46397387209	
+[00:02:29]: setting 	winterlength	15	
+[00:02:29]: setting 	isspring	true	
+[00:02:29]: setting 	nightmarephase	dawn	
+[00:02:29]: setting 	remainingdaysinseason	11	
+[00:02:29]: setting 	cycles	1584	
+[00:02:29]: setting 	iscavenight	false	
+[00:02:29]: setting 	nightmaretimeinphase	0.6577328978681	
+[00:02:29]: setting 	wetness	10.012084960938	
+[00:02:29]: setting 	time	0.72995681762695	
+[00:02:29]: setting 	issummer	false	
+[00:02:29]: [Shard] Slave is waiting for LUA...
+[00:02:29]: OVERRIDE: setting	disease_delay	to	none	
+[00:02:50]: prize manager: data.prize	nil	
+[00:02:50]: prize manager: _prize 	1577	1584	
+[00:02:50]: Reconstructing topology	
+[00:02:50]: 	...Sorting points	
+[00:02:50]: 	...Sorting edges	
+[00:02:50]: 	...Connecting nodes	
+[00:02:50]: 	...Validating connections	
+[00:02:51]: 	...Housekeeping	
+[00:02:51]: 	...Done!	
+[00:02:51]: 1 uploads added to server. From server_temp
+[00:02:51]: About to start a shard with these settings:
+[00:02:51]:   ShardName: Caves
+[00:02:51]:   ShardID: 2868293775
+[00:02:51]:   ShardRole: SLAVE
+[00:02:51]:   MasterHost: 127.0.0.1
+[00:02:51]:   MasterBind: (null)
+[00:02:51]:   MasterPort: 10888
+[00:02:51]: [Shard] Connecting to master...
+[00:02:51]: Telling Client our new session identifier: 794B33BF27E88865
+[00:02:51]: Check for write access: TRUE
+[00:02:51]: Check for read access: TRUE
+[00:02:51]: ModIndex: Load sequence finished successfully.	
+[00:02:52]: Reset() returning
+[00:02:52]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
+[00:02:55]: [Steam] SteamGameServer_Init success
+[00:02:55]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:02:56]: Validating portal[6] <-> 1[6] (inactive)	
+[00:02:56]: Validating portal[9] <-> 1[9] (inactive)	
+[00:02:56]: Validating portal[4] <-> 1[4] (inactive)	
+[00:02:56]: Validating portal[8] <-> 1[8] (inactive)	
+[00:02:56]: Validating portal[1] <-> 1[1] (inactive)	
+[00:02:56]: Validating portal[3] <-> 1[3] (inactive)	
+[00:02:56]: Validating portal[2] <-> 1[2] (inactive)	
+[00:02:56]: Validating portal[5] <-> 1[5] (inactive)	
+[00:02:56]: Validating portal[7] <-> 1[7] (inactive)	
+[00:02:56]: Validating portal[10] <-> 1[10] (inactive)	
+[00:02:56]: Gameserver logged on to Steam, assigned identity steamid:90132409941727237
+[00:03:00]: About to start a shard with these settings:
+[00:03:00]:   ShardName: Caves
+[00:03:00]:   ShardID: 2868293775
+[00:03:00]:   ShardRole: SLAVE
+[00:03:00]:   MasterHost: 127.0.0.1
+[00:03:00]:   MasterBind: (null)
+[00:03:00]:   MasterPort: 10888
+[00:03:00]: [Shard] Connecting to master...
+[00:03:10]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:03:15]: About to start a shard with these settings:
+[00:03:15]:   ShardName: Caves
+[00:03:15]:   ShardID: 2868293775
+[00:03:15]:   ShardRole: SLAVE
+[00:03:15]:   MasterHost: 127.0.0.1
+[00:03:15]:   MasterBind: (null)
+[00:03:15]:   MasterPort: 10888
+[00:03:15]: [Shard] Connecting to master...
+[00:03:15]: [Shard] Sending slave information to master...
+[00:03:23]: Registering slave in Sing lobby
+[00:03:24]: [Shard] Slave is now ready!
+[00:03:24]: World 1 is now connected	
+[00:03:24]: Validating portal[6] <-> 1[6] (active)	
+[00:03:24]: Validating portal[9] <-> 1[9] (active)	
+[00:03:24]: Validating portal[4] <-> 1[4] (active)	
+[00:03:24]: Validating portal[8] <-> 1[8] (active)	
+[00:03:24]: Validating portal[1] <-> 1[1] (active)	
+[00:03:24]: Validating portal[3] <-> 1[3] (active)	
+[00:03:24]: Validating portal[2] <-> 1[2] (active)	
+[00:03:24]: Validating portal[5] <-> 1[5] (active)	
+[00:03:24]: Validating portal[7] <-> 1[7] (active)	
+[00:03:24]: Validating portal[10] <-> 1[10] (active)	
+[00:03:25]: [Shard] Slave LUA is now ready!
+[00:03:25]: [IPC] Signal 'DST_Slave_Ready' opened  #000006FC
+[00:03:25]: [IPC] Sending signal... #000006FC
+[00:03:25]: Sim paused
+[00:04:38]: Sim unpaused
+[00:06:13]: Registering slave in Sing lobby
+[00:06:20]: Gameserver logged on to Steam, assigned identity steamid:90132409941727237
+[00:06:20]: Registering slave in Sing lobby
+[00:07:29]: Serializing world: session/794B33BF27E88865/0000001766
+[00:07:29]: Truncating to snapshot #1766...
+[00:07:29]:  - session/794B33BF27E88865/0000001760
+[00:07:29]:    1 file(s) removed
+[00:11:20]: Registering slave in Sing lobby
+[00:15:42]: Serializing world: session/794B33BF27E88865/0000001767
+[00:15:42]: Truncating to snapshot #1767...
+[00:15:42]:  - session/794B33BF27E88865/0000001761
+[00:15:42]:    1 file(s) removed
+[00:16:20]: Registering slave in Sing lobby
+[00:21:20]: Registering slave in Sing lobby
+[00:23:51]: Serializing world: session/794B33BF27E88865/0000001768
+[00:23:51]: Truncating to snapshot #1768...
+[00:23:51]:  - session/794B33BF27E88865/0000001762
+[00:23:51]:    1 file(s) removed
+[00:26:20]: Registering slave in Sing lobby
+[00:30:14]: [200] Account Communication Success (6)
+[00:30:14]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:31:20]: Registering slave in Sing lobby
+[00:32:03]: Serializing world: session/794B33BF27E88865/0000001769
+[00:32:03]: Truncating to snapshot #1769...
+[00:32:03]:  - session/794B33BF27E88865/0000001763
+[00:32:03]:    1 file(s) removed
+[00:34:25]: CURL ERROR: (dst.metrics.klei.com) Resolving timed out after 5000 milliseconds
+[00:36:20]: Registering slave in Sing lobby
+[00:36:21]: CURL ERROR: (lobby-sing.kleientertainment.com) Could not resolve host: lobby-sing.kleientertainment.com
+[00:36:21]: Failed to send shard broadcast message
+[00:37:06]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[00:37:06]: Failed VersionCheckFileDetailsResponse
+[00:37:06]: Failure error code received: 0
+[00:37:06]: With Body: 
+[00:39:25]: CURL ERROR: (dst.metrics.klei.com) Resolving timed out after 5000 milliseconds
+[00:40:12]: Serializing world: session/794B33BF27E88865/0000001770
+[00:40:12]: Truncating to snapshot #1770...
+[00:40:12]:  - session/794B33BF27E88865/0000001764
+[00:40:12]:    1 file(s) removed
+[00:41:08]: Registering slave in Sing lobby
+[00:41:08]: CURL ERROR: (lobby-sing.kleientertainment.com) Could not resolve host: lobby-sing.kleientertainment.com
+[00:41:08]: Failed to send shard broadcast message
+[00:41:22]: Gameserver logged on to Steam, assigned identity steamid:90132409941727237
+[00:41:22]: Registering slave in Sing lobby
+[00:46:22]: Registering slave in Sing lobby
+[00:48:22]: Serializing world: session/794B33BF27E88865/0000001771
+[00:48:22]: Truncating to snapshot #1771...
+[00:48:22]:  - session/794B33BF27E88865/0000001765
+[00:48:22]:    1 file(s) removed
+[00:49:31]: CURL ERROR: (dst.metrics.klei.com) Resolving timed out after 5000 milliseconds
+[00:50:53]: Registering slave in Sing lobby
+[00:52:24]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[00:52:24]: Failed VersionCheckFileDetailsResponse
+[00:52:24]: Failure error code received: 0
+[00:52:24]: With Body: 
+[00:52:25]: CURL ERROR: (api.steampowered.com) Could not resolve host: api.steampowered.com
+[00:52:25]: Failed VersionCheckFileDetailsResponse
+[00:52:25]: Failure error code received: 0
+[00:52:25]: With Body: 
+[00:52:25]: CURL ERROR: (api.steampowered.com) Could not resolve host: api.steampowered.com
+[00:52:25]: Failed VersionCheckFileDetailsResponse
+[00:52:25]: Failure error code received: 0
+[00:52:25]: With Body: 
+[00:52:25]: CURL ERROR: (api.steampowered.com) Could not resolve host: api.steampowered.com
+[00:52:25]: Failed VersionCheckFileDetailsResponse
+[00:52:25]: Failure error code received: 0
+[00:52:25]: With Body: 
+[00:52:26]: CURL ERROR: (api.steampowered.com) Could not resolve host: api.steampowered.com
+[00:52:26]: Failed VersionCheckFileDetailsResponse
+[00:52:26]: Failure error code received: 0
+[00:52:26]: With Body: 
+[00:54:30]: CURL ERROR: (dst.metrics.klei.com) Resolving timed out after 5062 milliseconds
+[00:54:51]: Gameserver logged on to Steam, assigned identity steamid:90132409941727237
+[00:54:51]: Registering slave in Sing lobby
+[00:56:30]: Registering slave in Sing lobby
+[00:56:36]: Serializing world: session/794B33BF27E88865/0000001772
+[00:56:36]: Truncating to snapshot #1772...
+[00:56:36]:  - session/794B33BF27E88865/0000001766
+[00:56:36]:    1 file(s) removed
+[00:57:38]: CURL ERROR: (api.steampowered.com) Operation too slow. Less than 5 bytes/sec transferred the last 30 seconds
+[00:57:38]: Error parsing JSON
+[00:57:40]: Registering slave in Sing lobby
+[00:57:40]: Gameserver logged on to Steam, assigned identity steamid:90132409941727237
+[00:57:46]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:57:46]: Sim paused
+[00:57:50]: CURL ERROR: (api.steampowered.com) Could not resolve host: api.steampowered.com
+[00:57:50]: Failed VersionCheckFileDetailsResponse
+[00:57:50]: Failure error code received: 0
+[00:57:50]: With Body: 
+[00:57:51]: [IPC] Received shutdown signal.
+[00:57:53]: Serializing world: session/794B33BF27E88865/0000001773
+[00:57:53]: Truncating to snapshot #1773...
+[00:57:53]:  - session/794B33BF27E88865/0000001767
+[00:57:53]:    1 file(s) removed
+[00:57:53]: [Shard] Stopping shard mode
+[00:57:54]: Collecting garbage...
+[00:57:54]: lua_gc took 0.46 seconds
+[00:57:54]: ~ShardLuaProxy()
+[00:57:54]: ~cEventLeaderboardProxy()
+[00:57:54]: ~ItemServerLuaProxy()
+[00:57:54]: ~InventoryLuaProxy()
+[00:57:54]: ~NetworkLuaProxy()
+[00:57:54]: ~SimLuaProxy()
+[00:57:55]: lua_close took 1.18 seconds
+[00:57:56]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:57:56]: CurlRequestManager::ClientThread::Main() complete
+[00:57:56]: HttpClient2 discarded 0 callbacks.
+[00:57:56]: Shutting down
