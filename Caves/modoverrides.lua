@@ -35,16 +35,6 @@ return {
   },
   ["workshop-1852257480"]={ configuration_options={ horizontal=570, vertical=-30 }, enabled=true },
   ["workshop-375850593"]={ configuration_options={  }, enabled=true },
-  ["workshop-543945797"]={
-    configuration_options={
-      amount_of_numbers="default",
-      display_mode="waving",
-      dmg_only="on",
-      number_size="default",
-      show_decimal_points="no" 
-    },
-    enabled=true 
-  },
   ["workshop-758532836"]={
     configuration_options={
       AUTOPAUSECONSOLE=false,
