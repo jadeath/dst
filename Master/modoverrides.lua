@@ -18,6 +18,7 @@ return {
       ["MemSpikeFixworkshop-1608191708"]="default",
       ["MemSpikeFixworkshop-1842021927"]="default",
       ["MemSpikeFixworkshop-1852257480"]="default",
+      ["MemSpikeFixworkshop-1901928376"]="default",
       ["MemSpikeFixworkshop-343753877"]="default",
       ["MemSpikeFixworkshop-345692228"]="default",
       ["MemSpikeFixworkshop-351325790"]="default",
@@ -30,11 +31,11 @@ return {
       ["MemSpikeFixworkshop-758532836"]="default",
       ["MemSpikeFixworkshop-770901818"]="default",
       ["MemSpikeFixworkshop-873350047"]="default",
-      ["MemSpikeFixworkshop-944320099"]="default" 
+      ["MemSpikeFixworkshop-944320099"]="default",
+      craftinghighlight=false 
     },
     enabled=true 
   },
-  ["workshop-1852257480"]={ configuration_options={ horizontal=570, vertical=-30 }, enabled=true },
   ["workshop-375850593"]={ configuration_options={  }, enabled=true },
   ["workshop-758532836"]={
     configuration_options={
@@ -45,10 +46,6 @@ return {
       ENABLEHOTKEY=false,
       KEYBOARDTOGGLEKEY="P" 
     },
-    enabled=true 
-  },
-  ["workshop-770901818"]={
-    configuration_options={ days=2, enable_houndattack=true, format="complex" },
     enabled=true 
   } 
 }

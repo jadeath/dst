@@ -1,0 +1,451 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 62%
+	Available Physical Memory: 6096m/16294m
+	Available Page File: 6280m/25510m
+	Available Virtual Memory: 3985m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 218k
+	Quota Page Pool Usage: 215k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 16k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 402187
+[00:00:00]: Current time: Sun Apr 19 13:35:17 2020
+
+[00:00:00]: Don't Starve Together: 402187 WIN32
+[00:00:00]: Build Date: 5177
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 21448 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198093951120 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region Sing 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (20024)
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:9.36
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: THREAD - started 'Ping Job Thread' (2188)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is disabled in the firewall.
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is now enabled in the firewall.
+[00:00:00]: Overriding region to Sing
+[00:00:00]: THREAD - started 'StreamInput' (27536)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198093951120
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 Home Single Language
+    version                   10.0.18363
+    architecture              64-bit
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  2
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce 920M
+    driverDate                20190409000000.000000-000
+    megsOfRam                 4095
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             25.21.14.2531
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: DownloadMods(0)
+[00:00:02]: modoverrides.lua enabling workshop-375850593	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:02]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: PlayerDeaths could not load morgue	
+[00:00:07]: PlayerHistory could not load player_history	
+[00:00:07]: ServerPreferences could not load server_preferences	
+[00:00:07]: bloom_enabled	false	
+[00:00:07]: loaded saveindex	
+[00:00:07]: OnFilesLoaded()	
+[00:00:07]: OnUpdatePurchaseStateComplete	
+[00:00:07]: Klump load on boot started.	
+[00:00:07]: Klump files loaded: 	0	
+[00:00:12]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:12]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:12]: 	Load FE	
+[00:00:13]: 	Load FE: done	
+[00:00:13]: THREAD - started 'FilesExistAsyncThread' (24380)
+[00:00:13]: FilesExistAsyncThread started (14646 files)...
+[00:00:13]: Check for write access: TRUE
+[00:00:13]: Check for read access: TRUE
+[00:00:13]: ModIndex: Load sequence finished successfully.	
+[00:00:13]: Reset() returning
+[00:00:13]: [IPC] Signal 'DST_Master_Kill' opened  #00000428
+[00:00:13]: [IPC] Registering handler for signal #00000428
+[00:00:13]: [IPC] Handle #00000428 added to the Eventhandles
+[00:00:13]: [IPC] Signal 'DST_Master_Starting' opened  #00000594
+[00:00:13]: [IPC] Sending signal... #00000594
+[00:00:14]: [200] Account Communication Success (6)
+[00:00:14]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:00:14]: Starting Dedicated Server Game	
+[00:00:14]: Network tick rate: U=15(2), D=0
+[00:00:14]: About to start a server with the following settings:
+[00:00:14]:   Dedicated: true
+[00:00:14]:   Online: true
+[00:00:14]:   Passworded: false
+[00:00:14]:   ServerPort: 10999
+[00:00:14]:   SteamAuthPort: 8766
+[00:00:14]:   SteamMasterServerPort: 27016
+[00:00:14]:   ClanID: false
+[00:00:14]:   ClanOnly: false
+[00:00:14]:   ClanAdmin: false
+[00:00:14]:   LanOnly: false
+[00:00:14]:   FriendsOnly: true
+[00:00:14]:   EnableAutosaver: true
+[00:00:14]:   EncodeUserPath: true
+[00:00:14]:   PVP: false
+[00:00:14]:   MaxPlayers: 6
+[00:00:14]:   GameMode: survival
+[00:00:14]:   OverridenDNS: 
+[00:00:14]:   PauseWhenEmpty: true
+[00:00:14]:   IdleTimeout: 1800s
+[00:00:14]:   VoteEnabled: false
+[00:00:14]:   InternetBroadcasting: true
+[00:00:14]:   Intent: social
+[00:00:14]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:14]: Online Server Started on port: 10999
+[00:00:14]: Collecting garbage...
+[00:00:15]: lua_gc took 0.25 seconds
+[00:00:15]: ~ShardLuaProxy()
+[00:00:15]: ~cEventLeaderboardProxy()
+[00:00:15]: ~ItemServerLuaProxy()
+[00:00:15]: ~InventoryLuaProxy()
+[00:00:15]: ~NetworkLuaProxy()
+[00:00:15]: ~SimLuaProxy()
+[00:00:15]: FilesExistAsyncThread aborted.
+[00:00:15]: ... FilesExistAsyncThread complete
+[00:00:15]: lua_close took 0.29 seconds
+[00:00:15]: ReleaseAll
+[00:00:15]: ReleaseAll Finished
+[00:00:15]: cGame::StartPlaying
+[00:00:15]: LOADING LUA
+[00:00:15]: DoLuaFile scripts/main.lua
+[00:00:15]: DoLuaFile loading buffer scripts/main.lua
+[00:00:16]:   taskgrouplist:	default	Together	
+[00:00:16]:   taskgrouplist:	classic	Classic	
+[00:00:16]:   taskgrouplist:	cave_default	Underground	
+[00:00:16]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:16]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:16]: running main.lua
+	
+[00:00:16]: unloading prefabs for mod MOD_workshop-375850593	
+[00:00:16]: loaded modindex	
+[00:00:16]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:16]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:17]: modoverrides.lua enabling workshop-375850593	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:17]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:18]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:18]: LOADING LUA SUCCESS
+[00:00:19]: PlayerDeaths could not load morgue	
+[00:00:19]: PlayerHistory could not load player_history	
+[00:00:19]: ServerPreferences could not load server_preferences	
+[00:00:19]: bloom_enabled	false	
+[00:00:19]: loaded saveindex	
+[00:00:19]: OnFilesLoaded()	
+[00:00:19]: OnUpdatePurchaseStateComplete	
+[00:00:19]: Loading world: session/48686DEE875E1292/0000001984	
+[00:00:20]: Save file is at version 5.031	
+[00:00:20]: Klump load on boot started.	
+[00:00:20]: Klump files loaded: 	0	
+[00:00:20]: 	Unload FE	
+[00:00:20]: 	Unload FE done	
+[00:00:26]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:26]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:26]: 	LOAD BE	
+[00:00:53]: 	LOAD BE: done	
+[00:00:54]: Begin Session: 48686DEE875E1292
+[00:00:56]: saving to server_temp/server_save	
+[00:00:59]: Overriding World Event to: year_of_the_carrat	
+[00:00:59]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:01:00]: Loading 16 new character(s)	
+[00:01:02]: Total 16 character(s) loaded	
+[00:01:07]: Loading Nav Grid	
+[00:01:07]: World generated on version 314835, using seed: 1552132906	
+[00:01:07]: setting 	summerlength	15	
+[00:01:07]: setting 	isnightmaredawn	false	
+[00:01:07]: setting 	elapseddaysinseason	10	
+[00:01:07]: setting 	isfullmoon	false	
+[00:01:07]: setting 	moisture	4884.7885742188	
+[00:01:07]: setting 	springlength	20	
+[00:01:07]: setting 	isnightmarewild	false	
+[00:01:07]: setting 	moonphase	new	
+[00:01:07]: setting 	precipitationrate	0	
+[00:01:07]: setting 	iswet	false	
+[00:01:07]: setting 	isnewmoon	false	
+[00:01:07]: setting 	iswinter	false	
+[00:01:07]: setting 	israining	false	
+[00:01:07]: setting 	isnightmarewarn	false	
+[00:01:07]: setting 	precipitation	none	
+[00:01:07]: setting 	cavephase	day	
+[00:01:07]: setting 	moistureceil	6503.181640625	
+[00:01:07]: setting 	isday	true	
+[00:01:07]: setting 	iscaveday	true	
+[00:01:07]: setting 	season	autumn	
+[00:01:07]: setting 	timeinphase	0.81176697413127	
+[00:01:07]: setting 	temperature	29.081333451134	
+[00:01:07]: setting 	isnightmarecalm	false	
+[00:01:07]: setting 	isnight	false	
+[00:01:07]: setting 	isdusk	false	
+[00:01:07]: setting 	iscavedusk	false	
+[00:01:07]: setting 	isautumn	true	
+[00:01:07]: setting 	issnowing	false	
+[00:01:07]: setting 	iswaxingmoon	true	
+[00:01:07]: setting 	pop	0.73374505566466	
+[00:01:07]: setting 	snowlevel	0	
+[00:01:07]: setting 	issnowcovered	false	
+[00:01:07]: setting 	autumnlength	20	
+[00:01:07]: setting 	phase	day	
+[00:01:07]: setting 	nightmaretime	0	
+[00:01:07]: setting 	winterlength	15	
+[00:01:07]: setting 	isspring	false	
+[00:01:07]: setting 	nightmarephase	none	
+[00:01:07]: setting 	remainingdaysinseason	10	
+[00:01:07]: setting 	cycles	1760	
+[00:01:07]: setting 	iscavenight	false	
+[00:01:07]: setting 	nightmaretimeinphase	0	
+[00:01:07]: setting 	wetness	0	
+[00:01:07]: setting 	time	0.40588348706563	
+[00:01:07]: setting 	issummer	false	
+[00:01:07]: OVERRIDE: setting	disease_delay	to	none	
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:01:57]: Could not find anim build FROMNUM
+[00:02:01]: Reconstructing topology	
+[00:02:01]: 	...Sorting points	
+[00:02:01]: 	...Sorting edges	
+[00:02:01]: 	...Connecting nodes	
+[00:02:01]: 	...Validating connections	
+[00:02:01]: 	...Housekeeping	
+[00:02:01]: 	...Done!	
+[00:02:01]: 1 uploads added to server. From server_temp
+[00:02:01]: About to start a shard with these settings:
+[00:02:01]:   ShardName: [SHDMASTER]
+[00:02:01]:   ShardID: 1
+[00:02:01]:   ShardRole: MASTER
+[00:02:01]:   MasterHost: (null)
+[00:02:01]:   MasterBind: 127.0.0.1
+[00:02:01]:   MasterPort: 10888
+[00:02:01]: [Shard] Starting master server
+[00:02:01]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:02:01]: [Shard] Shard server started on port: 10888
+[00:02:01]: [IPC] Signal 'DST_Master_Ready' opened  #000003D4
+[00:02:01]: [IPC] Sending signal... #000003D4
+[00:02:01]: Telling Client our new session identifier: 48686DEE875E1292
+[00:02:01]: Check for write access: TRUE
+[00:02:01]: Check for read access: TRUE
+[00:02:01]: ModIndex: Load sequence finished successfully.	
+[00:02:17]: Reset() returning
+[00:02:17]: [Steam] SteamGameServer_Init(8766, 10999, 27016)
+[00:02:18]: [Steam] SteamGameServer_Init success
+[00:02:20]: Validating portal[3] <-> 2868293775[3] (inactive)	
+[00:02:20]: Validating portal[2] <-> 2868293775[2] (inactive)	
+[00:02:20]: Validating portal[4] <-> 2868293775[4] (inactive)	
+[00:02:21]: Validating portal[6] <-> 2868293775[6] (inactive)	
+[00:02:21]: Validating portal[1] <-> 2868293775[1] (inactive)	
+[00:02:21]: Validating portal[10] <-> 2868293775[10] (inactive)	
+[00:02:22]: Validating portal[9] <-> 2868293775[9] (inactive)	
+[00:02:22]: Validating portal[7] <-> 2868293775[7] (inactive)	
+[00:02:22]: Validating portal[8] <-> 2868293775[8] (inactive)	
+[00:02:22]: Validating portal[5] <-> 2868293775[5] (inactive)	
+[00:02:23]: Sim paused
+[00:02:23]: Gameserver logged on to Steam, assigned identity steamid:90134527183352838
+[00:02:23]: Registering master server in Sing lobby
+[00:02:24]: [Shard] Slave Caves(2868293775) connected: [LAN] 127.0.0.1
+[00:02:25]: [Shard] Slave Caves(2868293775) ready!
+[00:02:25]: World 2868293775 is now connected	
+[00:02:25]: Validating portal[3] <-> 2868293775[3] (active)	
+[00:02:25]: Validating portal[2] <-> 2868293775[2] (active)	
+[00:02:25]: Validating portal[4] <-> 2868293775[4] (active)	
+[00:02:25]: Validating portal[6] <-> 2868293775[6] (active)	
+[00:02:25]: Validating portal[1] <-> 2868293775[1] (active)	
+[00:02:25]: Validating portal[10] <-> 2868293775[10] (active)	
+[00:02:25]: Validating portal[9] <-> 2868293775[9] (active)	
+[00:02:25]: Validating portal[7] <-> 2868293775[7] (active)	
+[00:02:25]: Validating portal[8] <-> 2868293775[8] (active)	
+[00:02:25]: Validating portal[5] <-> 2868293775[5] (active)	
+[00:02:27]: New incoming connection 127.0.0.1|64618 <2192809500636647258>
+[00:02:27]: Client connected from [LAN] 127.0.0.1|64618 <2192809500636647258>
+[00:02:27]: ValidateGameSessionToken pgs-usc^KU_c1gvcGFZ^DontStarveTogether^cvEHGe0ErvLmQ9n7J8egfjoZ3y4voR7i8xJ3dcBteEA= for <2192809500636647258>
+[00:02:28]: Client authenticated: (KU_c1gvcGFZ) jadeath
+[00:02:28]: [Steam] Authenticated host '76561198093951120'
+[00:02:30]: There is no active event to validate against.
+[00:02:30]: [Shard] Read save location file for (KU_c1gvcGFZ)
+[00:02:33]: Registering master server in Sing lobby
+[00:03:02]: Resuming user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001984
+[00:03:02]: Could not find anim build FROMNUM
+[00:03:02]: Could not find anim build FROMNUM
+[00:03:02]: Could not find anim build FROMNUM
+[00:03:02]: Spawning player at: [Load] (-238.53, 0.00, 746.14)	
+[00:03:02]: Sim unpaused
+[00:03:08]: Registering master server in Sing lobby
+[00:07:53]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001985
+[00:07:56]: Serializing world: session/48686DEE875E1292/0000001985
+[00:07:56]: Registering master server in Sing lobby
+[00:15:57]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001986
+[00:16:00]: Serializing world: session/48686DEE875E1292/0000001986
+[00:16:01]: Registering master server in Sing lobby
+[00:19:39]: Could not find anim [chop_tall_monster] in bank [FROMNUM]
+[00:24:05]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001987
+[00:24:08]: Serializing world: session/48686DEE875E1292/0000001987
+[00:24:08]: Registering master server in Sing lobby
+[00:30:14]: [200] Account Communication Success (6)
+[00:30:14]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:32:11]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001988
+[00:32:14]: Serializing world: session/48686DEE875E1292/0000001988
+[00:32:14]: Registering master server in Sing lobby
+[00:32:58]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[00:38:16]: Could not find anim [transform_out] in bank [FROMNUM]
+[00:40:23]: Registering master server in Sing lobby
+[00:40:25]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001989
+[00:40:31]: Serializing world: session/48686DEE875E1292/0000001989
+[00:47:21]: Could not find anim build FROMNUM
+[00:47:32]: Could not find anim build FROMNUM
+[00:47:58]: Could not find anim build FROMNUM
+[00:48:10]: Could not find anim build FROMNUM
+[00:48:14]: Could not find anim build FROMNUM
+[00:48:30]: Could not find anim build FROMNUM
+[00:48:33]: Could not find anim build FROMNUM
+[00:48:34]: Registering master server in Sing lobby
+[00:48:37]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001990
+[00:48:40]: Serializing world: session/48686DEE875E1292/0000001990
+[00:48:51]: Could not find anim build FROMNUM
+[00:48:56]: Could not find anim build FROMNUM
+[00:49:05]: Could not find anim build FROMNUM
+[00:49:09]: Could not find anim build FROMNUM
+[00:49:20]: Could not find anim build FROMNUM
+[00:56:41]: Registering master server in Sing lobby
+[00:56:43]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001991
+[00:56:46]: Serializing world: session/48686DEE875E1292/0000001991
+[00:57:28]: [Steam] SendUserDisconnect for '76561198093951120'
+[00:57:28]: [Shard] (KU_c1gvcGFZ) disconnected from [SHDMASTER](1)
+[00:57:28]: [IPC] Received shutdown signal.
+[00:57:29]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000001992
+[00:57:31]: Serializing world: session/48686DEE875E1292/0000001992
+[00:57:31]: Truncating to snapshot #1992...
+[00:57:31]:  - session/48686DEE875E1292/0000001979
+[00:57:31]:  - session/48686DEE875E1292/0000001980
+[00:57:31]:  - session/48686DEE875E1292/0000001981
+[00:57:31]:  - session/48686DEE875E1292/0000001982
+[00:57:31]:  - session/48686DEE875E1292/0000001983
+[00:57:31]:  - session/48686DEE875E1292/0000001984
+[00:57:31]:  - session/48686DEE875E1292/0000001985
+[00:57:31]:  - session/48686DEE875E1292/0000001986
+[00:57:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001986
+[00:57:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001985
+[00:57:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001984
+[00:57:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001983
+[00:57:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001981
+[00:57:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001980
+[00:57:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000001975
+[00:57:31]:    15 file(s) removed
+[00:57:31]:  > session/48686DEE875E1292/A7KO3ASPI0V3/savelocation
+[00:57:31]:    1 file(s) updated
+[00:57:31]: Removing server from Sing lobby
+[00:57:31]: [Shard] Stopping shard mode
+[00:57:32]: Collecting garbage...
+[00:57:32]: lua_gc took 0.50 seconds
+[00:57:33]: ~ShardLuaProxy()
+[00:57:33]: ~cEventLeaderboardProxy()
+[00:57:33]: ~ItemServerLuaProxy()
+[00:57:33]: ~InventoryLuaProxy()
+[00:57:33]: ~NetworkLuaProxy()
+[00:57:33]: ~SimLuaProxy()
+[00:57:33]: Cancelling LuaQueryCallback handle [35]
+[00:57:34]: lua_close took 1.95 seconds
+[00:57:35]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:57:35]: CurlRequestManager::ClientThread::Main() complete
+[00:57:35]: HttpClient2 discarded 0 callbacks.
+[00:57:35]: Shutting down
