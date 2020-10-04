@@ -1,0 +1,859 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 55%
+	Available Physical Memory: 7208m/16294m
+	Available Page File: 4421m/21158m
+	Available Virtual Memory: 3983m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 219k
+	Quota Page Pool Usage: 215k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 17k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 433231
+[00:00:01]: Current time: Sun Oct 04 03:12:13 2020
+
+[00:00:01]: Don't Starve Together: 433231 WIN32
+[00:00:01]: Build Date: 5608
+[00:00:01]: Mode: 32-bit
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: -monitor_parent_process 15088 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198093951120 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Secondary -region Sing 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: Initializing Minidump handler
+[00:00:01]: ....Done
+[00:00:01]: ....Done
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: THREAD - started 'GAClient' (1760)
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:02]: Mounting file system databundles/scripts.zip successful.
+[00:00:02]: ProfileIndex:33.44
+[00:00:02]: [Connect] PendingConnection::Reset(true)
+[00:00:02]: Platform: 1
+[00:00:02]: THREAD - started 'Ping Job Thread' (10996)
+[00:00:02]: Network tick rate: U=15(2), D=0
+[00:00:03]: Network tick rate: U=15(2), D=0
+[00:00:03]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is disabled in the firewall.
+[00:00:03]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is now enabled in the firewall.
+[00:00:04]: Overriding region to Sing
+[00:00:04]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/blocklist.txt (Failure)
+[00:00:04]: THREAD - started 'StreamInput' (16996)
+[00:00:04]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/adminlist.txt (Failure)
+[00:00:04]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/client_save/whitelist.txt (Failure)
+[00:00:04]: Offline user ID: OU_76561198093951120
+[00:00:04]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:04]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:04]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 Home Single Language
+    version                   10.0.18363
+    architecture              64-bit
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  2
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce 920M
+    driverDate                20190409000000.000000-000
+    megsOfRam                 4095
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             25.21.14.2531
+
+[00:00:04]: cGame::InitializeOnMainThread
+[00:00:04]: Renderer initialize: Okay
+[00:00:04]: AnimManager initialize: Okay
+[00:00:04]: Buffers initialize: Okay
+[00:00:04]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:04]: GameSpecific initialize: Okay
+[00:00:04]: cGame::StartPlaying
+[00:00:04]: LOADING LUA
+[00:00:04]: DoLuaFile scripts/main.lua
+[00:00:04]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]:   taskgrouplist:	default	Together	
+[00:00:07]:   taskgrouplist:	classic	Classic	
+[00:00:07]:   taskgrouplist:	cave_default	Underground	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:07]: running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:08]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:08]: DownloadMods(0)
+[00:00:08]: modoverrides.lua enabling workshop-1207269058	
+[00:00:08]: modoverrides.lua enabling workshop-758532836	
+[00:00:08]: modoverrides.lua enabling workshop-1378549454	
+[00:00:08]: modoverrides.lua enabling workshop-375850593	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:08]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:08]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:09]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:09]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.12	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-1378549454_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:09]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:09]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:5.1.3	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:09]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:09]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-758532836_CLIENT	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:09]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:09]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:09]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:09]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:09]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
+[00:00:09]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
+[00:00:09]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
+[00:00:09]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
+[00:00:09]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
+[00:00:09]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmainpostinit.lua	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	Loading modmainpostinit.lua	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:09]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmainpostinit.lua	
+[00:00:09]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmainpostinit.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:21]: LOADING LUA SUCCESS
+[00:00:22]: Registering mod namespace "workshop-1207269058"
+[00:00:22]: Registering mod namespace "globalpause"
+[00:00:22]: PlayerDeaths could not load morgue	
+[00:00:22]: PlayerHistory could not load player_history	
+[00:00:22]: ServerPreferences could not load server_preferences	
+[00:00:22]: bloom_enabled	false	
+[00:00:22]: loaded saveindex	
+[00:00:22]: OnFilesLoaded()	
+[00:00:23]: OnUpdatePurchaseStateComplete	
+[00:00:23]: Klump load on boot started.	
+[00:00:23]: Klump files loaded: 	0	
+[00:00:32]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
+[00:00:32]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
+[00:00:32]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
+[00:00:32]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
+[00:00:32]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:32]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:32]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:33]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:33]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:33]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:33]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:33]: 	Load FE	
+[00:00:35]: 	Load FE: done	
+[00:00:35]: THREAD - started 'FilesExistAsyncThread' (17740)
+[00:00:35]: FilesExistAsyncThread started (16524 files)...
+[00:00:35]: Check for write access: TRUE
+[00:00:35]: Check for read access: TRUE
+[00:00:35]: Available disk space for save files: 145077 MB
+[00:00:35]: ModIndex: Load sequence finished successfully.	
+[00:00:35]: Reset() returning
+[00:00:35]: [IPC] Signal 'DST_Secondary_Kill' opened  #0000062C
+[00:00:35]: [IPC] Registering handler for signal #0000062C
+[00:00:35]: [IPC] Handle #0000062C added to the Eventhandles
+[00:00:35]: [IPC] Signal 'DST_Secondary_Starting' opened  #00000624
+[00:00:35]: [IPC] Sending signal... #00000624
+[00:00:37]: [200] Account Communication Success (6)
+[00:00:37]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:00:37]: Starting Dedicated Server Game	
+[00:00:38]: Network tick rate: U=15(2), D=0
+[00:00:38]: About to start a server with the following settings:
+[00:00:38]:   Dedicated: true
+[00:00:39]:   Online: true
+[00:00:39]:   Passworded: false
+[00:00:39]:   ServerPort: 10998
+[00:00:39]:   SteamAuthPort: 8767
+[00:00:39]:   SteamMasterServerPort: 27017
+[00:00:39]:   ClanID: false
+[00:00:39]:   ClanOnly: false
+[00:00:39]:   ClanAdmin: false
+[00:00:39]:   LanOnly: false
+[00:00:39]:   FriendsOnly: true
+[00:00:39]:   EnableAutosaver: true
+[00:00:39]:   EncodeUserPath: true
+[00:00:39]:   PVP: false
+[00:00:40]:   MaxPlayers: 6
+[00:00:40]:   GameMode: survival
+[00:00:41]:   OverridenDNS: 
+[00:00:41]:   PauseWhenEmpty: true
+[00:00:41]:   IdleTimeout: 1800s
+[00:00:41]:   VoteEnabled: false
+[00:00:41]:   InternetBroadcasting: true
+[00:00:41]:   Intent: social
+[00:00:41]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:41]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
+[00:00:41]: Could not load mod_config_data/modconfiguration_workshop-758532836	
+[00:00:42]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:42]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:43]: Online Server Started on port: 10998
+[00:00:43]: Collecting garbage...
+[00:00:44]: lua_gc took 0.19 seconds
+[00:00:44]: ~ShardLuaProxy()
+[00:00:44]: ~cEventLeaderboardProxy()
+[00:00:44]: ~ItemServerLuaProxy()
+[00:00:44]: ~InventoryLuaProxy()
+[00:00:44]: ~NetworkLuaProxy()
+[00:00:44]: ~SimLuaProxy()
+[00:00:44]: FilesExistAsyncThread aborted.
+[00:00:44]: ... FilesExistAsyncThread complete
+[00:00:45]: lua_close took 1.20 seconds
+[00:00:45]: AddPortMapping(10998, 10998, 192.168.0.100) failed with code -3 (UnknownError)
+[00:00:45]: ReleaseAll
+[00:00:45]: ReleaseAll Finished
+[00:00:46]: cGame::StartPlaying
+[00:00:46]: LOADING LUA
+[00:00:46]: DoLuaFile scripts/main.lua
+[00:00:46]: DoLuaFile loading buffer scripts/main.lua
+[00:00:49]:   taskgrouplist:	default	Together	
+[00:00:49]:   taskgrouplist:	classic	Classic	
+[00:00:49]:   taskgrouplist:	cave_default	Underground	
+[00:00:49]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:49]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:49]: running main.lua
+	
+[00:00:50]: unloading prefabs for mod MOD_workshop-1378549454	
+[00:00:50]: unloading prefabs for mod MOD_workshop-758532836	
+[00:00:50]: unloading prefabs for mod MOD_workshop-375850593	
+[00:00:50]: unloading prefabs for mod MOD_workshop-1207269058	
+[00:00:50]: unloading prefabs for mod dyc_damagedisplay	
+[00:00:50]: unloading prefabs for mod dyc_healthbar	
+[00:00:50]: unloading prefabs for mod dyc_healthbarchild	
+[00:00:50]: loaded modindex	
+[00:00:50]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:51]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:52]: modoverrides.lua enabling workshop-1207269058	
+[00:00:52]: modoverrides.lua enabling workshop-758532836	
+[00:00:52]: modoverrides.lua enabling workshop-1378549454	
+[00:00:53]: modoverrides.lua enabling workshop-375850593	
+[00:00:53]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:54]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
+[00:00:54]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:54]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
+[00:00:55]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:55]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:55]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:55]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:55]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:55]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:55]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:55]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:55]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:55]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:55]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:56]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:56]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.12	
+[00:00:56]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
+[00:00:56]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:56]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:56]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:56]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:56]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:56]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:56]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:56]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:56]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:56]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:56]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:57]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:5.1.3	
+[00:00:57]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:57]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:57]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:57]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:57]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:57]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:57]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:57]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:57]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:57]: Could not load mod_config_data/modconfiguration_workshop-758532836	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:57]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:57]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:57]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:57]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:57]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:57]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:57]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:57]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:57]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
+[00:00:57]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
+[00:00:57]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
+[00:00:57]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
+[00:00:57]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
+[00:00:57]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
+[00:00:57]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
+[00:00:57]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:57]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
+[00:00:57]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:57]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
+[00:00:58]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:58]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:58]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
+[00:00:58]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:58]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:58]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:58]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:58]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
+[00:00:58]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:58]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:58]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmainpostinit.lua	
+[00:00:59]: Mod: workshop-758532836 (Global Pause)	Loading modmainpostinit.lua	
+[00:00:59]: Mod: workshop-758532836 (Global Pause)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:59]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmainpostinit.lua	
+[00:00:59]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:59]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmainpostinit.lua	
+[00:00:59]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:01:12]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:01:13]: LOADING LUA SUCCESS
+[00:01:13]: Registering mod namespace "workshop-1207269058"
+[00:01:13]: Registering mod namespace "globalpause"
+[00:01:13]: PlayerDeaths could not load morgue	
+[00:01:13]: PlayerHistory could not load player_history	
+[00:01:13]: ServerPreferences could not load server_preferences	
+[00:01:13]: bloom_enabled	false	
+[00:01:13]: loaded saveindex	
+[00:01:13]: OnFilesLoaded()	
+[00:01:13]: OnUpdatePurchaseStateComplete	
+[00:01:13]: Loading world: session/794B33BF27E88865/0000002141	
+[00:01:16]: Save file is at version 5.05	
+[00:01:16]: Klump load on boot started.	
+[00:01:17]: Klump files loaded: 	0	
+[00:01:17]: 	Unload FE	
+[00:01:17]: 	Unload FE done	
+[00:01:52]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
+[00:01:52]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
+[00:01:52]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
+[00:01:52]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
+[00:01:52]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:01:52]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:01:52]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:01:52]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:01:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:01:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:01:53]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:01:54]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:01:55]: 	LOAD BE	
+[00:02:36]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_crow)
+[00:02:36]: Could not preload undefined prefab (hermitshop_supertacklecontainer)
+[00:02:36]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_drowsy)
+[00:02:36]: Could not preload undefined prefab (hermitshop_chum)
+[00:02:36]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_malbatross)
+[00:02:36]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_goose)
+[00:02:36]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_heavy)
+[00:02:36]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_canary)
+[00:02:37]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_robin_winter)
+[00:02:37]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_robin)
+[00:02:37]: Could not preload undefined prefab (hermitshop_turf_shellbeach_blueprint)
+[00:02:37]: Could not preload undefined prefab (hermitshop_winch_blueprint)
+[00:02:37]: Could not preload undefined prefab (hermitshop_hermit_bundle_shells)
+[00:02:39]: Could not preload undefined prefab (yotc_shrinecarrat)
+[00:02:40]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_rain)
+[00:02:41]: Could not preload undefined prefab (hermitshop_tacklecontainer)
+[00:02:41]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_snow)
+[00:02:42]: 	LOAD BE: done	
+[00:02:42]: Loading GemCore's DynamicTileManager	
+[00:02:42]: Loading Dynamic Gem Core Tiles!	
+[00:02:42]: Found a level data override file with these contents:	
+[00:02:42]: 	K: 	background_node_range	 V: 	table: 06928B10	
+[00:02:42]: 		K: 	1	 V: 	0	
+[00:02:42]: 		K: 	2	 V: 	1	
+[00:02:42]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:02:42]: 	K: 	hideminimap	 V: 	false	
+[00:02:42]: 	K: 	id	 V: 	DST_CAVE	
+[00:02:42]: 	K: 	location	 V: 	cave	
+[00:02:42]: 	K: 	max_playlist_position	 V: 	999	
+[00:02:42]: 	K: 	min_playlist_position	 V: 	0	
+[00:02:42]: 	K: 	name	 V: 	The Caves	
+[00:02:42]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:02:42]: 	K: 	override_level_string	 V: 	false	
+[00:02:42]: 	K: 	overrides	 V: 	table: 069290D8	
+[00:02:42]: 		K: 	banana	 V: 	default	
+[00:02:42]: 		K: 	bats	 V: 	default	
+[00:02:42]: 		K: 	berrybush	 V: 	default	
+[00:02:42]: 		K: 	boons	 V: 	always	
+[00:02:42]: 		K: 	branching	 V: 	default	
+[00:02:42]: 		K: 	bunnymen	 V: 	default	
+[00:02:42]: 		K: 	cave_ponds	 V: 	default	
+[00:02:42]: 		K: 	cave_spiders	 V: 	default	
+[00:02:42]: 		K: 	cavelight	 V: 	default	
+[00:02:42]: 		K: 	chess	 V: 	default	
+[00:02:42]: 		K: 	disease_delay	 V: 	none	
+[00:02:42]: 		K: 	earthquakes	 V: 	default	
+[00:02:42]: 		K: 	fern	 V: 	default	
+[00:02:42]: 		K: 	fissure	 V: 	default	
+[00:02:42]: 		K: 	flint	 V: 	default	
+[00:02:42]: 		K: 	flower_cave	 V: 	default	
+[00:02:42]: 		K: 	grass	 V: 	default	
+[00:02:42]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:02:42]: 		K: 	lichen	 V: 	default	
+[00:02:42]: 		K: 	liefs	 V: 	default	
+[00:02:42]: 		K: 	loop	 V: 	default	
+[00:02:42]: 		K: 	marshbush	 V: 	default	
+[00:02:42]: 		K: 	monkey	 V: 	default	
+[00:02:42]: 		K: 	mushroom	 V: 	default	
+[00:02:42]: 		K: 	mushtree	 V: 	default	
+[00:02:42]: 		K: 	prefabswaps_start	 V: 	default	
+[00:02:42]: 		K: 	reeds	 V: 	default	
+[00:02:42]: 		K: 	regrowth	 V: 	default	
+[00:02:42]: 		K: 	roads	 V: 	never	
+[00:02:42]: 		K: 	rock	 V: 	default	
+[00:02:42]: 		K: 	rocky	 V: 	default	
+[00:02:42]: 		K: 	sapling	 V: 	default	
+[00:02:42]: 		K: 	season_start	 V: 	default	
+[00:02:42]: 		K: 	slurper	 V: 	default	
+[00:02:42]: 		K: 	slurtles	 V: 	default	
+[00:02:42]: 		K: 	specialevent	 V: 	year_of_the_carrat	
+[00:02:42]: 		K: 	start_location	 V: 	caves	
+[00:02:42]: 		K: 	task_set	 V: 	cave_default	
+[00:02:42]: 		K: 	tentacles	 V: 	default	
+[00:02:42]: 		K: 	touchstone	 V: 	always	
+[00:02:42]: 		K: 	trees	 V: 	default	
+[00:02:42]: 		K: 	weather	 V: 	default	
+[00:02:42]: 		K: 	world_size	 V: 	default	
+[00:02:42]: 		K: 	worldseed	 V: 	WORLD VERSION IS TOO OLD	
+[00:02:42]: 		K: 	wormattacks	 V: 	default	
+[00:02:42]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:02:42]: 		K: 	wormlights	 V: 	default	
+[00:02:42]: 		K: 	worms	 V: 	default	
+[00:02:42]: 	K: 	required_prefabs	 V: 	table: 06922A58	
+[00:02:42]: 		K: 	1	 V: 	multiplayer_portal	
+[00:02:42]: 	K: 	substitutes	 V: 	table: 06922D78	
+[00:02:42]: 	K: 	version	 V: 	4	
+[00:02:42]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:02:42]: Not applying world gen overrides.	
+[00:02:42]: Begin Session: 794B33BF27E88865
+[00:02:46]: saving to server_temp/server_save	
+[00:02:57]: Overriding World Event to: year_of_the_pig	
+[00:02:58]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:02:58]: Loading 17 new character(s)	
+[00:03:04]: Total 17 character(s) loaded	
+[00:03:48]: Loading Nav Grid	
+[00:03:48]: World generated on version 314835, using seed: 1552132906	
+[00:03:48]: setting 	summerlength	15	
+[00:03:49]: setting 	isnightmaredawn	false	
+[00:03:49]: setting 	elapseddaysinseason	8	
+[00:03:49]: setting 	isfullmoon	false	
+[00:03:49]: setting 	moisture	4126.8359375	
+[00:03:49]: setting 	springlength	20	
+[00:03:49]: setting 	isnightmarewild	false	
+[00:03:49]: setting 	moonphase	new	
+[00:03:49]: setting 	precipitationrate	0	
+[00:03:49]: setting 	iswet	false	
+[00:03:49]: setting 	isnewmoon	false	
+[00:03:49]: setting 	iswinter	false	
+[00:03:49]: setting 	israining	false	
+[00:03:49]: setting 	isnightmarewarn	false	
+[00:03:49]: setting 	precipitation	none	
+[00:03:49]: setting 	cavephase	day	
+[00:03:49]: setting 	moistureceil	6036.3950195313	
+[00:03:49]: setting 	isday	false	
+[00:03:49]: setting 	iscaveday	true	
+[00:03:49]: setting 	season	autumn	
+[00:03:49]: setting 	timeinphase	0.16378205617269	
+[00:03:49]: setting 	temperature	20.250510830514	
+[00:03:49]: setting 	isnightmarecalm	true	
+[00:03:49]: setting 	isnight	true	
+[00:03:49]: setting 	isdusk	false	
+[00:03:49]: setting 	iscavedusk	false	
+[00:03:49]: setting 	isautumn	true	
+[00:03:49]: setting 	issnowing	false	
+[00:03:49]: setting 	iswaxingmoon	true	
+[00:03:49]: setting 	pop	0.47887747725539	
+[00:03:49]: setting 	snowlevel	0	
+[00:03:49]: setting 	issnowcovered	false	
+[00:03:49]: setting 	autumnlength	20	
+[00:03:49]: setting 	phase	night	
+[00:03:49]: setting 	nightmaretime	266.11717499836	
+[00:03:49]: setting 	winterlength	15	
+[00:03:49]: setting 	isspring	false	
+[00:03:49]: setting 	nightmarephase	calm	
+[00:03:49]: setting 	remainingdaysinseason	12	
+[00:03:49]: setting 	cycles	1898	
+[00:03:49]: setting 	iscavenight	false	
+[00:03:49]: setting 	nightmaretimeinphase	0.73921437499546	
+[00:03:49]: setting 	wetness	0	
+[00:03:49]: setting 	time	0.081891028086344	
+[00:03:49]: setting 	issummer	false	
+[00:03:49]: [Shard] Secondary shard is waiting for LUA...
+[00:03:49]: OVERRIDE: setting	disease_delay	to	none	
+[00:04:31]: Reconstructing topology	
+[00:04:32]: 	...Sorting points	
+[00:04:32]: 	...Sorting edges	
+[00:04:32]: 	...Connecting nodes	
+[00:04:32]: 	...Validating connections	
+[00:04:34]: 	...Housekeeping	
+[00:04:34]: 	...Done!	
+[00:04:35]: 1 uploads added to server. From server_temp
+[00:04:35]: About to start a shard with these settings:
+[00:04:35]:   ShardName: Caves
+[00:04:35]:   ShardID: 2868293775
+[00:04:35]:   ShardRole: SECONDARY
+[00:04:35]:   MasterHost: 127.0.0.1
+[00:04:35]:   MasterBind: (null)
+[00:04:35]:   MasterPort: 10888
+[00:04:35]: [Shard] Connecting to master...
+[00:04:35]: Telling Client our new session identifier: 794B33BF27E88865
+[00:04:35]: Check for write access: TRUE
+[00:04:35]: Check for read access: TRUE
+[00:04:35]: Available disk space for save files: 145075 MB
+[00:04:35]: ModIndex: Load sequence finished successfully.	
+[00:04:37]: Reset() returning
+[00:04:37]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
+[00:04:47]: [Steam] SteamGameServer_Init success
+[00:04:48]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:04:50]: Validating portal[1] <-> 1[1] (inactive)	
+[00:04:51]: Validating portal[2] <-> 1[2] (inactive)	
+[00:04:51]: Validating portal[3] <-> 1[3] (inactive)	
+[00:04:51]: Validating portal[6] <-> 1[6] (inactive)	
+[00:04:51]: Validating portal[9] <-> 1[9] (inactive)	
+[00:04:51]: Validating portal[7] <-> 1[7] (inactive)	
+[00:04:51]: Validating portal[5] <-> 1[5] (inactive)	
+[00:04:51]: Validating portal[4] <-> 1[4] (inactive)	
+[00:04:51]: Validating portal[10] <-> 1[10] (inactive)	
+[00:04:52]: Validating portal[8] <-> 1[8] (inactive)	
+[00:04:53]: Gameserver logged on to Steam, assigned identity steamid:90139245853198344
+[00:04:53]: SteamDatagramTransportLock held for 298.6ms.  This can be a performance problem.
+[00:04:53]: About to start a shard with these settings:
+[00:04:54]:   ShardName: Caves
+[00:04:54]:   ShardID: 2868293775
+[00:04:54]:   ShardRole: SECONDARY
+[00:04:54]:   MasterHost: 127.0.0.1
+[00:04:54]:   MasterBind: (null)
+[00:04:54]:   MasterPort: 10888
+[00:04:56]: [Shard] Connecting to master...
+[00:05:03]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:05:08]: About to start a shard with these settings:
+[00:05:08]:   ShardName: Caves
+[00:05:08]:   ShardID: 2868293775
+[00:05:08]:   ShardRole: SECONDARY
+[00:05:08]:   MasterHost: 127.0.0.1
+[00:05:08]:   MasterBind: (null)
+[00:05:08]:   MasterPort: 10888
+[00:05:08]: [Shard] Connecting to master...
+[00:05:18]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:05:23]: About to start a shard with these settings:
+[00:05:24]:   ShardName: Caves
+[00:05:24]:   ShardID: 2868293775
+[00:05:24]:   ShardRole: SECONDARY
+[00:05:24]:   MasterHost: 127.0.0.1
+[00:05:24]:   MasterBind: (null)
+[00:05:24]:   MasterPort: 10888
+[00:05:24]: [Shard] Connecting to master...
+[00:05:33]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:05:38]: About to start a shard with these settings:
+[00:05:38]:   ShardName: Caves
+[00:05:38]:   ShardID: 2868293775
+[00:05:38]:   ShardRole: SECONDARY
+[00:05:38]:   MasterHost: 127.0.0.1
+[00:05:38]:   MasterBind: (null)
+[00:05:38]:   MasterPort: 10888
+[00:05:39]: [Shard] Connecting to master...
+[00:05:48]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:05:53]: About to start a shard with these settings:
+[00:05:53]:   ShardName: Caves
+[00:05:53]:   ShardID: 2868293775
+[00:05:53]:   ShardRole: SECONDARY
+[00:05:53]:   MasterHost: 127.0.0.1
+[00:05:53]:   MasterBind: (null)
+[00:05:53]:   MasterPort: 10888
+[00:05:54]: [Shard] Connecting to master...
+[00:06:04]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:06:09]: About to start a shard with these settings:
+[00:06:09]:   ShardName: Caves
+[00:06:09]:   ShardID: 2868293775
+[00:06:09]:   ShardRole: SECONDARY
+[00:06:09]:   MasterHost: 127.0.0.1
+[00:06:09]:   MasterBind: (null)
+[00:06:09]:   MasterPort: 10888
+[00:06:09]: [Shard] Connecting to master...
+[00:06:12]: [Shard] Sending secondary shard information to master...
+[00:07:17]: Registering secondary shard in Sing lobby
+[00:07:18]: [Shard] secondary shard is now ready!
+[00:07:18]: World 1 is now connected	
+[00:07:18]: Validating portal[1] <-> 1[1] (active)	
+[00:07:18]: Validating portal[2] <-> 1[2] (active)	
+[00:07:18]: Validating portal[3] <-> 1[3] (active)	
+[00:07:18]: Validating portal[6] <-> 1[6] (active)	
+[00:07:18]: Validating portal[9] <-> 1[9] (active)	
+[00:07:18]: Validating portal[7] <-> 1[7] (active)	
+[00:07:18]: Validating portal[5] <-> 1[5] (active)	
+[00:07:18]: Validating portal[4] <-> 1[4] (active)	
+[00:07:18]: Validating portal[10] <-> 1[10] (active)	
+[00:07:18]: Validating portal[8] <-> 1[8] (active)	
+[00:07:19]: [Shard] secondary shard LUA is now ready!
+[00:07:19]: [IPC] Signal 'DST_Secondary_Ready' opened  #00000568
+[00:07:19]: [IPC] Sending signal... #00000568
+[00:07:20]: Sim paused
+[00:10:36]: Sim unpaused
+[00:12:17]: Registering secondary shard in Sing lobby
+[00:17:17]: Registering secondary shard in Sing lobby
+[00:18:33]: Available disk space for save files: 145076 MB
+[00:18:34]: Serializing world: session/794B33BF27E88865/0000002142
+[00:18:34]: Truncating to snapshot #2142...
+[00:18:34]:  - session/794B33BF27E88865/0000002136
+[00:18:34]:    1 file(s) removed
+[00:22:17]: Registering secondary shard in Sing lobby
+[00:26:36]: Available disk space for save files: 145084 MB
+[00:26:37]: Serializing world: session/794B33BF27E88865/0000002143
+[00:26:37]: Truncating to snapshot #2143...
+[00:26:37]:  - session/794B33BF27E88865/0000002137
+[00:26:37]:    1 file(s) removed
+[00:27:17]: Registering secondary shard in Sing lobby
+[00:30:37]: [200] Account Communication Success (6)
+[00:30:37]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:32:17]: Registering secondary shard in Sing lobby
+[00:34:38]: Available disk space for save files: 145064 MB
+[00:34:40]: Serializing world: session/794B33BF27E88865/0000002144
+[00:34:40]: Truncating to snapshot #2144...
+[00:34:40]:  - session/794B33BF27E88865/0000002138
+[00:34:40]:    1 file(s) removed
+[00:37:17]: Registering secondary shard in Sing lobby
+[00:42:17]: Registering secondary shard in Sing lobby
+[00:42:41]: Available disk space for save files: 145059 MB
+[00:42:42]: Serializing world: session/794B33BF27E88865/0000002145
+[00:42:43]: Truncating to snapshot #2145...
+[00:42:43]:  - session/794B33BF27E88865/0000002139
+[00:42:43]:    1 file(s) removed
+[00:47:17]: Registering secondary shard in Sing lobby
+[00:50:44]: Available disk space for save files: 145057 MB
+[00:50:45]: Serializing world: session/794B33BF27E88865/0000002146
+[00:50:46]: Truncating to snapshot #2146...
+[00:50:46]:  - session/794B33BF27E88865/0000002140
+[00:50:46]:    1 file(s) removed
+[00:52:17]: Registering secondary shard in Sing lobby
+[00:57:17]: Registering secondary shard in Sing lobby
+[00:58:47]: Available disk space for save files: 145049 MB
+[00:58:48]: Serializing world: session/794B33BF27E88865/0000002147
+[00:58:48]: Truncating to snapshot #2147...
+[00:58:48]:  - session/794B33BF27E88865/0000002141
+[00:58:48]:    1 file(s) removed
+[01:00:37]: [200] Account Communication Success (6)
+[01:00:37]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:02:17]: Registering secondary shard in Sing lobby
+[01:06:49]: Available disk space for save files: 145041 MB
+[01:06:51]: Serializing world: session/794B33BF27E88865/0000002148
+[01:06:51]: Truncating to snapshot #2148...
+[01:06:51]:  - session/794B33BF27E88865/0000002142
+[01:06:51]:    1 file(s) removed
+[01:07:17]: Registering secondary shard in Sing lobby
+[01:12:17]: Registering secondary shard in Sing lobby
+[01:14:52]: Available disk space for save files: 145042 MB
+[01:14:54]: Serializing world: session/794B33BF27E88865/0000002149
+[01:14:54]: Truncating to snapshot #2149...
+[01:14:54]:  - session/794B33BF27E88865/0000002143
+[01:14:54]:    1 file(s) removed
+[01:17:17]: Registering secondary shard in Sing lobby
+[01:22:17]: Registering secondary shard in Sing lobby
+[01:22:55]: Available disk space for save files: 145035 MB
+[01:22:56]: Serializing world: session/794B33BF27E88865/0000002150
+[01:22:57]: Truncating to snapshot #2150...
+[01:22:57]:  - session/794B33BF27E88865/0000002144
+[01:22:57]:    1 file(s) removed
+[01:27:17]: Registering secondary shard in Sing lobby
+[01:30:37]: [200] Account Communication Success (6)
+[01:30:37]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:30:58]: Available disk space for save files: 145014 MB
+[01:30:59]: Serializing world: session/794B33BF27E88865/0000002151
+[01:30:59]: Truncating to snapshot #2151...
+[01:30:59]:  - session/794B33BF27E88865/0000002145
+[01:30:59]:    1 file(s) removed
+[01:32:17]: Registering secondary shard in Sing lobby
+[01:37:17]: Registering secondary shard in Sing lobby
+[01:39:00]: Available disk space for save files: 145038 MB
+[01:39:02]: Serializing world: session/794B33BF27E88865/0000002152
+[01:39:02]: Truncating to snapshot #2152...
+[01:39:02]:  - session/794B33BF27E88865/0000002146
+[01:39:02]:    1 file(s) removed
+[01:42:17]: Registering secondary shard in Sing lobby
+[01:47:03]: Available disk space for save files: 145031 MB
+[01:47:05]: Serializing world: session/794B33BF27E88865/0000002153
+[01:47:05]: Truncating to snapshot #2153...
+[01:47:05]:  - session/794B33BF27E88865/0000002147
+[01:47:05]:    1 file(s) removed
+[01:47:17]: Registering secondary shard in Sing lobby
+[01:52:17]: Registering secondary shard in Sing lobby
+[01:55:06]: Available disk space for save files: 145027 MB
+[01:55:08]: Serializing world: session/794B33BF27E88865/0000002154
+[01:55:08]: Truncating to snapshot #2154...
+[01:55:08]:  - session/794B33BF27E88865/0000002148
+[01:55:08]:    1 file(s) removed
+[01:57:17]: Registering secondary shard in Sing lobby
+[02:00:37]: [200] Account Communication Success (6)
+[02:00:37]: Received (KU_c1gvcGFZ) from TokenPurpose
+[02:02:17]: Registering secondary shard in Sing lobby
+[02:03:09]: Available disk space for save files: 145026 MB
+[02:03:10]: Serializing world: session/794B33BF27E88865/0000002155
+[02:03:11]: Truncating to snapshot #2155...
+[02:03:11]:  - session/794B33BF27E88865/0000002149
+[02:03:11]:    1 file(s) removed
+[02:07:17]: Registering secondary shard in Sing lobby
+[02:11:11]: Available disk space for save files: 144797 MB
+[02:11:13]: Serializing world: session/794B33BF27E88865/0000002156
+[02:11:13]: Truncating to snapshot #2156...
+[02:11:13]:  - session/794B33BF27E88865/0000002150
+[02:11:13]:    1 file(s) removed
+[02:12:17]: Registering secondary shard in Sing lobby
+[02:17:17]: Registering secondary shard in Sing lobby
+[02:19:14]: Available disk space for save files: 144797 MB
+[02:19:16]: Serializing world: session/794B33BF27E88865/0000002157
+[02:19:16]: Truncating to snapshot #2157...
+[02:19:16]:  - session/794B33BF27E88865/0000002151
+[02:19:16]:    1 file(s) removed
+[02:22:17]: Registering secondary shard in Sing lobby
+[02:27:17]: Available disk space for save files: 144771 MB
+[02:27:18]: Serializing world: session/794B33BF27E88865/0000002158
+[02:27:19]: Truncating to snapshot #2158...
+[02:27:19]:  - session/794B33BF27E88865/0000002152
+[02:27:19]:    1 file(s) removed
+[02:27:19]: Registering secondary shard in Sing lobby
+[02:27:45]: [Shard] #1 -> session/794B33BF27E88865/A7KO3ASPI0V3/0000002159
+[02:27:45]: [Shard] Received migration #1 data for (KU_c1gvcGFZ)
+[02:28:16]: New incoming connection 127.0.0.1|63986 <1413315069352276087>
+[02:28:16]: Client connected from [LAN] 127.0.0.1|63986 <1413315069352276087>
+[02:28:16]: ValidateGameSessionToken pgs-usc^KU_c1gvcGFZ^DontStarveTogether^TIK5CcZH4tozd4/KLj+KBhX35slx5LDSQKqcnirdb44= for <1413315069352276087>
+[02:28:18]: Client authenticated: (KU_c1gvcGFZ) jadeath
+[02:28:18]: [Steam] Authenticated host '76561198093951120'
+[02:28:19]: [Shard] Completed incoming migration #1 for (KU_c1gvcGFZ)
+[02:29:07]: Resuming user: session/794B33BF27E88865/A7KO3ASPI0V3/0000002159
+[02:29:07]: Could not find anim build FROMNUM
+[02:29:07]: Player will spawn close to portal #5	
+[02:29:07]: Spawning player at: [Load] (-718.94, 0.00, -44.87)	
+[02:30:37]: [200] Account Communication Success (6)
+[02:30:37]: Received (KU_c1gvcGFZ) from TokenPurpose
+[02:32:19]: Registering secondary shard in Sing lobby
+[02:35:20]: Available disk space for save files: 144768 MB
+[02:35:20]: Serializing user: session/794B33BF27E88865/A7KO3ASPI0V3/0000002159
+[02:35:21]: Serializing world: session/794B33BF27E88865/0000002159
+[02:37:19]: Registering secondary shard in Sing lobby
+[02:37:39]: Activating portal[6] to 1	
+[02:37:40]: Serializing user: session/794B33BF27E88865/A7KO3ASPI0V3/0000002160
+[02:37:40]: [Shard] Migration request: (KU_c1gvcGFZ) to [SHDMASTER](1)
+[02:37:40]: [Shard] #2 <- session/794B33BF27E88865/A7KO3ASPI0V3/0000002160
+[02:37:40]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:37:40]: [Steam] SendUserDisconnect for '76561198093951120'
+[02:42:19]: Registering secondary shard in Sing lobby
+[02:43:23]: Available disk space for save files: 144848 MB
+[02:43:24]: Serializing world: session/794B33BF27E88865/0000002160
+[02:43:24]: Truncating to snapshot #2160...
+[02:43:24]:  - session/794B33BF27E88865/0000002153
+[02:43:24]:  - session/794B33BF27E88865/0000002154
+[02:43:24]:    2 file(s) removed
+[02:47:19]: Registering secondary shard in Sing lobby
+[02:51:25]: Available disk space for save files: 144819 MB
+[02:51:27]: Serializing world: session/794B33BF27E88865/0000002161
+[02:51:27]: Truncating to snapshot #2161...
+[02:51:27]:  - session/794B33BF27E88865/0000002155
+[02:51:27]:    1 file(s) removed
+[02:52:19]: Registering secondary shard in Sing lobby
+[02:57:19]: Registering secondary shard in Sing lobby
+[02:59:28]: Available disk space for save files: 144833 MB
+[02:59:30]: Serializing world: session/794B33BF27E88865/0000002162
+[02:59:30]: Truncating to snapshot #2162...
+[02:59:30]:  - session/794B33BF27E88865/0000002156
+[02:59:30]:    1 file(s) removed
+[03:00:37]: [200] Account Communication Success (6)
+[03:00:37]: Received (KU_c1gvcGFZ) from TokenPurpose
+[03:02:19]: Registering secondary shard in Sing lobby
+[03:04:59]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[03:04:59]: Sim paused
+[03:05:03]: [IPC] Received shutdown signal.
+[03:05:04]: Available disk space for save files: 144839 MB
+[03:05:05]: Serializing world: session/794B33BF27E88865/0000002163
+[03:05:05]: Truncating to snapshot #2163...
+[03:05:05]:  - session/794B33BF27E88865/0000002157
+[03:05:05]:    1 file(s) removed
+[03:05:06]: [Shard] Stopping shard mode
+[03:05:06]: Collecting garbage...
+[03:05:06]: lua_gc took 0.26 seconds
+[03:05:06]: ~ShardLuaProxy()
+[03:05:06]: ~cEventLeaderboardProxy()
+[03:05:06]: ~ItemServerLuaProxy()
+[03:05:06]: ~InventoryLuaProxy()
+[03:05:06]: ~NetworkLuaProxy()
+[03:05:06]: ~SimLuaProxy()
+[03:05:07]: lua_close took 0.69 seconds
+[03:05:07]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[03:05:07]: CurlRequestManager::ClientThread::Main() complete
+[03:05:07]: HttpClient2 discarded 0 callbacks.
+[03:05:07]: Shutting down
