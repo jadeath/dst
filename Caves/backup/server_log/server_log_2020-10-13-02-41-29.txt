@@ -1,0 +1,2000 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 56%
+	Available Physical Memory: 7166m/16294m
+	Available Page File: 8064m/24360m
+	Available Virtual Memory: 3983m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 30m
+	Working Set Size: 30m
+	Quota Peak Page Pool Usage: 219k
+	Quota Page Pool Usage: 215k
+	Quota Peak Non Paged Pool Usage:17k
+	Quota Non Paged Pool Usage: 17k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:01]: Starting Up
+[00:00:01]: Version: 433231
+[00:00:01]: Current time: Sun Oct 11 02:27:01 2020
+
+[00:00:01]: Don't Starve Together: 433231 WIN32
+[00:00:01]: Build Date: 5608
+[00:00:01]: Mode: 32-bit
+[00:00:01]: Parsing command line
+[00:00:01]: Command Line Arguments: -monitor_parent_process 27484 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_1 -fo -ownernetid 76561198093951120 -backup_log_count 10 -backup_log_period 0 -shard Caves -sigprefix DST_Secondary -region US 
+[00:00:01]: Initializing distribution platform
+[00:00:01]: Initializing Minidump handler
+[00:00:01]: ....Done
+[00:00:01]: ....Done
+[00:00:01]: Fixing DPI
+[00:00:01]: ...Done
+[00:00:01]: Mounting file system databundles/klump.zip successful.
+[00:00:01]: Mounting file system databundles/shaders.zip successful.
+[00:00:01]: THREAD - started 'GAClient' (1420)
+[00:00:01]: CurlRequestManager::ClientThread::Main()
+[00:00:01]: Mounting file system databundles/fonts.zip successful.
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: ProfileIndex:31.77
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:02]: THREAD - started 'Ping Job Thread' (23096)
+[00:00:02]: Network tick rate: U=15(2), D=0
+[00:00:02]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is disabled in the firewall.
+[00:00:02]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin\dontstarve_dedicated_server_nullrenderer.exe is now enabled in the firewall.
+[00:00:03]: Overriding region to US
+[00:00:03]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/blocklist.txt (Failure)
+[00:00:03]: THREAD - started 'StreamInput' (2028)
+[00:00:03]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/client_save/adminlist.txt (Failure)
+[00:00:03]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/client_save/whitelist.txt (Failure)
+[00:00:03]: Offline user ID: OU_76561198093951120
+[00:00:03]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:03]: Token retrieved from: APP:Klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:03]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 Home Single Language
+    version                   10.0.18363
+    architecture              64-bit
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  2
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2401
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    name                      NVIDIA GeForce 920M
+    driverDate                20190409000000.000000-000
+    megsOfRam                 4095
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             25.21.14.2531
+
+[00:00:03]: cGame::InitializeOnMainThread
+[00:00:03]: Renderer initialize: Okay
+[00:00:03]: AnimManager initialize: Okay
+[00:00:03]: Buffers initialize: Okay
+[00:00:03]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:03]: GameSpecific initialize: Okay
+[00:00:03]: cGame::StartPlaying
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:06]:   taskgrouplist:	default	Together	
+[00:00:06]:   taskgrouplist:	classic	Classic	
+[00:00:06]:   taskgrouplist:	cave_default	Underground	
+[00:00:06]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:06]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:06]: running main.lua
+	
+[00:00:06]: loaded modindex	
+[00:00:06]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:06]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:07]: DownloadMods(0)
+[00:00:07]: modoverrides.lua enabling workshop-1207269058	
+[00:00:07]: modoverrides.lua enabling workshop-818739975	
+[00:00:07]: modoverrides.lua enabling workshop-1378549454	
+[00:00:07]: modoverrides.lua enabling workshop-758532836	
+[00:00:07]: modoverrides.lua enabling workshop-875994715	
+[00:00:07]: modoverrides.lua enabling workshop-770901818	
+[00:00:07]: modoverrides.lua enabling workshop-1852257480	
+[00:00:07]: modoverrides.lua enabling workshop-375850593	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-875994715	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.12	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1378549454_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:5.1.3	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-758532836_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-770901818_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-818739975_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-818739975 (Adshovel) Version:1.6	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-875994715_CLIENT	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:07]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:07]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:07]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:07]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:07]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:07]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:07]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:07]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:07]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:07]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:07]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:07]: Loading mod: workshop-875994715 (Lazy Furnace) Version:2.2	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-875994715/scripts/tools/waffles	
+[00:00:07]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
+[00:00:07]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
+[00:00:07]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
+[00:00:07]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
+[00:00:08]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
+[00:00:08]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-770901818 (Hound Attack)	Loading modbackendmain.lua	
+[00:00:08]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-818739975 (Adshovel)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-818739975 (Adshovel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-818739975 (Adshovel)	Loading modbackendmain.lua	
+[00:00:08]: Mod: workshop-818739975 (Adshovel)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-818739975 (Adshovel)	Loading modmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modbackendmain.lua	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:08]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmainpostinit.lua	
+[00:00:09]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:09]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmainpostinit.lua	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	Loading modmainpostinit.lua	
+[00:00:09]: Mod: workshop-758532836 (Global Pause)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:10]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmainpostinit.lua	
+[00:00:10]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:10]: Mod: workshop-770901818 (Hound Attack)	Loading modmainpostinit.lua	
+[00:00:10]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:10]: Mod: workshop-818739975 (Adshovel)	Loading modmainpostinit.lua	
+[00:00:10]: Mod: workshop-818739975 (Adshovel)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:10]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmainpostinit.lua	
+[00:00:10]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmainpostinit.lua	
+[00:00:10]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:20]: LOADING LUA SUCCESS
+[00:00:20]: Registering mod namespace "workshop-1207269058"
+[00:00:20]: Registering mod namespace "globalpause"
+[00:00:21]: PlayerDeaths could not load morgue	
+[00:00:21]: PlayerHistory could not load player_history	
+[00:00:21]: ServerPreferences could not load server_preferences	
+[00:00:21]: bloom_enabled	false	
+[00:00:22]: loaded saveindex	
+[00:00:22]: OnFilesLoaded()	
+[00:00:22]: OnUpdatePurchaseStateComplete	
+[00:00:22]: Klump load on boot started.	
+[00:00:22]: Klump files loaded: 	0	
+[00:00:33]: Mod: workshop-875994715 (Lazy Furnace)	Registering prefabs	
+[00:00:33]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/dragonfurnace_projectile	
+[00:00:33]: Mod: workshop-875994715 (Lazy Furnace)	    dragonflyfurnace_projectile	
+[00:00:33]: Mod: workshop-875994715 (Lazy Furnace)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
+[00:00:33]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
+[00:00:33]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:33]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:00:33]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	Registering prefabs	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cave_banana_tree	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_lichen	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_lichen	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_lichen_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cactus	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_cactus	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_cactus_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_flower_cave	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_reeds	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_reeds	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_reeds_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_shrooms	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_oasis_cactus	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_wormlight_plant	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant_placer	
+[00:00:33]: Mod: workshop-818739975 (Adshovel)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:33]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:33]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:33]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:34]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:34]: 	Load FE	
+[00:00:36]: 	Load FE: done	
+[00:00:36]: Check for write access: TRUE
+[00:00:36]: THREAD - started 'FilesExistAsyncThread' (20744)
+[00:00:36]: Check for read access: TRUE
+[00:00:36]: Available disk space for save files: 143458 MB
+[00:00:36]: FilesExistAsyncThread started (16524 files)...
+[00:00:37]: ModIndex: Load sequence finished successfully.	
+[00:00:37]: Reset() returning
+[00:00:37]: [IPC] Signal 'DST_Secondary_Kill' opened  #00000604
+[00:00:37]: [IPC] Registering handler for signal #00000604
+[00:00:37]: [IPC] Handle #00000604 added to the Eventhandles
+[00:00:37]: [IPC] Signal 'DST_Secondary_Starting' opened  #000005F0
+[00:00:37]: [IPC] Sending signal... #000005F0
+[00:00:38]: [200] Account Communication Success (6)
+[00:00:38]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:00:39]: Starting Dedicated Server Game	
+[00:00:39]: Network tick rate: U=15(2), D=0
+[00:00:39]: About to start a server with the following settings:
+[00:00:39]:   Dedicated: true
+[00:00:39]:   Online: true
+[00:00:39]:   Passworded: false
+[00:00:39]:   ServerPort: 10998
+[00:00:39]:   SteamAuthPort: 8767
+[00:00:39]:   SteamMasterServerPort: 27017
+[00:00:39]:   ClanID: false
+[00:00:39]:   ClanOnly: false
+[00:00:39]:   ClanAdmin: false
+[00:00:39]:   LanOnly: false
+[00:00:39]:   FriendsOnly: true
+[00:00:39]:   EnableAutosaver: true
+[00:00:39]:   EncodeUserPath: true
+[00:00:39]:   PVP: false
+[00:00:39]:   MaxPlayers: 6
+[00:00:39]:   GameMode: survival
+[00:00:39]:   OverridenDNS: 
+[00:00:39]:   PauseWhenEmpty: true
+[00:00:39]:   IdleTimeout: 1800s
+[00:00:39]:   VoteEnabled: false
+[00:00:39]:   InternetBroadcasting: true
+[00:00:39]:   Intent: social
+[00:00:39]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:40]: Could not load mod_config_data/modconfiguration_workshop-758532836	
+[00:00:40]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:40]: Could not load mod_config_data/modconfiguration_workshop-875994715	
+[00:00:40]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:40]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
+[00:00:40]: Could not load mod_config_data/modconfiguration_workshop-818739975	
+[00:00:40]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:40]: Online Server Started on port: 10998
+[00:00:41]: Collecting garbage...
+[00:00:41]: lua_gc took 0.70 seconds
+[00:00:41]: ~ShardLuaProxy()
+[00:00:41]: ~cEventLeaderboardProxy()
+[00:00:42]: ~ItemServerLuaProxy()
+[00:00:42]: ~InventoryLuaProxy()
+[00:00:42]: ~NetworkLuaProxy()
+[00:00:42]: ~SimLuaProxy()
+[00:00:42]: FilesExistAsyncThread aborted.
+[00:00:42]: ... FilesExistAsyncThread complete
+[00:00:42]: lua_close took 0.63 seconds
+[00:00:42]: ReleaseAll
+[00:00:42]: ReleaseAll Finished
+[00:00:42]: cGame::StartPlaying
+[00:00:42]: LOADING LUA
+[00:00:42]: DoLuaFile scripts/main.lua
+[00:00:42]: DoLuaFile loading buffer scripts/main.lua
+[00:00:42]: AddPortMapping(10998, 10998, 192.168.0.100) failed with code -3 (UnknownError)
+[00:00:45]:   taskgrouplist:	default	Together	
+[00:00:45]:   taskgrouplist:	classic	Classic	
+[00:00:45]:   taskgrouplist:	cave_default	Underground	
+[00:00:45]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:45]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:45]: running main.lua
+	
+[00:00:45]: unloading prefabs for mod MOD_workshop-875994715	
+[00:00:45]: unloading prefabs for mod MOD_workshop-1378549454	
+[00:00:45]: unloading prefabs for mod MOD_workshop-758532836	
+[00:00:45]: unloading prefabs for mod MOD_workshop-375850593	
+[00:00:45]: unloading prefabs for mod MOD_workshop-770901818	
+[00:00:45]: unloading prefabs for mod MOD_workshop-818739975	
+[00:00:45]: unloading prefabs for mod MOD_workshop-1852257480	
+[00:00:45]: unloading prefabs for mod MOD_workshop-1207269058	
+[00:00:45]: unloading prefabs for mod dragonflyfurnace_projectile	
+[00:00:45]: unloading prefabs for mod dug_flower_cave_double	
+[00:00:45]: unloading prefabs for mod dug_flower_cave_triple_placer	
+[00:00:45]: unloading prefabs for mod dug_cactus	
+[00:00:45]: unloading prefabs for mod dug_oasis_cactus_placer	
+[00:00:45]: unloading prefabs for mod dug_reeds_placer	
+[00:00:45]: unloading prefabs for mod dug_lichen_placer	
+[00:00:45]: unloading prefabs for mod dug_flower_cave_double_placer	
+[00:00:45]: unloading prefabs for mod dug_cave_banana_tree	
+[00:00:45]: unloading prefabs for mod dug_red_mushroom_placer	
+[00:00:45]: unloading prefabs for mod dug_wormlight_plant_placer	
+[00:00:45]: unloading prefabs for mod dug_reeds	
+[00:00:45]: unloading prefabs for mod dug_red_mushroom	
+[00:00:45]: unloading prefabs for mod dug_cave_banana_tree_placer	
+[00:00:45]: unloading prefabs for mod dug_oasis_cactus	
+[00:00:45]: unloading prefabs for mod dug_blue_mushroom_placer	
+[00:00:45]: unloading prefabs for mod dug_green_mushroom	
+[00:00:45]: unloading prefabs for mod dug_blue_mushroom	
+[00:00:45]: unloading prefabs for mod dug_cactus_placer	
+[00:00:45]: unloading prefabs for mod dug_green_mushroom_placer	
+[00:00:45]: unloading prefabs for mod dug_lichen	
+[00:00:45]: unloading prefabs for mod dug_flower_cave_placer	
+[00:00:45]: unloading prefabs for mod dug_flower_cave	
+[00:00:45]: unloading prefabs for mod dug_wormlight_plant	
+[00:00:45]: unloading prefabs for mod dug_flower_cave_triple	
+[00:00:45]: unloading prefabs for mod dyc_damagedisplay	
+[00:00:45]: unloading prefabs for mod dyc_healthbar	
+[00:00:45]: unloading prefabs for mod dyc_healthbarchild	
+[00:00:45]: loaded modindex	
+[00:00:45]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:45]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:45]: modoverrides.lua enabling workshop-1207269058	
+[00:00:45]: modoverrides.lua enabling workshop-818739975	
+[00:00:45]: modoverrides.lua enabling workshop-1378549454	
+[00:00:45]: modoverrides.lua enabling workshop-758532836	
+[00:00:45]: modoverrides.lua enabling workshop-875994715	
+[00:00:45]: modoverrides.lua enabling workshop-770901818	
+[00:00:45]: modoverrides.lua enabling workshop-1852257480	
+[00:00:45]: modoverrides.lua enabling workshop-375850593	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[00:00:45]: ModIndex:GetModsToLoad inserting moddir, 	workshop-875994715	
+[00:00:45]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:45]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:45]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:45]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:45]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:45]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:45]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:45]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:45]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:45]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:45]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.12	
+[00:00:45]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:45]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:45]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:45]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:45]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:45]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:45]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:45]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:45]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:45]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:45]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:5.1.3	
+[00:00:45]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:45]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:45]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:45]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:45]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:45]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:45]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:45]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:45]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:45]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:45]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
+[00:00:45]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:45]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:45]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:45]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:45]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:45]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:45]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:45]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:45]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:45]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:45]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:45]: Could not load mod_config_data/modconfiguration_workshop-758532836	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:45]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:45]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:45]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:45]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:45]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:45]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:45]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:45]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:45]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:46]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:46]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:46]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:46]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
+[00:00:46]: Could not load mod_config_data/modconfiguration_workshop-770901818	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:46]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:46]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:46]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:46]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:46]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:46]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:46]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:46]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:46]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:46]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:46]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:46]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:46]: Could not load mod_config_data/modconfiguration_workshop-818739975	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:46]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:46]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:46]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:46]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:46]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:46]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:46]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:46]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:46]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:46]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:46]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:46]: Loading mod: workshop-818739975 (Adshovel) Version:1.6	
+[00:00:46]: Could not load mod_config_data/modconfiguration_workshop-875994715	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:46]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:00:46]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:00:46]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:00:46]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:00:46]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:00:46]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:46]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:46]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:46]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:46]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:46]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:46]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:46]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:46]: Loading mod: workshop-875994715 (Lazy Furnace) Version:2.2	
+[00:00:46]: Mod: workshop-875994715 (Lazy Furnace)	Loading modworldgenmain.lua	
+[00:00:46]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:46]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmain.lua	
+[00:00:46]: modimport: ../mods/workshop-875994715/scripts/tools/waffles	
+[00:00:46]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
+[00:00:46]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
+[00:00:46]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
+[00:00:46]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
+[00:00:46]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
+[00:00:47]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
+[00:00:47]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
+[00:00:47]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
+[00:00:47]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
+[00:00:47]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:47]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
+[00:00:47]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:47]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:47]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-770901818 (Hound Attack)	Loading modbackendmain.lua	
+[00:00:47]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:47]: Mod: workshop-818739975 (Adshovel)	Loading modworldgenmain.lua	
+[00:00:47]: Mod: workshop-818739975 (Adshovel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-818739975 (Adshovel)	Loading modbackendmain.lua	
+[00:00:47]: Mod: workshop-818739975 (Adshovel)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-818739975 (Adshovel)	Loading modmain.lua	
+[00:00:47]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:47]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modbackendmain.lua	
+[00:00:47]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:47]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:47]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:47]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
+[00:00:47]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
+[00:00:47]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:47]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:47]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-758532836 (Global Pause)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-758532836 (Global Pause)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:47]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:47]: Mod: workshop-770901818 (Hound Attack)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:47]: Mod: workshop-818739975 (Adshovel)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-818739975 (Adshovel)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:47]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:00:47]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmainpostinit.lua	
+[00:00:47]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:01:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:01:02]: LOADING LUA SUCCESS
+[00:01:02]: Registering mod namespace "workshop-1207269058"
+[00:01:02]: Registering mod namespace "globalpause"
+[00:01:02]: PlayerDeaths could not load morgue	
+[00:01:02]: PlayerHistory could not load player_history	
+[00:01:02]: ServerPreferences could not load server_preferences	
+[00:01:02]: bloom_enabled	false	
+[00:01:02]: loaded saveindex	
+[00:01:02]: OnFilesLoaded()	
+[00:01:02]: OnUpdatePurchaseStateComplete	
+[00:01:02]: Loading world: session/794B33BF27E88865/0000002360	
+[00:01:03]: Save file is at version 5.05	
+[00:01:03]: Klump load on boot started.	
+[00:01:03]: Klump files loaded: 	0	
+[00:01:04]: 	Unload FE	
+[00:01:04]: 	Unload FE done	
+[00:01:28]: Mod: workshop-875994715 (Lazy Furnace)	Registering prefabs	
+[00:01:28]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/dragonfurnace_projectile	
+[00:01:28]: Mod: workshop-875994715 (Lazy Furnace)	    dragonflyfurnace_projectile	
+[00:01:28]: Mod: workshop-875994715 (Lazy Furnace)	  Registering default mod prefab	
+[00:01:28]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
+[00:01:28]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
+[00:01:28]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
+[00:01:28]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
+[00:01:28]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:01:28]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:01:28]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:01:28]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	Registering prefabs	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cave_banana_tree	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_lichen	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_lichen	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_lichen_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cactus	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_cactus	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_cactus_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_flower_cave	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_reeds	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_reeds	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_reeds_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_shrooms	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom_placer	
+[00:01:28]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_oasis_cactus	
+[00:01:29]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus	
+[00:01:29]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus_placer	
+[00:01:29]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_wormlight_plant	
+[00:01:29]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant	
+[00:01:29]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant_placer	
+[00:01:29]: Mod: workshop-818739975 (Adshovel)	  Registering default mod prefab	
+[00:01:29]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:01:29]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:01:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:01:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:01:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:01:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:01:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:01:29]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:01:30]: 	LOAD BE	
+[00:02:03]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_crow)
+[00:02:03]: Could not preload undefined prefab (hermitshop_supertacklecontainer)
+[00:02:03]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_drowsy)
+[00:02:03]: Could not preload undefined prefab (hermitshop_chum)
+[00:02:03]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_malbatross)
+[00:02:03]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_goose)
+[00:02:03]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_heavy)
+[00:02:04]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_canary)
+[00:02:04]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_robin_winter)
+[00:02:05]: Could not preload undefined prefab (hermitshop_oceanfishingbobber_robin)
+[00:02:05]: Could not preload undefined prefab (hermitshop_turf_shellbeach_blueprint)
+[00:02:05]: Could not preload undefined prefab (hermitshop_winch_blueprint)
+[00:02:05]: Could not preload undefined prefab (hermitshop_hermit_bundle_shells)
+[00:02:06]: Could not preload undefined prefab (yotc_shrinecarrat)
+[00:02:07]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_rain)
+[00:02:07]: Could not preload undefined prefab (hermitshop_tacklecontainer)
+[00:02:08]: Could not preload undefined prefab (hermitshop_oceanfishinglure_hermit_snow)
+[00:02:08]: 	LOAD BE: done	
+[00:02:08]: Loading GemCore's DynamicTileManager	
+[00:02:08]: Loading Dynamic Gem Core Tiles!	
+[00:02:08]: Found a level data override file with these contents:	
+[00:02:08]: 	K: 	background_node_range	 V: 	table: 083B69E8	
+[00:02:08]: 		K: 	1	 V: 	0	
+[00:02:08]: 		K: 	2	 V: 	1	
+[00:02:08]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:02:08]: 	K: 	hideminimap	 V: 	false	
+[00:02:08]: 	K: 	id	 V: 	DST_CAVE	
+[00:02:08]: 	K: 	location	 V: 	cave	
+[00:02:08]: 	K: 	max_playlist_position	 V: 	999	
+[00:02:08]: 	K: 	min_playlist_position	 V: 	0	
+[00:02:08]: 	K: 	name	 V: 	The Caves	
+[00:02:08]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:02:08]: 	K: 	override_level_string	 V: 	false	
+[00:02:08]: 	K: 	overrides	 V: 	table: 083B77A8	
+[00:02:08]: 		K: 	banana	 V: 	default	
+[00:02:08]: 		K: 	bats	 V: 	default	
+[00:02:08]: 		K: 	berrybush	 V: 	default	
+[00:02:08]: 		K: 	boons	 V: 	always	
+[00:02:08]: 		K: 	branching	 V: 	default	
+[00:02:08]: 		K: 	bunnymen	 V: 	default	
+[00:02:08]: 		K: 	cave_ponds	 V: 	default	
+[00:02:08]: 		K: 	cave_spiders	 V: 	default	
+[00:02:08]: 		K: 	cavelight	 V: 	default	
+[00:02:08]: 		K: 	chess	 V: 	default	
+[00:02:08]: 		K: 	disease_delay	 V: 	none	
+[00:02:08]: 		K: 	earthquakes	 V: 	default	
+[00:02:08]: 		K: 	fern	 V: 	default	
+[00:02:08]: 		K: 	fissure	 V: 	default	
+[00:02:08]: 		K: 	flint	 V: 	default	
+[00:02:08]: 		K: 	flower_cave	 V: 	default	
+[00:02:08]: 		K: 	grass	 V: 	default	
+[00:02:08]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:02:08]: 		K: 	lichen	 V: 	default	
+[00:02:08]: 		K: 	liefs	 V: 	default	
+[00:02:08]: 		K: 	loop	 V: 	default	
+[00:02:08]: 		K: 	marshbush	 V: 	default	
+[00:02:08]: 		K: 	monkey	 V: 	default	
+[00:02:08]: 		K: 	mushroom	 V: 	default	
+[00:02:08]: 		K: 	mushtree	 V: 	default	
+[00:02:08]: 		K: 	prefabswaps_start	 V: 	default	
+[00:02:08]: 		K: 	reeds	 V: 	default	
+[00:02:08]: 		K: 	regrowth	 V: 	default	
+[00:02:08]: 		K: 	roads	 V: 	never	
+[00:02:08]: 		K: 	rock	 V: 	default	
+[00:02:08]: 		K: 	rocky	 V: 	default	
+[00:02:08]: 		K: 	sapling	 V: 	default	
+[00:02:08]: 		K: 	season_start	 V: 	default	
+[00:02:08]: 		K: 	slurper	 V: 	default	
+[00:02:08]: 		K: 	slurtles	 V: 	default	
+[00:02:08]: 		K: 	specialevent	 V: 	year_of_the_carrat	
+[00:02:08]: 		K: 	start_location	 V: 	caves	
+[00:02:08]: 		K: 	task_set	 V: 	cave_default	
+[00:02:08]: 		K: 	tentacles	 V: 	default	
+[00:02:08]: 		K: 	touchstone	 V: 	always	
+[00:02:08]: 		K: 	trees	 V: 	default	
+[00:02:08]: 		K: 	weather	 V: 	default	
+[00:02:08]: 		K: 	world_size	 V: 	default	
+[00:02:08]: 		K: 	worldseed	 V: 	WORLD VERSION IS TOO OLD	
+[00:02:08]: 		K: 	wormattacks	 V: 	default	
+[00:02:08]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:02:08]: 		K: 	wormlights	 V: 	default	
+[00:02:08]: 		K: 	worms	 V: 	default	
+[00:02:08]: 	K: 	required_prefabs	 V: 	table: 083B7848	
+[00:02:08]: 		K: 	1	 V: 	multiplayer_portal	
+[00:02:08]: 	K: 	substitutes	 V: 	table: 083B7898	
+[00:02:08]: 	K: 	version	 V: 	4	
+[00:02:08]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:02:08]: Not applying world gen overrides.	
+[00:02:08]: Begin Session: 794B33BF27E88865
+[00:02:12]: saving to server_temp/server_save	
+[00:02:20]: Overriding World Event to: year_of_the_pig	
+[00:02:20]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:02:20]: Loading 17 new character(s)	
+[00:02:25]: Total 17 character(s) loaded	
+[00:03:04]: Loading Nav Grid	
+[00:03:04]: World generated on version 314835, using seed: 1552132906	
+[00:03:04]: setting 	summerlength	15	
+[00:03:04]: setting 	isnightmaredawn	false	
+[00:03:04]: setting 	elapseddaysinseason	3	
+[00:03:04]: setting 	isfullmoon	false	
+[00:03:04]: setting 	moisture	7524.0922851563	
+[00:03:04]: setting 	springlength	20	
+[00:03:04]: setting 	isnightmarewild	true	
+[00:03:04]: setting 	moonphase	new	
+[00:03:04]: setting 	precipitationrate	0	
+[00:03:04]: setting 	iswet	false	
+[00:03:04]: setting 	isnewmoon	false	
+[00:03:04]: setting 	iswinter	false	
+[00:03:04]: setting 	israining	false	
+[00:03:04]: setting 	isnightmarewarn	false	
+[00:03:04]: setting 	precipitation	none	
+[00:03:04]: setting 	cavephase	day	
+[00:03:04]: setting 	moistureceil	8517.2275390625	
+[00:03:04]: setting 	isday	false	
+[00:03:04]: setting 	iscaveday	true	
+[00:03:04]: setting 	season	autumn	
+[00:03:04]: setting 	timeinphase	0.9995940025206	
+[00:03:04]: setting 	temperature	26.280255543099	
+[00:03:04]: setting 	isnightmarecalm	false	
+[00:03:04]: setting 	isnight	true	
+[00:03:04]: setting 	isdusk	false	
+[00:03:04]: setting 	iscavedusk	false	
+[00:03:04]: setting 	isautumn	true	
+[00:03:04]: setting 	issnowing	false	
+[00:03:04]: setting 	iswaxingmoon	true	
+[00:03:04]: setting 	pop	0.75858605185114	
+[00:03:04]: setting 	snowlevel	0	
+[00:03:04]: setting 	issnowcovered	false	
+[00:03:04]: setting 	autumnlength	20	
+[00:03:04]: setting 	phase	night	
+[00:03:04]: setting 	nightmaretime	492.19838102761	
+[00:03:04]: setting 	winterlength	15	
+[00:03:04]: setting 	isspring	false	
+[00:03:04]: setting 	nightmarephase	wild	
+[00:03:04]: setting 	remainingdaysinseason	17	
+[00:03:04]: setting 	cycles	2103	
+[00:03:04]: setting 	iscavenight	false	
+[00:03:04]: setting 	nightmaretimeinphase	0.28132254018403	
+[00:03:04]: setting 	wetness	0	
+[00:03:04]: setting 	time	0.56227162641784	
+[00:03:04]: setting 	issummer	false	
+[00:03:04]: [Shard] Secondary shard is waiting for LUA...
+[00:03:04]: OVERRIDE: setting	disease_delay	to	none	
+[00:03:50]: Reconstructing topology	
+[00:03:50]: 	...Sorting points	
+[00:03:50]: 	...Sorting edges	
+[00:03:50]: 	...Connecting nodes	
+[00:03:50]: 	...Validating connections	
+[00:03:52]: 	...Housekeeping	
+[00:03:52]: 	...Done!	
+[00:03:52]: 1 uploads added to server. From server_temp
+[00:03:52]: About to start a shard with these settings:
+[00:03:52]:   ShardName: Caves
+[00:03:52]:   ShardID: 2868293775
+[00:03:52]:   ShardRole: SECONDARY
+[00:03:52]:   MasterHost: 127.0.0.1
+[00:03:52]:   MasterBind: (null)
+[00:03:52]:   MasterPort: 10888
+[00:03:52]: [Shard] Connecting to master...
+[00:03:52]: Telling Client our new session identifier: 794B33BF27E88865
+[00:03:52]: Check for write access: TRUE
+[00:03:52]: Check for read access: TRUE
+[00:03:52]: Available disk space for save files: 143458 MB
+[00:03:52]: ModIndex: Load sequence finished successfully.	
+[00:03:55]: Reset() returning
+[00:03:55]: [Steam] SteamGameServer_Init(8767, 10998, 27017)
+[00:04:04]: [Steam] SteamGameServer_Init success
+[00:04:04]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:04:06]: Validating portal[4] <-> 1[4] (inactive)	
+[00:04:06]: Validating portal[3] <-> 1[3] (inactive)	
+[00:04:06]: Validating portal[2] <-> 1[2] (inactive)	
+[00:04:06]: Validating portal[9] <-> 1[9] (inactive)	
+[00:04:07]: Validating portal[1] <-> 1[1] (inactive)	
+[00:04:07]: Validating portal[10] <-> 1[10] (inactive)	
+[00:04:07]: Validating portal[8] <-> 1[8] (inactive)	
+[00:04:07]: Validating portal[6] <-> 1[6] (inactive)	
+[00:04:07]: Validating portal[5] <-> 1[5] (inactive)	
+[00:04:07]: Validating portal[7] <-> 1[7] (inactive)	
+[00:04:07]: Gameserver logged on to Steam, assigned identity steamid:90139413770927106
+[00:04:07]: SteamDatagramTransportLock held for 137.7ms.  This can be a performance problem.
+[00:04:09]: About to start a shard with these settings:
+[00:04:09]:   ShardName: Caves
+[00:04:09]:   ShardID: 2868293775
+[00:04:09]:   ShardRole: SECONDARY
+[00:04:09]:   MasterHost: 127.0.0.1
+[00:04:09]:   MasterBind: (null)
+[00:04:09]:   MasterPort: 10888
+[00:04:09]: [Shard] Connecting to master...
+[00:04:19]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:04:24]: About to start a shard with these settings:
+[00:04:24]:   ShardName: Caves
+[00:04:24]:   ShardID: 2868293775
+[00:04:24]:   ShardRole: SECONDARY
+[00:04:24]:   MasterHost: 127.0.0.1
+[00:04:24]:   MasterBind: (null)
+[00:04:24]:   MasterPort: 10888
+[00:04:24]: [Shard] Connecting to master...
+[00:04:34]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:04:39]: About to start a shard with these settings:
+[00:04:39]:   ShardName: Caves
+[00:04:39]:   ShardID: 2868293775
+[00:04:39]:   ShardRole: SECONDARY
+[00:04:39]:   MasterHost: 127.0.0.1
+[00:04:39]:   MasterBind: (null)
+[00:04:40]:   MasterPort: 10888
+[00:04:40]: [Shard] Connecting to master...
+[00:04:50]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:04:55]: About to start a shard with these settings:
+[00:04:55]:   ShardName: Caves
+[00:04:55]:   ShardID: 2868293775
+[00:04:55]:   ShardRole: SECONDARY
+[00:04:55]:   MasterHost: 127.0.0.1
+[00:04:55]:   MasterBind: (null)
+[00:04:55]:   MasterPort: 10888
+[00:04:55]: [Shard] Connecting to master...
+[00:05:05]: [Shard] Connection to master failed. Waiting to reconnect...
+[00:05:10]: About to start a shard with these settings:
+[00:05:10]:   ShardName: Caves
+[00:05:10]:   ShardID: 2868293775
+[00:05:10]:   ShardRole: SECONDARY
+[00:05:10]:   MasterHost: 127.0.0.1
+[00:05:10]:   MasterBind: (null)
+[00:05:10]:   MasterPort: 10888
+[00:05:10]: [Shard] Connecting to master...
+[00:05:13]: [Shard] Sending secondary shard information to master...
+[00:06:02]: Registering secondary shard in US lobby
+[00:06:03]: [Shard] secondary shard is now ready!
+[00:06:03]: World 1 is now connected	
+[00:06:03]: Validating portal[4] <-> 1[4] (active)	
+[00:06:03]: Validating portal[3] <-> 1[3] (active)	
+[00:06:03]: Validating portal[2] <-> 1[2] (active)	
+[00:06:03]: Validating portal[9] <-> 1[9] (active)	
+[00:06:03]: Validating portal[1] <-> 1[1] (active)	
+[00:06:03]: Validating portal[10] <-> 1[10] (active)	
+[00:06:03]: Validating portal[8] <-> 1[8] (active)	
+[00:06:03]: Validating portal[6] <-> 1[6] (active)	
+[00:06:03]: Validating portal[5] <-> 1[5] (active)	
+[00:06:03]: Validating portal[7] <-> 1[7] (active)	
+[00:06:04]: [Shard] secondary shard LUA is now ready!
+[00:06:04]: [IPC] Signal 'DST_Secondary_Ready' opened  #00000774
+[00:06:04]: [IPC] Sending signal... #00000774
+[00:06:04]: Sim paused
+[00:07:22]: Sim unpaused
+[00:11:02]: Registering secondary shard in US lobby
+[00:11:13]: Available disk space for save files: 143456 MB
+[00:11:15]: Serializing world: session/794B33BF27E88865/0000002361
+[00:11:15]: Truncating to snapshot #2361...
+[00:11:15]:  - session/794B33BF27E88865/0000002355
+[00:11:15]:    1 file(s) removed
+[00:16:02]: Registering secondary shard in US lobby
+[00:17:05]: Registering secondary shard in US lobby
+[00:17:06]: Gameserver logged on to Steam, assigned identity steamid:90139413770927106
+[00:17:06]: SteamDatagramTransportLock held for 242.5ms.  This can be a performance problem.
+[00:17:06]: Registering secondary shard in US lobby
+[00:19:18]: Available disk space for save files: 143444 MB
+[00:19:20]: Serializing world: session/794B33BF27E88865/0000002362
+[00:19:21]: Truncating to snapshot #2362...
+[00:19:21]:  - session/794B33BF27E88865/0000002356
+[00:19:21]:    1 file(s) removed
+[00:22:06]: Registering secondary shard in US lobby
+[00:27:06]: Registering secondary shard in US lobby
+[00:27:22]: Available disk space for save files: 143435 MB
+[00:27:24]: Serializing world: session/794B33BF27E88865/0000002363
+[00:27:25]: Truncating to snapshot #2363...
+[00:27:25]:  - session/794B33BF27E88865/0000002357
+[00:27:25]:    1 file(s) removed
+[00:29:22]: Start world reset countdown... 120 seconds...	
+[00:29:33]: World 1 is now disconnected	
+[00:29:33]: Validating portal[4] <-> 1[4] (inactive)	
+[00:29:33]: Validating portal[3] <-> 1[3] (inactive)	
+[00:29:33]: Validating portal[2] <-> 1[2] (inactive)	
+[00:29:33]: Validating portal[9] <-> 1[9] (inactive)	
+[00:29:33]: Validating portal[1] <-> 1[1] (inactive)	
+[00:29:33]: Validating portal[10] <-> 1[10] (inactive)	
+[00:29:33]: Validating portal[8] <-> 1[8] (inactive)	
+[00:29:33]: Validating portal[6] <-> 1[6] (inactive)	
+[00:29:33]: Validating portal[5] <-> 1[5] (inactive)	
+[00:29:33]: Validating portal[7] <-> 1[7] (inactive)	
+[00:29:33]: Sim paused
+[00:30:38]: [200] Account Communication Success (6)
+[00:30:38]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:31:54]: Synchronizing backward to master snapshot 2363	
+[00:31:54]: World 1 is now connected	
+[00:31:54]: Validating portal[4] <-> 1[4] (active)	
+[00:31:54]: Validating portal[3] <-> 1[3] (active)	
+[00:31:54]: Validating portal[2] <-> 1[2] (active)	
+[00:31:54]: Validating portal[9] <-> 1[9] (active)	
+[00:31:54]: Validating portal[1] <-> 1[1] (active)	
+[00:31:54]: Validating portal[10] <-> 1[10] (active)	
+[00:31:54]: Validating portal[8] <-> 1[8] (active)	
+[00:31:54]: Validating portal[6] <-> 1[6] (active)	
+[00:31:54]: Validating portal[5] <-> 1[5] (active)	
+[00:31:54]: Validating portal[7] <-> 1[7] (active)	
+[00:31:54]: Sim unpaused
+[00:31:55]: Collecting garbage...
+[00:31:55]: lua_gc took 0.34 seconds
+[00:31:56]: ~ShardLuaProxy()
+[00:31:57]: ~cEventLeaderboardProxy()
+[00:31:57]: ~ItemServerLuaProxy()
+[00:31:57]: ~InventoryLuaProxy()
+[00:31:57]: ~NetworkLuaProxy()
+[00:31:57]: ~SimLuaProxy()
+[00:31:57]: lua_close took 1.38 seconds
+[00:31:57]: ReleaseAll
+[00:31:57]: ReleaseAll Finished
+[00:31:57]: cGame::StartPlaying
+[00:31:57]: LOADING LUA
+[00:31:58]: DoLuaFile scripts/main.lua
+[00:31:58]: DoLuaFile loading buffer scripts/main.lua
+[00:31:58]:   taskgrouplist:	default	Together	
+[00:31:58]:   taskgrouplist:	classic	Classic	
+[00:31:58]:   taskgrouplist:	cave_default	Underground	
+[00:31:58]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:31:59]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:31:59]: running main.lua
+	
+[00:31:59]: unloading prefabs for mod MOD_workshop-875994715	
+[00:31:59]: unloading prefabs for mod MOD_workshop-1378549454	
+[00:31:59]: unloading prefabs for mod MOD_workshop-758532836	
+[00:31:59]: unloading prefabs for mod MOD_workshop-375850593	
+[00:31:59]: unloading prefabs for mod MOD_workshop-770901818	
+[00:31:59]: unloading prefabs for mod MOD_workshop-818739975	
+[00:31:59]: unloading prefabs for mod MOD_workshop-1852257480	
+[00:32:00]: unloading prefabs for mod MOD_workshop-1207269058	
+[00:32:00]: unloading prefabs for mod dragonflyfurnace_projectile	
+[00:32:00]: unloading prefabs for mod dug_flower_cave_double	
+[00:32:00]: unloading prefabs for mod dug_flower_cave_triple_placer	
+[00:32:00]: unloading prefabs for mod dug_cactus	
+[00:32:00]: unloading prefabs for mod dug_oasis_cactus_placer	
+[00:32:00]: unloading prefabs for mod dug_reeds_placer	
+[00:32:00]: unloading prefabs for mod dug_lichen_placer	
+[00:32:00]: unloading prefabs for mod dug_flower_cave_double_placer	
+[00:32:00]: unloading prefabs for mod dug_cave_banana_tree	
+[00:32:00]: unloading prefabs for mod dug_red_mushroom_placer	
+[00:32:00]: unloading prefabs for mod dug_wormlight_plant_placer	
+[00:32:00]: unloading prefabs for mod dug_reeds	
+[00:32:00]: unloading prefabs for mod dug_red_mushroom	
+[00:32:00]: unloading prefabs for mod dug_cave_banana_tree_placer	
+[00:32:00]: unloading prefabs for mod dug_oasis_cactus	
+[00:32:00]: unloading prefabs for mod dug_blue_mushroom_placer	
+[00:32:00]: unloading prefabs for mod dug_green_mushroom	
+[00:32:00]: unloading prefabs for mod dug_blue_mushroom	
+[00:32:01]: unloading prefabs for mod dug_cactus_placer	
+[00:32:01]: unloading prefabs for mod dug_green_mushroom_placer	
+[00:32:01]: unloading prefabs for mod dug_lichen	
+[00:32:01]: unloading prefabs for mod dug_flower_cave_placer	
+[00:32:01]: unloading prefabs for mod dug_flower_cave	
+[00:32:01]: unloading prefabs for mod dug_wormlight_plant	
+[00:32:01]: unloading prefabs for mod dug_flower_cave_triple	
+[00:32:01]: unloading prefabs for mod dyc_damagedisplay	
+[00:32:01]: unloading prefabs for mod dyc_healthbar	
+[00:32:01]: unloading prefabs for mod dyc_healthbarchild	
+[00:32:01]: loaded modindex	
+[00:32:01]: WARNING: icon paths for mod workshop-478005098 (Craftable Gears) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:32:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:32:01]: modoverrides.lua enabling workshop-1207269058	
+[00:32:02]: modoverrides.lua enabling workshop-818739975	
+[00:32:02]: modoverrides.lua enabling workshop-1378549454	
+[00:32:02]: modoverrides.lua enabling workshop-758532836	
+[00:32:02]: modoverrides.lua enabling workshop-875994715	
+[00:32:02]: modoverrides.lua enabling workshop-770901818	
+[00:32:02]: modoverrides.lua enabling workshop-1852257480	
+[00:32:02]: modoverrides.lua enabling workshop-375850593	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1207269058	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1378549454	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-758532836	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[00:32:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-875994715	
+[00:32:02]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:03]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:03]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:03]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:03]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:03]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:03]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:03]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:03]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:03]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:03]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.12	
+[00:32:03]: Could not load mod_config_data/modconfiguration_workshop-1378549454	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:03]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:03]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:03]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:03]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:03]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:03]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:03]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:03]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:03]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:03]: Loading mod: workshop-1378549454 ([API] Gem Core) Version:5.1.3	
+[00:32:03]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:03]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:03]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:03]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:03]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:03]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:03]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:03]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:03]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:03]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:03]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
+[00:32:03]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:03]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:03]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:03]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:03]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:03]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:03]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:03]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:03]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:03]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:03]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:32:03]: Could not load mod_config_data/modconfiguration_workshop-758532836	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:03]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:03]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:03]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:03]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:03]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:03]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:03]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:03]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:03]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:03]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:03]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:03]: Loading mod: workshop-758532836 (Global Pause) Version:1.5.0	
+[00:32:03]: Could not load mod_config_data/modconfiguration_workshop-770901818	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:03]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:04]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:04]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:04]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:04]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:04]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:04]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:04]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:04]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:32:04]: Could not load mod_config_data/modconfiguration_workshop-818739975	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:04]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:04]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:04]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:04]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:04]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:04]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:04]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:04]: Loading mod: workshop-818739975 (Adshovel) Version:1.6	
+[00:32:04]: Could not load mod_config_data/modconfiguration_workshop-875994715	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:32:04]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1378549454	
+[00:32:04]: Overriding mod workshop-1378549454's option craftinghighlight with value false	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-758532836	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSECONSOLE with value false	
+[00:32:04]: Overriding mod workshop-758532836's option ENABLECLIENTPAUSING with value false	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSEMAP with value false	
+[00:32:04]: Overriding mod workshop-758532836's option KEYBOARDTOGGLEKEY with value P	
+[00:32:04]: Overriding mod workshop-758532836's option AUTOPAUSESINGLEPLAYER with value true	
+[00:32:04]: Overriding mod workshop-758532836's option ENABLEHOTKEY with value false	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:32:04]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:32:04]: Overriding mod workshop-770901818's option format with value simple	
+[00:32:04]: Overriding mod workshop-770901818's option days with value 2	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:32:04]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:32:04]: Overriding mod workshop-1852257480's option info with value false	
+[00:32:04]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:32:04]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:32:04]: Loading mod: workshop-875994715 (Lazy Furnace) Version:2.2	
+[00:32:04]: Mod: workshop-875994715 (Lazy Furnace)	Loading modworldgenmain.lua	
+[00:32:04]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmain.lua	
+[00:32:04]: modimport: ../mods/workshop-875994715/scripts/tools/waffles	
+[00:32:04]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modworldgenmain.lua	
+[00:32:04]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modbackendmain.lua	
+[00:32:04]: modimport: ../mods/workshop-1378549454/gemscripts/gemrun	
+[00:32:04]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modbackendmain	
+[00:32:04]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmain.lua	
+[00:32:04]: modimport: ../mods/workshop-1378549454/gemscripts/legacy_modmain	
+[00:32:04]: Mod: workshop-758532836 (Global Pause)	Loading modworldgenmain.lua	
+[00:32:04]: Mod: workshop-758532836 (Global Pause)	Loading modbackendmain.lua	
+[00:32:04]: Mod: workshop-758532836 (Global Pause)	  Mod had no modbackendmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-758532836 (Global Pause)	Loading modmain.lua	
+[00:32:04]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:32:04]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modbackendmain.lua	
+[00:32:04]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modbackendmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:32:04]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:32:04]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-770901818 (Hound Attack)	Loading modbackendmain.lua	
+[00:32:04]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modbackendmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:32:04]: Mod: workshop-818739975 (Adshovel)	Loading modworldgenmain.lua	
+[00:32:04]: Mod: workshop-818739975 (Adshovel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-818739975 (Adshovel)	Loading modbackendmain.lua	
+[00:32:04]: Mod: workshop-818739975 (Adshovel)	  Mod had no modbackendmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-818739975 (Adshovel)	Loading modmain.lua	
+[00:32:04]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:32:04]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modbackendmain.lua	
+[00:32:04]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modbackendmain.lua. Skipping.	
+[00:32:04]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:32:04]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:32:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:32:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modbackendmain.lua	
+[00:32:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modbackendmain.lua. Skipping.	
+[00:32:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:32:05]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:32:05]: Mod: workshop-1378549454 ([API] Gem Core)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-758532836 (Global Pause)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-758532836 (Global Pause)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:32:05]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:32:05]: Mod: workshop-770901818 (Hound Attack)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:32:05]: Mod: workshop-818739975 (Adshovel)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-818739975 (Adshovel)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:32:05]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:32:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmainpostinit.lua	
+[00:32:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modmainpostinit.lua. Skipping.	
+[00:32:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:32:09]: LOADING LUA SUCCESS
+[00:32:09]: Registering mod namespace "workshop-1207269058"
+[00:32:09]: Registering mod namespace "globalpause"
+[00:32:09]: PlayerDeaths could not load morgue	
+[00:32:09]: PlayerHistory could not load player_history	
+[00:32:09]: ServerPreferences could not load server_preferences	
+[00:32:09]: bloom_enabled	false	
+[00:32:09]: loaded saveindex	
+[00:32:09]: OnFilesLoaded()	
+[00:32:09]: OnUpdatePurchaseStateComplete	
+[00:32:10]: Loading world: session/794B33BF27E88865/0000002363	
+[00:32:10]: Save file is at version 5.05	
+[00:32:10]: Klump load on boot started.	
+[00:32:10]: Klump files loaded: 	0	
+[00:32:10]: 	Unload characters	
+[00:32:11]: 	BE assets already loaded	
+[00:32:18]: Mod: workshop-875994715 (Lazy Furnace)	Registering prefabs	
+[00:32:18]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/dragonfurnace_projectile	
+[00:32:18]: Mod: workshop-875994715 (Lazy Furnace)	    dragonflyfurnace_projectile	
+[00:32:18]: Mod: workshop-875994715 (Lazy Furnace)	  Registering default mod prefab	
+[00:32:18]: Mod: workshop-1378549454 ([API] Gem Core)	Registering prefabs	
+[00:32:18]: Mod: workshop-1378549454 ([API] Gem Core)	  Registering default mod prefab	
+[00:32:18]: Mod: workshop-758532836 (Global Pause)	Registering prefabs	
+[00:32:18]: Mod: workshop-758532836 (Global Pause)	  Registering default mod prefab	
+[00:32:18]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:32:18]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:32:18]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:32:19]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	Registering prefabs	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cave_banana_tree	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_lichen	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_lichen	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_lichen_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cactus	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_cactus	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_cactus_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_flower_cave	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_reeds	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_reeds	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_reeds_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_shrooms	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_oasis_cactus	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_wormlight_plant	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant_placer	
+[00:32:19]: Mod: workshop-818739975 (Adshovel)	  Registering default mod prefab	
+[00:32:19]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:32:19]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:32:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:32:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:32:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:32:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:32:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:32:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:32:19]: Loading GemCore's DynamicTileManager	
+[00:32:19]: Loading Dynamic Gem Core Tiles!	
+[00:32:19]: Found a level data override file with these contents:	
+[00:32:19]: 	K: 	background_node_range	 V: 	table: 167EDF08	
+[00:32:19]: 		K: 	1	 V: 	0	
+[00:32:19]: 		K: 	2	 V: 	1	
+[00:32:19]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:32:19]: 	K: 	hideminimap	 V: 	false	
+[00:32:19]: 	K: 	id	 V: 	DST_CAVE	
+[00:32:19]: 	K: 	location	 V: 	cave	
+[00:32:19]: 	K: 	max_playlist_position	 V: 	999	
+[00:32:19]: 	K: 	min_playlist_position	 V: 	0	
+[00:32:19]: 	K: 	name	 V: 	The Caves	
+[00:32:19]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:32:19]: 	K: 	override_level_string	 V: 	false	
+[00:32:19]: 	K: 	overrides	 V: 	table: 167EDFF8	
+[00:32:19]: 		K: 	banana	 V: 	default	
+[00:32:19]: 		K: 	bats	 V: 	default	
+[00:32:19]: 		K: 	berrybush	 V: 	default	
+[00:32:19]: 		K: 	boons	 V: 	always	
+[00:32:19]: 		K: 	branching	 V: 	default	
+[00:32:19]: 		K: 	bunnymen	 V: 	default	
+[00:32:19]: 		K: 	cave_ponds	 V: 	default	
+[00:32:19]: 		K: 	cave_spiders	 V: 	default	
+[00:32:19]: 		K: 	cavelight	 V: 	default	
+[00:32:19]: 		K: 	chess	 V: 	default	
+[00:32:19]: 		K: 	disease_delay	 V: 	none	
+[00:32:19]: 		K: 	earthquakes	 V: 	default	
+[00:32:19]: 		K: 	fern	 V: 	default	
+[00:32:19]: 		K: 	fissure	 V: 	default	
+[00:32:19]: 		K: 	flint	 V: 	default	
+[00:32:19]: 		K: 	flower_cave	 V: 	default	
+[00:32:19]: 		K: 	grass	 V: 	default	
+[00:32:19]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:32:19]: 		K: 	lichen	 V: 	default	
+[00:32:19]: 		K: 	liefs	 V: 	default	
+[00:32:19]: 		K: 	loop	 V: 	default	
+[00:32:19]: 		K: 	marshbush	 V: 	default	
+[00:32:19]: 		K: 	monkey	 V: 	default	
+[00:32:19]: 		K: 	mushroom	 V: 	default	
+[00:32:19]: 		K: 	mushtree	 V: 	default	
+[00:32:19]: 		K: 	prefabswaps_start	 V: 	default	
+[00:32:19]: 		K: 	reeds	 V: 	default	
+[00:32:19]: 		K: 	regrowth	 V: 	default	
+[00:32:19]: 		K: 	roads	 V: 	never	
+[00:32:19]: 		K: 	rock	 V: 	default	
+[00:32:19]: 		K: 	rocky	 V: 	default	
+[00:32:19]: 		K: 	sapling	 V: 	default	
+[00:32:19]: 		K: 	season_start	 V: 	default	
+[00:32:19]: 		K: 	slurper	 V: 	default	
+[00:32:19]: 		K: 	slurtles	 V: 	default	
+[00:32:19]: 		K: 	specialevent	 V: 	year_of_the_carrat	
+[00:32:19]: 		K: 	start_location	 V: 	caves	
+[00:32:19]: 		K: 	task_set	 V: 	cave_default	
+[00:32:20]: 		K: 	tentacles	 V: 	default	
+[00:32:20]: 		K: 	touchstone	 V: 	always	
+[00:32:20]: 		K: 	trees	 V: 	default	
+[00:32:20]: 		K: 	weather	 V: 	default	
+[00:32:20]: 		K: 	world_size	 V: 	default	
+[00:32:20]: 		K: 	worldseed	 V: 	WORLD VERSION IS TOO OLD	
+[00:32:20]: 		K: 	wormattacks	 V: 	default	
+[00:32:20]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:32:20]: 		K: 	wormlights	 V: 	default	
+[00:32:20]: 		K: 	worms	 V: 	default	
+[00:32:20]: 	K: 	required_prefabs	 V: 	table: 167EE2C8	
+[00:32:20]: 		K: 	1	 V: 	multiplayer_portal	
+[00:32:20]: 	K: 	substitutes	 V: 	table: 167EE1B0	
+[00:32:20]: 	K: 	version	 V: 	4	
+[00:32:20]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:32:20]: Not applying world gen overrides.	
+[00:32:20]: Begin Session: 794B33BF27E88865
+[00:32:20]: Stomping previously assigned session identifier, two loads issued.
+[00:32:22]: saving to server_temp/server_save	
+[00:32:25]: Overriding World Event to: year_of_the_pig	
+[00:32:26]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:32:26]: Loading 17 new character(s)	
+[00:32:28]: Total 17 character(s) loaded	
+[00:32:43]: Loading Nav Grid	
+[00:32:43]: World generated on version 314835, using seed: 1552132906	
+[00:32:44]: setting 	summerlength	15	
+[00:32:44]: setting 	isnightmaredawn	false	
+[00:32:44]: setting 	elapseddaysinseason	6	
+[00:32:44]: setting 	isfullmoon	false	
+[00:32:44]: setting 	moisture	8247.0205078125	
+[00:32:44]: setting 	springlength	20	
+[00:32:44]: setting 	isnightmarewild	false	
+[00:32:44]: setting 	moonphase	new	
+[00:32:44]: setting 	precipitationrate	0	
+[00:32:44]: setting 	iswet	false	
+[00:32:44]: setting 	isnewmoon	false	
+[00:32:44]: setting 	iswinter	false	
+[00:32:44]: setting 	israining	false	
+[00:32:44]: setting 	isnightmarewarn	false	
+[00:32:44]: setting 	precipitation	none	
+[00:32:44]: setting 	cavephase	day	
+[00:32:44]: setting 	moistureceil	8517.2275390625	
+[00:32:44]: setting 	isday	false	
+[00:32:44]: setting 	iscaveday	true	
+[00:32:44]: setting 	season	autumn	
+[00:32:44]: setting 	timeinphase	0.0049063364664713	
+[00:32:44]: setting 	temperature	21.820187737447	
+[00:32:44]: setting 	isnightmarecalm	true	
+[00:32:44]: setting 	isnight	true	
+[00:32:44]: setting 	isdusk	false	
+[00:32:44]: setting 	iscavedusk	false	
+[00:32:44]: setting 	isautumn	true	
+[00:32:44]: setting 	issnowing	false	
+[00:32:44]: setting 	iswaxingmoon	true	
+[00:32:44]: setting 	pop	0.93431735911592	
+[00:32:44]: setting 	snowlevel	0	
+[00:32:44]: setting 	issnowcovered	false	
+[00:32:44]: setting 	autumnlength	20	
+[00:32:44]: setting 	phase	night	
+[00:32:44]: setting 	nightmaretime	220.15123867965	
+[00:32:44]: setting 	winterlength	15	
+[00:32:44]: setting 	isspring	false	
+[00:32:44]: setting 	nightmarephase	calm	
+[00:32:44]: setting 	remainingdaysinseason	14	
+[00:32:44]: setting 	cycles	2106	
+[00:32:44]: setting 	iscavenight	false	
+[00:32:44]: setting 	nightmaretimeinphase	0.61153121855459	
+[00:32:44]: setting 	wetness	0	
+[00:32:44]: setting 	time	0.0024531682332357	
+[00:32:44]: setting 	issummer	false	
+[00:32:44]: OVERRIDE: setting	disease_delay	to	none	
+[00:33:02]: Reconstructing topology	
+[00:33:02]: 	...Sorting points	
+[00:33:02]: 	...Sorting edges	
+[00:33:02]: 	...Connecting nodes	
+[00:33:02]: 	...Validating connections	
+[00:33:03]: 	...Housekeeping	
+[00:33:03]: 	...Done!	
+[00:33:03]: 1 uploads added to server. From server_temp
+[00:33:03]: World 1 is now connected	
+[00:33:03]: Telling Client our new session identifier: 794B33BF27E88865
+[00:33:03]: Check for write access: TRUE
+[00:33:03]: Check for read access: TRUE
+[00:33:03]: Available disk space for save files: 143442 MB
+[00:33:03]: ModIndex: Load sequence finished successfully.	
+[00:33:04]: Reset() returning
+[00:33:04]: Registering secondary shard in US lobby
+[00:33:04]: Validating portal[10] <-> 1[10] (active)	
+[00:33:05]: Validating portal[5] <-> 1[5] (active)	
+[00:33:05]: Validating portal[8] <-> 1[8] (active)	
+[00:33:05]: Validating portal[2] <-> 1[2] (active)	
+[00:33:05]: Validating portal[1] <-> 1[1] (active)	
+[00:33:05]: Validating portal[9] <-> 1[9] (active)	
+[00:33:05]: Validating portal[7] <-> 1[7] (active)	
+[00:33:05]: Validating portal[6] <-> 1[6] (active)	
+[00:33:05]: Validating portal[3] <-> 1[3] (active)	
+[00:33:06]: Validating portal[4] <-> 1[4] (active)	
+[00:38:04]: Registering secondary shard in US lobby
+[00:40:11]: Available disk space for save files: 143440 MB
+[00:40:13]: Serializing world: session/794B33BF27E88865/0000002364
+[00:40:13]: Truncating to snapshot #2364...
+[00:40:13]:  - session/794B33BF27E88865/0000002358
+[00:40:13]:    1 file(s) removed
+[00:43:04]: Registering secondary shard in US lobby
+[00:48:04]: Registering secondary shard in US lobby
+[00:48:16]: Available disk space for save files: 143443 MB
+[00:48:18]: Serializing world: session/794B33BF27E88865/0000002365
+[00:48:18]: Truncating to snapshot #2365...
+[00:48:18]:  - session/794B33BF27E88865/0000002359
+[00:48:18]:    1 file(s) removed
+[00:53:04]: Registering secondary shard in US lobby
+[00:56:20]: Available disk space for save files: 143432 MB
+[00:56:22]: Serializing world: session/794B33BF27E88865/0000002366
+[00:56:22]: Truncating to snapshot #2366...
+[00:56:23]:  - session/794B33BF27E88865/0000002360
+[00:56:23]:    1 file(s) removed
+[00:58:04]: Registering secondary shard in US lobby
+[01:00:38]: [200] Account Communication Success (6)
+[01:00:38]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:03:04]: Registering secondary shard in US lobby
+[01:04:24]: Available disk space for save files: 143426 MB
+[01:04:26]: Serializing world: session/794B33BF27E88865/0000002367
+[01:04:26]: Truncating to snapshot #2367...
+[01:04:27]:  - session/794B33BF27E88865/0000002361
+[01:04:27]:    1 file(s) removed
+[01:08:04]: Registering secondary shard in US lobby
+[01:10:59]: Sim paused
+[01:12:05]: Sim unpaused
+[01:13:04]: Registering secondary shard in US lobby
+[01:13:34]: Available disk space for save files: 143436 MB
+[01:13:37]: Serializing world: session/794B33BF27E88865/0000002368
+[01:13:37]: Truncating to snapshot #2368...
+[01:13:37]:  - session/794B33BF27E88865/0000002362
+[01:13:37]:    1 file(s) removed
+[01:18:04]: Registering secondary shard in US lobby
+[01:21:39]: Available disk space for save files: 143428 MB
+[01:21:41]: Serializing world: session/794B33BF27E88865/0000002369
+[01:21:42]: Truncating to snapshot #2369...
+[01:21:42]:  - session/794B33BF27E88865/0000002363
+[01:21:42]:    1 file(s) removed
+[01:23:04]: Registering secondary shard in US lobby
+[01:28:04]: Registering secondary shard in US lobby
+[01:29:43]: Available disk space for save files: 143420 MB
+[01:29:45]: Serializing world: session/794B33BF27E88865/0000002370
+[01:29:46]: Truncating to snapshot #2370...
+[01:29:46]:  - session/794B33BF27E88865/0000002364
+[01:29:46]:    1 file(s) removed
+[01:30:38]: [200] Account Communication Success (6)
+[01:30:38]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:33:04]: Registering secondary shard in US lobby
+[01:37:48]: Available disk space for save files: 143421 MB
+[01:37:50]: Serializing world: session/794B33BF27E88865/0000002371
+[01:37:51]: Truncating to snapshot #2371...
+[01:37:51]:  - session/794B33BF27E88865/0000002365
+[01:37:52]:    1 file(s) removed
+[01:38:04]: Registering secondary shard in US lobby
+[01:43:04]: Registering secondary shard in US lobby
+[01:45:53]: Available disk space for save files: 143415 MB
+[01:45:55]: Serializing world: session/794B33BF27E88865/0000002372
+[01:45:55]: Truncating to snapshot #2372...
+[01:45:55]:  - session/794B33BF27E88865/0000002366
+[01:45:55]:    1 file(s) removed
+[01:48:04]: Registering secondary shard in US lobby
+[01:53:04]: Registering secondary shard in US lobby
+[01:53:57]: Available disk space for save files: 143403 MB
+[01:54:00]: Serializing world: session/794B33BF27E88865/0000002373
+[01:54:00]: Truncating to snapshot #2373...
+[01:54:01]:  - session/794B33BF27E88865/0000002367
+[01:54:01]:    1 file(s) removed
+[01:58:04]: Registering secondary shard in US lobby
+[02:00:38]: [200] Account Communication Success (6)
+[02:00:38]: Received (KU_c1gvcGFZ) from TokenPurpose
+[02:02:02]: Available disk space for save files: 143396 MB
+[02:02:04]: Serializing world: session/794B33BF27E88865/0000002374
+[02:02:04]: Truncating to snapshot #2374...
+[02:02:04]:  - session/794B33BF27E88865/0000002368
+[02:02:04]:    1 file(s) removed
+[02:03:04]: Registering secondary shard in US lobby
+[02:08:04]: Registering secondary shard in US lobby
+[02:10:07]: Available disk space for save files: 143393 MB
+[02:10:09]: Serializing world: session/794B33BF27E88865/0000002375
+[02:10:09]: Truncating to snapshot #2375...
+[02:10:09]:  - session/794B33BF27E88865/0000002369
+[02:10:09]:    1 file(s) removed
+[02:13:04]: Registering secondary shard in US lobby
+[02:18:04]: Registering secondary shard in US lobby
+[02:18:11]: Available disk space for save files: 143376 MB
+[02:18:13]: Serializing world: session/794B33BF27E88865/0000002376
+[02:18:14]: Truncating to snapshot #2376...
+[02:18:14]:  - session/794B33BF27E88865/0000002370
+[02:18:14]:    1 file(s) removed
+[02:23:04]: Registering secondary shard in US lobby
+[02:26:16]: Available disk space for save files: 143372 MB
+[02:26:18]: Serializing world: session/794B33BF27E88865/0000002377
+[02:26:18]: Truncating to snapshot #2377...
+[02:26:18]:  - session/794B33BF27E88865/0000002371
+[02:26:18]:    1 file(s) removed
+[02:28:04]: Registering secondary shard in US lobby
+[02:30:38]: [200] Account Communication Success (6)
+[02:30:38]: Received (KU_c1gvcGFZ) from TokenPurpose
+[02:33:04]: Registering secondary shard in US lobby
+[02:34:20]: Available disk space for save files: 143372 MB
+[02:34:22]: Serializing world: session/794B33BF27E88865/0000002378
+[02:34:23]: Truncating to snapshot #2378...
+[02:34:23]:  - session/794B33BF27E88865/0000002372
+[02:34:23]:    1 file(s) removed
+[02:38:04]: Registering secondary shard in US lobby
+[02:42:25]: Available disk space for save files: 143369 MB
+[02:42:27]: Serializing world: session/794B33BF27E88865/0000002379
+[02:42:27]: Truncating to snapshot #2379...
+[02:42:27]:  - session/794B33BF27E88865/0000002373
+[02:42:28]:    1 file(s) removed
+[02:43:04]: Registering secondary shard in US lobby
+[02:48:04]: Registering secondary shard in US lobby
+[02:49:01]: Start world reset countdown... 120 seconds...	
+[02:49:44]: Stop world reset countdown	
+[02:50:30]: Available disk space for save files: 143386 MB
+[02:50:32]: Serializing world: session/794B33BF27E88865/0000002380
+[02:50:32]: Truncating to snapshot #2380...
+[02:50:33]:  - session/794B33BF27E88865/0000002374
+[02:50:33]:    1 file(s) removed
+[02:51:07]: Start world reset countdown... 120 seconds...	
+[02:51:46]: Stop world reset countdown	
+[02:53:04]: Registering secondary shard in US lobby
+[02:58:04]: Registering secondary shard in US lobby
+[02:58:34]: Available disk space for save files: 143381 MB
+[02:58:36]: Serializing world: session/794B33BF27E88865/0000002381
+[02:58:37]: Truncating to snapshot #2381...
+[02:58:37]:  - session/794B33BF27E88865/0000002375
+[02:58:37]:    1 file(s) removed
+[03:00:38]: [200] Account Communication Success (6)
+[03:00:39]: Received (KU_c1gvcGFZ) from TokenPurpose
+[03:03:04]: Registering secondary shard in US lobby
+[03:06:40]: Available disk space for save files: 143380 MB
+[03:06:42]: Serializing world: session/794B33BF27E88865/0000002382
+[03:06:43]: Truncating to snapshot #2382...
+[03:06:43]:  - session/794B33BF27E88865/0000002376
+[03:06:43]:    1 file(s) removed
+[03:08:04]: Registering secondary shard in US lobby
+[03:13:04]: Registering secondary shard in US lobby
+[03:14:44]: Available disk space for save files: 143357 MB
+[03:14:47]: Serializing world: session/794B33BF27E88865/0000002383
+[03:14:47]: Truncating to snapshot #2383...
+[03:14:48]:  - session/794B33BF27E88865/0000002377
+[03:14:48]:    1 file(s) removed
+[03:18:04]: Registering secondary shard in US lobby
+[03:22:49]: Available disk space for save files: 143349 MB
+[03:22:51]: Serializing world: session/794B33BF27E88865/0000002384
+[03:22:52]: Truncating to snapshot #2384...
+[03:22:52]:  - session/794B33BF27E88865/0000002378
+[03:22:52]:    1 file(s) removed
+[03:23:04]: Registering secondary shard in US lobby
+[03:28:04]: Registering secondary shard in US lobby
+[03:30:38]: [200] Account Communication Success (6)
+[03:30:38]: Received (KU_c1gvcGFZ) from TokenPurpose
+[03:30:54]: Available disk space for save files: 143346 MB
+[03:30:56]: Serializing world: session/794B33BF27E88865/0000002385
+[03:30:56]: Truncating to snapshot #2385...
+[03:30:57]:  - session/794B33BF27E88865/0000002379
+[03:30:57]:    1 file(s) removed
+[03:33:04]: Registering secondary shard in US lobby
+[03:38:04]: Registering secondary shard in US lobby
+[03:38:59]: Available disk space for save files: 143346 MB
+[03:39:01]: Serializing world: session/794B33BF27E88865/0000002386
+[03:39:01]: Truncating to snapshot #2386...
+[03:39:02]:  - session/794B33BF27E88865/0000002380
+[03:39:02]:    1 file(s) removed
+[03:43:04]: Registering secondary shard in US lobby
+[03:47:05]: Available disk space for save files: 143339 MB
+[03:47:07]: Serializing world: session/794B33BF27E88865/0000002387
+[03:47:08]: Truncating to snapshot #2387...
+[03:47:08]:  - session/794B33BF27E88865/0000002381
+[03:47:08]:    1 file(s) removed
+[03:48:01]: Start world reset countdown... 120 seconds...	
+[03:48:04]: Registering secondary shard in US lobby
+[03:48:39]: Stop world reset countdown	
+[03:53:04]: Registering secondary shard in US lobby
+[03:55:11]: Available disk space for save files: 143337 MB
+[03:55:13]: Serializing world: session/794B33BF27E88865/0000002388
+[03:55:14]: Truncating to snapshot #2388...
+[03:55:14]:  - session/794B33BF27E88865/0000002382
+[03:55:14]:    1 file(s) removed
+[03:58:04]: Registering secondary shard in US lobby
+[04:00:39]: [200] Account Communication Success (6)
+[04:00:39]: Received (KU_c1gvcGFZ) from TokenPurpose
+[04:03:04]: Registering secondary shard in US lobby
+[04:03:16]: Available disk space for save files: 143288 MB
+[04:03:18]: Serializing world: session/794B33BF27E88865/0000002389
+[04:03:18]: Truncating to snapshot #2389...
+[04:03:18]:  - session/794B33BF27E88865/0000002383
+[04:03:18]:    1 file(s) removed
+[04:08:04]: Registering secondary shard in US lobby
+[04:11:20]: Available disk space for save files: 143207 MB
+[04:11:23]: Serializing world: session/794B33BF27E88865/0000002390
+[04:11:23]: Truncating to snapshot #2390...
+[04:11:23]:  - session/794B33BF27E88865/0000002384
+[04:11:24]:    1 file(s) removed
+[04:13:04]: Registering secondary shard in US lobby
+[04:18:04]: Registering secondary shard in US lobby
+[04:19:26]: Available disk space for save files: 143307 MB
+[04:19:28]: Serializing world: session/794B33BF27E88865/0000002391
+[04:19:29]: Truncating to snapshot #2391...
+[04:19:29]:  - session/794B33BF27E88865/0000002385
+[04:19:29]:    1 file(s) removed
+[04:23:04]: Registering secondary shard in US lobby
+[04:27:32]: Available disk space for save files: 143302 MB
+[04:27:34]: Serializing world: session/794B33BF27E88865/0000002392
+[04:27:35]: Truncating to snapshot #2392...
+[04:27:35]:  - session/794B33BF27E88865/0000002386
+[04:27:35]:    1 file(s) removed
+[04:28:04]: Registering secondary shard in US lobby
+[04:30:38]: [200] Account Communication Success (6)
+[04:30:39]: Received (KU_c1gvcGFZ) from TokenPurpose
+[04:33:04]: Registering secondary shard in US lobby
+[04:35:37]: Available disk space for save files: 143300 MB
+[04:35:39]: Serializing world: session/794B33BF27E88865/0000002393
+[04:35:40]: Truncating to snapshot #2393...
+[04:35:41]:  - session/794B33BF27E88865/0000002387
+[04:35:41]:    1 file(s) removed
+[04:38:04]: Registering secondary shard in US lobby
+[04:43:04]: Registering secondary shard in US lobby
+[04:43:42]: Available disk space for save files: 143292 MB
+[04:43:44]: Serializing world: session/794B33BF27E88865/0000002394
+[04:43:45]: Truncating to snapshot #2394...
+[04:43:45]:  - session/794B33BF27E88865/0000002388
+[04:43:45]:    1 file(s) removed
+[04:48:04]: Registering secondary shard in US lobby
+[04:51:47]: Available disk space for save files: 143286 MB
+[04:51:49]: Serializing world: session/794B33BF27E88865/0000002395
+[04:51:50]: Truncating to snapshot #2395...
+[04:51:50]:  - session/794B33BF27E88865/0000002389
+[04:51:50]:    1 file(s) removed
+[04:53:04]: Registering secondary shard in US lobby
+[04:58:04]: Registering secondary shard in US lobby
+[04:59:51]: Available disk space for save files: 143281 MB
+[04:59:54]: Serializing world: session/794B33BF27E88865/0000002396
+[04:59:55]: Truncating to snapshot #2396...
+[04:59:55]:  - session/794B33BF27E88865/0000002390
+[04:59:55]:    1 file(s) removed
+[05:00:38]: [200] Account Communication Success (6)
+[05:00:39]: Received (KU_c1gvcGFZ) from TokenPurpose
+[05:02:25]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[05:02:26]: Sim paused
+[05:02:31]: About to start a shard with these settings:
+[05:02:31]:   ShardName: Caves
+[05:02:31]:   ShardID: 2868293775
+[05:02:31]:   ShardRole: SECONDARY
+[05:02:31]:   MasterHost: 127.0.0.1
+[05:02:31]:   MasterBind: (null)
+[05:02:31]:   MasterPort: 10888
+[05:02:31]: [Shard] Connecting to master...
+[05:02:33]: [IPC] Received shutdown signal.
+[05:02:34]: Available disk space for save files: 143424 MB
+[05:02:36]: Serializing world: session/794B33BF27E88865/0000002397
+[05:02:36]: Truncating to snapshot #2397...
+[05:02:36]:  - session/794B33BF27E88865/0000002391
+[05:02:36]:    1 file(s) removed
+[05:02:36]: [Shard] Stopping shard mode
+[05:02:37]: Collecting garbage...
+[05:02:37]: lua_gc took 0.32 seconds
+[05:02:38]: ~ShardLuaProxy()
+[05:02:38]: ~cEventLeaderboardProxy()
+[05:02:38]: ~ItemServerLuaProxy()
+[05:02:38]: ~InventoryLuaProxy()
+[05:02:38]: ~NetworkLuaProxy()
+[05:02:38]: ~SimLuaProxy()
+[05:02:38]: lua_close took 0.87 seconds
+[05:02:39]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[05:02:39]: CurlRequestManager::ClientThread::Main() complete
+[05:02:39]: HttpClient2 discarded 0 callbacks.
+[05:02:39]: Shutting down
