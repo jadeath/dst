@@ -1,0 +1,134 @@
+KLEI     1 return {
+  enabled_mods={
+    ["workshop-1207269058"]={ configuration_options={  }, enabled=true },
+    ["workshop-1378549454"]={
+      configuration_options={
+        ["MemSpikeFix:"]=false,
+        MemSpikeFixAction="default",
+        MemSpikeFixExtended_Map="default",
+        MemSpikeFixGeometric="default",
+        MemSpikeFixGestures="default",
+        MemSpikeFixItem_Info="default",
+        MemSpikeFixStatus="default",
+        MemSpikeFixmaster_override=true,
+        ["MemSpikeFixworkshop-1207269058"]="default",
+        ["MemSpikeFixworkshop-1213299911"]="default",
+        ["MemSpikeFixworkshop-1299647282"]="default",
+        ["MemSpikeFixworkshop-1416911938"]="default",
+        ["MemSpikeFixworkshop-1445545453"]="default",
+        ["MemSpikeFixworkshop-1467200656"]="default",
+        ["MemSpikeFixworkshop-1467214795"]="default",
+        ["MemSpikeFixworkshop-1608191708"]="default",
+        ["MemSpikeFixworkshop-1760584889"]="default",
+        ["MemSpikeFixworkshop-1839858501"]="default",
+        ["MemSpikeFixworkshop-1842021927"]="default",
+        ["MemSpikeFixworkshop-1852257480"]="default",
+        ["MemSpikeFixworkshop-1901928376"]="default",
+        ["MemSpikeFixworkshop-343753877"]="default",
+        ["MemSpikeFixworkshop-345692228"]="default",
+        ["MemSpikeFixworkshop-351325790"]="default",
+        ["MemSpikeFixworkshop-365119238"]="default",
+        ["MemSpikeFixworkshop-375850593"]="default",
+        ["MemSpikeFixworkshop-378160973"]="default",
+        ["MemSpikeFixworkshop-478005098"]="default",
+        ["MemSpikeFixworkshop-543945797"]="default",
+        ["MemSpikeFixworkshop-666155465"]="default",
+        ["MemSpikeFixworkshop-727774324"]="default",
+        ["MemSpikeFixworkshop-758532836"]="default",
+        ["MemSpikeFixworkshop-770901818"]="default",
+        ["MemSpikeFixworkshop-818739975"]="default",
+        ["MemSpikeFixworkshop-873350047"]="default",
+        ["MemSpikeFixworkshop-875994715"]="default",
+        ["MemSpikeFixworkshop-944320099"]="default",
+        craftinghighlight=false 
+      },
+      enabled=true 
+    },
+    ["workshop-1852257480"]={
+      configuration_options={ horizontal=570, info=false, vertical=-30 },
+      enabled=true 
+    },
+    ["workshop-375850593"]={ configuration_options={  }, enabled=true },
+    ["workshop-758532836"]={
+      configuration_options={
+        AUTOPAUSECONSOLE=false,
+        AUTOPAUSEMAP=false,
+        AUTOPAUSESINGLEPLAYER=true,
+        ENABLECLIENTPAUSING=false,
+        ENABLEHOTKEY=false,
+        KEYBOARDTOGGLEKEY="P" 
+      },
+      enabled=true 
+    },
+    ["workshop-770901818"]={
+      configuration_options={ days=2, enable_houndattack=true, format="simple" },
+      enabled=true 
+    },
+    ["workshop-818739975"]={ configuration_options={ DFV_Language="EN" }, enabled=true },
+    ["workshop-875994715"]={ configuration_options={  }, enabled=true } 
+  },
+  server={
+    clan={ admin=false, id="", only=false },
+    description="",
+    encode_user_path=true,
+    game_mode="survival",
+    intention="social",
+    max_players=6,
+    name="jadeath's World",
+    online_mode=true,
+    password="",
+    privacy_type=1,
+    pvp=false,
+    server_language="en" 
+  },
+  session_id="48686DEE875E1292",
+  world={
+    options={
+      desc="A quicker start in a harsher world.",
+      hideminimap=false,
+      id="SURVIVAL_DEFAULT_PLUS",
+      location="forest",
+      max_playlist_position=999,
+      min_playlist_position=0,
+      name="Forest Plus",
+      numrandom_set_pieces=4,
+      override_level_string=false,
+      overrides={
+        berrybush="rare",
+        boons="always",
+        carrot="rare",
+        disease_delay="none",
+        rabbits="rare",
+        specialevent="year_of_the_carrat",
+        spiders="often",
+        start_location="plus",
+        touchstone="often" 
+      },
+      random_set_pieces={
+        "Sculptures_2",
+        "Sculptures_3",
+        "Sculptures_4",
+        "Sculptures_5",
+        "Chessy_1",
+        "Chessy_2",
+        "Chessy_3",
+        "Chessy_4",
+        "Chessy_5",
+        "Chessy_6",
+        "Maxwell1",
+        "Maxwell2",
+        "Maxwell3",
+        "Maxwell4",
+        "Maxwell6",
+        "Maxwell7",
+        "Warzone_1",
+        "Warzone_2",
+        "Warzone_3" 
+      },
+      required_prefabs={ "multiplayer_portal" },
+      required_setpieces={ "Sculptures_1", "Maxwell5" },
+      substitutes={  },
+      version=4 
+    } 
+  } 
+}

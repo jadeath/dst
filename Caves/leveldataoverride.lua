@@ -53,7 +53,6 @@ return {
     trees="default",
     weather="default",
     world_size="default",
-    worldseed="WORLD VERSION IS TOO OLD",
     wormattacks="default",
     wormhole_prefab="tentacle_pillar",
     wormlights="default",
