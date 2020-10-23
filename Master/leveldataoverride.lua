@@ -84,9 +84,10 @@ return {
     tumbleweed="default",
     walrus="default",
     weather="default",
-    wildfires="never",
+    wildfires="default",
     winter="default",
     world_size="default",
+    worldseed="",
     wormhole_prefab="wormhole" 
   },
   random_set_pieces={

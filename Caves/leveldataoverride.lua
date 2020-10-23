@@ -53,6 +53,7 @@ return {
     trees="default",
     weather="default",
     world_size="default",
+    worldseed="",
     wormattacks="default",
     wormhole_prefab="tentacle_pillar",
     wormlights="default",
