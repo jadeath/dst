@@ -45,7 +45,7 @@ return {
     season_start="default",
     slurper="default",
     slurtles="default",
-    specialevent="year_of_the_carrat",
+    specialevent="hallowed_nights",
     start_location="caves",
     task_set="cave_default",
     tentacles="default",

@@ -71,7 +71,7 @@ return {
     rock_ice="default",
     sapling="default",
     season_start="default",
-    specialevent="year_of_the_carrat",
+    specialevent="hallowed_nights",
     spiders="often",
     spring="default",
     start_location="plus",
