@@ -98,11 +98,20 @@ KLEI     1 return {
         boons="always",
         carrot="rare",
         disease_delay="none",
+        has_ocean=true,
+        keep_disconnected_tiles=true,
+        layout_mode="LinkNodesByKeys",
+        no_joining_islands=true,
+        no_wormholes_to_disconnected_tiles=true,
+        original={  },
         rabbits="rare",
+        roads="default",
         specialevent="hallowed_nights",
         spiders="often",
         start_location="plus",
-        touchstone="often" 
+        touchstone="often",
+        worldseed="",
+        wormhole_prefab="wormhole" 
       },
       random_set_pieces={
         "Sculptures_2",

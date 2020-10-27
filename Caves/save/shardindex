@@ -97,10 +97,15 @@ KLEI     1 return {
       overrides={
         boons="always",
         disease_delay="none",
+        layout_mode="RestrictNodesByKey",
+        original={  },
+        roads="never",
         specialevent="hallowed_nights",
         start_location="caves",
         task_set="cave_default",
-        touchstone="always" 
+        touchstone="always",
+        worldseed="",
+        wormhole_prefab="tentacle_pillar" 
       },
       required_prefabs={ "multiplayer_portal" },
       substitutes={  },
