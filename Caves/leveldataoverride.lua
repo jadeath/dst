@@ -20,7 +20,6 @@ return {
     cave_spiders="default",
     cavelight="default",
     chess="default",
-    disease_delay="none",
     earthquakes="default",
     fern="default",
     fissure="default",

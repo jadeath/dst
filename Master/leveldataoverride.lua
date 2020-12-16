@@ -30,7 +30,6 @@ return {
     day="default",
     deciduousmonster="default",
     deerclops="default",
-    disease_delay="none",
     dragonfly="default",
     flint="default",
     flowers="default",
