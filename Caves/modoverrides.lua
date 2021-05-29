@@ -3,12 +3,6 @@ return {
   ["workshop-1378549454"]={
     configuration_options={
       ["MemSpikeFix:"]=false,
-      MemSpikeFixAction="default",
-      MemSpikeFixExtended_Map="default",
-      MemSpikeFixGeometric="default",
-      MemSpikeFixGestures="default",
-      MemSpikeFixItem_Info="default",
-      MemSpikeFixStatus="default",
       MemSpikeFixmaster_override=true,
       ["MemSpikeFixworkshop-1207269058"]="default",
       ["MemSpikeFixworkshop-1213299911"]="default",
