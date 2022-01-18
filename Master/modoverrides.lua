@@ -27,6 +27,7 @@ return {
       ["MemSpikeFixworkshop-352373173"]="default",
       ["MemSpikeFixworkshop-365119238"]="default",
       ["MemSpikeFixworkshop-375850593"]="default",
+      ["MemSpikeFixworkshop-376333686"]="default",
       ["MemSpikeFixworkshop-378160973"]="default",
       ["MemSpikeFixworkshop-409858663"]="default",
       ["MemSpikeFixworkshop-478005098"]="default",

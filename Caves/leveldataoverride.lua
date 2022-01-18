@@ -25,6 +25,7 @@ return {
     cave_spiders="default",
     cavelight="default",
     chess="default",
+    day="default",
     dropeverythingondespawn="default",
     dustmoths="default",
     earthquakes="default",
