@@ -1,63 +1,35 @@
 return {
   ["workshop-1207269058"]={ configuration_options={  }, enabled=true },
-  ["workshop-1378549454"]={
-    configuration_options={
-      ["MemSpikeFix:"]=false,
-      MemSpikeFixmaster_override=true,
-      ["MemSpikeFixworkshop-1207269058"]="default",
-      ["MemSpikeFixworkshop-1213299911"]="default",
-      ["MemSpikeFixworkshop-1299647282"]="default",
-      ["MemSpikeFixworkshop-1405120786"]="default",
-      ["MemSpikeFixworkshop-1416911938"]="default",
-      ["MemSpikeFixworkshop-1445545453"]="default",
-      ["MemSpikeFixworkshop-1467200656"]="default",
-      ["MemSpikeFixworkshop-1467214795"]="default",
-      ["MemSpikeFixworkshop-1608191708"]="default",
-      ["MemSpikeFixworkshop-1760584889"]="default",
-      ["MemSpikeFixworkshop-1773560023"]="default",
-      ["MemSpikeFixworkshop-1839858501"]="default",
-      ["MemSpikeFixworkshop-1842021927"]="default",
-      ["MemSpikeFixworkshop-1852257480"]="default",
-      ["MemSpikeFixworkshop-1901928376"]="default",
-      ["MemSpikeFixworkshop-2302837868"]="default",
-      ["MemSpikeFixworkshop-2322014692"]="default",
-      ["MemSpikeFixworkshop-343753877"]="default",
-      ["MemSpikeFixworkshop-345692228"]="default",
-      ["MemSpikeFixworkshop-351325790"]="default",
-      ["MemSpikeFixworkshop-352373173"]="default",
-      ["MemSpikeFixworkshop-365119238"]="default",
-      ["MemSpikeFixworkshop-375850593"]="default",
-      ["MemSpikeFixworkshop-376333686"]="default",
-      ["MemSpikeFixworkshop-378160973"]="default",
-      ["MemSpikeFixworkshop-409858663"]="default",
-      ["MemSpikeFixworkshop-478005098"]="default",
-      ["MemSpikeFixworkshop-543945797"]="default",
-      ["MemSpikeFixworkshop-666155465"]="default",
-      ["MemSpikeFixworkshop-727774324"]="default",
-      ["MemSpikeFixworkshop-758532836"]="default",
-      ["MemSpikeFixworkshop-770901818"]="default",
-      ["MemSpikeFixworkshop-818739975"]="default",
-      ["MemSpikeFixworkshop-822508420"]="default",
-      ["MemSpikeFixworkshop-873350047"]="default",
-      ["MemSpikeFixworkshop-875994715"]="default",
-      ["MemSpikeFixworkshop-944320099"]="default",
-      craftinghighlight=false 
-    },
-    enabled=true 
-  },
   ["workshop-1852257480"]={
     configuration_options={ horizontal=570, info=false, vertical=-30 },
     enabled=true 
   },
+  ["workshop-363459814"]={ configuration_options={  }, enabled=true },
   ["workshop-375850593"]={ configuration_options={  }, enabled=true },
-  ["workshop-758532836"]={
+  ["workshop-378160973"]={
     configuration_options={
-      AUTOPAUSECONSOLE=false,
-      AUTOPAUSEMAP=false,
-      AUTOPAUSESINGLEPLAYER=true,
-      ENABLECLIENTPAUSING=false,
-      ENABLEHOTKEY=false,
-      KEYBOARDTOGGLEKEY="P" 
+      ENABLEPINGS=true,
+      FIREOPTIONS=2,
+      OVERRIDEMODE=false,
+      SHAREMINIMAPPROGRESS=true,
+      SHOWFIREICONS=true,
+      SHOWPLAYERICONS=true,
+      SHOWPLAYERSOPTIONS=2 
+    },
+    enabled=true 
+  },
+  ["workshop-666155465"]={
+    configuration_options={
+      chestB=-1,
+      chestG=-1,
+      chestR=-1,
+      display_hp=-1,
+      food_estimation=1,
+      food_order=1,
+      food_style=1,
+      lang="auto",
+      show_food_units=1,
+      show_uses=1 
     },
     enabled=true 
   },
