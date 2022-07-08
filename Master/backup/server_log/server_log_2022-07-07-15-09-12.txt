@@ -1,0 +1,1956 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 51%
+	Available Physical Memory: 15791m/32715m
+	Available Page File: 6781m/36302m
+	Available Virtual Memory: 134213484m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 31m
+	Working Set Size: 31m
+	Quota Peak Page Pool Usage: 210k
+	Quota Page Pool Usage: 207k
+	Quota Peak Non Paged Pool Usage:14k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/133685392/Cluster_2/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 513864
+[00:00:00]: Current time: Wed Jul 06 15:40:04 2022
+
+[00:00:00]: Don't Starve Together: 513864 WIN32
+[00:00:00]: Build Date: 1222
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 37388 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_2 -fo -ownernetid 76561198093951120 -ownerdir 133685392 -clouddir 133685392 -backup_log_count 25 -backup_log_period 0 -ugc_directory J:\\SteamLibrary\\steamapps\\workshop -shard Master -secondary_log_prefix master -sigprefix DST_Master -token *********************************************************************************** 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (30400)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: ProfileIndex:0.46
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: THREAD - started 'Ping Job Thread' (35732)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application J:\SteamLibrary\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: THREAD - started 'StreamInput' (30808)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/133685392/client_save/blocklist.txt (Success)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/133685392/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/133685392/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198093951120
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 Education
+    version                   10.0.19044
+    platformSpecific          SP 0.0
+    architecture              64-bit
+  CPU                       
+    clockSpeed                3801
+    name                      AMD Ryzen 7 5800X 8-Core Processor             
+    manufacturer              AuthenticAMD
+    numCores                  8
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 32768
+  GPU                       
+    megsOfRam                 4095
+    videoModeDescription      1920 x 1080 x 4294967296 colors
+    name                      NVIDIA GeForce RTX 3080 Ti
+    driverVersion             30.0.15.1277
+    driverDate                20220504000000.000000-000
+    refreshRate               60
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: Saving upgraded shardindex	
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: modoverrides.lua enabling workshop-818739975	
+[00:00:01]: modoverrides.lua enabling workshop-875994715	
+[00:00:01]: modoverrides.lua enabling workshop-378160973	
+[00:00:01]: modoverrides.lua enabling workshop-363459814	
+[00:00:01]: modoverrides.lua enabling workshop-375850593	
+[00:00:01]: modoverrides.lua enabling workshop-1207269058	
+[00:00:01]: modoverrides.lua enabling workshop-666155465	
+[00:00:01]: modoverrides.lua enabling workshop-770901818	
+[00:00:01]: modoverrides.lua enabling workshop-1852257480	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-363459814	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-875994715	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1852257480_CLIENT	
+[00:00:01]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-363459814_CLIENT	
+[00:00:01]: Loading mod: workshop-363459814 (Drop yer Stuff) Version:0.0	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-375850593_CLIENT	
+[00:00:01]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-770901818_CLIENT	
+[00:00:01]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-818739975_CLIENT	
+[00:00:01]: Loading mod: workshop-818739975 (Adshovel) Version:1.6	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-875994715_CLIENT	
+[00:00:01]: Loading mod: workshop-875994715 (Lazy Furnace) Version:19	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-378160973_CLIENT	
+[00:00:01]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-1207269058_CLIENT	
+[00:00:01]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-666155465_CLIENT	
+[00:00:01]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:01]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:01]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-363459814	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:01]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option food_style with value 1	
+[00:00:01]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option show_uses with value 1	
+[00:00:01]: Overriding mod workshop-666155465's option show_food_units with value 1	
+[00:00:01]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:01]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option food_order with value 1	
+[00:00:01]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:01]: Overriding mod workshop-666155465's option food_estimation with value 1	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:01]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:01]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:01]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:01]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:01]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:01]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:01]: Mod: workshop-875994715 (Lazy Furnace)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:01]: ShowMe version:	0.58	
+[00:00:01]: show_food_units	1	1	1	
+[00:00:01]: show_uses	1	1	1	
+[00:00:01]: Detected language for ShowMe: 	auto		
+[00:00:01]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-363459814 (Drop yer Stuff)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-363459814 (Drop yer Stuff)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-363459814 (Drop yer Stuff)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-818739975 (Adshovel)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-818739975 (Adshovel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-818739975 (Adshovel)	Loading modmain.lua	
+[00:00:01]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:01]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-363459814	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-875994715	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:01]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:01]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering Server mod namespace "workshop-1207269058"
+[00:00:02]: Registering Server mod namespace "showmeshint"
+[00:00:02]: Registering Server mod namespace "workshop-378160973"
+[00:00:02]: Registering Server mod namespace "showme"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: bloom_enabled	true	
+[00:00:02]: loaded saveindex	
+[00:00:02]: Saving upgraded shardindex	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:03]: Mod: workshop-875994715 (Lazy Furnace)	Registering prefabs	
+[00:00:03]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/dragonfurnace_projectile	
+[00:00:03]: Mod: workshop-875994715 (Lazy Furnace)	    dragonflyfurnace_projectile	
+[00:00:03]: Mod: workshop-875994715 (Lazy Furnace)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:03]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:03]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:00:03]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-363459814 (Drop yer Stuff)	Registering prefabs	
+[00:00:03]: Mod: workshop-363459814 (Drop yer Stuff)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	Registering prefabs	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cave_banana_tree	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_lichen	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_lichen	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_lichen_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cactus	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_cactus	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_cactus_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_flower_cave	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_reeds	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_reeds	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_reeds_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_shrooms	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_oasis_cactus	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_wormlight_plant	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant_placer	
+[00:00:03]: Mod: workshop-818739975 (Adshovel)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:03]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:03]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:03]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:03]: 	Load FE	
+[00:00:04]: 	Load FE: done	
+[00:00:04]: THREAD - started 'FilesExistAsyncThread' (26156)
+[00:00:04]: FilesExistAsyncThread started (20262 files)...
+[00:00:04]: Check for write access: TRUE
+[00:00:04]: Check for read access: TRUE
+[00:00:04]: Available disk space for save files: 221852 MB
+[00:00:04]: ModIndex: Load sequence finished successfully.	
+[00:00:04]: Reset() returning
+[00:00:04]: [IPC] Signal 'DST_Master_Kill' opened  #0000000000000994
+[00:00:04]: [IPC] Registering handler for signal #0000000000000994
+[00:00:04]: [IPC] Handle #0000000000000994 added to the Eventhandles
+[00:00:04]: [IPC] Signal 'DST_Master_ShutdownNoSave' opened  #0000000000000984
+[00:00:04]: [IPC] Registering handler for signal #0000000000000984
+[00:00:04]: [IPC] Handle #0000000000000984 added to the Eventhandles
+[00:00:04]: [IPC] Signal 'DST_Master_Starting' opened  #0000000000000918
+[00:00:04]: [IPC] Sending signal... #0000000000000918
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/133685392/Cluster_2/Master/save/cached_userid
+[00:00:05]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:00:05]: Starting Dedicated Server Game	
+[00:00:05]: Network tick rate: U=15(2), D=0
+[00:00:05]: About to start a server with the following settings:
+[00:00:05]:   Dedicated: true
+[00:00:05]:   Online: true
+[00:00:05]:   Passworded: false
+[00:00:05]:   ServerPort: 10999
+[00:00:05]:   SteamAuthPort: 8766
+[00:00:05]:   SteamMasterServerPort: 27016
+[00:00:05]:   ClanID: false
+[00:00:05]:   ClanOnly: false
+[00:00:05]:   ClanAdmin: false
+[00:00:05]:   LanOnly: false
+[00:00:05]:   FriendsOnly: true
+[00:00:05]:   EnableAutosaver: true
+[00:00:05]:   EncodeUserPath: true
+[00:00:05]:   PVP: false
+[00:00:05]:   MaxPlayers: 6
+[00:00:05]:   GameMode: survival
+[00:00:05]:   OverridenDNS: 
+[00:00:05]:   PauseWhenEmpty: true
+[00:00:05]:   IdleTimeout: 1800s
+[00:00:05]:   VoteEnabled: false
+[00:00:05]:   InternetBroadcasting: true
+[00:00:05]:   Intent: social
+[00:00:05]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-818739975	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-875994715	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:05]: Online Server Started on port: 10999
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: Found a level data override file with these contents:	
+[00:00:05]: 	K: 	desc	 V: 	A quicker start in a harsher world.	
+[00:00:05]: 	K: 	hideminimap	 V: 	false	
+[00:00:05]: 	K: 	id	 V: 	SURVIVAL_DEFAULT_PLUS	
+[00:00:05]: 	K: 	location	 V: 	forest	
+[00:00:05]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:05]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:05]: 	K: 	name	 V: 	Forest Plus	
+[00:00:05]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:05]: 	K: 	override_level_string	 V: 	false	
+[00:00:05]: 	K: 	overrides	 V: 	table: 00000000133F3A60	
+[00:00:05]: 		K: 	alternatehunt	 V: 	default	
+[00:00:05]: 		K: 	angrybees	 V: 	default	
+[00:00:05]: 		K: 	antliontribute	 V: 	default	
+[00:00:05]: 		K: 	autumn	 V: 	default	
+[00:00:05]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:05]: 		K: 	bats_setting	 V: 	default	
+[00:00:05]: 		K: 	bearger	 V: 	default	
+[00:00:05]: 		K: 	beefalo	 V: 	default	
+[00:00:05]: 		K: 	beefaloheat	 V: 	default	
+[00:00:05]: 		K: 	beequeen	 V: 	default	
+[00:00:05]: 		K: 	bees	 V: 	default	
+[00:00:05]: 		K: 	bees_setting	 V: 	default	
+[00:00:05]: 		K: 	berrybush	 V: 	rare	
+[00:00:05]: 		K: 	birds	 V: 	default	
+[00:00:05]: 		K: 	boons	 V: 	always	
+[00:00:05]: 		K: 	branching	 V: 	default	
+[00:00:05]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:05]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:05]: 		K: 	butterfly	 V: 	default	
+[00:00:05]: 		K: 	buzzard	 V: 	default	
+[00:00:05]: 		K: 	cactus	 V: 	default	
+[00:00:05]: 		K: 	cactus_regrowth	 V: 	default	
+[00:00:05]: 		K: 	carrot	 V: 	rare	
+[00:00:05]: 		K: 	carrots_regrowth	 V: 	default	
+[00:00:05]: 		K: 	catcoon	 V: 	default	
+[00:00:05]: 		K: 	catcoons	 V: 	default	
+[00:00:05]: 		K: 	chess	 V: 	default	
+[00:00:05]: 		K: 	cookiecutters	 V: 	default	
+[00:00:05]: 		K: 	crabking	 V: 	default	
+[00:00:05]: 		K: 	crow_carnival	 V: 	enabled	
+[00:00:05]: 		K: 	day	 V: 	default	
+[00:00:05]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:05]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:00:05]: 		K: 	deerclops	 V: 	default	
+[00:00:05]: 		K: 	dragonfly	 V: 	default	
+[00:00:05]: 		K: 	dropeverythingondespawn	 V: 	always	
+[00:00:05]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:05]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:05]: 		K: 	eyeofterror	 V: 	default	
+[00:00:05]: 		K: 	fishschools	 V: 	default	
+[00:00:05]: 		K: 	flint	 V: 	default	
+[00:00:05]: 		K: 	flowers	 V: 	default	
+[00:00:05]: 		K: 	flowers_regrowth	 V: 	default	
+[00:00:05]: 		K: 	frograin	 V: 	default	
+[00:00:05]: 		K: 	frogs	 V: 	default	
+[00:00:05]: 		K: 	fruitfly	 V: 	default	
+[00:00:05]: 		K: 	gnarwail	 V: 	default	
+[00:00:05]: 		K: 	goosemoose	 V: 	default	
+[00:00:05]: 		K: 	grass	 V: 	default	
+[00:00:05]: 		K: 	grassgekkos	 V: 	default	
+[00:00:05]: 		K: 	hallowed_nights	 V: 	enabled	
+[00:00:05]: 		K: 	has_ocean	 V: 	true	
+[00:00:05]: 		K: 	hound_mounds	 V: 	default	
+[00:00:05]: 		K: 	houndmound	 V: 	default	
+[00:00:05]: 		K: 	hounds	 V: 	default	
+[00:00:05]: 		K: 	hunt	 V: 	default	
+[00:00:05]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:05]: 		K: 	klaus	 V: 	default	
+[00:00:05]: 		K: 	krampus	 V: 	default	
+[00:00:05]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:05]: 		K: 	liefs	 V: 	default	
+[00:00:05]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:05]: 		K: 	lightning	 V: 	default	
+[00:00:05]: 		K: 	lightninggoat	 V: 	default	
+[00:00:05]: 		K: 	loop	 V: 	default	
+[00:00:05]: 		K: 	lureplants	 V: 	default	
+[00:00:05]: 		K: 	malbatross	 V: 	default	
+[00:00:05]: 		K: 	marshbush	 V: 	default	
+[00:00:05]: 		K: 	merm	 V: 	default	
+[00:00:05]: 		K: 	merms	 V: 	default	
+[00:00:05]: 		K: 	meteorshowers	 V: 	default	
+[00:00:05]: 		K: 	meteorspawner	 V: 	default	
+[00:00:05]: 		K: 	moles	 V: 	default	
+[00:00:05]: 		K: 	moles_setting	 V: 	default	
+[00:00:05]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:05]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:05]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:05]: 		K: 	moon_carrot	 V: 	default	
+[00:00:05]: 		K: 	moon_fissure	 V: 	default	
+[00:00:05]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:05]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:05]: 		K: 	moon_rock	 V: 	default	
+[00:00:05]: 		K: 	moon_sapling	 V: 	default	
+[00:00:05]: 		K: 	moon_spider	 V: 	default	
+[00:00:05]: 		K: 	moon_spiders	 V: 	default	
+[00:00:05]: 		K: 	moon_starfish	 V: 	default	
+[00:00:05]: 		K: 	moon_tree	 V: 	default	
+[00:00:05]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:00:05]: 		K: 	mosquitos	 V: 	default	
+[00:00:05]: 		K: 	mushroom	 V: 	default	
+[00:00:05]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:05]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:05]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:05]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:05]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:05]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:05]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:05]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:05]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:05]: 		K: 	palmconetree	 V: 	default	
+[00:00:05]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:00:05]: 		K: 	penguins	 V: 	default	
+[00:00:05]: 		K: 	penguins_moon	 V: 	default	
+[00:00:05]: 		K: 	perd	 V: 	default	
+[00:00:05]: 		K: 	petrification	 V: 	default	
+[00:00:05]: 		K: 	pigs	 V: 	default	
+[00:00:05]: 		K: 	pigs_setting	 V: 	default	
+[00:00:05]: 		K: 	pirateraids	 V: 	default	
+[00:00:05]: 		K: 	ponds	 V: 	default	
+[00:00:05]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:05]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:05]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:05]: 		K: 	rabbits	 V: 	rare	
+[00:00:05]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:05]: 		K: 	reeds	 V: 	default	
+[00:00:05]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:05]: 		K: 	regrowth	 V: 	default	
+[00:00:05]: 		K: 	roads	 V: 	default	
+[00:00:05]: 		K: 	rock	 V: 	default	
+[00:00:05]: 		K: 	rock_ice	 V: 	default	
+[00:00:05]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:05]: 		K: 	sapling	 V: 	default	
+[00:00:05]: 		K: 	season_start	 V: 	default	
+[00:00:05]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:05]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:05]: 		K: 	sharks	 V: 	default	
+[00:00:05]: 		K: 	spawnprotection	 V: 	always	
+[00:00:05]: 		K: 	specialevent	 V: 	default	
+[00:00:05]: 		K: 	spider_warriors	 V: 	default	
+[00:00:05]: 		K: 	spiderqueen	 V: 	default	
+[00:00:05]: 		K: 	spiders	 V: 	often	
+[00:00:05]: 		K: 	spiders_setting	 V: 	default	
+[00:00:05]: 		K: 	spring	 V: 	default	
+[00:00:05]: 		K: 	squid	 V: 	default	
+[00:00:05]: 		K: 	start_location	 V: 	plus	
+[00:00:05]: 		K: 	summer	 V: 	default	
+[00:00:05]: 		K: 	summerhounds	 V: 	default	
+[00:00:05]: 		K: 	tallbirds	 V: 	default	
+[00:00:05]: 		K: 	task_set	 V: 	default	
+[00:00:05]: 		K: 	tentacles	 V: 	default	
+[00:00:05]: 		K: 	terrariumchest	 V: 	default	
+[00:00:05]: 		K: 	touchstone	 V: 	often	
+[00:00:05]: 		K: 	trees	 V: 	default	
+[00:00:05]: 		K: 	tumbleweed	 V: 	default	
+[00:00:05]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:05]: 		K: 	walrus	 V: 	default	
+[00:00:05]: 		K: 	walrus_setting	 V: 	default	
+[00:00:05]: 		K: 	wasps	 V: 	default	
+[00:00:05]: 		K: 	weather	 V: 	default	
+[00:00:05]: 		K: 	wildfires	 V: 	never	
+[00:00:05]: 		K: 	winter	 V: 	default	
+[00:00:05]: 		K: 	winterhounds	 V: 	default	
+[00:00:05]: 		K: 	winters_feast	 V: 	enabled	
+[00:00:05]: 		K: 	wobsters	 V: 	default	
+[00:00:05]: 		K: 	world_size	 V: 	default	
+[00:00:05]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:05]: 		K: 	year_of_the_beefalo	 V: 	enabled	
+[00:00:05]: 		K: 	year_of_the_carrat	 V: 	enabled	
+[00:00:05]: 		K: 	year_of_the_catcoon	 V: 	enabled	
+[00:00:05]: 		K: 	year_of_the_gobbler	 V: 	enabled	
+[00:00:05]: 		K: 	year_of_the_pig	 V: 	enabled	
+[00:00:05]: 		K: 	year_of_the_varg	 V: 	enabled	
+[00:00:05]: 	K: 	random_set_pieces	 V: 	table: 00000000133F3380	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:05]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:05]: 		K: 	3	 V: 	Sculptures_3	
+[00:00:05]: 		K: 	4	 V: 	Sculptures_3	
+[00:00:05]: 		K: 	5	 V: 	Sculptures_4	
+[00:00:05]: 		K: 	6	 V: 	Chessy_1	
+[00:00:05]: 		K: 	7	 V: 	Chessy_2	
+[00:00:05]: 		K: 	8	 V: 	Chessy_3	
+[00:00:05]: 		K: 	9	 V: 	Chessy_4	
+[00:00:05]: 		K: 	10	 V: 	Chessy_5	
+[00:00:05]: 		K: 	11	 V: 	Chessy_6	
+[00:00:05]: 		K: 	12	 V: 	Maxwell1	
+[00:00:05]: 		K: 	13	 V: 	Maxwell2	
+[00:00:05]: 		K: 	14	 V: 	Maxwell3	
+[00:00:05]: 		K: 	15	 V: 	Maxwell4	
+[00:00:05]: 		K: 	16	 V: 	Maxwell6	
+[00:00:05]: 		K: 	17	 V: 	Maxwell7	
+[00:00:05]: 		K: 	18	 V: 	Warzone_1	
+[00:00:05]: 		K: 	19	 V: 	Warzone_2	
+[00:00:05]: 		K: 	20	 V: 	Warzone_3	
+[00:00:05]: 	K: 	required_prefabs	 V: 	table: 00000000133F3740	
+[00:00:05]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:05]: 	K: 	required_setpieces	 V: 	table: 00000000133F31A0	
+[00:00:05]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:05]: 		K: 	2	 V: 	Maxwell5	
+[00:00:05]: 	K: 	settings_desc	 V: 	A quicker start in a harsher world.	
+[00:00:05]: 	K: 	settings_id	 V: 	SURVIVAL_DEFAULT_PLUS	
+[00:00:05]: 	K: 	settings_name	 V: 	Forest Plus	
+[00:00:05]: 	K: 	substitutes	 V: 	table: 00000000133F3880	
+[00:00:05]: 	K: 	version	 V: 	4	
+[00:00:05]: 	K: 	worldgen_desc	 V: 	A quicker start in a harsher world.	
+[00:00:05]: 	K: 	worldgen_id	 V: 	SURVIVAL_DEFAULT_PLUS	
+[00:00:05]: 	K: 	worldgen_name	 V: 	Forest Plus	
+[00:00:05]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:05]: Overwriting savedata with level data file.	
+[00:00:05]: Not applying world gen overrides.	
+[00:00:05]: Collecting garbage...
+[00:00:05]: lua_gc took 0.06 seconds
+[00:00:05]: ~ShardLuaProxy()
+[00:00:05]: ~cEventLeaderboardProxy()
+[00:00:05]: ~ItemServerLuaProxy()
+[00:00:05]: ~InventoryLuaProxy()
+[00:00:05]: ~NetworkLuaProxy()
+[00:00:05]: ~SimLuaProxy()
+[00:00:05]: FilesExistAsyncThread aborted.
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: lua_close took 0.05 seconds
+[00:00:05]: ReleaseAll
+[00:00:05]: ReleaseAll Finished
+[00:00:05]: cGame::StartPlaying
+[00:00:05]: AppVersion::GetArchitecture() x64
+[00:00:05]: LOADING LUA
+[00:00:05]: DoLuaFile scripts/main.lua
+[00:00:05]: DoLuaFile loading buffer scripts/main.lua
+[00:00:05]:   taskgrouplist:	default	Together	
+[00:00:05]:   taskgrouplist:	classic	Classic	
+[00:00:05]:   taskgrouplist:	cave_default	Underground	
+[00:00:05]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:05]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:05]: Running main.lua
+	
+[00:00:05]: loaded modindex	
+[00:00:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:05]: Saving upgraded shardindex	
+[00:00:05]: SUCCESS: Loaded modoverrides.lua	
+[00:00:05]: modoverrides.lua enabling workshop-818739975	
+[00:00:05]: modoverrides.lua enabling workshop-875994715	
+[00:00:05]: modoverrides.lua enabling workshop-378160973	
+[00:00:05]: modoverrides.lua enabling workshop-363459814	
+[00:00:05]: modoverrides.lua enabling workshop-375850593	
+[00:00:05]: modoverrides.lua enabling workshop-1207269058	
+[00:00:05]: modoverrides.lua enabling workshop-666155465	
+[00:00:05]: modoverrides.lua enabling workshop-770901818	
+[00:00:05]: modoverrides.lua enabling workshop-1852257480	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-363459814	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-875994715	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[00:00:05]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-363459814	
+[00:00:05]: Loading mod: workshop-363459814 (Drop yer Stuff) Version:0.0	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[00:00:05]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-770901818	
+[00:00:05]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-818739975	
+[00:00:05]: Loading mod: workshop-818739975 (Adshovel) Version:1.6	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-875994715	
+[00:00:05]: Loading mod: workshop-875994715 (Lazy Furnace) Version:19	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[00:00:05]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[00:00:05]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[00:00:05]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[00:00:05]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[00:00:05]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[00:00:05]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[00:00:05]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[00:00:05]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[00:00:05]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[00:00:05]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[00:00:05]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:05]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-363459814	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[00:00:05]: Overriding mod workshop-666155465's option chestR with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option food_style with value 1	
+[00:00:05]: Overriding mod workshop-666155465's option display_hp with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option show_uses with value 1	
+[00:00:05]: Overriding mod workshop-666155465's option show_food_units with value 1	
+[00:00:05]: Overriding mod workshop-666155465's option lang with value auto	
+[00:00:05]: Overriding mod workshop-666155465's option chestB with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option food_order with value 1	
+[00:00:05]: Overriding mod workshop-666155465's option chestG with value -1	
+[00:00:05]: Overriding mod workshop-666155465's option food_estimation with value 1	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[00:00:05]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[00:00:05]: Overriding mod workshop-770901818's option format with value simple	
+[00:00:05]: Overriding mod workshop-770901818's option days with value 2	
+[00:00:05]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[00:00:05]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[00:00:05]: Overriding mod workshop-1852257480's option info with value false	
+[00:00:05]: Overriding mod workshop-1852257480's option vertical with value -30	
+[00:00:05]: Mod: workshop-875994715 (Lazy Furnace)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[00:00:05]: ShowMe version:	0.58	
+[00:00:05]: show_food_units	1	1	1	
+[00:00:05]: show_uses	1	1	1	
+[00:00:05]: Detected language for ShowMe: 	auto		
+[00:00:05]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-363459814 (Drop yer Stuff)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-363459814 (Drop yer Stuff)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-363459814 (Drop yer Stuff)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-818739975 (Adshovel)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-818739975 (Adshovel)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-818739975 (Adshovel)	Loading modmain.lua	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-363459814	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[00:00:05]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-875994715	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[00:00:05]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:05]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[00:00:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:06]: LOADING LUA SUCCESS
+[00:00:06]: Registering Server mod namespace "workshop-1207269058"
+[00:00:06]: Registering Server mod namespace "showmeshint"
+[00:00:06]: Registering Server mod namespace "workshop-378160973"
+[00:00:06]: Registering Server mod namespace "showme"
+[00:00:06]: PlayerDeaths could not load morgue	
+[00:00:06]: PlayerHistory could not load player_history	
+[00:00:06]: ServerPreferences could not load server_preferences	
+[00:00:06]: bloom_enabled	true	
+[00:00:06]: loaded saveindex	
+[00:00:06]: Saving upgraded shardindex	
+[00:00:06]: OnFilesLoaded()	
+[00:00:06]: OnUpdatePurchaseStateComplete	
+[00:00:06]: Loading world: session/48686DEE875E1292/0000003297	
+[00:00:06]: Save file is at version 5.12	
+[00:00:06]: Klump load on boot started.	
+[00:00:06]: Klump files loaded: 	0	
+[00:00:06]: 	Unload FE	
+[00:00:06]: 	Unload FE done	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	Registering prefabs	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/dragonfurnace_projectile	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	    dragonflyfurnace_projectile	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/fireover	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	    fireover	
+[00:00:07]: Mod: workshop-875994715 (Lazy Furnace)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[00:00:07]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[00:00:07]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[00:00:07]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-363459814 (Drop yer Stuff)	Registering prefabs	
+[00:00:07]: Mod: workshop-363459814 (Drop yer Stuff)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	Registering prefabs	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cave_banana_tree	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_lichen	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_lichen	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_lichen_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cactus	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_cactus	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_cactus_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_flower_cave	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_reeds	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_reeds	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_reeds_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_shrooms	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_oasis_cactus	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_wormlight_plant	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant_placer	
+[00:00:07]: Mod: workshop-818739975 (Adshovel)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[00:00:07]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[00:00:07]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[00:00:07]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[00:00:07]: 	LOAD BE	
+[00:00:14]: 	LOAD BE: done	
+[00:00:14]: Begin Session: 48686DEE875E1292
+[00:00:14]: saving to server_temp/server_save	
+[00:00:15]: Adding extra World Event: hallowed_nights	
+[00:00:15]: Adding extra World Event: crow_carnival	
+[00:00:15]: Adding extra World Event: year_of_the_carrat	
+[00:00:15]: Adding extra World Event: year_of_the_pig	
+[00:00:15]: Adding extra World Event: year_of_the_gobbler	
+[00:00:15]: Adding extra World Event: year_of_the_beefalo	
+[00:00:15]: Adding extra World Event: year_of_the_varg	
+[00:00:15]: Adding extra World Event: winters_feast	
+[00:00:15]: Adding extra World Event: year_of_the_catcoon	
+[00:00:15]: OVERRIDE: setting	wildfires	to	never	
+[00:00:15]: OVERRIDE: setting	dropeverythingondespawn	to	always	
+[00:00:15]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[00:00:15]: Loading 19 new character(s)	
+[00:00:16]: Total 19 character(s) loaded	
+[00:00:16]: Loading Nav Grid	
+[00:00:16]: World generated on build 314835 with save version: nil, using seed: 1552132906	
+[00:00:16]: setting 	summerlength	15	
+[00:00:16]: setting 	cavemoonphase	full	
+[00:00:16]: setting 	iscavefullmoon	false	
+[00:00:16]: setting 	isnightmaredawn	false	
+[00:00:16]: setting 	elapseddaysinseason	5	
+[00:00:16]: setting 	isfullmoon	false	
+[00:00:16]: setting 	moisture	1096.84765625	
+[00:00:16]: setting 	cavephase	day	
+[00:00:16]: setting 	iscavewaxingmoon	false	
+[00:00:16]: setting 	isnightmarewild	false	
+[00:00:16]: setting 	nightmaretimeinphase	0	
+[00:00:16]: setting 	precipitationrate	0	
+[00:00:16]: setting 	iswet	false	
+[00:00:16]: setting 	isnewmoon	false	
+[00:00:16]: setting 	precipitation	none	
+[00:00:16]: setting 	israining	false	
+[00:00:16]: setting 	isnightmarewarn	false	
+[00:00:16]: setting 	iswinter	false	
+[00:00:16]: setting 	season	summer	
+[00:00:16]: setting 	remainingdaysinseason	10	
+[00:00:16]: setting 	winterlength	15	
+[00:00:16]: setting 	iscaveday	true	
+[00:00:16]: setting 	moistureceil	11212.416015625	
+[00:00:16]: setting 	isday	true	
+[00:00:16]: setting 	springlength	20	
+[00:00:16]: setting 	wetness	0	
+[00:00:16]: setting 	iscavedusk	false	
+[00:00:16]: setting 	isalterawake	false	
+[00:00:16]: setting 	isnightmarecalm	false	
+[00:00:16]: setting 	isnight	false	
+[00:00:16]: setting 	isdusk	false	
+[00:00:16]: setting 	isspring	false	
+[00:00:16]: setting 	isautumn	false	
+[00:00:16]: setting 	issnowing	false	
+[00:00:16]: setting 	iswaxingmoon	false	
+[00:00:16]: setting 	phase	day	
+[00:00:16]: setting 	snowlevel	0	
+[00:00:16]: setting 	issnowcovered	false	
+[00:00:16]: setting 	autumnlength	20	
+[00:00:16]: setting 	pop	0.043368149085385	
+[00:00:16]: setting 	nightmaretime	0	
+[00:00:16]: setting 	seasonprogress	0.33333333333333	
+[00:00:16]: setting 	moonphase	full	
+[00:00:16]: setting 	nightmarephase	none	
+[00:00:16]: setting 	cycles	2930	
+[00:00:16]: setting 	timeinphase	0.20609898422704	
+[00:00:16]: setting 	iscavenight	false	
+[00:00:16]: setting 	iscavenewmoon	false	
+[00:00:16]: setting 	issummer	true	
+[00:00:16]: setting 	temperature	88.947714909967	
+[00:00:16]: setting 	time	0.14169305165609	
+[00:00:19]: Could not find anim [FROMNUM] in bank [eyeofterror]
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:23]: Could not find anim build FROMNUM
+[00:00:26]: Reconstructing topology	
+[00:00:26]: 	...Sorting points	
+[00:00:26]: 	...Sorting edges	
+[00:00:26]: 	...Connecting nodes	
+[00:00:26]: 	...Validating connections	
+[00:00:26]: 	...Housekeeping	
+[00:00:26]: 	...Done!	
+[00:00:26]: Hound attack: 2526.2518101504	
+[00:00:26]: [Special Event] Setting up hallowed_nights	
+[00:00:26]: [Hallowed Nights] Enough Halloween Trinkets founds, no need to add more.	
+[00:00:26]: [Special Event] Setting up year_of_the_pig	
+[00:00:26]: [Special Event] Setting up year_of_the_beefalo	
+[00:00:26]: [Special Event] Setting up year_of_the_carrat	
+[00:00:26]: [Special Event] Setting up year_of_the_varg	
+[00:00:26]: [Special Event] Setting up winters_feast	
+[00:00:26]: [Special Event] Setting up year_of_the_gobbler	
+[00:00:26]: [Special Event] Setting up year_of_the_catcoon	
+[00:00:26]: [YOT Catcoon] Setting up for the event.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147470 - kitcoon_savanna'.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147471 - kitcoon_moon'.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147472 - kitcoon_rocky'.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147473 - kitcoon_desert'.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147474 - kitcoon_deciduous'.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147475 - kitcoon_grass'.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147476 - kitcoon_forest'.	
+[00:00:26]: [YOT Catcoon] Adding new kitcoon '147477 - kitcoon_marsh'.	
+[00:00:26]: [YOT Catcoon] 147470 - kitcoon_savanna(LIMBO) found hiding spot '140728 - grass'	
+[00:00:26]: [YOT Catcoon] 147471 - kitcoon_moon(LIMBO) spawned an emergency hiding spot '147479 - rocks' somewhere in the world.	
+[00:00:26]: [YOT Catcoon] 147472 - kitcoon_rocky(LIMBO) found hiding spot '100509 - rock_moon'	
+[00:00:26]: [YOT Catcoon] 147473 - kitcoon_desert(LIMBO) found hiding spot '102774 - marsh_bush'	
+[00:00:26]: [YOT Catcoon] 147474 - kitcoon_deciduous(LIMBO) found hiding spot '120248 - sapling'	
+[00:00:26]: [YOT Catcoon] 147475 - kitcoon_grass(LIMBO) found hiding spot '134407 - flower'	
+[00:00:26]: [YOT Catcoon] 147476 - kitcoon_forest(LIMBO) found hiding spot '145195 - evergreen'	
+[00:00:26]: [YOT Catcoon] 147477 - kitcoon_marsh(LIMBO) found hiding spot '102782 - marsh_bush'	
+[00:00:26]: 1 uploads added to server. From server_temp
+[00:00:26]: About to start a shard with these settings:
+[00:00:26]:   ShardName: [SHDMASTER]
+[00:00:26]:   ShardID: 1
+[00:00:26]:   ShardRole: MASTER
+[00:00:26]:   MasterHost: (null)
+[00:00:26]:   MasterBind: 127.0.0.1
+[00:00:26]:   MasterPort: 10888
+[00:00:26]: [Shard] Starting master server
+[00:00:26]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:26]: [Shard] Shard server started on port: 10888
+[00:00:26]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000AE4
+[00:00:26]: [IPC] Sending signal... #0000000000000AE4
+[00:00:26]: Telling Client our new session identifier: 48686DEE875E1292
+[00:00:26]: Check for write access: TRUE
+[00:00:26]: Check for read access: TRUE
+[00:00:26]: Available disk space for save files: 221852 MB
+[00:00:26]: ModIndex: Load sequence finished successfully.	
+[00:00:30]: Reset() returning
+[00:00:31]: Validating portal[7] <-> 2868293775[7] (inactive)	
+[00:00:31]: Validating portal[10] <-> 2868293775[10] (inactive)	
+[00:00:31]: Validating portal[6] <-> 2868293775[6] (inactive)	
+[00:00:31]: Validating portal[3] <-> 2868293775[3] (inactive)	
+[00:00:31]: Validating portal[4] <-> 2868293775[4] (inactive)	
+[00:00:31]: Validating portal[8] <-> 2868293775[8] (inactive)	
+[00:00:31]: Validating portal[2] <-> 2868293775[2] (inactive)	
+[00:00:31]: Validating portal[1] <-> 2868293775[1] (inactive)	
+[00:00:31]: Validating portal[9] <-> 2868293775[9] (inactive)	
+[00:00:31]: Validating portal[5] <-> 2868293775[5] (inactive)	
+[00:00:31]: Retrofitting for Return Of Them: Turn of Tides - completed hermit house 1, 2, 3 friendship tasks.	
+[00:00:31]: Hound attack: 2526.2518101504	
+[00:00:31]: Server registered via geo DNS in US
+[00:00:31]: Sim paused
+[00:00:31]: [Shard] Secondary shar Caves(2868293775) connected: [LAN] 127.0.0.1
+[00:00:32]: [Shard] Secondary Caves(2868293775) ready!
+[00:00:32]: World 2868293775 is now connected	
+[00:00:32]: Validating portal[7] <-> 2868293775[7] (active)	
+[00:00:32]: Validating portal[10] <-> 2868293775[10] (active)	
+[00:00:32]: Validating portal[6] <-> 2868293775[6] (active)	
+[00:00:32]: Validating portal[3] <-> 2868293775[3] (active)	
+[00:00:32]: Validating portal[4] <-> 2868293775[4] (active)	
+[00:00:32]: Validating portal[8] <-> 2868293775[8] (active)	
+[00:00:32]: Validating portal[2] <-> 2868293775[2] (active)	
+[00:00:32]: Validating portal[1] <-> 2868293775[1] (active)	
+[00:00:32]: Validating portal[9] <-> 2868293775[9] (active)	
+[00:00:32]: Validating portal[5] <-> 2868293775[5] (active)	
+[00:00:34]: New incoming connection 127.0.0.1|55447 <8688585446104923448>
+[00:00:34]: Client connected from [LAN] 127.0.0.1|55447 <8688585446104923448>
+[00:00:34]: ValidateGameSessionToken pgs-usc^KU_c1gvcGFZ^DontStarveTogether^NMg3CCtaKkUvOt1HGaGRNBoEfcXcm+Om19lENnoqM3o= for <8688585446104923448>
+[00:00:34]: Client authenticated: (KU_c1gvcGFZ) jadeath
+[00:00:34]: [Steam] Authenticated host '76561198093951120'
+[00:00:35]: There is no active event to validate against.
+[00:00:35]: [Shard] Read save location file for (KU_c1gvcGFZ)
+[00:00:56]: Resuming user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003297
+[00:00:56]: Spawning player at: [Load] (-315.73, 0.00, 623.23)	
+[00:00:56]: Sim unpaused
+[00:03:30]: Server Autopaused	
+[00:03:30]: Server Unpaused	
+[00:07:51]: Hound attack: 2114.3851220032	
+[00:07:52]: Available disk space for save files: 219273 MB
+[00:07:53]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003298
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[00:07:53]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[00:07:53]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[00:07:53]: Serializing world: session/48686DEE875E1292/0000003298
+[00:15:52]: Hound attack: 1634.3850969693	
+[00:15:53]: Available disk space for save files: 219266 MB
+[00:15:54]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003299
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[00:15:54]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[00:15:54]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[00:15:54]: Serializing world: session/48686DEE875E1292/0000003299
+[00:23:53]: Hound attack: 1154.3850719353	
+[00:23:54]: Available disk space for save files: 219258 MB
+[00:23:54]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003300
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[00:23:54]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[00:23:54]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[00:23:55]: Serializing world: session/48686DEE875E1292/0000003300
+[00:30:02]: Server Autopaused	
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_c1gvcGFZ) from TokenPurpose
+[00:30:42]: Server Unpaused	
+[00:30:45]: Server Autopaused	
+[00:31:55]: Server Unpaused	
+[00:31:59]: Server Autopaused	
+[00:36:25]: Server Unpaused	
+[00:38:10]: Hound attack: 674.38504690136	
+[00:38:11]: Available disk space for save files: 217163 MB
+[00:38:11]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003301
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[00:38:11]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[00:38:11]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[00:38:12]: Serializing world: session/48686DEE875E1292/0000003301
+[00:41:43]: Server Autopaused	
+[00:41:50]: [(KU_c1gvcGFZ) jadeath] ReceiveRemoteExecute(c_give("berrybush",1)) @(-367.95, 563.58)
+[00:41:50]: giving 	165240 - berrybush	
+[00:41:50]: Warning: Can't give item because it's not an inventory item.	
+[00:41:50]: Server Unpaused	
+[00:46:18]: Hound attack: 194.38502186741	
+[00:46:19]: Available disk space for save files: 217155 MB
+[00:46:19]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003302
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[00:46:19]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[00:46:19]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[00:46:20]: Serializing world: session/48686DEE875E1292/0000003302
+[00:54:13]: Server Autopaused	
+[00:54:13]: Server Unpaused	
+[00:54:13]: Server Autopaused	
+[00:54:15]: Server Unpaused	
+[00:54:16]: Server Autopaused	
+[00:54:17]: Server Unpaused	
+[00:54:17]: Server Paused	
+[01:00:05]: [200] Account Communication Success (6)
+[01:00:05]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:30:05]: [200] Account Communication Success (6)
+[01:30:05]: Received (KU_c1gvcGFZ) from TokenPurpose
+[01:38:40]: Server Unpaused	
+[01:38:44]: New time stamps for everyone at	1657138728	
+[01:38:45]: Hound attack: 6219.2029575221	
+[01:38:46]: KU_c1gvcGFZ	running text command:	dance	true	
+[01:38:46]: Available disk space for save files: 222750 MB
+[01:38:47]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003303
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[01:38:47]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[01:38:47]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[01:38:47]: Serializing world: session/48686DEE875E1292/0000003303
+[01:41:26]: Server Autopaused	
+[01:41:30]: Server Unpaused	
+[01:41:31]: Server Autopaused	
+[01:41:33]: Server Unpaused	
+[01:41:36]: Server Autopaused	
+[01:41:38]: Server Unpaused	
+[01:46:54]: Hound attack: 5739.2362658232	
+[01:46:55]: Available disk space for save files: 222955 MB
+[01:46:56]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003304
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[01:46:56]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[01:46:56]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[01:46:56]: Serializing world: session/48686DEE875E1292/0000003304
+[01:54:55]: Hound attack: 5259.2362407893	
+[01:54:56]: Available disk space for save files: 222948 MB
+[01:54:57]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003305
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[01:54:57]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[01:54:57]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[01:54:57]: Serializing world: session/48686DEE875E1292/0000003305
+[01:58:00]: Server Paused	
+[02:00:04]: [200] Account Communication Success (6)
+[02:00:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[02:30:04]: [200] Account Communication Success (6)
+[02:30:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[03:00:04]: [200] Account Communication Success (6)
+[03:00:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[03:30:05]: [200] Account Communication Success (6)
+[03:30:05]: Received (KU_c1gvcGFZ) from TokenPurpose
+[03:50:34]: Server Unpaused	
+[03:50:37]: New time stamps for everyone at	1657146641	
+[03:55:30]: Hound attack: 4779.2362157553	
+[03:55:31]: Available disk space for save files: 222727 MB
+[03:55:31]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003306
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[03:55:31]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[03:55:31]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[03:55:32]: Serializing world: session/48686DEE875E1292/0000003306
+[03:56:16]: Hunt failed	
+[03:57:22]: Server Paused	
+[03:58:15]: Server Unpaused	
+[04:00:04]: [200] Account Communication Success (6)
+[04:00:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[04:00:12]: Server Autopaused	
+[04:00:29]: Server Unpaused	
+[04:01:42]: Server Autopaused	
+[04:01:58]: [(KU_c1gvcGFZ) jadeath] ReceiveRemoteExecute(c_give("trinket_6",5)) @(-207.23, 706.91)
+[04:01:58]: giving 	193697 - trinket_6	
+[04:01:58]: giving 	193699 - trinket_6	
+[04:01:58]: giving 	193701 - trinket_6	
+[04:01:58]: giving 	193703 - trinket_6	
+[04:01:58]: giving 	193705 - trinket_6	
+[04:01:58]: Server Unpaused	
+[04:04:58]: Hound attack: 4299.2695240565	
+[04:04:59]: Available disk space for save files: 222723 MB
+[04:04:59]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003307
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[04:04:59]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[04:04:59]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[04:05:00]: Serializing world: session/48686DEE875E1292/0000003307
+[04:12:59]: Hound attack: 3819.2694990225	
+[04:13:00]: Available disk space for save files: 222716 MB
+[04:13:00]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003308
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[04:13:00]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[04:13:00]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[04:13:01]: Serializing world: session/48686DEE875E1292/0000003308
+[04:21:00]: Hound attack: 3339.3028073236	
+[04:21:01]: Available disk space for save files: 222713 MB
+[04:21:01]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003309
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[04:21:01]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[04:21:01]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[04:21:02]: Serializing world: session/48686DEE875E1292/0000003309
+[04:29:01]: Hound attack: 2859.3027822897	
+[04:29:02]: Available disk space for save files: 222698 MB
+[04:29:02]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003310
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[04:29:02]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[04:29:02]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[04:29:03]: Serializing world: session/48686DEE875E1292/0000003310
+[04:29:03]: Server Autopaused	
+[04:30:04]: [200] Account Communication Success (6)
+[04:30:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[04:45:25]: Server Unpaused	
+[04:45:25]: New time stamps for everyone at	1657149929	
+[04:45:26]: Server Paused	
+[04:45:27]: Server Unpaused	
+[04:53:11]: A timer with the name 	reactiondelay	 already exists on 	242936 - waveyjones_hand	!	
+[04:53:25]: Hound attack: 2379.3360905908	
+[04:53:26]: Available disk space for save files: 218830 MB
+[04:53:26]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003311
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[04:53:26]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[04:53:26]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[04:53:27]: Serializing world: session/48686DEE875E1292/0000003311
+[04:53:38]: Server Paused	
+[04:53:42]: Server Unpaused	
+[04:54:14]: Server Autopaused	
+[04:54:16]: Server Unpaused	
+[04:54:42]: Server Autopaused	
+[04:54:43]: Server Unpaused	
+[05:00:04]: [200] Account Communication Success (6)
+[05:00:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[05:01:06]: Server Autopaused	
+[05:01:07]: Server Unpaused	
+[05:01:31]: Server Autopaused	
+[05:01:31]: Server Unpaused	
+[05:01:34]: Hound attack: 1899.3693988919	
+[05:01:35]: Available disk space for save files: 218824 MB
+[05:01:35]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003312
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112556	112556 - cutgrass(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112558	112558 - twigs(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112560	112560 - dug_bananabush(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112562	112562 - cutless(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112564	112564 - rocks(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112566	112566 - cutless(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112568	112568 - palmcone_seed(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112570	112570 - dug_monkeytail(LIMBO)	
+[05:01:35]: Missing reference:	112555 - powder_monkey	->	112572	112572 - cutreeds(LIMBO)	
+[05:01:35]: Missing reference:	112574 - powder_monkey	->	112575	112575 - palmcone_seed(LIMBO)	
+[05:01:36]: Serializing world: session/48686DEE875E1292/0000003312
+[05:02:06]: Server Autopaused	
+[05:02:07]: Server Unpaused	
+[05:02:44]: Server Autopaused	
+[05:02:46]: Server Unpaused	
+[05:03:13]: Server Autopaused	
+[05:03:14]: Server Unpaused	
+[05:03:17]: Server Autopaused	
+[05:03:18]: Server Unpaused	
+[05:03:25]: Server Autopaused	
+[05:03:27]: Server Unpaused	
+[05:03:39]: Server Autopaused	
+[05:03:41]: Server Unpaused	
+[05:03:54]: Server Autopaused	
+[05:03:55]: Server Unpaused	
+[05:03:55]: Server Autopaused	
+[05:03:55]: Server Unpaused	
+[05:04:31]: Server Autopaused	
+[05:04:35]: Server Unpaused	
+[05:04:55]: Server Autopaused	
+[05:05:07]: KU_c1gvcGFZ	running text command:	rollback	true	
+[05:05:09]: Server Unpaused	
+[05:05:14]: Received world rollback request: count=1	
+[05:05:14]: Truncating to snapshot #3312...
+[05:05:14]:  - session/48686DEE875E1292/0000003292
+[05:05:14]:  - session/48686DEE875E1292/0000003293
+[05:05:14]:  - session/48686DEE875E1292/0000003294
+[05:05:14]:  - session/48686DEE875E1292/0000003295
+[05:05:14]:  - session/48686DEE875E1292/0000003296
+[05:05:14]:  - session/48686DEE875E1292/0000003297
+[05:05:14]:  - session/48686DEE875E1292/0000003298
+[05:05:14]:  - session/48686DEE875E1292/0000003299
+[05:05:14]:  - session/48686DEE875E1292/0000003300
+[05:05:14]:  - session/48686DEE875E1292/0000003301
+[05:05:14]:  - session/48686DEE875E1292/0000003302
+[05:05:14]:  - session/48686DEE875E1292/0000003303
+[05:05:14]:  - session/48686DEE875E1292/0000003304
+[05:05:14]:  - session/48686DEE875E1292/0000003305
+[05:05:14]:  - session/48686DEE875E1292/0000003306
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003306
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003305
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003304
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003303
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003302
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003301
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003300
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003299
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003298
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003297
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003296
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003295
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003294
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003293
+[05:05:14]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003292
+[05:05:14]:    30 file(s) removed
+[05:05:15]: Collecting garbage...
+[05:05:16]: lua_gc took 0.87 seconds
+[05:05:16]: ~ShardLuaProxy()
+[05:05:16]: ~cEventLeaderboardProxy()
+[05:05:16]: ~ItemServerLuaProxy()
+[05:05:16]: ~InventoryLuaProxy()
+[05:05:16]: ~NetworkLuaProxy()
+[05:05:16]: ~SimLuaProxy()
+[05:05:17]: lua_close took 1.23 seconds
+[05:05:17]: ReleaseAll
+[05:05:17]: ReleaseAll Finished
+[05:05:17]: cGame::StartPlaying
+[05:05:17]: AppVersion::GetArchitecture() x64
+[05:05:17]: LOADING LUA
+[05:05:17]: DoLuaFile scripts/main.lua
+[05:05:17]: DoLuaFile loading buffer scripts/main.lua
+[05:05:18]:   taskgrouplist:	default	Together	
+[05:05:18]:   taskgrouplist:	classic	Classic	
+[05:05:18]:   taskgrouplist:	cave_default	Underground	
+[05:05:18]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[05:05:18]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[05:05:18]: Running main.lua
+	
+[05:05:18]: loaded modindex	
+[05:05:18]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[05:05:18]: Saving upgraded shardindex	
+[05:05:18]: SUCCESS: Loaded modoverrides.lua	
+[05:05:18]: modoverrides.lua enabling workshop-818739975	
+[05:05:18]: modoverrides.lua enabling workshop-875994715	
+[05:05:18]: modoverrides.lua enabling workshop-378160973	
+[05:05:18]: modoverrides.lua enabling workshop-363459814	
+[05:05:18]: modoverrides.lua enabling workshop-375850593	
+[05:05:18]: modoverrides.lua enabling workshop-1207269058	
+[05:05:18]: modoverrides.lua enabling workshop-666155465	
+[05:05:18]: modoverrides.lua enabling workshop-770901818	
+[05:05:18]: modoverrides.lua enabling workshop-1852257480	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-363459814	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-875994715	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-1852257480	
+[05:05:18]: Loading mod: workshop-1852257480 (Beefalo Widget) Version:1.7	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-363459814	
+[05:05:18]: Loading mod: workshop-363459814 (Drop yer Stuff) Version:0.0	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-375850593	
+[05:05:18]: Loading mod: workshop-375850593 (Extra Equip Slots) Version:1.8.0	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-770901818	
+[05:05:18]: Loading mod: workshop-770901818 (Hound Attack) Version:0.2.0	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-818739975	
+[05:05:18]: Loading mod: workshop-818739975 (Adshovel) Version:1.6	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-875994715	
+[05:05:18]: Loading mod: workshop-875994715 (Lazy Furnace) Version:19	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-378160973	
+[05:05:18]: Loading mod: workshop-378160973 (Global Positions) Version:1.7.4	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-1207269058	
+[05:05:18]: Loading mod: workshop-1207269058 ( Simple Health Bar DST) Version:2.15	
+[05:05:18]: Could not load mod_config_data/modconfiguration_workshop-666155465	
+[05:05:18]: Loading mod: workshop-666155465 (Show Me (Origin)) Version:0.58	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-818739975	
+[05:05:18]: Overriding mod workshop-818739975's option DFV_Language with value EN	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-875994715	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-378160973	
+[05:05:18]: Overriding mod workshop-378160973's option FIREOPTIONS with value 2	
+[05:05:18]: Overriding mod workshop-378160973's option SHOWFIREICONS with value true	
+[05:05:18]: Overriding mod workshop-378160973's option SHAREMINIMAPPROGRESS with value true	
+[05:05:18]: Overriding mod workshop-378160973's option SHOWPLAYERICONS with value true	
+[05:05:18]: Overriding mod workshop-378160973's option OVERRIDEMODE with value false	
+[05:05:18]: Overriding mod workshop-378160973's option SHOWPLAYERSOPTIONS with value 2	
+[05:05:18]: Overriding mod workshop-378160973's option ENABLEPINGS with value true	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-363459814	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-375850593	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-1207269058	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-666155465	
+[05:05:18]: Overriding mod workshop-666155465's option chestR with value -1	
+[05:05:18]: Overriding mod workshop-666155465's option food_style with value 1	
+[05:05:18]: Overriding mod workshop-666155465's option display_hp with value -1	
+[05:05:18]: Overriding mod workshop-666155465's option show_uses with value 1	
+[05:05:18]: Overriding mod workshop-666155465's option show_food_units with value 1	
+[05:05:18]: Overriding mod workshop-666155465's option lang with value auto	
+[05:05:18]: Overriding mod workshop-666155465's option chestB with value -1	
+[05:05:18]: Overriding mod workshop-666155465's option food_order with value 1	
+[05:05:18]: Overriding mod workshop-666155465's option chestG with value -1	
+[05:05:18]: Overriding mod workshop-666155465's option food_estimation with value 1	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-770901818	
+[05:05:18]: Overriding mod workshop-770901818's option enable_houndattack with value true	
+[05:05:18]: Overriding mod workshop-770901818's option format with value simple	
+[05:05:18]: Overriding mod workshop-770901818's option days with value 2	
+[05:05:18]: applying configuration_options from modoverrides.lua to mod workshop-1852257480	
+[05:05:18]: Overriding mod workshop-1852257480's option horizontal with value 570	
+[05:05:18]: Overriding mod workshop-1852257480's option info with value false	
+[05:05:18]: Overriding mod workshop-1852257480's option vertical with value -30	
+[05:05:18]: Mod: workshop-875994715 (Lazy Furnace)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-875994715 (Lazy Furnace)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-875994715 (Lazy Furnace)	Loading modmain.lua	
+[05:05:18]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-375850593 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-375850593 (Extra Equip Slots)	Loading modmain.lua	
+[05:05:18]: Mod: workshop-666155465 (Show Me (Origin))	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-666155465 (Show Me (Origin))	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-666155465 (Show Me (Origin))	Loading modmain.lua	
+[05:05:18]: ShowMe version:	0.58	
+[05:05:18]: show_food_units	1	1	1	
+[05:05:18]: show_uses	1	1	1	
+[05:05:18]: Detected language for ShowMe: 	auto		
+[05:05:18]: Mod: workshop-770901818 (Hound Attack)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-770901818 (Hound Attack)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-770901818 (Hound Attack)	Loading modmain.lua	
+[05:05:18]: Mod: workshop-363459814 (Drop yer Stuff)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-363459814 (Drop yer Stuff)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-363459814 (Drop yer Stuff)	Loading modmain.lua	
+[05:05:18]: Mod: workshop-818739975 (Adshovel)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-818739975 (Adshovel)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-818739975 (Adshovel)	Loading modmain.lua	
+[05:05:18]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-1852257480 (Beefalo Widget)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-1852257480 (Beefalo Widget)	Loading modmain.lua	
+[05:05:18]: modimport: ../mods/workshop-1852257480/scripts/patches/beefalodomestication.lua	
+[05:05:18]: Mod: workshop-378160973 (Global Positions)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-378160973 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-378160973 (Global Positions)	Loading modmain.lua	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1852257480	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-363459814	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-375850593	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-770901818	
+[05:05:18]: ModIndex:GetModsToLoad inserting moddir, 	workshop-818739975	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-875994715	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-378160973	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1207269058	
+[05:05:18]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-666155465	
+[05:05:18]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modworldgenmain.lua	
+[05:05:18]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Mod had no modworldgenmain.lua. Skipping.	
+[05:05:18]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Loading modmain.lua	
+[05:05:18]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[05:05:18]: LOADING LUA SUCCESS
+[05:05:18]: Registering Server mod namespace "workshop-1207269058"
+[05:05:18]: Registering Server mod namespace "showmeshint"
+[05:05:18]: Registering Server mod namespace "workshop-378160973"
+[05:05:18]: Registering Server mod namespace "showme"
+[05:05:18]: PlayerDeaths could not load morgue	
+[05:05:18]: PlayerHistory could not load player_history	
+[05:05:18]: ServerPreferences could not load server_preferences	
+[05:05:18]: bloom_enabled	true	
+[05:05:18]: loaded saveindex	
+[05:05:18]: Saving upgraded shardindex	
+[05:05:18]: OnFilesLoaded()	
+[05:05:18]: OnUpdatePurchaseStateComplete	
+[05:05:18]: Loading world: session/48686DEE875E1292/0000003312	
+[05:05:18]: Save file is at version 5.12	
+[05:05:18]: Klump load on boot started.	
+[05:05:18]: Klump files loaded: 	0	
+[05:05:18]: 	Unload characters	
+[05:05:18]: 	BE assets already loaded	
+[05:05:19]: Mod: workshop-875994715 (Lazy Furnace)	Registering prefabs	
+[05:05:19]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/dragonfurnace_projectile	
+[05:05:19]: Mod: workshop-875994715 (Lazy Furnace)	    dragonflyfurnace_projectile	
+[05:05:19]: Mod: workshop-875994715 (Lazy Furnace)	  Registering prefab file: prefabs/fireover	
+[05:05:19]: Mod: workshop-875994715 (Lazy Furnace)	    fireover	
+[05:05:19]: Mod: workshop-875994715 (Lazy Furnace)	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-375850593 (Extra Equip Slots)	Registering prefabs	
+[05:05:19]: Mod: workshop-375850593 (Extra Equip Slots)	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-666155465 (Show Me (Origin))	Registering prefabs	
+[05:05:19]: Mod: workshop-666155465 (Show Me (Origin))	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-770901818 (Hound Attack)	Registering prefabs	
+[05:05:19]: Mod: workshop-770901818 (Hound Attack)	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-363459814 (Drop yer Stuff)	Registering prefabs	
+[05:05:19]: Mod: workshop-363459814 (Drop yer Stuff)	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	Registering prefabs	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cave_banana_tree	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_cave_banana_tree_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_lichen	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_lichen	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_lichen_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_cactus	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_cactus	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_cactus_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_flower_cave	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_double_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_flower_cave_triple_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_reeds	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_reeds	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_reeds_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_shrooms	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_red_mushroom_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_green_mushroom_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_blue_mushroom_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_oasis_cactus	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_oasis_cactus_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering prefab file: prefabs/dug_wormlight_plant	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	    dug_wormlight_plant_placer	
+[05:05:19]: Mod: workshop-818739975 (Adshovel)	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-1852257480 (Beefalo Widget)	Registering prefabs	
+[05:05:19]: Mod: workshop-1852257480 (Beefalo Widget)	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	Registering prefabs	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    globalposition_classified	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    smoketrail	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    globalmapicon_noproxy	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/worldmapexplorer	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    worldmapexplorer	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	  Registering prefab file: prefabs/pings	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    ping_generic	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    ping_omw	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    ping_danger	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    ping_explore	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	    ping_gohere	
+[05:05:19]: Mod: workshop-378160973 (Global Positions)	  Registering default mod prefab	
+[05:05:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	Registering prefabs	
+[05:05:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering prefab file: prefabs/dychealthbar	
+[05:05:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_damagedisplay	
+[05:05:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbarchild	
+[05:05:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	    dyc_healthbar	
+[05:05:19]: Mod: workshop-1207269058 ( Simple Health Bar DST)	  Registering default mod prefab	
+[05:05:19]: Begin Session: 48686DEE875E1292
+[05:05:19]: Stomping previously assigned session identifier, two loads issued.
+[05:05:19]: saving to server_temp/server_save	
+[05:05:20]: Adding extra World Event: hallowed_nights	
+[05:05:20]: Adding extra World Event: crow_carnival	
+[05:05:20]: Adding extra World Event: year_of_the_carrat	
+[05:05:20]: Adding extra World Event: year_of_the_pig	
+[05:05:20]: Adding extra World Event: year_of_the_gobbler	
+[05:05:20]: Adding extra World Event: year_of_the_beefalo	
+[05:05:20]: Adding extra World Event: year_of_the_varg	
+[05:05:20]: Adding extra World Event: winters_feast	
+[05:05:20]: Adding extra World Event: year_of_the_catcoon	
+[05:05:20]: OVERRIDE: setting	wildfires	to	never	
+[05:05:20]: OVERRIDE: setting	dropeverythingondespawn	to	always	
+[05:05:20]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[05:05:20]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/campfire.xml )
+[05:05:20]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_generic.xml )
+[05:05:20]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_gohere.xml )
+[05:05:20]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_explore.xml )
+[05:05:20]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_danger.xml )
+[05:05:20]: MiniMapComponent::AddAtlas( ../mods/workshop-378160973/minimap/ping_omw.xml )
+[05:05:20]: Loading 19 new character(s)	
+[05:05:20]: Total 19 character(s) loaded	
+[05:05:20]: Loading Nav Grid	
+[05:05:20]: World generated on build 314835 with save version: nil, using seed: 1552132906	
+[05:05:20]: setting 	summerlength	15	
+[05:05:20]: setting 	cavemoonphase	half	
+[05:05:20]: setting 	iscavefullmoon	false	
+[05:05:20]: setting 	isnightmaredawn	false	
+[05:05:20]: setting 	elapseddaysinseason	5	
+[05:05:20]: setting 	isfullmoon	false	
+[05:05:20]: setting 	moisture	3893.9206542969	
+[05:05:20]: setting 	cavephase	day	
+[05:05:20]: setting 	iscavewaxingmoon	true	
+[05:05:20]: setting 	isnightmarewild	false	
+[05:05:20]: setting 	nightmaretimeinphase	0	
+[05:05:20]: setting 	precipitationrate	0	
+[05:05:20]: setting 	iswet	false	
+[05:05:20]: setting 	isnewmoon	false	
+[05:05:20]: setting 	precipitation	none	
+[05:05:20]: setting 	israining	false	
+[05:05:20]: setting 	isnightmarewarn	false	
+[05:05:20]: setting 	iswinter	false	
+[05:05:20]: setting 	season	autumn	
+[05:05:20]: setting 	remainingdaysinseason	15	
+[05:05:20]: setting 	winterlength	15	
+[05:05:20]: setting 	iscaveday	true	
+[05:05:20]: setting 	moistureceil	11212.416015625	
+[05:05:20]: setting 	isday	true	
+[05:05:20]: setting 	springlength	20	
+[05:05:20]: setting 	wetness	0	
+[05:05:20]: setting 	iscavedusk	false	
+[05:05:20]: setting 	isalterawake	false	
+[05:05:20]: setting 	isnightmarecalm	false	
+[05:05:20]: setting 	isnight	false	
+[05:05:20]: setting 	isdusk	false	
+[05:05:20]: setting 	isspring	false	
+[05:05:20]: setting 	isautumn	true	
+[05:05:20]: setting 	issnowing	false	
+[05:05:20]: setting 	iswaxingmoon	true	
+[05:05:20]: setting 	phase	day	
+[05:05:20]: setting 	snowlevel	0	
+[05:05:20]: setting 	issnowcovered	false	
+[05:05:20]: setting 	autumnlength	20	
+[05:05:20]: setting 	pop	0.30788804793862	
+[05:05:20]: setting 	nightmaretime	0	
+[05:05:20]: setting 	seasonprogress	0.25	
+[05:05:20]: setting 	moonphase	half	
+[05:05:20]: setting 	nightmarephase	none	
+[05:05:20]: setting 	cycles	2945	
+[05:05:20]: setting 	timeinphase	0.0040612538655599	
+[05:05:20]: setting 	iscavenight	false	
+[05:05:20]: setting 	iscavenewmoon	false	
+[05:05:20]: setting 	issummer	false	
+[05:05:20]: setting 	temperature	38.853706287688	
+[05:05:20]: setting 	time	0.0020306269327799	
+[05:05:24]: Could not find anim [FROMNUM] in bank [eyeofterror]
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:34]: Could not find anim build FROMNUM
+[05:05:40]: Reconstructing topology	
+[05:05:40]: 	...Sorting points	
+[05:05:40]: 	...Sorting edges	
+[05:05:40]: 	...Connecting nodes	
+[05:05:40]: 	...Validating connections	
+[05:05:40]: 	...Housekeeping	
+[05:05:40]: 	...Done!	
+[05:05:40]: Hound attack: 1898.4360655099	
+[05:05:40]: You must first AddTimer before you can start a timer	bearger_timetospawn	
+[05:05:40]: You must first AddTimer before you can start a timer	bearger_timetospawn	
+[05:05:40]: Restoring user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003312	
+[05:05:40]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003313
+[05:05:40]: 1 uploads added to server. From server_temp
+[05:05:40]: World 2868293775 is now connected	
+[05:05:40]: [IPC] Sending signal... #0000000000000AE4
+[05:05:40]: Telling Client our new session identifier: 48686DEE875E1292
+[05:05:40]: Check for write access: TRUE
+[05:05:40]: Check for read access: TRUE
+[05:05:40]: Available disk space for save files: 219833 MB
+[05:05:40]: ModIndex: Load sequence finished successfully.	
+[05:05:42]: Reset() returning
+[05:05:42]: [Shard] Secondary shard 'Caves(2868293775)' restarting...
+[05:05:42]: World 2868293775 is now disconnected	
+[05:05:44]: Validating portal[5] <-> 2868293775[5] (inactive)	
+[05:05:44]: Validating portal[10] <-> 2868293775[10] (inactive)	
+[05:05:44]: Validating portal[7] <-> 2868293775[7] (inactive)	
+[05:05:44]: Validating portal[9] <-> 2868293775[9] (inactive)	
+[05:05:44]: Validating portal[2] <-> 2868293775[2] (inactive)	
+[05:05:44]: Retrofitting for Return Of Them: Turn of Tides - completed hermit house 1, 2, 3 friendship tasks.	
+[05:05:44]: Validating portal[3] <-> 2868293775[3] (inactive)	
+[05:05:44]: Validating portal[1] <-> 2868293775[1] (inactive)	
+[05:05:44]: Validating portal[6] <-> 2868293775[6] (inactive)	
+[05:05:44]: Validating portal[4] <-> 2868293775[4] (inactive)	
+[05:05:44]: Validating portal[8] <-> 2868293775[8] (inactive)	
+[05:05:44]: Hound attack: 1898.4360655099	
+[05:05:44]: Sim paused
+[05:05:49]: [Shard] Secondary Caves(2868293775) ready!
+[05:05:49]: World 2868293775 is now connected	
+[05:05:49]: Validating portal[5] <-> 2868293775[5] (active)	
+[05:05:49]: Validating portal[10] <-> 2868293775[10] (active)	
+[05:05:49]: Validating portal[7] <-> 2868293775[7] (active)	
+[05:05:49]: Validating portal[9] <-> 2868293775[9] (active)	
+[05:05:49]: Validating portal[2] <-> 2868293775[2] (active)	
+[05:05:49]: Validating portal[3] <-> 2868293775[3] (active)	
+[05:05:49]: Validating portal[1] <-> 2868293775[1] (active)	
+[05:05:49]: Validating portal[6] <-> 2868293775[6] (active)	
+[05:05:49]: Validating portal[4] <-> 2868293775[4] (active)	
+[05:05:49]: Validating portal[8] <-> 2868293775[8] (active)	
+[05:05:56]: Restarting player migration on master server
+[05:05:56]: [Shard] Read save location file for (KU_c1gvcGFZ)
+[05:05:56]: Resuming user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003313
+[05:05:56]: Spawning player at: [Load] (-333.21, 0.00, 293.56)	
+[05:05:56]: Sim unpaused
+[05:06:05]: Server Autopaused	
+[05:06:07]: Server Unpaused	
+[05:06:20]: Server Autopaused	
+[05:06:22]: Server Unpaused	
+[05:06:23]: Server Autopaused	
+[05:06:24]: Server Unpaused	
+[05:06:49]: Server Autopaused	
+[05:06:50]: Server Unpaused	
+[05:07:13]: Server Autopaused	
+[05:07:15]: Server Unpaused	
+[05:07:47]: Server Autopaused	
+[05:07:49]: Server Unpaused	
+[05:08:05]: Server Autopaused	
+[05:08:07]: Server Unpaused	
+[05:10:18]: Server Autopaused	
+[05:10:31]: [(KU_c1gvcGFZ) jadeath] ReceiveRemoteExecute(c_give("deer_antler",1)) @(614.08, 347.50)
+[05:10:31]: giving 	150896 - deer_antler1	
+[05:10:31]: Server Unpaused	
+[05:12:11]: Server Autopaused	
+[05:12:27]: Server Unpaused	
+[05:14:36]: Hound attack: 1419.6693738736	
+[05:14:37]: Available disk space for save files: 219833 MB
+[05:14:37]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003313
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[05:14:37]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[05:14:37]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[05:14:38]: Serializing world: session/48686DEE875E1292/0000003313
+[05:22:37]: Hound attack: 939.70268217473	
+[05:22:38]: Available disk space for save files: 219826 MB
+[05:22:38]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003314
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[05:22:38]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[05:22:38]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[05:22:39]: Serializing world: session/48686DEE875E1292/0000003314
+[05:30:04]: [200] Account Communication Success (6)
+[05:30:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[05:30:38]: Hound attack: 459.73599047585	
+[05:30:39]: Available disk space for save files: 219828 MB
+[05:30:39]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003315
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[05:30:39]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[05:30:39]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[05:30:40]: Serializing world: session/48686DEE875E1292/0000003315
+[05:38:39]: Hound attack: 6968.3081872439	
+[05:38:40]: Available disk space for save files: 219819 MB
+[05:38:40]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003316
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[05:38:40]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[05:38:40]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[05:38:41]: Serializing world: session/48686DEE875E1292/0000003316
+[05:46:40]: Hound attack: 6488.3414955451	
+[05:46:41]: Available disk space for save files: 219811 MB
+[05:46:41]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003317
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[05:46:41]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[05:46:41]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[05:46:42]: Serializing world: session/48686DEE875E1292/0000003317
+[05:54:41]: Hound attack: 6008.3748038462	
+[05:54:41]: Available disk space for save files: 219805 MB
+[05:54:42]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003318
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[05:54:42]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[05:54:42]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[05:54:43]: Serializing world: session/48686DEE875E1292/0000003318
+[05:59:19]: Server Autopaused	
+[05:59:58]: Server Unpaused	
+[06:00:04]: [200] Account Communication Success (6)
+[06:00:04]: Received (KU_c1gvcGFZ) from TokenPurpose
+[06:03:20]: Hound attack: 5528.4081121473	
+[06:03:21]: Available disk space for save files: 219799 MB
+[06:03:21]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003319
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[06:03:21]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[06:03:21]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[06:03:22]: Serializing world: session/48686DEE875E1292/0000003319
+[06:06:20]: Server Autopaused	
+[06:07:56]: Server Unpaused	
+[06:12:57]: Hound attack: 5048.4414204484	
+[06:12:58]: Available disk space for save files: 219797 MB
+[06:12:59]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003320
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[06:12:59]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[06:12:59]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[06:12:59]: Serializing world: session/48686DEE875E1292/0000003320
+[06:13:22]: Server Autopaused	
+[06:13:23]: Server Unpaused	
+[06:20:12]: Server Autopaused	
+[06:20:29]: Server Unpaused	
+[06:21:16]: Hound attack: 4568.4747287496	
+[06:21:17]: Available disk space for save files: 219790 MB
+[06:21:18]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003321
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[06:21:18]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[06:21:18]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[06:21:18]: Serializing world: session/48686DEE875E1292/0000003321
+[06:28:27]: Server Autopaused	
+[06:28:29]: Server Unpaused	
+[06:28:30]: [Steam] SendUserDisconnect for '76561198093951120'
+[06:28:30]: [Shard] (KU_c1gvcGFZ) disconnected from [SHDMASTER](1)
+[06:28:30]: [IPC] Received shutdown signal.
+[06:28:30]: Available disk space for save files: 219766 MB
+[06:28:30]: Serializing user: session/48686DEE875E1292/A7KO3ASPI0V3/0000003322
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112097	112097 - cutgrass(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112099	112099 - twigs(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112101	112101 - dug_bananabush(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112103	112103 - cutless(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112105	112105 - rocks(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112107	112107 - cutless(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112109	112109 - palmcone_seed(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112111	112111 - dug_monkeytail(LIMBO)	
+[06:28:30]: Missing reference:	112096 - powder_monkey	->	112113	112113 - cutreeds(LIMBO)	
+[06:28:30]: Missing reference:	112115 - powder_monkey	->	112116	112116 - palmcone_seed(LIMBO)	
+[06:28:31]: Serializing world: session/48686DEE875E1292/0000003322
+[06:28:31]: Truncating to snapshot #3322...
+[06:28:31]:  - session/48686DEE875E1292/0000003307
+[06:28:31]:  - session/48686DEE875E1292/0000003308
+[06:28:31]:  - session/48686DEE875E1292/0000003309
+[06:28:31]:  - session/48686DEE875E1292/0000003310
+[06:28:31]:  - session/48686DEE875E1292/0000003311
+[06:28:31]:  - session/48686DEE875E1292/0000003312
+[06:28:31]:  - session/48686DEE875E1292/0000003313
+[06:28:31]:  - session/48686DEE875E1292/0000003314
+[06:28:31]:  - session/48686DEE875E1292/0000003315
+[06:28:31]:  - session/48686DEE875E1292/0000003316
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003316
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003315
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003314
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003313
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003312
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003311
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003310
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003309
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003308
+[06:28:31]:  - session/48686DEE875E1292/A7KO3ASPI0V3/0000003307
+[06:28:31]:    20 file(s) removed
+[06:28:31]: Removing server from lobby
+[06:28:31]: [Shard] Stopping shard mode
+[06:28:31]: [Steam] SendUserDisconnect for ''
+[06:28:31]: Collecting garbage...
+[06:28:32]: lua_gc took 0.96 seconds
+[06:28:33]: ~ShardLuaProxy()
+[06:28:33]: ~cEventLeaderboardProxy()
+[06:28:33]: ~ItemServerLuaProxy()
+[06:28:33]: ~InventoryLuaProxy()
+[06:28:33]: ~NetworkLuaProxy()
+[06:28:33]: ~SimLuaProxy()
+[06:28:33]: Cancelling LuaQueryCallback handle [130]
+[06:28:34]: lua_close took 1.29 seconds
+[06:28:34]: CurlRequestManager::ClientThread::Main() complete
+[06:28:34]: HttpClient2 discarded 0 callbacks.
+[06:28:34]: Shutting down
